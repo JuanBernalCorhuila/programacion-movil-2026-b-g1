@@ -1,0 +1,517 @@
+<title>Prog. Móvil G1 · Entregas C1</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=DM+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<style>
+  /* ── Tokens ─────────────────────────────────── */
+  :root {
+    --surface:   #F5F7FF;
+    --panel:     #FFFFFF;
+    --ink:       #1A2445;
+    --ink-muted: #4B5372;
+    --accent:    #3A5AE8;
+    --border:    #DDE2F5;
+
+    --yes-bg:  #D1FAE5; --yes-fg:  #065F46; --yes-dot: #059669;
+    --pend-bg: #F1F2F6; --pend-fg: #64748B; --pend-dot:#94A3B8;
+    --warn-bg: #FEF3C7; --warn-fg: #B45309; --warn-dot:#D97706;
+    --err-bg:  #FEE2E2; --err-fg:  #991B1B; --err-dot: #DC2626;
+
+    --radius: 8px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --surface:   #0D1022;
+      --panel:     #141829;
+      --ink:       #E8ECFF;
+      --ink-muted: #7E89B5;
+      --accent:    #6680F4;
+      --border:    #252D4A;
+
+      --yes-bg:  #064E3B; --yes-fg:  #6EE7B7;
+      --pend-bg: #1E2233; --pend-fg: #94A3B8;
+      --warn-bg: #451A03; --warn-fg: #FCD34D;
+      --err-bg:  #450A0A; --err-fg:  #FCA5A5;
+    }
+  }
+  :root[data-theme="dark"] {
+    --surface:   #0D1022;
+    --panel:     #141829;
+    --ink:       #E8ECFF;
+    --ink-muted: #7E89B5;
+    --accent:    #6680F4;
+    --border:    #252D4A;
+
+    --yes-bg:  #064E3B; --yes-fg:  #6EE7B7;
+    --pend-bg: #1E2233; --pend-fg: #94A3B8;
+    --warn-bg: #451A03; --warn-fg: #FCD34D;
+    --err-bg:  #450A0A; --err-fg:  #FCA5A5;
+  }
+
+  /* ── Reset ───────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: var(--surface);
+    color: var(--ink);
+    line-height: 1.5;
+    font-size: 14px;
+    min-height: 100vh;
+  }
+
+  /* ── Header ──────────────────────────────────── */
+  .header {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 28px 16px;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .header-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--ink);
+    letter-spacing: -0.3px;
+  }
+  .header-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+  .header-badge {
+    margin-left: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  }
+
+  /* ── Stats band ──────────────────────────────── */
+  .stats-band {
+    padding: 14px 28px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    min-width: 110px;
+  }
+  .stat-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--ink-muted);
+  }
+  .stat-value {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  .stat-bar {
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    margin-top: 4px;
+    overflow: hidden;
+  }
+  .stat-bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+  }
+  .stat-rate {
+    font-size: 11px;
+    color: var(--ink-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── Main ────────────────────────────────────── */
+  .main { padding: 24px 28px; }
+
+  /* ── Table wrapper ───────────────────────────── */
+  .table-wrap {
+    overflow-x: auto;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--panel);
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 620px;
+  }
+  thead th {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    color: var(--ink-muted);
+    padding: 10px 14px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    text-align: center;
+  }
+  thead th:first-child { text-align: left; min-width: 200px; position: sticky; left: 0; z-index: 2; }
+  thead th:last-child { text-align: right; }
+
+  tbody tr { border-bottom: 1px solid var(--border); }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: color-mix(in srgb, var(--accent) 4%, transparent); }
+
+  td {
+    padding: 9px 14px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  td:first-child {
+    text-align: left;
+    position: sticky;
+    left: 0;
+    background: var(--panel);
+    z-index: 1;
+    border-right: 1px solid var(--border);
+  }
+  tbody tr:hover td:first-child { background: color-mix(in srgb, var(--accent) 4%, var(--panel)); }
+
+  .student-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    display: block;
+  }
+  .student-user {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-muted);
+  }
+  .no-config { color: var(--warn-fg); font-style: italic; }
+  .doc-name  { color: var(--err-fg); }
+
+  /* ── Pills ───────────────────────────────────── */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .pill-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .pill-yes  { background: var(--yes-bg);  color: var(--yes-fg);  } .pill-yes  .pill-dot { background: var(--yes-dot); }
+  .pill-pend { background: var(--pend-bg); color: var(--pend-fg); } .pill-pend .pill-dot { background: var(--pend-dot); }
+  .pill-warn { background: var(--warn-bg); color: var(--warn-fg); } .pill-warn .pill-dot { background: var(--warn-dot); }
+  .pill-err  { background: var(--err-bg);  color: var(--err-fg);  } .pill-err  .pill-dot { background: var(--err-dot); }
+
+  /* ── Total bar ───────────────────────────────── */
+  .total-cell { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
+  .total-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+    min-width: 28px;
+    text-align: right;
+  }
+  .total-mini { width: 56px; height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; }
+  .total-mini-fill { height: 100%; border-radius: 3px; }
+
+  /* ── Anomalies section ───────────────────────── */
+  .section-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--ink);
+    margin-bottom: 12px;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .anomaly-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+  .anomaly-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .anomaly-card.level-warn { border-left: 3px solid var(--warn-dot); }
+  .anomaly-card.level-err  { border-left: 3px solid var(--err-dot); }
+  .anomaly-header { display: flex; align-items: center; gap: 8px; }
+  .anomaly-icon { font-size: 15px; }
+  .anomaly-user {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .anomaly-badge {
+    margin-left: auto;
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+  .level-warn .anomaly-badge { background: var(--warn-bg); color: var(--warn-fg); }
+  .level-err  .anomaly-badge { background: var(--err-bg);  color: var(--err-fg);  }
+  .anomaly-desc {
+    font-size: 13px;
+    color: var(--ink-muted);
+    line-height: 1.45;
+  }
+  .anomaly-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  /* ── Footer ──────────────────────────────────── */
+  .footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    color: var(--ink-muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .footer span { font-family: 'JetBrains Mono', monospace; }
+
+  @media (max-width: 640px) {
+    .header, .stats-band, .main { padding-left: 16px; padding-right: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<!-- ── Header ── -->
+<div class="header">
+  <div>
+    <div class="header-title">Programación Móvil 2026-B · G1</div>
+    <div class="header-sub">Seguimiento de entregas · Semanas 1–5 · Corte 1</div>
+  </div>
+  <div class="header-badge">code-corhuila / programacion-movil-2026-b-g1</div>
+</div>
+
+<!-- ── Stats band ── -->
+<div class="stats-band">
+  <div class="stat-card">
+    <span class="stat-label">Estudiantes</span>
+    <span class="stat-value">22</span>
+    <span class="stat-rate">2 anomalías · 2 sin CONFIG</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-label">Semana 1</span>
+    <span class="stat-value">10</span>
+    <div class="stat-bar"><div class="stat-bar-fill" style="width:50%"></div></div>
+    <span class="stat-rate">50% de 20 activos</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-label">Semana 2</span>
+    <span class="stat-value">11</span>
+    <div class="stat-bar"><div class="stat-bar-fill" style="width:55%"></div></div>
+    <span class="stat-rate">55% de 20 activos</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-label">Semana 3</span>
+    <span class="stat-value">10</span>
+    <div class="stat-bar"><div class="stat-bar-fill" style="width:50%"></div></div>
+    <span class="stat-rate">50% de 20 activos</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-label">Semana 4</span>
+    <span class="stat-value">13</span>
+    <div class="stat-bar"><div class="stat-bar-fill" style="width:65%"></div></div>
+    <span class="stat-rate">65% de 20 activos</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-label">Semana 5</span>
+    <span class="stat-value">1</span>
+    <div class="stat-bar"><div class="stat-bar-fill" style="width:5%"></div></div>
+    <span class="stat-rate">5% de 20 activos</span>
+  </div>
+</div>
+
+<!-- ── Main ── -->
+<div class="main">
+
+  <!-- Table -->
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Estudiante</th>
+          <th>A1</th>
+          <th>A2</th>
+          <th>A3</th>
+          <th>A4</th>
+          <th>A5</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <!-- Anomalies -->
+  <div class="section-title">Anomalías detectadas</div>
+  <div class="anomaly-grid">
+
+    <div class="anomaly-card level-err">
+      <div class="anomaly-header">
+        <span class="anomaly-icon">⚠️</span>
+        <span class="anomaly-user">Andresfg20</span>
+        <span class="anomaly-badge">carpeta incorrecta</span>
+      </div>
+      <div class="anomaly-name">Andres Felipe Gomez Anacona</div>
+      <div class="anomaly-desc">El fork tiene <code>hu-status/</code> en cada semana en lugar de <code>03-optional-activity/</code>. Posiblemente confundió la estructura con Sistemas Distribuidos. No se detectan entregas.</div>
+    </div>
+
+    <div class="anomaly-card level-err">
+      <div class="anomaly-header">
+        <span class="anomaly-icon">⚠️</span>
+        <span class="anomaly-user">AndresCalle09</span>
+        <span class="anomaly-badge">ruta incorrecta</span>
+      </div>
+      <div class="anomaly-name">Andres Felipe Calle Gonzalez</div>
+      <div class="anomaly-desc">Subió archivos directamente en <code>01-week/</code> (ej. "Programación Movil-Semana 1.docx") en lugar de <code>01-week/03-optional-activity/</code>. Las actividades no quedan registradas automáticamente.</div>
+    </div>
+
+    <div class="anomaly-card level-warn">
+      <div class="anomaly-header">
+        <span class="anomaly-icon">⚠</span>
+        <span class="anomaly-user">Lozano-027</span>
+        <span class="anomaly-badge">verificar CONFIG</span>
+      </div>
+      <div class="anomaly-name">Nombre en CONFIG: Jesús Ariel González Bonilla</div>
+      <div class="anomaly-desc">El bloque CONFIG del repo de perfil contiene el nombre del docente. Probable copy-paste del README base sin actualizar. Solicitar corrección.</div>
+    </div>
+
+    <div class="anomaly-card level-warn">
+      <div class="anomaly-header">
+        <span class="anomaly-icon">·</span>
+        <span class="anomaly-user">LillyPuentes-2003 · LizethC10</span>
+        <span class="anomaly-badge">sin CONFIG</span>
+      </div>
+      <div class="anomaly-name">Sin bloque FULL_NAME en repo de perfil</div>
+      <div class="anomaly-desc">No tienen repo de perfil con bloque CONFIG o no incluyen <code>FULL_NAME</code>. Se muestra el username. Solicitar que configuren su perfil.</div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div>Docente: Jesús Ariel González Bonilla · CORHUILA 2026-B</div>
+    <span>Generado: 2026-08-31 · code-corhuila/programacion-movil-2026-b-g1</span>
+  </div>
+</div>
+
+<script>
+const students = [
+  { user:"Jose-1206",            name:"José Miguel Aya Peralta",          weeks:[1,1,1,1,1] },
+  { user:"feller2006",           name:"Rosfeller David Castillo Garzon",  weeks:[1,1,1,1,0] },
+  { user:"SergioLosadaDev",      name:"Sergio Andres Losada Bahamon",     weeks:[1,1,1,1,0] },
+  { user:"Juan-Horta27",         name:"Juan José Horta Vanegas",          weeks:[1,1,1,1,0] },
+  { user:"carloszuluaga-20",     name:"Carlos Andres Zuluaga Acuña",      weeks:[1,1,1,1,0] },
+  { user:"JuanBernalCorhuila",   name:"Juan Camilo Bernal Gordillo",      weeks:[1,1,1,1,0] },
+  { user:"cristianmunoz2006",    name:"Cristian Andres Muñoz Montenegro", weeks:[1,1,1,1,0] },
+  { user:"luisfernando-77",      name:"Luis Fernando Pérez Chala",        weeks:[1,1,1,1,0] },
+  { user:"juanjoGuzmanBohorquez",name:"Juan José Guzmán Bohórquez",       weeks:[1,1,1,1,0] },
+  { user:"laura-marcela05",      name:"Laura Marcela Quintero Poveda",    weeks:[1,1,1,1,0] },
+  { user:"pablo12968",           name:"Pablo Esteban Santana Vidal",      weeks:[0,1,0,0,0] },
+  { user:"Daniel666-ui",         name:"Daniel Felipe Fernandez Rojas",    weeks:[0,0,0,1,0] },
+  { user:"Lozano-027",           name:"Lozano-027 ⚠",                    weeks:[0,0,0,1,0], warn:"verificar CONFIG" },
+  { user:"Palinapau",            name:"Paulina Díaz Perdomo",             weeks:[0,0,0,1,0] },
+  { user:"felip442",             name:"Andres Felipe Cardenas Bermeo",    weeks:[0,0,0,0,0] },
+  { user:"JHcasanova",           name:"Jose Henry Olaya Casanova",        weeks:[0,0,0,0,0] },
+  { user:"juliangarcia8823-ux",  name:"Julian Ernesto Garcia Andrade",    weeks:[0,0,0,0,0] },
+  { user:"11William11",          name:"William Erney Collo Narvaez",      weeks:[0,0,0,0,0] },
+  { user:"LillyPuentes-2003",    name:"[sin CONFIG]",                     weeks:[0,0,0,0,0], noConfig:true },
+  { user:"LizethC10",            name:"[sin CONFIG]",                     weeks:[0,0,0,0,0], noConfig:true },
+  { user:"Andresfg20",           name:"Andres Felipe Gomez Anacona",      weeks:[-1,-1,-1,-1,-1] },
+  { user:"AndresCalle09",        name:"Andres Felipe Calle Gonzalez",     weeks:[-1,-1,-1,-1,-1] },
+];
+
+function pill(v) {
+  if (v === 1)  return `<span class="pill pill-yes"><span class="pill-dot"></span>entregó</span>`;
+  if (v === 0)  return `<span class="pill pill-pend"><span class="pill-dot"></span>pendiente</span>`;
+  if (v === -1) return `<span class="pill pill-err"><span class="pill-dot"></span>anómalo</span>`;
+  return '—';
+}
+
+function totalColor(n) {
+  if (n >= 4) return 'var(--yes-dot)';
+  if (n >= 2) return 'var(--accent)';
+  if (n >= 1) return 'var(--warn-dot)';
+  return 'var(--pend-dot)';
+}
+
+const tbody = document.getElementById('tbody');
+students.forEach(s => {
+  const total = s.weeks.filter(v => v === 1).length;
+  const isAnomaly = s.weeks.some(v => v === -1);
+  const pct = isAnomaly ? 0 : (total / 5) * 100;
+  const tr = document.createElement('tr');
+  const nameHtml = s.noConfig
+    ? `<span class="student-name no-config">${s.name}</span>`
+    : s.warn
+      ? `<span class="student-name">${s.name}</span>`
+      : `<span class="student-name">${s.name}</span>`;
+  tr.innerHTML = `
+    <td>
+      ${nameHtml}
+      <span class="student-user">@${s.user}</span>
+    </td>
+    ${s.weeks.map(v => `<td>${pill(v)}</td>`).join('')}
+    <td>
+      <div class="total-cell">
+        <div class="total-mini">
+          <div class="total-mini-fill" style="width:${pct}%; background:${totalColor(total)}"></div>
+        </div>
+        <span class="total-num">${isAnomaly ? '⚠' : total + '/5'}</span>
+      </div>
+    </td>`;
+  tbody.appendChild(tr);
+});
+</script>
