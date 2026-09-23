@@ -1,0 +1,878 @@
+{
+ "sha": "450e66acf2ab69d6adacf5515506493b482a445d",
+ "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/450e66acf2ab69d6adacf5515506493b482a445d",
+ "tree": [
+  {
+   "path": ".gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "504afef81fbadc8c0a072e1ac93f1376bca7f4a9",
+   "size": 32,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/504afef81fbadc8c0a072e1ac93f1376bca7f4a9"
+  },
+  {
+   "path": ".vscode",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e94d0e0cc98166224704aea31f543f39d90b2162",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/e94d0e0cc98166224704aea31f543f39d90b2162"
+  },
+  {
+   "path": ".vscode/settings.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "b65ea4141b041bda33a0d93bf2a6e674676aeadf",
+   "size": 38,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/b65ea4141b041bda33a0d93bf2a6e674676aeadf"
+  },
+  {
+   "path": "01-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "01-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "02-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "03-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "bfaa8b4dd420f6d3ef6df148f139e29cf40ceb51",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/bfaa8b4dd420f6d3ef6df148f139e29cf40ceb51"
+  },
+  {
+   "path": "04-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "93a6a74c9e6e704a0d1573b49009515a4000f07a",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/93a6a74c9e6e704a0d1573b49009515a4000f07a"
+  },
+  {
+   "path": "04-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity/CampusTask_Entrega.zip",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "4799119a6d5003a4066a6dfe71e56882917f85d5",
+   "size": 39127,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/4799119a6d5003a4066a6dfe71e56882917f85d5"
+  },
+  {
+   "path": "05-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "05-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "06-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "07-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "08-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "09-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "10-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "11-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "12-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "13-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "14-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "15-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "16-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "37964be7e6bf5987cc4686d79afb47fa78efaf11",
+   "size": 1002,
+   "url": "https://api.github.com/repos/Daniel666-ui/programacion-movil-2026-b-g1/git/blobs/37964be7e6bf5987cc4686d79afb47fa78efaf11"
+  }
+ ],
+ "truncated": false
+}

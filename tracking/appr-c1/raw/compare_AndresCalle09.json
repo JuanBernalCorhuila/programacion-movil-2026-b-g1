@@ -1,0 +1,34 @@
+{
+ "ahead_by": 2,
+ "behind_by": 4,
+ "commits": [
+  {
+   "sha": "5615fc2469",
+   "author_date": "2026-08-11T02:51:25Z",
+   "committer_date": "2026-08-11T02:51:25Z",
+   "msg": "Add files via upload",
+   "author": "AndresCalle09"
+  },
+  {
+   "sha": "777ceecd9c",
+   "author_date": "2026-08-31T02:14:37Z",
+   "committer_date": "2026-08-31T02:14:37Z",
+   "msg": "Actividad calificable 1- Andres Calle",
+   "author": "luisfernando-77"
+  }
+ ],
+ "files": [
+  {
+   "filename": "01-week/Programación Movil-Semana 1.docx",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/actividad 1.docx",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  }
+ ]
+}

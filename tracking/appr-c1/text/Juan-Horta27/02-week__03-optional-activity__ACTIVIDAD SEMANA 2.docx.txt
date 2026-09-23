@@ -1,0 +1,96 @@
+
+
+
+
+BACKLOG ÁGIL DE MI APLICACIÓN
+Programación Móvil · Semana 2
+
+
+
+
+
+Juan José Horta Vanegas
+
+
+
+Ingeniería de Sistemas
+Corporación Universitaria del Huila - CORHUILA
+Facultad de Ingeniería
+
+
+
+
+Neiva - Huila
+10 de agosto de 2026
+
+Introducción
+En la semana anterior definí mi idea de aplicación: una herramienta para músicos que practican por su cuenta, que permite tomar una partitura en PDF, convertirla en una partitura que el celular entienda, escuchar cómo suena y practicar con metrónomo.
+En este trabajo tomo esa idea y la organizo en historias de usuario. La razón de escribirlas así es que obligan a pensar en la aplicación desde el lado de quien la va a usar y no desde el lado de la programación. Escribí seis historias, le puse dos criterios de aceptación a cada una y al final las organicé en un backlog priorizado repartido en tres sprints.
+Como el trabajo lo hago individual, en la práctica yo asumo los tres roles de Scrum al mismo tiempo: soy quien prioriza el backlog, quien organiza el proceso y quien va a desarrollar.
+
+1. Historias de usuario
+A continuación escribo las seis historias de usuario de mi aplicación. Traté de que los criterios de aceptación fueran cosas que se puedan probar y responder con un sí o un no, y no opiniones como “que sea fácil de usar”, porque eso no se puede verificar.
+HU-01 · Cargar una partitura en PDF
+Como músico que practica solo, quiero cargar una partitura en PDF desde mi celular y que la aplicación la convierta en una partitura que pueda leer, para no tener que copiarla a mano en otro programa.
+Criterios de aceptación:
+Al escoger un archivo PDF de máximo 10 páginas, la aplicación muestra la partitura convertida o, si no lo logra, un mensaje explicando cuál fue el problema.
+Si el archivo escogido no es un PDF, la aplicación lo rechaza y muestra el aviso “Solo se aceptan archivos PDF” sin cerrarse.
+
+HU-02 · Escuchar la partitura
+Como músico que practica solo, quiero escuchar cómo suena la partitura que cargué, para saber si lo que estoy tocando coincide con lo que está escrito.
+Criterios de aceptación:
+Al presionar el botón de reproducir, la partitura suena y se resalta en pantalla el compás que va sonando en ese momento.
+Se puede pausar y continuar desde el mismo punto, y también volver al inicio de la partitura.
+
+HU-03 · Practicar con metrónomo
+Como músico que practica solo, quiero un metrónomo con la velocidad que yo escoja, para poder montar un pasaje difícil despacio antes de tocarlo a la velocidad real.
+Criterios de aceptación:
+La velocidad se puede ajustar entre 40 y 240 pulsos por minuto, y el valor escogido se ve en pantalla todo el tiempo.
+El metrónomo sigue sonando, aunque el usuario se mueva a otra pantalla dentro de la misma aplicación.
+
+HU-04 · Guardar mis partituras
+Como músico que practica solo, quiero guardar las partituras que ya convertí, para no tener que volver a cargar el PDF cada vez que voy a practicar.
+Criterios de aceptación:
+Al guardar una partitura, esta aparece en una lista con su nombre y la fecha en que se guardó, y sigue estando ahí después de cerrar y volver a abrir la aplicación.
+El usuario puede borrar una partitura de la lista, y antes de borrarla la aplicación le pide confirmar.
+
+HU-05 · Corregir la partitura nota por nota
+Como músico que practica solo, quiero corregir las notas que quedaron mal al convertir el PDF, para que la partitura suene igual a la hoja original.
+Criterios de aceptación:
+El usuario puede seleccionar una nota y cambiarle la altura o la duración, y ese cambio se escucha al volver a reproducir.
+La aplicación permite deshacer el último cambio hecho, y los cambios guardados se mantienen al volver a abrir la partitura.
+
+HU-06 · Grabarme y compararme con la partitura
+Como músico que practica solo, quiero grabar lo que toco mientras sigo la partitura, para darme cuenta en qué parte me estoy equivocando.
+Criterios de aceptación:
+La aplicación graba el audio mientras la partitura está sonando y guarda esa grabación junto a la partitura.
+Al terminar la grabación se muestra en qué compases lo tocado coincidió con la partitura y en cuáles no.
+
+
+2. Backlog priorizado
+Para ordenar el backlog usé el mismo criterio que apliqué la semana pasada al separar el MVP: primero va lo imprescindible, que es aquello sin lo cual la aplicación deja de resolver el problema, y después lo deseable, que mejora la experiencia pero no es indispensable para que la aplicación sirva.
+
+
+3. Reparto por sprints
+Repartí las seis historias en tres sprints de dos historias cada uno. La idea que traté de respetar es que cada sprint deje algo que ya funcione y se pueda usar, en vez de dejar pedazos sueltos a medio hacer.
+
+3.1 Por qué las organicé de esa manera
+En el Sprint 1 puse cargar el PDF y escuchar la partitura porque esas dos historias van juntas y son el corazón de la aplicación. No tiene sentido reproducir algo que no se ha cargado, y tampoco sirve de mucho cargar una partitura si todavía no se puede escuchar. Hacerlas en el mismo sprint es lo que permite que al final de esas semanas ya exista algo que de verdad resuelva el problema, aunque sea de la forma más básica.
+En el Sprint 2 va el metrónomo, que completa el MVP, y guardar las partituras. El metrónomo lo dejé de segundo porque, siendo imprescindible, es una función que no depende de ninguna otra y se puede agregar en cualquier momento sin frenar el resto. Guardar partituras la clasifiqué como deseable, pero la subí a este sprint porque una vez que el usuario ya puede cargar y escuchar, lo más incómodo sería tener que repetir todo el proceso cada vez que abre la aplicación.
+En el Sprint 3 dejé corregir las notas y grabarse para compararse. Las dos son mejoras que tienen sentido solo cuando lo anterior ya está funcionando, y además son las más complejas después de la lectura del PDF, así que prefiero llegar a ellas con la aplicación ya estable.
+Conclusión
+Escribir las historias me sirvió para aterrizar la idea. Cuando la tenía solamente en la cabeza sonaba como una sola cosa grande y difícil de empezar, y al partirla en seis historias con criterios claros se vuelve un trabajo que sí se puede ir haciendo por partes. También me ayudó a darme cuenta de cuáles funciones dependen de otras, algo que no había pensado la semana pasada cuando solo estaba definiendo el MVP.
+N.° | Código | Descripción corta | Prioridad | Sprint
+1 | HU-01 | Cargar una partitura en PDF | Imprescindible | Sprint 1
+2 | HU-02 | Escuchar la partitura | Imprescindible | Sprint 1
+3 | HU-03 | Practicar con metrónomo | Imprescindible | Sprint 2
+4 | HU-04 | Guardar mis partituras | Deseable | Sprint 2
+5 | HU-05 | Corregir la partitura nota por nota | Deseable | Sprint 3
+6 | HU-06 | Grabarme y compararme con la partitura | Deseable | Sprint 3
+Sprint | Historias | Objetivo del sprint
+Sprint 1 | HU-01 Cargar PDF
+HU-02 Escuchar la partitura | Dejar funcionando el corazón de la aplicación: abrir una partitura en PDF y poder escucharla.
+Sprint 2 | HU-03 Metrónomo
+HU-04 Guardar partituras | Completar el MVP: al terminar este sprint la aplicación ya resuelve el problema principal y guarda el trabajo del usuario.
+Sprint 3 | HU-05 Corregir notas
+HU-06 Grabar y comparar | Mejorar la aplicación con las funciones deseables, una vez que lo esencial ya está funcionando.

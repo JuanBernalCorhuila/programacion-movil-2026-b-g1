@@ -1,0 +1,109 @@
+ACTIVIDAD 3 — Requerimientos y caso de uso 
+1. Descripción general de la aplicación 
+La aplicación será una Plataforma de Comunidad Esports dirigida a estudiantes y 
+aficionados a los deportes electrónicos. Su objetivo es reunir en un mismo lugar 
+información sobre juegos, equipos y torneos, además de permitir que los jugadores 
+encuentren compañeros compatibles y organicen partidas o scrims. 
+La aplicación busca solucionar el problema de la fragmentación actual del ecosistema 
+esports, donde los usuarios deben utilizar diferentes plataformas para consultar 
+noticias, buscar jugadores y organizar equipos. 
+El MVP estará compuesto por tres funciones principales: 
+1. Selección de juegos y equipos favoritos para personalizar el contenido. 
+2. Perfil competitivo y búsqueda de compañeros mediante matchmaking. 
+3. Creación de equipos, organización de partidas y recordatorios. 
+ 
+2. Requerimientos funcionales 
+RF-01 — Selección de intereses 
+Descripción: 
+La aplicación deberá permitir que un usuario registrado seleccione uno o más juegos y 
+equipos profesionales favoritos. 
+Criterio de verificación: 
+Al finalizar el registro, el usuario deberá poder seleccionar al menos un juego y guardar 
+sus preferencias. Las preferencias deberán permanecer asociadas a su cuenta. 
+ 
+RF-02 — Personalización del contenido 
+Descripción: 
+La aplicación deberá mostrar al usuario un feed de contenido relacionado con los 
+juegos y equipos que haya seleccionado como favoritos. 
+
+Criterio de verificación: 
+Si un usuario selecciona Valorant como juego favorito, el feed deberá mostrar 
+contenido relacionado con Valorant y no únicamente contenido general de esports. 
+ 
+RF-03 — Perfil competitivo y búsqueda de jugadores 
+Descripción: 
+La aplicación deberá permitir al usuario crear un perfil indicando su juego principal, 
+rango y rol, y posteriormente buscar otros jugadores mediante filtros de 
+compatibilidad. 
+Criterio de verificación: 
+El usuario deberá poder guardar juego, rango y rol en su perfil y realizar una búsqueda 
+filtrando al menos por juego y rango. 
+ 
+RF-04 — Creación y organización de equipos 
+Descripción: 
+La aplicación deberá permitir a los usuarios crear un equipo y programar partidas de 
+práctica o torneos, indicando fecha y hora. 
+Criterio de verificación: 
+Después de crear un equipo, el usuario deberá poder registrar una partida con fecha y 
+hora y visualizarla posteriormente en el calendario del equipo. 
+Estas funciones corresponden directamente al MVP planteado en la idea original: 
+personalización por intereses, matchmaking y coordinación de equipos. 
+ 
+3. Requerimientos no funcionales 
+RNF-01 — Rendimiento 
+La aplicación deberá cargar la pantalla principal en un máximo de 3 segundos bajo una 
+conexión a Internet estable. 
+
+Verificación: 
+Se medirá el tiempo desde que el usuario abre la aplicación hasta que se muestran los 
+elementos principales del feed. 
+ 
+RNF-02 — Compatibilidad multiplataforma 
+La aplicación deberá funcionar correctamente en dispositivos Android e iOS utilizando 
+una arquitectura de desarrollo híbrida. 
+Verificación: 
+Las funciones principales del MVP deberán ejecutarse correctamente en al menos un 
+dispositivo Android y un dispositivo iOS. 
+La elección de una tecnología híbrida como Flutter o React Native está justificada 
+en el proyecto porque permite utilizar una única base de código para Android e iOS 
+y facilita la integración con APIs externas. 
+4. Caso de uso 
+CU-01 — Buscar compañero compatible 
+Actor principal: 
+Jugador registrado. 
+Objetivo: 
+Encontrar otros jugadores compatibles para formar un equipo. 
+Precondiciones: 
+• El usuario debe estar registrado. 
+• El usuario debe haber iniciado sesión. 
+• El usuario debe tener configurado su juego principal, rango y rol. 
+Postcondición: 
+• El usuario obtiene una lista de jugadores compatibles. 
+• Puede seleccionar un jugador de la lista para consultar su perfil. 
+ 
+
+Flujo principal 
+1. El usuario inicia sesión en la aplicación. 
+2. El sistema muestra la pantalla principal. 
+3. El usuario accede a la sección "Buscar jugadores". 
+4. El sistema muestra los filtros disponibles. 
+5. El usuario selecciona el juego que desea utilizar. 
+6. El usuario selecciona el rango requerido. 
+7. El usuario selecciona el rol que necesita. 
+8. El usuario pulsa el botón "Buscar". 
+9. El sistema consulta los perfiles disponibles. 
+10. El sistema muestra una lista de jugadores compatibles. 
+11. El usuario selecciona uno de los jugadores. 
+12. El sistema muestra el perfil competitivo del jugador seleccionado. 
+ 
+Flujo alternativo — No se encuentran jugadores 
+1. El usuario configura los filtros. 
+2. El usuario pulsa "Buscar". 
+3. El sistema consulta los perfiles disponibles. 
+4. El sistema no encuentra jugadores que cumplan los filtros. 
+5. La aplicación muestra el mensaje: "No se encontraron jugadores 
+compatibles." 
+6. El usuario puede modificar los filtros. 
+7. El sistema realiza nuevamente la búsqueda. 
+ 
+ 

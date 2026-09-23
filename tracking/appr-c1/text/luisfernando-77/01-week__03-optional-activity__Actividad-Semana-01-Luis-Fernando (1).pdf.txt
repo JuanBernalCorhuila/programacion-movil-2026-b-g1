@@ -1,0 +1,66 @@
+Actividad práctica Semana 1 — analiza apps y define un mvp  
+Asignatura: Programación Móvil​
+Programa: Ingeniería de Sistemas​
+Periodo: 2026-B​
+Estudiante: Luis Fernando 
+1.​ Análisis de tres aplicaciones  
+1)WhatsApp → tipo probable nativa → Funciones principales del MVP es 1 enviar y recibir 
+mensajes. 2 Realizar llamadas 3. compartir imágenes y archivos. 
+2)Spotify →  tipo probable nativa → 1. buscar canciones. 2 reproducir música. 3 Crear lista 
+de reproducción 
+3)Instragram → tipo probable nativa → 1 Publicar fotografías 2.visualizaciones 
+publicaciones. 3 dar me gusta y comentar 
+Justificación: podríamos decir que las 3 aplicaciones se puede decir que todas son 
+aplicaciones nativas porque cuentan con aplicaciones desarrolladas para solo dispositivos 
+móviles y que aprovechen características propias de estos dispositivos. en el MPV se 
+pusieron las funciones esenciales que permiten cumplir con el objetivo principal de cada 
+aplicación. 
+ 
+2.​ Idea de aplicación para el semestre  
+Nombre de la aplicación: StudyPlan  
+Problema 
+Los estudiantes universitarios pueden dejar varias tareas, trabajos y fechas de 
+entrega de diferentes asignaturas. Esto puede hacer que sea más difícil la 
+organización y provocar que se olviden algunas actividades importantes.  
+¿Para quién está dirigida? 
+StudyPlan está dirigida principalmente a estudiantes universitarios que necesitan organizar 
+sus actividades académicas y llevar un control de sus fechas de entrega. 
+ 
+ 
+ 
+
+MVP — 3 funciones imprescindibles 
+1. Registrar tareas 
+El estudiante podrá crear una tarea indicando el nombre de la actividad, la asignatura y la 
+fecha de entrega. 
+2. Consultar tareas pendientes 
+La aplicación mostrará una lista de las actividades que todavía están pendientes, junto con 
+sus fechas de entrega. 
+3. Marcar tareas como completadas 
+El estudiante podrá marcar una actividad como completada cuando termine el trabajo 
+correspondiente. 
+ 
+3.​ Tecnología propuesta 
+Para desarrollar StudyPlan utilizará Flutter, porque ayuda a crear aplicaciones móviles 
+utilizando una misma base de código y facilita el desarrollo para diferentes 
+plataformas.Flutter también permite construir interfaces modernas y organizar fácilmente las 
+diferentes pantallas de la aplicación, como el registro de tareas, la lista de actividades 
+pendientes y el seguimiento de las tareas completadas. 
+Para el MVP considero que Flutter es una buena opción porque permite desarrollar 
+inicialmente una aplicación funcional para Android y posteriormente ampliar el proyecto a 
+otras plataformas sin tener que desarrollar toda la aplicación desde cero. 
+4.​ Conclusión  
+El MVP de StudyPlan se enfocará en las funciones fundamentales para ayudar a los 
+estudiantes a organizar sus actividades académicas: registrar tareas, consultar tareas 
+pendientes y marcarlas como completadas. 
+La propuesta busca comenzar con una versión sencilla y funcional que permita validar la 
+utilidad de la aplicación antes de incorporar características adicionales. 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 

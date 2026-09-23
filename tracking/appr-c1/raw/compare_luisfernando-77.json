@@ -1,0 +1,145 @@
+{
+ "ahead_by": 11,
+ "behind_by": 5,
+ "commits": [
+  {
+   "sha": "d2c7ffa28e",
+   "author_date": "2026-08-11T02:58:25Z",
+   "committer_date": "2026-08-11T02:58:25Z",
+   "msg": "Entrega actividad semana 01",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "ba4f0e5bb6",
+   "author_date": "2026-08-29T07:35:44Z",
+   "committer_date": "2026-08-29T07:35:44Z",
+   "msg": "Entrega actividad calificable C1 - FilaFacil",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "dcdb9f024f",
+   "author_date": "2026-08-29T07:38:04Z",
+   "committer_date": "2026-08-29T07:38:04Z",
+   "msg": "Entrega actividad calificable C1 - FilaFacil",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "9e86825b81",
+   "author_date": "2026-08-31T14:44:29Z",
+   "committer_date": "2026-08-31T14:44:29Z",
+   "msg": "Entrega semana 02",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "978a1e2c65",
+   "author_date": "2026-08-31T14:46:56Z",
+   "committer_date": "2026-08-31T14:46:56Z",
+   "msg": "Rename README.md.md to README.md",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "1d1d718633",
+   "author_date": "2026-08-31T14:52:24Z",
+   "committer_date": "2026-08-31T14:52:24Z",
+   "msg": "Entrega semana 03",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "276cd618b0",
+   "author_date": "2026-08-31T14:53:54Z",
+   "committer_date": "2026-08-31T14:53:54Z",
+   "msg": "Merge branch 'main' of https://github.com/luisfernando-77/programacion-movil-2026-b-g1",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "8ec81382dc",
+   "author_date": "2026-08-31T14:54:59Z",
+   "committer_date": "2026-08-31T14:54:59Z",
+   "msg": "Rename README.md.md to README.md",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "a5c875e0ac",
+   "author_date": "2026-08-31T15:08:10Z",
+   "committer_date": "2026-08-31T15:08:10Z",
+   "msg": "Entrega semana 04",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "dce3354724",
+   "author_date": "2026-08-31T15:09:11Z",
+   "committer_date": "2026-08-31T15:09:11Z",
+   "msg": "Merge branch 'main' of https://github.com/luisfernando-77/programacion-movil-2026-b-g1",
+   "author": "luisfernando-77"
+  },
+  {
+   "sha": "0a50c8cc5e",
+   "author_date": "2026-08-31T15:10:07Z",
+   "committer_date": "2026-08-31T15:10:07Z",
+   "msg": "Update README.md",
+   "author": "luisfernando-77"
+  }
+ ],
+ "files": [
+  {
+   "filename": "01-week/03-optional-activity/Actividad-Semana-01-Luis-Fernando (1).pdf",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "02-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 86,
+   "changes": 86
+  },
+  {
+   "filename": "03-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 72,
+   "changes": 72
+  },
+  {
+   "filename": "04-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 90,
+   "changes": 90
+  },
+  {
+   "filename": "04-week/03-optional-activity/mapa-navegacion.svg",
+   "status": "added",
+   "additions": 47,
+   "changes": 47
+  },
+  {
+   "filename": "04-week/03-optional-activity/wireframe-01-lista-tareas.svg",
+   "status": "added",
+   "additions": 57,
+   "changes": 57
+  },
+  {
+   "filename": "04-week/03-optional-activity/wireframe-02-crear-tarea.svg",
+   "status": "added",
+   "additions": 48,
+   "changes": 48
+  },
+  {
+   "filename": "04-week/03-optional-activity/wireframe-03-detalle-tarea.svg",
+   "status": "added",
+   "additions": 50,
+   "changes": 50
+  },
+  {
+   "filename": "04-week/actividad-calificable-c1/Planificacion_FilaFacil.pdf",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/actividad-calificable-c1/README.md",
+   "status": "added",
+   "additions": 5,
+   "changes": 5
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+Agenda de Tareas para Estudiantes
+Historias de usuario, criterios de aceptación y backlog priorizado
+1. Historias de usuario y criterios de aceptación
+HU1 — Crear tareas
+Como estudiante, quiero crear una tarea con título, fecha límite y materia, para organizar mis pendientes académicos.
+HU2 — Editar tareas
+Como estudiante, quiero editar una tarea ya creada, para corregir datos o actualizar la fecha si cambian mis planes.
+HU3 — Marcar tareas como completadas
+Como estudiante, quiero marcar una tarea como completada, para llevar control de lo que ya terminé.
+HU4 — Recibir recordatorios
+Como estudiante, quiero recibir una notificación antes de la fecha límite de una tarea, para no olvidar entregarla a tiempo.
+HU5 — Eliminar tareas
+Como estudiante, quiero eliminar una tarea que ya no necesito, para mantener mi lista limpia y ordenada.
+HU6 — Visualizar lista de tareas pendientes
+Como estudiante, quiero ver todas mis tareas pendientes ordenadas por fecha límite, para saber qué debo priorizar primero.
+2. Backlog priorizado
+Imprescindibles (MVP)
+Deseables (post-MVP)
+3. Organización en 3 Sprints
+Sprint 1 — Base funcional
+HU1: Crear tareas
+HU6: Visualizar lista de tareas pendientes
+Objetivo: Tener el diseño básico y la funcionalidad mínima de registro de tareas.
+Sprint 2 — Recordatorios y seguimiento
+HU4: Recibir recordatorios
+HU3: Marcar tareas como completadas
+Objetivo: Cerrar el ciclo completo del MVP (crear → recordar → completar) y recoger feedback de usuarios.
+Sprint 3 — Mejoras de usabilidad
+HU2: Editar tareas
+HU5: Eliminar tareas
+Objetivo: Pulir la experiencia de uso a partir de lo aprendido en los sprints anteriores, antes de considerar funciones avanzadas (calendario, estadísticas, sincronización).
+Criterio 1 | El sistema permite ingresar título, fecha límite y materia como campos obligatorios.
+Criterio 2 | Al guardar, la tarea aparece inmediatamente en la lista principal.
+Criterio 1 | El usuario puede modificar cualquier campo de una tarea existente (título, fecha, materia).
+Criterio 2 | Los cambios se guardan y se reflejan de inmediato en la lista de tareas.
+Criterio 1 | Existe un botón o casilla para marcar/desmarcar una tarea como completada.
+Criterio 2 | Las tareas completadas se muestran visualmente diferenciadas (por ejemplo, tachadas o en otra sección).
+Criterio 1 | El sistema envía una notificación push en un tiempo configurable antes del vencimiento (ej. 1 día antes).
+Criterio 2 | El usuario puede activar o desactivar los recordatorios por tarea.
+Criterio 1 | El sistema pide confirmación antes de eliminar una tarea.
+Criterio 2 | Una vez eliminada, la tarea desaparece permanentemente de la lista.
+Criterio 1 | La lista muestra las tareas ordenadas automáticamente por fecha límite más próxima.
+Criterio 2 | Se distingue visualmente si una tarea está próxima a vencer (ej. color rojo o ícono de alerta).
+Prioridad | Historia | Justificación
+Alta | HU1 — Crear tareas | Función núcleo, sin ella no hay app.
+Alta | HU4 — Recibir recordatorios | Es el valor diferencial mencionado en el MVP.
+Alta | HU3 — Marcar tareas como completadas | Parte explícita del MVP definido.
+Media | HU6 — Visualizar lista de tareas pendientes | Necesaria para que las otras funciones tengan sentido de uso.
+Prioridad | Historia | Justificación
+Media | HU2 — Editar tareas | Mejora la experiencia, pero se puede suplir eliminando y recreando en una primera versión.
+Baja | HU5 — Eliminar tareas | Útil pero no bloqueante para validar la idea inicial.

@@ -1,0 +1,69 @@
+
+
+
+
+ANÁLISIS DE APLICACIONES MÓVILES Y DEFINICIÓN DE UN MVP
+Programación Móvil · Semana 1
+
+
+
+
+
+Juan José Horta Vanegas
+
+
+
+Ingeniería de Sistemas
+Corporación Universitaria del Huila - CORHUILA
+Facultad de Ingeniería
+
+
+
+
+Neiva - Huila
+10 de agosto de 2026
+
+1. Análisis de tres aplicaciones que uso
+Para este punto escogí tres aplicaciones que abro prácticamente todos los días: WhatsApp, Instagram y TikTok. De cada una traté de identificar qué tipo de aplicación es y cuáles serían las tres funciones sin las cuales la aplicación no tendría sentido, es decir, su MVP.
+
+1.1 ¿Por qué clasifiqué cada una de esa manera?
+WhatsApp la clasifiqué como nativa. Lo pienso así porque es una aplicación que se siente muy fluida incluso en celulares de gama baja, y porque usa bastante el hardware del teléfono: la cámara para las fotos y videollamadas, el micrófono para las notas de voz, la agenda de contactos, la ubicación y las notificaciones. Ese nivel de acceso al hardware y ese rendimiento son justamente las ventajas de lo nativo. Además, la aplicación no se ve idéntica en Android y en iPhone, cada versión respeta el estilo de su plataforma, lo que suele pasar cuando se desarrolla por separado para cada una.
+Instagram la clasifiqué como híbrida. La razón principal es que se ve y se comporta casi igual en Android y en iPhone, y recibe cambios muy seguido en todas las plataformas al mismo tiempo. Eso encaja con la idea de una sola base de código que corre en varias plataformas. Aun así usa mucho la cámara y la galería, lo que muestra que lo híbrido sí alcanza un buen acceso al hardware.
+TikTok la clasifiqué como nativa. Aquí lo que más pesó para mí fue el rendimiento: la aplicación reproduce videos uno detrás de otro sin cortes, aplica filtros y efectos mientras uno está grabando, y todo eso en tiempo real. Ese tipo de exigencia normalmente necesita el máximo rendimiento posible, que es lo que da lo nativo.
+Algo que me llamó la atención es que las tres tienen también una versión web que se abre desde el navegador del computador. Sin embargo, esa versión web no reemplaza a la aplicación del celular, porque le faltan funciones que dependen del hardware. Eso me ayudó a entender en la práctica por qué las aplicaciones web tienen un acceso limitado al hardware.
+2. Mi idea de aplicación para el semestre
+2.1 El problema
+Yo toco instrumentos de percusión, principalmente batería, congas y timbales, y también toco guitarra. En ese proceso me he encontrado siempre con la misma dificultad: las partituras que uno consigue vienen casi siempre en PDF, y un PDF es una hoja quieta. No suena, no se puede modificar y no acompaña al que está practicando.
+Eso genera tres problemas concretos. El primero es que cuando uno está aprendiendo una parte que no conoce, mira la partitura pero no tiene cómo saber si lo que está tocando es lo que realmente está escrito. El segundo es que si uno quiere escuchar cómo suena, toca buscar la canción aparte, y muchas veces la versión que uno encuentra no coincide con la partitura que tiene en la mano. Y el tercero es que para practicar con tiempo hay que abrir otra aplicación distinta que haga de metrónomo, entonces uno termina con el PDF en una pantalla y el metrónomo en otra.
+En resumen, el problema es que hoy la partitura, el sonido y el tiempo están separados, y el músico que está practicando tiene que juntarlos por su cuenta.
+2.2 ¿Para quién es?
+La aplicación está pensada principalmente para músicos que están en proceso de aprendizaje y que practican por su cuenta. Dentro de ese grupo pienso sobre todo en:
+Estudiantes de música y de instrumento, tanto de academia como los que aprenden de manera empírica.
+Integrantes de grupos, bandas y agrupaciones que reciben la partitura en PDF y tienen que montarla antes del ensayo.
+Profesores de música que quieren entregarle a sus estudiantes un material con el que puedan practicar en la casa.
+No está pensada para el músico profesional que ya lee a primera vista y no necesita ayuda para montar una parte, ni para quien compone partituras desde cero, porque para eso ya existen programas de computador.
+2.3 Funciones del MVP
+Al principio pensé en muchas funciones, pero al separarlas entre lo imprescindible y lo deseable me di cuenta de que solo tres son las que realmente resuelven el problema. Si le quito cualquiera de esas tres, la aplicación deja de servir para lo que la pensé.
+
+Sobre la primera función quiero aclarar algo, y es que no espero que la lectura del PDF quede perfecta. Convertir una hoja escaneada en una partitura que el celular entienda es difícil, y más si la partitura está escrita a mano o el escaneo quedó torcido. Por eso la planteo con la posibilidad de que el usuario revise y corrija lo que quede mal, en vez de prometer que va a salir bien siempre.
+Aplicación | Tipo probable | Tres funciones que serían su MVP
+WhatsApp | Nativa | 1. Enviar y recibir mensajes de texto.
+2. Cargar los contactos del teléfono para saber a quién escribir.
+3. Avisar con una notificación cuando llega un mensaje nuevo.
+Instagram | Híbrida | 1. Publicar una foto desde el celular.
+2. Ver en una sola pantalla las publicaciones de las cuentas que sigo.
+3. Seguir a otras cuentas.
+TikTok | Nativa | 1. Grabar o subir un video corto.
+2. Ver los videos en pantalla completa pasando de uno a otro deslizando.
+3. Reaccionar al video con un me gusta o un comentario.
+Funciones imprescindibles (MVP) | Funciones deseables (para después)
+1. Leer una partitura en PDF y convertirla en una partitura que la aplicación pueda entender, dejando que el usuario corrija a mano lo que quede mal.
+
+2. Reproducir esa partitura para poder escuchar cómo suena.
+
+3. Metrónomo con velocidad ajustable para practicar. | · Editar la partitura nota por nota.
+· Cambiar la tonalidad de la partitura.
+· Guardar una biblioteca de partituras en la nube.
+· Compartir la partitura con los demás integrantes del grupo.
+· Separar la partitura por instrumento.
+· Grabar lo que uno toca y compararlo con la partitura.

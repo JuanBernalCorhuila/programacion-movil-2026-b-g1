@@ -1,0 +1,1360 @@
+{
+ "sha": "67eaf8712e8a0d6069c9b07202f2c8a35a539073",
+ "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/67eaf8712e8a0d6069c9b07202f2c8a35a539073",
+ "tree": [
+  {
+   "path": ".gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "504afef81fbadc8c0a072e1ac93f1376bca7f4a9",
+   "size": 32,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/504afef81fbadc8c0a072e1ac93f1376bca7f4a9"
+  },
+  {
+   "path": ".vscode",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e94d0e0cc98166224704aea31f543f39d90b2162",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/e94d0e0cc98166224704aea31f543f39d90b2162"
+  },
+  {
+   "path": ".vscode/settings.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "b65ea4141b041bda33a0d93bf2a6e674676aeadf",
+   "size": 38,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/b65ea4141b041bda33a0d93bf2a6e674676aeadf"
+  },
+  {
+   "path": "01-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "cc782cfb81c10698870deb9e2a5afa0ced23687a",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/cc782cfb81c10698870deb9e2a5afa0ced23687a"
+  },
+  {
+   "path": "01-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b551a25b7383b18a5398dbf0a4a1036c160b3209",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b551a25b7383b18a5398dbf0a4a1036c160b3209"
+  },
+  {
+   "path": "01-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/03-optional-activity/OPTIONAL ACTIVITY 1.pdf",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "370077441234ef4b212d1835cc7072142159aead",
+   "size": 224666,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/370077441234ef4b212d1835cc7072142159aead"
+  },
+  {
+   "path": "02-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "4cc234a0f8eff10d32e6f04de7eec009313fc177",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/4cc234a0f8eff10d32e6f04de7eec009313fc177"
+  },
+  {
+   "path": "02-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "6c5019d3135a8a745cdcc24364a95cb39ba85192",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/6c5019d3135a8a745cdcc24364a95cb39ba85192"
+  },
+  {
+   "path": "02-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity/Optional Activity 2.pdf",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "fa995875df3d0731c3e433b7052ae3e5ae2cf218",
+   "size": 250458,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/fa995875df3d0731c3e433b7052ae3e5ae2cf218"
+  },
+  {
+   "path": "03-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "db4b3b6e79f4a970c63f8ac64de2e2fc59270f3b",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/db4b3b6e79f4a970c63f8ac64de2e2fc59270f3b"
+  },
+  {
+   "path": "03-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "8e6df1c8f850f744edec9ce98894f7a4c69a3375",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/8e6df1c8f850f744edec9ce98894f7a4c69a3375"
+  },
+  {
+   "path": "03-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/03-optional-activity/Optional Activity 3.pdf",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3353daa1cf6246404e0ede2ad3c5b90bc898fee0",
+   "size": 232863,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/3353daa1cf6246404e0ede2ad3c5b90bc898fee0"
+  },
+  {
+   "path": "04-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "be93a96558a0def6d1e6307ea450fc8c62e20279",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/be93a96558a0def6d1e6307ea450fc8c62e20279"
+  },
+  {
+   "path": "04-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "1098bb71b3f43683e7720de0e098272bf269882f",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/1098bb71b3f43683e7720de0e098272bf269882f"
+  },
+  {
+   "path": "04-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity/Modelo-datos-mockups.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3e31db5ee49f2fdddc9fd46a59649c65c9d56d23",
+   "size": 5568,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/3e31db5ee49f2fdddc9fd46a59649c65c9d56d23"
+  },
+  {
+   "path": "04-week/03-optional-activity/mapa-navegacion.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "5a8ab0d632792c91bcdc8de82f30ee9a3f2e9f2d",
+   "size": 13877,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/5a8ab0d632792c91bcdc8de82f30ee9a3f2e9f2d"
+  },
+  {
+   "path": "04-week/03-optional-activity/wireframe-medicamentos.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3e90164185013ceaf05ff1019778d503586c17df",
+   "size": 15223,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/3e90164185013ceaf05ff1019778d503586c17df"
+  },
+  {
+   "path": "04-week/03-optional-activity/wireframe-pantalla-principal.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "a60044a24df63543044922302114930996ac37e7",
+   "size": 12046,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/a60044a24df63543044922302114930996ac37e7"
+  },
+  {
+   "path": "04-week/03-optional-activity/wireframe-sintomas.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "aa861d58961c160431ad56d739be81142e599f09",
+   "size": 14868,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/aa861d58961c160431ad56d739be81142e599f09"
+  },
+  {
+   "path": "04-week/c1 - Activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "bdb5f4ef94c56ae13e3e7080fb84d40364158952",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/bdb5f4ef94c56ae13e3e7080fb84d40364158952"
+  },
+  {
+   "path": "04-week/c1 - Activity/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "233ba9516e26a604ec31f3aad84c991dae0320cf",
+   "size": 7077,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/233ba9516e26a604ec31f3aad84c991dae0320cf"
+  },
+  {
+   "path": "05-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "9634d3b5ff869cbfd087a5f072dcdd635c929751",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/9634d3b5ff869cbfd087a5f072dcdd635c929751"
+  },
+  {
+   "path": "05-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "1d790fa0d5eceb3b2bacaa8e86a69791c4b0769f",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/1d790fa0d5eceb3b2bacaa8e86a69791c4b0769f"
+  },
+  {
+   "path": "05-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/03-optional-activity/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "11606dbf34c6900e443519495a1d63dafe219ec0",
+   "size": 2762,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/11606dbf34c6900e443519495a1d63dafe219ec0"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "30378feb1ced35a78aa3046f6a2c60b053741c87",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/30378feb1ced35a78aa3046f6a2c60b053741c87"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos/01-idea-mvp.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "d621822ddfc001e8ff1fa03b04841773b4f7a914",
+   "size": 2389,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/d621822ddfc001e8ff1fa03b04841773b4f7a914"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos/02-backlog.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "0a9878872d7e2d66d194df8fe6890bfca0c4291c",
+   "size": 4606,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/0a9878872d7e2d66d194df8fe6890bfca0c4291c"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos/03-requerimientos-caso-uso.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "b3a44a9e651ac800c355abf8a712062faa4ed691",
+   "size": 3408,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/b3a44a9e651ac800c355abf8a712062faa4ed691"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos/04-modelo-datos-wireframes.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "f825eca8b3a9aa5ccd354c3a8ef95528a329eaf8",
+   "size": 5177,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/f825eca8b3a9aa5ccd354c3a8ef95528a329eaf8"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos/mapa-navegacion.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "5a8ab0d632792c91bcdc8de82f30ee9a3f2e9f2d",
+   "size": 13877,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/5a8ab0d632792c91bcdc8de82f30ee9a3f2e9f2d"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos/wireframe-medicamentos.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3e90164185013ceaf05ff1019778d503586c17df",
+   "size": 15223,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/3e90164185013ceaf05ff1019778d503586c17df"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos/wireframe-pantalla-principal.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "a60044a24df63543044922302114930996ac37e7",
+   "size": 12046,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/a60044a24df63543044922302114930996ac37e7"
+  },
+  {
+   "path": "05-week/03-optional-activity/anexos/wireframe-sintomas.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "aa861d58961c160431ad56d739be81142e599f09",
+   "size": 14868,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/aa861d58961c160431ad56d739be81142e599f09"
+  },
+  {
+   "path": "06-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d22ef5f4c0562fe835f9852dedec3e05a4045a48",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d22ef5f4c0562fe835f9852dedec3e05a4045a48"
+  },
+  {
+   "path": "06-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "cc99a10350f014c8a3c5ebdf10c9d4eba549dd6f",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/cc99a10350f014c8a3c5ebdf10c9d4eba549dd6f"
+  },
+  {
+   "path": "06-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "9e68697af720fb2b5f61f9345113bab8a95038b2",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/9e68697af720fb2b5f61f9345113bab8a95038b2"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/.browserslistrc",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "248618672474db5dee54459fd9872cc0c2eb3023",
+   "size": 74,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/248618672474db5dee54459fd9872cc0c2eb3023"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/.gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "c5052646b4c86c8149b4fd68f8791f4444ea13a6",
+   "size": 406,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/c5052646b4c86c8149b4fd68f8791f4444ea13a6"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/.vscode",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "39e6198575dc65e3ba7eb687fd62c7ec8fde3503",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/39e6198575dc65e3ba7eb687fd62c7ec8fde3503"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/.vscode/extensions.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "af3c0b294f4454b40d0159506ef1756082fe4a1a",
+   "size": 65,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/af3c0b294f4454b40d0159506ef1756082fe4a1a"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/Captura.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "d836000610e0f7d1d08db03189976bc6e77cbc01",
+   "size": 43113,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/d836000610e0f7d1d08db03189976bc6e77cbc01"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "5a9fcb4a85ac20a8e2032a28e535f9714f39400c",
+   "size": 1321,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/5a9fcb4a85ac20a8e2032a28e535f9714f39400c"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/capacitor.config.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "0822bb9b2150bf458db2f13c3fdf1a6067356e50",
+   "size": 183,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/0822bb9b2150bf458db2f13c3fdf1a6067356e50"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress.config.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "5d58e7ab1f02d9b4d6ff30e694f1877c71905b30",
+   "size": 212,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/5d58e7ab1f02d9b4d6ff30e694f1877c71905b30"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "511f01ebfea07d3c0e2a1e165070fcb09d52ee71",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/511f01ebfea07d3c0e2a1e165070fcb09d52ee71"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/e2e",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "8bb6785b98d16b0a0c9a2b8909f329e2f77bb58e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/8bb6785b98d16b0a0c9a2b8909f329e2f77bb58e"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/e2e/test.cy.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "7b9a2e0290e00521c664aea2609c8ad21840a963",
+   "size": 156,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/7b9a2e0290e00521c664aea2609c8ad21840a963"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/fixtures",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "85091345b978a44242ef94d6b60a15748194433a",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/85091345b978a44242ef94d6b60a15748194433a"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/fixtures/example.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "02e4254378e9785f013be7cc8d94a8229dcbcbb7",
+   "size": 155,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/02e4254378e9785f013be7cc8d94a8229dcbcbb7"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/support",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "293dcee790626d31e66bca9fd11b4102f327d44d",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/293dcee790626d31e66bca9fd11b4102f327d44d"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/support/commands.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "698b01a42c355ca80fdca1c2c979299164d3c7e7",
+   "size": 1314,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/698b01a42c355ca80fdca1c2c979299164d3c7e7"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/support/e2e.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "f80f74f8e1f7b4754f5900620d812cde385187d4",
+   "size": 667,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/f80f74f8e1f7b4754f5900620d812cde385187d4"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/eslint.config.js",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "0542f72c3c9e83679b90c9cf450cff10dfce53f9",
+   "size": 908,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/0542f72c3c9e83679b90c9cf450cff10dfce53f9"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/index.html",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "f0c4e0cb50f2d62dc6341fed83b0a343a883fe50",
+   "size": 967,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/f0c4e0cb50f2d62dc6341fed83b0a343a883fe50"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/ionic.config.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "49a15fd3a1d05126b00ed6b2efdde0ed10e25876",
+   "size": 91,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/49a15fd3a1d05126b00ed6b2efdde0ed10e25876"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/package.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "4e575910d329dec9767c4307cc1109c135b116eb",
+   "size": 1443,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/4e575910d329dec9767c4307cc1109c135b116eb"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/public",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "391fc9901e8f890cd8ef0ad3ec377215d382ca33",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/391fc9901e8f890cd8ef0ad3ec377215d382ca33"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/public/favicon.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "51888a7bbdb59f04c29c548523eb2638c1c954f5",
+   "size": 930,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/51888a7bbdb59f04c29c548523eb2638c1c954f5"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/public/manifest.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "5808705475c95e766b3a5d7e3b42297b98c6b106",
+   "size": 438,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/5808705475c95e766b3a5d7e3b42297b98c6b106"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "ddff007be5036fc7f2a0cc1bd61de60beaac0c03",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/ddff007be5036fc7f2a0cc1bd61de60beaac0c03"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/App.test.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "8c927a8d7ac7740317b1947d4023151a4accf09e",
+   "size": 227,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/8c927a8d7ac7740317b1947d4023151a4accf09e"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/App.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "cd8ef3f65f58d5940b715546e14fd247f698c5bd",
+   "size": 1493,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/cd8ef3f65f58d5940b715546e14fd247f698c5bd"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/components",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "c4ca7ca6c2c7153b2a2990d6ec57d27962a0aace",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/c4ca7ca6c2c7153b2a2990d6ec57d27962a0aace"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.css",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "c2c47cfa2a7b3c82718a692d25465b75ba09d459",
+   "size": 319,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/c2c47cfa2a7b3c82718a692d25465b75ba09d459"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "1b68a3c19cb75e3d8b34a817321242324a2070b5",
+   "size": 402,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/1b68a3c19cb75e3d8b34a817321242324a2070b5"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/main.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "fbff6c812e23a1da867bec3ff66a512de60a8919",
+   "size": 258,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/fbff6c812e23a1da867bec3ff66a512de60a8919"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/pages",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "8b6b5b6f838c5c12c54dc64b5b57c95b442cd234",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/8b6b5b6f838c5c12c54dc64b5b57c95b442cd234"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/pages/Home.css",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/pages/Home.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "883df8e094e4b26aa88d8bc430efd60d502f5715",
+   "size": 631,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/883df8e094e4b26aa88d8bc430efd60d502f5715"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/setupTests.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "87988d6bded0efbdfc9ec64ea066b0e9d6e9155d",
+   "size": 440,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/87988d6bded0efbdfc9ec64ea066b0e9d6e9155d"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/theme",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "fcfe1a719e89304f552d7cb00917978f9e3c864b",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/fcfe1a719e89304f552d7cb00917978f9e3c864b"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/theme/variables.css",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "a134dcfd49fc5fb846e4d78d8c3f4dc3ec356878",
+   "size": 112,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/a134dcfd49fc5fb846e4d78d8c3f4dc3ec356878"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/vite-env.d.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+   "size": 38,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/11f02fe2a0061d6e6e1f271b21da95423b448b32"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/tsconfig.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3d0a51a86e202419758206adb6effe775229ba38",
+   "size": 559,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/3d0a51a86e202419758206adb6effe775229ba38"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/tsconfig.node.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "9d31e2aed93c876bc048cf2f863cb2a847c901e8",
+   "size": 184,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/9d31e2aed93c876bc048cf2f863cb2a847c901e8"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/vite.config.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "89f5ecd2246882cf5548cd7d23c28992d0e2f340",
+   "size": 360,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/89f5ecd2246882cf5548cd7d23c28992d0e2f340"
+  },
+  {
+   "path": "07-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "07-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "08-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "09-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "10-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "11-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "12-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "13-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "14-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "15-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "16-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "37964be7e6bf5987cc4686d79afb47fa78efaf11",
+   "size": 1002,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/37964be7e6bf5987cc4686d79afb47fa78efaf11"
+  },
+  {
+   "path": "docs",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "af6a8f9657f80e87387f4db80aae5dadf8acb401",
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/trees/af6a8f9657f80e87387f4db80aae5dadf8acb401"
+  },
+  {
+   "path": "docs/entregas-c1-semanas-1-5.html",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "08941cd558a4733cd78a8d7cbd9d99761dfc605a",
+   "size": 18344,
+   "url": "https://api.github.com/repos/JuanBernalCorhuila/programacion-movil-2026-b-g1/git/blobs/08941cd558a4733cd78a8d7cbd9d99761dfc605a"
+  }
+ ],
+ "truncated": false
+}

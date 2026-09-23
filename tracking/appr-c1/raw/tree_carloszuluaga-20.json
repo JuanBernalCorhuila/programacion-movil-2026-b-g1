@@ -1,0 +1,949 @@
+{
+ "sha": "4e4563b85386eb0e4a766bec3ff8bcb2ecec901d",
+ "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/4e4563b85386eb0e4a766bec3ff8bcb2ecec901d",
+ "tree": [
+  {
+   "path": ".gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "504afef81fbadc8c0a072e1ac93f1376bca7f4a9",
+   "size": 32,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/504afef81fbadc8c0a072e1ac93f1376bca7f4a9"
+  },
+  {
+   "path": ".vscode",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e94d0e0cc98166224704aea31f543f39d90b2162",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/e94d0e0cc98166224704aea31f543f39d90b2162"
+  },
+  {
+   "path": ".vscode/settings.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "b65ea4141b041bda33a0d93bf2a6e674676aeadf",
+   "size": 38,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/b65ea4141b041bda33a0d93bf2a6e674676aeadf"
+  },
+  {
+   "path": "01-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "5ae52284c01d20db766ffa0b1a3c0945e9cd05e4",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/5ae52284c01d20db766ffa0b1a3c0945e9cd05e4"
+  },
+  {
+   "path": "01-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "14da46bebfe9aa05c3f00f5b3f628ac8452ac70e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/14da46bebfe9aa05c3f00f5b3f628ac8452ac70e"
+  },
+  {
+   "path": "01-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/03-optional-activity/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "787e9682713dd3f01f0f2eca2c5d5dac6ebd33d0",
+   "size": 1699,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/787e9682713dd3f01f0f2eca2c5d5dac6ebd33d0"
+  },
+  {
+   "path": "02-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "9557d648e699c71e8fc35c581d16ebc6a548b05c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/9557d648e699c71e8fc35c581d16ebc6a548b05c"
+  },
+  {
+   "path": "02-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "749f56bb51072d554487c6cd9300874f1d2fa772",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/749f56bb51072d554487c6cd9300874f1d2fa772"
+  },
+  {
+   "path": "02-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "c2c463afaa5a760bf8c49588d205a461cbc9c899",
+   "size": 2600,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/c2c463afaa5a760bf8c49588d205a461cbc9c899"
+  },
+  {
+   "path": "03-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d0b4caa5459f0a7273bbaa656950282a86060a38",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d0b4caa5459f0a7273bbaa656950282a86060a38"
+  },
+  {
+   "path": "03-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "8510bd8e5ac3f34d87c2e884883798886b6c67db",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/8510bd8e5ac3f34d87c2e884883798886b6c67db"
+  },
+  {
+   "path": "03-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/03-optional-activity/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "2672ee7cfb59badfd106345f3c3928000cfaa5cc",
+   "size": 1866,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/2672ee7cfb59badfd106345f3c3928000cfaa5cc"
+  },
+  {
+   "path": "04-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "f2606c84dfd2ef809d5ff371edb03432fc2c12b4",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/f2606c84dfd2ef809d5ff371edb03432fc2c12b4"
+  },
+  {
+   "path": "04-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b79a32bfcf5288ef920d8f842839020331d49868",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b79a32bfcf5288ef920d8f842839020331d49868"
+  },
+  {
+   "path": "04-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "0dd9449bd803c274994f259c3f5c447ae709f831",
+   "size": 1344,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/0dd9449bd803c274994f259c3f5c447ae709f831"
+  },
+  {
+   "path": "04-week/03-optional-activity/inicio.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "c94c761faaaaa5498530aecb7511519701739223",
+   "size": 134,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/c94c761faaaaa5498530aecb7511519701739223"
+  },
+  {
+   "path": "04-week/03-optional-activity/materia.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "8e8fa8c07c8117a1023a61cfe308cc30deb54271",
+   "size": 135,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/8e8fa8c07c8117a1023a61cfe308cc30deb54271"
+  },
+  {
+   "path": "04-week/03-optional-activity/navegacion.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "d2d9a6bab86088fc2f9bb0192b41a1086d646c61",
+   "size": 137,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/d2d9a6bab86088fc2f9bb0192b41a1086d646c61"
+  },
+  {
+   "path": "04-week/03-optional-activity/notas.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "efe1109760bf07ea7b24648da44e4a9600d944d7",
+   "size": 132,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/efe1109760bf07ea7b24648da44e4a9600d944d7"
+  },
+  {
+   "path": "04-week/entrega-corte-1",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "0969243f30464b6843c034b7fe2605c895f5b9e8",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/0969243f30464b6843c034b7fe2605c895f5b9e8"
+  },
+  {
+   "path": "04-week/entrega-corte-1/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "4c1fc566bd508833dcd18afa9fdadf8760a2c51b",
+   "size": 6192,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/4c1fc566bd508833dcd18afa9fdadf8760a2c51b"
+  },
+  {
+   "path": "05-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "05-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "06-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "07-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "08-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "09-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "10-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "11-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "12-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "13-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "14-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "15-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "16-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "37964be7e6bf5987cc4686d79afb47fa78efaf11",
+   "size": 1002,
+   "url": "https://api.github.com/repos/carloszuluaga-20/programacion-movil-2026-b-g1/git/blobs/37964be7e6bf5987cc4686d79afb47fa78efaf11"
+  }
+ ],
+ "truncated": false
+}

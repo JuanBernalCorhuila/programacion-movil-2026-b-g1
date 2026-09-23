@@ -1,0 +1,1274 @@
+{
+ "sha": "57900eccdf890e7dbb1b55af538021210aaa79ec",
+ "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/57900eccdf890e7dbb1b55af538021210aaa79ec",
+ "tree": [
+  {
+   "path": ".gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "504afef81fbadc8c0a072e1ac93f1376bca7f4a9",
+   "size": 32,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/504afef81fbadc8c0a072e1ac93f1376bca7f4a9"
+  },
+  {
+   "path": ".vscode",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e94d0e0cc98166224704aea31f543f39d90b2162",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/e94d0e0cc98166224704aea31f543f39d90b2162"
+  },
+  {
+   "path": ".vscode/settings.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "b65ea4141b041bda33a0d93bf2a6e674676aeadf",
+   "size": 38,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/b65ea4141b041bda33a0d93bf2a6e674676aeadf"
+  },
+  {
+   "path": "01-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "ea856caa288c283da168c84e82585a0d0ae5b894",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/ea856caa288c283da168c84e82585a0d0ae5b894"
+  },
+  {
+   "path": "01-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3862c4d6d8a112c0ddf96a1f066301a60a2f3e0",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3862c4d6d8a112c0ddf96a1f066301a60a2f3e0"
+  },
+  {
+   "path": "01-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/03-optional-activity/AVANCE ACTIVIDAD SEMANA 1.docx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "a0eaf10d690defc62b9bf21b94021a8b637be0d2",
+   "size": 18377,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/a0eaf10d690defc62b9bf21b94021a8b637be0d2"
+  },
+  {
+   "path": "02-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "6f5f88222893b5d9ef9b23a5829c61011671df71",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/6f5f88222893b5d9ef9b23a5829c61011671df71"
+  },
+  {
+   "path": "02-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "ca642a57b10a0c20561c52fa11bc76521a101079",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/ca642a57b10a0c20561c52fa11bc76521a101079"
+  },
+  {
+   "path": "02-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity/ACTIVIDAD SEMANA 2.docx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "672b072b34d67996cd8fca85e7ed7001d66be06e",
+   "size": 19353,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/672b072b34d67996cd8fca85e7ed7001d66be06e"
+  },
+  {
+   "path": "03-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d57014f37b0ad6975f1f2b784761e8014d87edd5",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d57014f37b0ad6975f1f2b784761e8014d87edd5"
+  },
+  {
+   "path": "03-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "5a099989fef004e9aea6bc80a75341b65bd98454",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/5a099989fef004e9aea6bc80a75341b65bd98454"
+  },
+  {
+   "path": "03-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/03-optional-activity/ACTIVIDAD SEMANA 3.docx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "5dbf414f308fd3f32cf8975329f7915c24a84521",
+   "size": 125450,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/5dbf414f308fd3f32cf8975329f7915c24a84521"
+  },
+  {
+   "path": "04-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "675bf0ab54d64dc74f58244b93920fefcb264b2a",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/675bf0ab54d64dc74f58244b93920fefcb264b2a"
+  },
+  {
+   "path": "04-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "021da518ad629a7495272385c1df502141005ffb",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/021da518ad629a7495272385c1df502141005ffb"
+  },
+  {
+   "path": "04-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "678c4a5abe385bd73f948a52835d81b3367298a4",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/678c4a5abe385bd73f948a52835d81b3367298a4"
+  },
+  {
+   "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/ACTIVIDAD-SEMANA4.docx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "410f6705af3f1d1aac31fd8a6a249bb1e1963f36",
+   "size": 309173,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/410f6705af3f1d1aac31fd8a6a249bb1e1963f36"
+  },
+  {
+   "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/mapa_navegacion.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "374e278a1789b89d71ecee2df696be830733cc3e",
+   "size": 117890,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/374e278a1789b89d71ecee2df696be830733cc3e"
+  },
+  {
+   "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/modelo_datos.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "bc55758a255050bb7191e375a618f4c81425e417",
+   "size": 105185,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/bc55758a255050bb7191e375a618f4c81425e417"
+  },
+  {
+   "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_1.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "86e125c5ec27d10093b6e0c910020ed3e0b43165",
+   "size": 45947,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/86e125c5ec27d10093b6e0c910020ed3e0b43165"
+  },
+  {
+   "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_2.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "09c9a0b1ef0a236f29142c624bb23c206e6c71ac",
+   "size": 51629,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/09c9a0b1ef0a236f29142c624bb23c206e6c71ac"
+  },
+  {
+   "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_3.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "22dbd49743aacbf4aed22d384f3fb55944ad7666",
+   "size": 55807,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/22dbd49743aacbf4aed22d384f3fb55944ad7666"
+  },
+  {
+   "path": "04-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "7e81ef58e853b7056c2e8328ed0e36827ead7880",
+   "size": 8540,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/7e81ef58e853b7056c2e8328ed0e36827ead7880"
+  },
+  {
+   "path": "05-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "05-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "5edf170a59c398e3ffe113ac35bb2df6886ed17c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/5edf170a59c398e3ffe113ac35bb2df6886ed17c"
+  },
+  {
+   "path": "06-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "19ebf87b366880f56111a031b2a7cef0c036a13c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/19ebf87b366880f56111a031b2a7cef0c036a13c"
+  },
+  {
+   "path": "06-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "ea826358fc1d53b8b435e46532ef871e3b0817d6",
+   "size": 6303,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/ea826358fc1d53b8b435e46532ef871e3b0817d6"
+  },
+  {
+   "path": "06-week/03-optional-activity/captura.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "4223a258d0a86e3ccaffbeb7d68500d5e1405497",
+   "size": 32766,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/4223a258d0a86e3ccaffbeb7d68500d5e1405497"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "44655eb6eef8635ac99c34f445b25006e9a34778",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/44655eb6eef8635ac99c34f445b25006e9a34778"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/.browserslistrc",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "248618672474db5dee54459fd9872cc0c2eb3023",
+   "size": 74,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/248618672474db5dee54459fd9872cc0c2eb3023"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/.gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "c5052646b4c86c8149b4fd68f8791f4444ea13a6",
+   "size": 406,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/c5052646b4c86c8149b4fd68f8791f4444ea13a6"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/.vscode",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "39e6198575dc65e3ba7eb687fd62c7ec8fde3503",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/39e6198575dc65e3ba7eb687fd62c7ec8fde3503"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/.vscode/extensions.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "af3c0b294f4454b40d0159506ef1756082fe4a1a",
+   "size": 65,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/af3c0b294f4454b40d0159506ef1756082fe4a1a"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/capacitor.config.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "0822bb9b2150bf458db2f13c3fdf1a6067356e50",
+   "size": 183,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/0822bb9b2150bf458db2f13c3fdf1a6067356e50"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress.config.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "5d58e7ab1f02d9b4d6ff30e694f1877c71905b30",
+   "size": 212,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/5d58e7ab1f02d9b4d6ff30e694f1877c71905b30"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "511f01ebfea07d3c0e2a1e165070fcb09d52ee71",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/511f01ebfea07d3c0e2a1e165070fcb09d52ee71"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/e2e",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "8bb6785b98d16b0a0c9a2b8909f329e2f77bb58e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/8bb6785b98d16b0a0c9a2b8909f329e2f77bb58e"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/e2e/test.cy.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "7b9a2e0290e00521c664aea2609c8ad21840a963",
+   "size": 156,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/7b9a2e0290e00521c664aea2609c8ad21840a963"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/fixtures",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "85091345b978a44242ef94d6b60a15748194433a",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/85091345b978a44242ef94d6b60a15748194433a"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/fixtures/example.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "02e4254378e9785f013be7cc8d94a8229dcbcbb7",
+   "size": 155,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/02e4254378e9785f013be7cc8d94a8229dcbcbb7"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/support",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "293dcee790626d31e66bca9fd11b4102f327d44d",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/293dcee790626d31e66bca9fd11b4102f327d44d"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/support/commands.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "698b01a42c355ca80fdca1c2c979299164d3c7e7",
+   "size": 1314,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/698b01a42c355ca80fdca1c2c979299164d3c7e7"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/cypress/support/e2e.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "f80f74f8e1f7b4754f5900620d812cde385187d4",
+   "size": 667,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/f80f74f8e1f7b4754f5900620d812cde385187d4"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/eslint.config.js",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "0542f72c3c9e83679b90c9cf450cff10dfce53f9",
+   "size": 908,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/0542f72c3c9e83679b90c9cf450cff10dfce53f9"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/index.html",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "f0c4e0cb50f2d62dc6341fed83b0a343a883fe50",
+   "size": 967,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/f0c4e0cb50f2d62dc6341fed83b0a343a883fe50"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/ionic.config.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "49a15fd3a1d05126b00ed6b2efdde0ed10e25876",
+   "size": 91,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/49a15fd3a1d05126b00ed6b2efdde0ed10e25876"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/package.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "4e575910d329dec9767c4307cc1109c135b116eb",
+   "size": 1443,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/4e575910d329dec9767c4307cc1109c135b116eb"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/public",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "391fc9901e8f890cd8ef0ad3ec377215d382ca33",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/391fc9901e8f890cd8ef0ad3ec377215d382ca33"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/public/favicon.png",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "51888a7bbdb59f04c29c548523eb2638c1c954f5",
+   "size": 930,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/51888a7bbdb59f04c29c548523eb2638c1c954f5"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/public/manifest.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "5808705475c95e766b3a5d7e3b42297b98c6b106",
+   "size": 438,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/5808705475c95e766b3a5d7e3b42297b98c6b106"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "acc79317e12f65c16577759e9e2c2009d0a95357",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/acc79317e12f65c16577759e9e2c2009d0a95357"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/App.test.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "8c927a8d7ac7740317b1947d4023151a4accf09e",
+   "size": 227,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/8c927a8d7ac7740317b1947d4023151a4accf09e"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/App.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "cd8ef3f65f58d5940b715546e14fd247f698c5bd",
+   "size": 1493,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/cd8ef3f65f58d5940b715546e14fd247f698c5bd"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/components",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "69fb67e687f81e53914c7e2175bdd725ebfb7c9e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/69fb67e687f81e53914c7e2175bdd725ebfb7c9e"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.css",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "c2c47cfa2a7b3c82718a692d25465b75ba09d459",
+   "size": 319,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/c2c47cfa2a7b3c82718a692d25465b75ba09d459"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "4f510a3aca9752af36d617383d8fecbf0ed83dfd",
+   "size": 313,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/4f510a3aca9752af36d617383d8fecbf0ed83dfd"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/main.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "fbff6c812e23a1da867bec3ff66a512de60a8919",
+   "size": 258,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/fbff6c812e23a1da867bec3ff66a512de60a8919"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/pages",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e8f9e1624a656cb14b5165396e2a860f519a6d72",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/e8f9e1624a656cb14b5165396e2a860f519a6d72"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/pages/Home.css",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/pages/Home.tsx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "424c7105e28dce8ba0869c85d35597edc6a62eeb",
+   "size": 637,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/424c7105e28dce8ba0869c85d35597edc6a62eeb"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/setupTests.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "87988d6bded0efbdfc9ec64ea066b0e9d6e9155d",
+   "size": 440,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/87988d6bded0efbdfc9ec64ea066b0e9d6e9155d"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/theme",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "fcfe1a719e89304f552d7cb00917978f9e3c864b",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/fcfe1a719e89304f552d7cb00917978f9e3c864b"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/theme/variables.css",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "a134dcfd49fc5fb846e4d78d8c3f4dc3ec356878",
+   "size": 112,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/a134dcfd49fc5fb846e4d78d8c3f4dc3ec356878"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/src/vite-env.d.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+   "size": 38,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/11f02fe2a0061d6e6e1f271b21da95423b448b32"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/tsconfig.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3d0a51a86e202419758206adb6effe775229ba38",
+   "size": 559,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/3d0a51a86e202419758206adb6effe775229ba38"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/tsconfig.node.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "9d31e2aed93c876bc048cf2f863cb2a847c901e8",
+   "size": 184,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/9d31e2aed93c876bc048cf2f863cb2a847c901e8"
+  },
+  {
+   "path": "06-week/03-optional-activity/miApp/vite.config.ts",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "89f5ecd2246882cf5548cd7d23c28992d0e2f340",
+   "size": 360,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/89f5ecd2246882cf5548cd7d23c28992d0e2f340"
+  },
+  {
+   "path": "07-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "07-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "08-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "09-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "10-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "11-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "12-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "13-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "14-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "15-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "16-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "37964be7e6bf5987cc4686d79afb47fa78efaf11",
+   "size": 1002,
+   "url": "https://api.github.com/repos/Juan-Horta27/programacion-movil-2026-b-g1/git/blobs/37964be7e6bf5987cc4686d79afb47fa78efaf11"
+  }
+ ],
+ "truncated": false
+}

@@ -1,0 +1,70 @@
+PROGRAMACIÓN MOVIL 
+ 
+ 
+ 
+TALLER OPCIONAL SEMANA 3 
+ 
+ 
+ 
+PRESENTAN 
+QUINTERO POVEDA LAURA MARCELA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NEIVA – HUILA 
+COORPORACIÓN UNIVERSITARIA DEL HUILA – CORHUILA 
+AGOSTO DEL 2026 
+ 
+
+Requerimientos funcionales 
+• RF-01: El sistema debe permitir al usuario registrar una comida indicando la 
+franja horaria (Desayuno, almuerzo o cena) y una descripción del alimento 
+consumido. 
+• RF-02: El sistema debe permitir al usuario editar o eliminar un registro de comida 
+ya guardado. 
+• RF-03: El sistema debe generar un resumen semanal que muestre las comidas 
+registradas en los últimos 7 días. 
+• RF-04: El sistema debe permitir al usuario crear una cuenta ingresando nombre, 
+peso, edad, estructura y objetivo. 
+ 
+Requerimientos no funcionales 
+• RNF-01: Las pantallas de la app deben cargar en menos de 2 segundos con 
+conexión 3G. 
+• RNF-02: Las contraseñas de los usuarios deben almacenarse cifradas y nunca 
+guardarse ni mostrarse en texto plano. 
+ 
+Caso de uso 
+Actor: Usuario registrado 
+ 
+Precondición: el usuario previamente ha iniciado sesión. 
+ 
+Flujo principal: 
+
+1. El usuario selecciona la opción registrar comida 
+2. El sistema muestra n formulario con las franjas horarias disponibles (desayuno, 
+almuerzo y cena). 
+3. El usuario selecciona una franja horaria y escribe una descripción del alimento. 
+4. El usuario confirma el registro. 
+5. El sistema guarda la comida con la fecha actual y muestra un mensaje de 
+confirmación. 
+ 
+Flujos alternativos: 
+1ª. Si la sesión del usuario ha expirado, el sistema lo redirige a la pantalla de inicio sesión 
+antes de continuar el registro. 
+4ª. Si el usuario intenta confirmar sin escribir una descripción, el sistema muestra un 
+mensaje de error. 
+ 
+
+Diagrama de caso de uso 
+ 
+ 
+ 
+ 
+ 
+Ilustración 1: Diagrama 

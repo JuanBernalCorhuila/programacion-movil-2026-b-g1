@@ -1,0 +1,97 @@
+{
+ "ahead_by": 5,
+ "behind_by": 5,
+ "commits": [
+  {
+   "sha": "c515980924",
+   "author_date": "2026-08-11T03:02:12Z",
+   "committer_date": "2026-08-11T03:02:12Z",
+   "msg": "Entrega semana 01",
+   "author": "cristianmunoz2006"
+  },
+  {
+   "sha": "c96ef25c7d",
+   "author_date": "2026-08-29T20:43:53Z",
+   "committer_date": "2026-08-29T20:43:53Z",
+   "msg": "Entrega actividad corte 1",
+   "author": "cristianmunoz2006"
+  },
+  {
+   "sha": "67e9a29ab2",
+   "author_date": "2026-08-31T14:00:26Z",
+   "committer_date": "2026-08-31T14:00:26Z",
+   "msg": "Entrega semana 02",
+   "author": "cristianmunoz2006"
+  },
+  {
+   "sha": "f7c853f4ce",
+   "author_date": "2026-08-31T14:08:06Z",
+   "committer_date": "2026-08-31T14:08:06Z",
+   "msg": "Entrega semana 03",
+   "author": "cristianmunoz2006"
+  },
+  {
+   "sha": "3a5dd2271a",
+   "author_date": "2026-08-31T14:19:54Z",
+   "committer_date": "2026-08-31T14:19:54Z",
+   "msg": "Entrega semana 04",
+   "author": "cristianmunoz2006"
+  }
+ ],
+ "files": [
+  {
+   "filename": "01-week/03-optional-activity/optional_activity_week_1.pdf",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "02-week/03-optional-activity/backlog-semana-02.md",
+   "status": "added",
+   "additions": 42,
+   "changes": 42
+  },
+  {
+   "filename": "03-week/03-optional-activity/requerimientos-semana-03.md",
+   "status": "added",
+   "additions": 39,
+   "changes": 39
+  },
+  {
+   "filename": "04-week/03-optional-activity/1_lista_tareas.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/2_nueva_tarea.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/3_detalle_tarea.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/mapa_navegacion.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/modelo-datos-semana-04.md",
+   "status": "added",
+   "additions": 59,
+   "changes": 59
+  },
+  {
+   "filename": "04-week/c1-activity/README.md",
+   "status": "added",
+   "additions": 77,
+   "changes": 77
+  }
+ ]
+}

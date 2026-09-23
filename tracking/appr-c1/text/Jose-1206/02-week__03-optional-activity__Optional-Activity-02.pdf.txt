@@ -1,0 +1,96 @@
+ACTIVIDAD 2 — Historias de usuario, criterios, backlog y sprints 
+1. Historias de usuario 
+HU-01 — Seleccionar intereses 
+Como usuario registrado, 
+quiero seleccionar mis juegos y equipos favoritos, 
+para recibir contenido relacionado con mis intereses. 
+Criterios de aceptación: 
+1. El sistema debe permitir seleccionar uno o más juegos. 
+2. Al guardar los intereses, el sistema debe conservarlos asociados al usuario. 
+Prioridad: Imprescindible. 
+HU-02 — Consultar contenido personalizado 
+Como aficionado a los esports, 
+quiero consultar noticias y resultados de mis juegos favoritos, 
+para mantenerme informado sobre la escena competitiva. 
+Criterios de aceptación: 
+1. El feed debe mostrar contenido relacionado con los juegos seleccionados. 
+2. El usuario debe poder actualizar el contenido del feed. 
+Prioridad: Imprescindible. 
+HU-03 — Crear perfil competitivo 
+Como jugador de esports, 
+quiero registrar mi juego principal, rango y rol, 
+para mostrar mis características competitivas a otros jugadores. 
+Criterios de aceptación: 
+1. El usuario debe poder seleccionar su juego principal. 
+2. El usuario debe poder guardar su rango y rol. 
+Prioridad: Imprescindible. 
+
+HU-04 — Buscar compañeros 
+Como jugador que busca formar un equipo, 
+quiero filtrar jugadores por juego, rango y rol, 
+para encontrar compañeros compatibles. 
+Criterios de aceptación: 
+1. El sistema debe permitir filtrar jugadores por juego y rango. 
+2. Los resultados deben mostrar al menos el nombre, juego, rango y rol del 
+jugador. 
+Prioridad: Imprescindible. 
+HU-05 — Crear equipo 
+Como jugador, 
+quiero crear un equipo e incorporar jugadores, 
+para organizarme con otros usuarios y competir. 
+Criterios de aceptación: 
+1. El usuario debe poder asignar un nombre al equipo. 
+2. El equipo creado debe aparecer en la sección de equipos del usuario. 
+Prioridad: Imprescindible. 
+HU-06 — Programar partidas 
+Como integrante de un equipo, 
+quiero programar scrims o partidas de torneo, 
+para coordinar los horarios de juego con mis compañeros. 
+Criterios de aceptación: 
+1. El sistema debe permitir seleccionar fecha y hora de la partida. 
+2. La partida programada debe aparecer en el calendario del equipo. 
+Prioridad: Deseable. 
+ 
+
+2. Backlog priorizado 
+Prioridad 
+ID 
+Historia de usuario 
+Tipo 
+1 
+HU-01 
+Seleccionar intereses 
+Imprescindible 
+2 
+HU-03 
+Crear perfil competitivo 
+Imprescindible 
+3 
+HU-04 
+Buscar compañeros 
+Imprescindible 
+4 
+HU-02 
+Consultar contenido 
+personalizado 
+Imprescindible 
+5 
+HU-05 
+Crear equipo 
+Imprescindible 
+6 
+HU-06 
+Programar partidas 
+Deseable 
+Funciones imprescindibles 
+• Selección de intereses. 
+• Perfil competitivo. 
+• Búsqueda de jugadores. 
+• Feed personalizado. 
+• Creación de equipos. 
+Función deseable 
+• Calendario de partidas y scrims. 
+La priorización sigue el concepto de MVP planteado originalmente: primero se deben 
+solucionar las tres necesidades principales de la plataforma y posteriormente ampliar 
+las funciones. 
+ 

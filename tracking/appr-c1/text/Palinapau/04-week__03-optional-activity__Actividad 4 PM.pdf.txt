@@ -1,0 +1,136 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Programación Móvil 
+Actividad Practica: Cuarta Semana 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Paulina Díaz Perdomo 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+App: movie-rater (mr) 
+ 
+1) Idea de la aplicación: problema, público y MVP 
+Problema: 
+Muchos usuarios pierden registro de las películas que han visto y lo que han opinado de ellas, 
+por lo que las apps para guardar y calificar películas entran a tener un papel importante. En 
+este caso si el usuario quiere un enfoque más personalizado como un organizador sencillo, 
+esta sería una buena opción. 
+ 
+Público objetivo 
+- 
+Fans o usuarios en general que consumen películas. 
+- 
+Personas que quieran tener constancia de lo que consumen de una forma más simple 
+online con el propósito de tener una mini base de gustos cinematográficos. 
+ 
+MVP: 3 funciones imprescindibles 
+1. Agregar una película a la lista: Permitir registrar al menos el título. 
+2. Calificar una película 
+3. Ver la lista de películas y sus ratings 
+ 
+ 
+2) Historias de usuario con criterios de aceptación y Backlog  
+ 
+Historia de usuario 1  
+Priorización: Alta 
+El usuario quiere crear una lista de películas para no perder sus títulos favoritos. 
+Criterios de aceptación: 
+Al estar en “Mis películas”, cuando toca “Añadir película” puede ingresar título y guardar. 
+ 
+Historia de usuario 2  
+Priorización: Alta 
+
+ 
+ 
+ 
+ 
+El usuario quiere calificar una película, para reflejar cuánto le gustó. 
+Criterios de aceptación: 
+Cuando ya haya una película en la lista, el usuario puede seleccionar “Calificar” y puede 
+elegir un rating entre el rango definido; luego éste se guarda y se muestra junto a la película. 
+ 
+Historia de usuario 3  
+Priorización: Alta 
+El usuario quiere ver sus películas con sus ratings. 
+ 
+Criterios de aceptación: 
+ 
+Al tener películas guardadas, la pantalla principal de lista debería mostrar todas las películas, 
+con su respectivo rating. 
+ 
+ 
+Historia de usuario 4  
+Priorización: Media 
+El usuario quiere buscar una película por título. 
+ 
+Criterios de aceptación: 
+ 
+Dado que existe una lista de películas, al escribir texto en el campo de búsqueda la lista se 
+filtra mostrando solo coincidencias; si no hay resultados, se muestra un mensaje “No hay 
+coincidencias”. 
+ 
+ 
+Historia de usuario 5  
+Priorización: Media 
+El usuario quiere editar el rating de una película, para corregir o actualizar su opinión. 
+Criterios de aceptación:  
+Cuando el usuario elige “Editar rating”, puede modificar el valor y el cambio se refleja 
+inmediatamente en la lista. 
+ 
+  
+
+ 
+ 
+ 
+ 
+Historia de usuario 6  
+Priorización: Baja 
+El usuario quiere eliminar una película para mantener su lista actualizada. 
+Criterios de aceptación: 
+Cuando el usuario selecciona eliminar, entonces se muestra un mensaje de confirmación y si 
+éste confirma, la película desaparece de la lista. 
+ 
+ 
+3) Tipo de app y metodología (justificación) 
+Tipo: App móvil CRUD simple  
+- 
+Create: Agregar película 
+- 
+Read: Ver lista 
+- 
+Update: Calificar/editar rating 
+- 
+Delete: Eliminar 
+ 
+Metodología: Scrum 
+Justificación: 
+- 
+Existe un MVP claro con entregas incrementales por sprints. 
+- 
+Permite priorizar y ajustar el alcance según el avance. 
+- 
+Facilita: Revisión continua, retroalimentación y reducción de riesgos antes de 
+funcionalidades secundarias. 

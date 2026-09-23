@@ -1,0 +1,118 @@
+PROGRAMACIÓN MOVIL 
+ 
+ 
+ 
+TALLER OPCIONAL SEMANA 2 
+ 
+ 
+ 
+PRESENTAN 
+QUINTERO POVEDA LAURA MARCELA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NEIVA – HUILA 
+COORPORACIÓN UNIVERSITARIA DEL HUILA – CORHUILA 
+AGOSTO DEL 2026 
+ 
+
+Historias de usuario 
+HU-01: Creación de cuenta 
+Como usuario nuevo, quiero crear una cuenta con mis fatos básicos para recibir 
+recomendaciones ajustadas a mi caso. 
+ 
+Criterios de aceptación: 
+1. En sistema debe validar los datos que todos los campos obligatorios estén 
+completos antes de crear a cuenta. 
+2. El usuario debe poder elegir el objetivo entre “bajar de peso”, “mantenerse en el 
+peso” o “subir de peso”. 
+ 
+HU-02: Inicio sesión 
+Como usuario registrado, quiero iniciar sesión con mi correo y contraseña para acceder a 
+mi información personal de forma segura. 
+ 
+Criterios de aceptación: 
+1. El sistema debe rechazar el acceso si el correo o contraseña son incorrectos. 
+2. El usuario debe permanecer autenticado hasta que cierre sección. 
+ 
+HU-03: Registro de comidas 
+Como usuario, quiero registrar mis comidas del día para llevar un control de lo que como 
+diariamente. 
+
+Criterios de aceptación: 
+1. El usuario debe poder registrarse al menos una comida por horario (desayuno, 
+almuerzo, cena). 
+2. Cada registro debe guardar la fecha de manera automática sin que el usuario la 
+digite. 
+ 
+HU-04: Editar o eliminar comidas 
+Como usuario, quiero editar o eliminar una comida ya registrada para corregir mis errores 
+en el registro. 
+ 
+Criterios de aceptación: 
+1. El usuario debe poder modificar los datos de una comida ya guardada y que el 
+cambio se refleje. 
+2. El usuario debe poder eliminar el registro y debe desaparecer del historial. 
+ 
+HU-05: Progreso semanal 
+Como usuario, quiero ver el progreso semanal con las recomendaciones de las comidas 
+que se deben reducir o aumentar para mejorar mis hábitos alimenticios. 
+ 
+Criterios de aceptación: 
+1. El sistema debe mostrar un resumen visual con las comidas registradas los últimos 
+días. 
+
+2. El sistema debe generar al menos una recomendación basada en los patrones 
+detectados esa semana. 
+ 
+HU-06: Historial 
+Como usuario, quiero ver mi historial de comidas de semanas anteriores para comparar 
+mi progreso. 
+ 
+Criterios de aceptación: 
+1. El usuario debe poder seleccionar una semana anterior y ver las comidas 
+registradas en ese periodo. 
+2. El sistema debe mostrar u mensaje claro si no hay registros para la semana 
+seleccionada. 
+ 
+Backlog priorizado 
+N° 
+Historia 
+Prioridad 
+HU-01 
+Creación de cuenta 
+Imprescindible 
+HU-02 
+Inicio sesión 
+Imprescindible 
+HU-03 
+Registro de comidas 
+Imprescindible 
+HU-04 
+Editar o eliminar comidas 
+Deseable 
+HU-05 
+Progreso semanal 
+Imprescindible 
+Hu-06 
+Historial 
+Deseable 
+ 
+
+Reparto por Sprints 
+Sprint 1: Base del sistema 
+HU-01: Creación de cuenta 
+HU-02: Inicio sesión 
+Sprint 2: Funcionalidad 
+HU-03: Registro de comidas 
+HU-04: Editar o eliminar comidas 
+Sprint 3: Valor agregado 
+HU-05: Progreso semanal 
+HU-06: Historial 
+ 

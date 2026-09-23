@@ -1,0 +1,99 @@
+PROGRAMACIÓN MÓVIL 
+   
+   
+   
+   
+   
+ACTIVIDAD OPCIONAL 3 
+   
+   
+ 
+ 
+ 
+ 
+PRESENTA:  
+    
+BERNAL GORDILLO JUAN CAMILO   
+   
+     
+   
+    
+   
+   
+  
+ 
+  
+NEIVA – HUILA    
+COORPORACIÓN UNIVERSITARIA DEL HUILA – CORHUILA    
+AGOSTO DEL 2026   
+
+ACTIVIDAD 
+1. Documenta 4 requerimientos funcionales y 2 no funcionales de tu app (claros y 
+verificables). 
+RF: 
+Basándome en las 3 historias de usuario imprescindibles (actividad 2) y en una deseable 
+del Sprint 2, los RF que mejor se acomodan a la app son: 
+- 
+RF1.  El sistema debe enviar una notificación con un tamaño de fuente mínimo 
+de 20pt, junto con audio y vibración, en el horario configurado por el usuario 
+para cada medicamento o terapia registrada. 
+- 
+RF2. El sistema debe enviar la ubicación en tiempo real del usuario a su 
+contacto de confianza en un máximo de 5 segundos después de presionar el 
+botón de emergencia. 
+- 
+RF3. El sistema debe permitir al usuario o a su cuidador registrar el estado de 
+ánimo o los síntomas del día mediante texto o nota de voz, guardando la fecha y 
+hora del registro. 
+- 
+RF4. El sistema debe notificar al cuidador cuando el usuario no confirme la 
+toma de un medicamento dentro de la hora siguiente al recordatorio. 
+RNF: 
+Como mi app gira en torno a accesibilidad, es lógico que un RNF sea de 
+usabilidad/accesibilidad y el otro de rendimiento: 
+- 
+RNF1 (Usabilidad/Accesibilidad). La app debe permitir aumentar el tamaño 
+del texto hasta un 200% y activar un modo de alto contraste, aplicándose de 
+forma consistente en todas las pantallas. 
+
+- 
+RNF2 (Rendimiento). El envío de la ubicación en el botón de emergencia debe 
+completarse en menos de 5 segundos con una conexión a internet estable. 
+ 
+2. Modela 1 caso de uso completo: actor, precondición, flujo principal y al menos 
+un flujo alternativo (error). 
+Para hacer el caso de uso, elegí la funcionalidad que permite que el usuario envíe una 
+alerta a su contacto de confianza para pedir ayuda en caso de emergencia, porque, aparte 
+de ser la función más crítica de HelpHealth, permite mostrar de manera realista posibles 
+fallos que se puedan presentar al usar la app, como la falta de GPS o de internet.   
+Actor: Usuario (persona con discapacidad motriz, visual o auditiva). 
+Precondición: El usuario tiene la app instalada, la sesión iniciada, el GPS activado y al 
+menos un contacto de confianza configurado previamente. 
+Flujo Principal: 
+1. El usuario abre la app y visualiza el botón de emergencia en la pantalla 
+principal.  
+2. El usuario presiona el botón de emergencia.  
+3. El sistema captura la ubicación GPS actual del usuario.  
+4. El sistema envía la ubicación al contacto de confianza configurado.  
+5. El sistema confirma al usuario, con mensaje visual y sonoro, que la alerta fue 
+enviada correctamente. 
+ 
+ 
+
+Flujo alternativo 1 (Error – GPS desactivado): 
+• 
+3a. Si el GPS está desactivado, el sistema muestra un mensaje accesible (visual 
+y auditivo) solicitando activarlo. 
+• 
+3b. El usuario activa el GPS desde el mensaje y el sistema reintenta capturar la 
+ubicación, retomando el flujo principal en el paso 3. 
+Flujo alternativo 2 (Error – sin conexión a internet): 
+• 
+4a. Si no hay conexión a internet al momento de enviar la ubicación, el sistema 
+intenta enviar la alerta por SMS como respaldo. 
+• 
+4b. El sistema notifica al usuario que la alerta se envió por SMS y no por la app, 
+y continúa en el paso 5. 
+ 
+3. (Opcional) Dibuja el diagrama de casos de uso. 
+ 

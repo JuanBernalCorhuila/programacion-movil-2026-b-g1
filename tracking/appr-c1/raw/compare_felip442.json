@@ -1,0 +1,21 @@
+{
+ "ahead_by": 1,
+ "behind_by": 1,
+ "commits": [
+  {
+   "sha": "d0262dc38d",
+   "author_date": "2026-08-31T04:47:27Z",
+   "committer_date": "2026-08-31T04:47:27Z",
+   "msg": "Entrega actividad semana 4 - Planificacion Movil",
+   "author": "felip442"
+  }
+ ],
+ "files": [
+  {
+   "filename": "04-week/01-session/README.md",
+   "status": "added",
+   "additions": 71,
+   "changes": 71
+  }
+ ]
+}

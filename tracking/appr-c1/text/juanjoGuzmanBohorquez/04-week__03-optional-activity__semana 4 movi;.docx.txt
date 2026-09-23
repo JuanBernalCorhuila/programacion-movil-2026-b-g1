@@ -1,0 +1,42 @@
+Especificación de Diseño: Modelo de Datos, Wireframes y Navegación-semana-04
+1. Modelo de Datos (Entidades y Relaciones)
+El sistema se compone de tres entidades principales estructuradas para soportar la gestión académica y de notificaciones:
+
+
+Descripción de Entidades:
+Materia
+Attributes: id_materia (PK), nombre, color_identificador
+Descripción: Asignaturas o asignaciones académicas registradas por el estudiante.
+Tarea
+Attributes: id_tarea (PK), titulo, fecha_limite, descripcion, estado_completado, id_materia (FK)
+Descripción: Pendientes académicos asociados obligatoriamente a una materia.
+Recordatorio
+Attributes: id_recordatorio (PK), tiempo_anticipacion, esta_activo, id_tarea (FK)
+Descripción: Configuración de la alerta asociada a una tarea específica.
+Relaciones:
+Materia → Tarea (1 a N): Una materia puede tener una o muchas tareas asociadas; cada tarea pertenece a una sola materia.
+Tarea → Recordatorio (1 a N): Una tarea puede generar uno o varios recordatorios (ej. 1 día antes, 2 horas antes); cada recordatorio pertenece a una sola tarea.
+2. Wireframes de Baja Fidelidad
+Pantalla 1: Lista Principal de Tareas (Home)
+
+
+Pantalla 2: Formulario de Creación / Edición de Tarea
+
+
+Pantalla 3: Detalle de la Tarea
+
+3. Mapa de Navegación
+El diagrama ilustra el flujo de pantallas del MVP:
+
+
+Descripción de transiciones:
+Lista de Tareas → Formulario de Tarea: Se activa al pulsar el botón flotante (+) o la opción de editar.
+Formulario → Lista de Tareas: Al pulsar "Guardar" o "Cancelar", valida los datos, guarda los cambios y regresa a la vista principal.
+Lista de Tareas → Detalle de Tarea: Ocurre al presionar sobre cualquier ítem de la lista.
+Detalle de Tarea → Lista de Tareas: Ocurre al presionar los botones "Eliminar", "Marcar como Completada" o la flecha de volver [<].
+4. Estrategia de Almacenamiento (Local vs. Remoto)
+Dada la arquitectura híbrida y la prioridad de contar con disponibilidad offline para el MVP, el almacenamiento se organiza de la siguiente manera:
+
+
+Persistencia Offline-First (Local): Toda la interacción de creación, lectura, edición y marcado de tareas se ejecuta directamente sobre la base de datos local para garantizar tiempos de respuesta inmediatos (< 2 segundos) y permitir el uso sin conexión a internet.
+Sincronización (Remoto): Los datos se sincronizan en segundo plano en el servidor remoto cuando el dispositivo dispone de conexión a Internet.

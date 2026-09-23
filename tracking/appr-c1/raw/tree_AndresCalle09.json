@@ -1,0 +1,422 @@
+{
+ "sha": "777ceecd9ce42515cf678ea2aa11ba9eb960ec0e",
+ "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/777ceecd9ce42515cf678ea2aa11ba9eb960ec0e",
+ "tree": [
+  {
+   "path": ".gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "504afef81fbadc8c0a072e1ac93f1376bca7f4a9",
+   "size": 32,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/504afef81fbadc8c0a072e1ac93f1376bca7f4a9"
+  },
+  {
+   "path": ".vscode",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e94d0e0cc98166224704aea31f543f39d90b2162",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/e94d0e0cc98166224704aea31f543f39d90b2162"
+  },
+  {
+   "path": ".vscode/settings.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "b65ea4141b041bda33a0d93bf2a6e674676aeadf",
+   "size": 38,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/b65ea4141b041bda33a0d93bf2a6e674676aeadf"
+  },
+  {
+   "path": "01-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e0f5c9e417300921a6e9d553b7e92f0378ffa38d",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/e0f5c9e417300921a6e9d553b7e92f0378ffa38d"
+  },
+  {
+   "path": "01-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/Programación Movil-Semana 1.docx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "81195eccf72d7a487a3e7099f8c54f3834364a1f",
+   "size": 17146,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/81195eccf72d7a487a3e7099f8c54f3834364a1f"
+  },
+  {
+   "path": "01-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "614d81f9267cd14a331071013125b28b7b0e33cd",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/614d81f9267cd14a331071013125b28b7b0e33cd"
+  },
+  {
+   "path": "02-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "dad3350f39848f854b7ca3c32e0b901420207888",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/dad3350f39848f854b7ca3c32e0b901420207888"
+  },
+  {
+   "path": "02-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "9a227ff0238b249fb42e2f49aa24760d6554c16c",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/9a227ff0238b249fb42e2f49aa24760d6554c16c"
+  },
+  {
+   "path": "03-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "534813a6388678ea365bede61a6b47c28fb060e1",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/534813a6388678ea365bede61a6b47c28fb060e1"
+  },
+  {
+   "path": "03-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "6a97d0db80845edc04a3284ea83b7f0f3f9e17f3",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/6a97d0db80845edc04a3284ea83b7f0f3f9e17f3"
+  },
+  {
+   "path": "04-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "c75f74aa971481853253b4c6a67f08b617f77214",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/c75f74aa971481853253b4c6a67f08b617f77214"
+  },
+  {
+   "path": "04-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "d3c9f82825100cf1df985400a4b86b6b71ee3679",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/d3c9f82825100cf1df985400a4b86b6b71ee3679"
+  },
+  {
+   "path": "04-week/actividad 1.docx",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "dafe1dda08d618a05d316d2cbddead5406b66509",
+   "size": 20480,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/dafe1dda08d618a05d316d2cbddead5406b66509"
+  },
+  {
+   "path": "05-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e0e97dd8a81c910241e920347a46bd837a369ab1",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/e0e97dd8a81c910241e920347a46bd837a369ab1"
+  },
+  {
+   "path": "05-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "66fcedf1e72562cc8d482a4bd7c75aadbaee9b33",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/66fcedf1e72562cc8d482a4bd7c75aadbaee9b33"
+  },
+  {
+   "path": "06-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "ed50a8244739c7d916e1a1c4390fd562a7b91220",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/ed50a8244739c7d916e1a1c4390fd562a7b91220"
+  },
+  {
+   "path": "06-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "46c17e1b679c7fc072d93fbc5ea467b283dc9a49",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/46c17e1b679c7fc072d93fbc5ea467b283dc9a49"
+  },
+  {
+   "path": "07-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "1098a93db585986489b390680e1cc75597da17b0",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/1098a93db585986489b390680e1cc75597da17b0"
+  },
+  {
+   "path": "07-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "3fabf7ac868091059f06d2b058988a1b96c7b7cb",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/3fabf7ac868091059f06d2b058988a1b96c7b7cb"
+  },
+  {
+   "path": "08-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "489f1daf504c57bf03e71e017d12542403f0290a",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/489f1daf504c57bf03e71e017d12542403f0290a"
+  },
+  {
+   "path": "08-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "408d4e67765e4f665578950c57f4f8cae4dc7804",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/408d4e67765e4f665578950c57f4f8cae4dc7804"
+  },
+  {
+   "path": "09-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "9863dcb0693704f8a45c1565c06493436a340c88",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/9863dcb0693704f8a45c1565c06493436a340c88"
+  },
+  {
+   "path": "09-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "4db5b00cd87660bb86d48852ccc62db242259365",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/4db5b00cd87660bb86d48852ccc62db242259365"
+  },
+  {
+   "path": "10-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e912352fecb1b066a8997874c98407515905fbb2",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/e912352fecb1b066a8997874c98407515905fbb2"
+  },
+  {
+   "path": "10-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "dbb2b984649af4ea136a2b711f9f30b6f86085e4",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/dbb2b984649af4ea136a2b711f9f30b6f86085e4"
+  },
+  {
+   "path": "11-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "ce8d539d97f09a68436072fc9682ec3403906ebb",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/ce8d539d97f09a68436072fc9682ec3403906ebb"
+  },
+  {
+   "path": "11-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "a76e5fc50441b50e98818a487f60d054e6d81a3d",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/a76e5fc50441b50e98818a487f60d054e6d81a3d"
+  },
+  {
+   "path": "12-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b8bfe7e6617de7653e0612a891a9d5345f054b84",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/b8bfe7e6617de7653e0612a891a9d5345f054b84"
+  },
+  {
+   "path": "12-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "2b95936beed4459d869bcfacfe0eed18d99d1ab9",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/2b95936beed4459d869bcfacfe0eed18d99d1ab9"
+  },
+  {
+   "path": "13-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "fd3b5e3ab9ecf6a69060fa6994a127a41809836d",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/fd3b5e3ab9ecf6a69060fa6994a127a41809836d"
+  },
+  {
+   "path": "13-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "35f0364bb72e68127404452042d660dfc1da5f47",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/35f0364bb72e68127404452042d660dfc1da5f47"
+  },
+  {
+   "path": "14-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "1b2ad32863ed7117c0584621882f754222fbb5af",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/1b2ad32863ed7117c0584621882f754222fbb5af"
+  },
+  {
+   "path": "14-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "9c3797adf44dee508e6a0f93e8a07fdd34e3cd62",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/9c3797adf44dee508e6a0f93e8a07fdd34e3cd62"
+  },
+  {
+   "path": "15-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e2bbd01daa37956b34d926863ab5d82879ca7125",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/e2bbd01daa37956b34d926863ab5d82879ca7125"
+  },
+  {
+   "path": "15-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "f5618fe3b62de6ccf3bf242e0013ed725f0f7f25",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/f5618fe3b62de6ccf3bf242e0013ed725f0f7f25"
+  },
+  {
+   "path": "16-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "89f956b589b24ac8bb007fb2a406c381018a3423",
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/trees/89f956b589b24ac8bb007fb2a406c381018a3423"
+  },
+  {
+   "path": "16-week/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "0e3216147ac3a9170a970e80458a7429098575c3",
+   "size": 454,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/0e3216147ac3a9170a970e80458a7429098575c3"
+  },
+  {
+   "path": "README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "bd05ce45b3ab285539a9363709037c34c1d99783",
+   "size": 1242,
+   "url": "https://api.github.com/repos/AndresCalle09/programacion-movil-2026-b-g1/git/blobs/bd05ce45b3ab285539a9363709037c34c1d99783"
+  }
+ ],
+ "truncated": false
+}

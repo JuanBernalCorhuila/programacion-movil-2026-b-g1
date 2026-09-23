@@ -1,0 +1,187 @@
+PROGRAMACIÓN MÓVIL 
+   
+   
+   
+   
+   
+ACTIVIDAD OPCIONAL 1 
+   
+   
+ 
+ 
+ 
+ 
+PRESENTA:  
+    
+BERNAL GORDILLO JUAN CAMILO   
+   
+     
+   
+    
+   
+   
+  
+ 
+  
+NEIVA – HUILA    
+COORPORACIÓN UNIVERSITARIA DEL HUILA – CORHUILA    
+AGOSTO DEL 2026   
+
+ACTIVIDAD 
+ 
+1. Cuadro Comparativo: 
+Aplicación 
+Tipo probable 
+MVP-1 
+MVP-2 
+MVP-3 
+Brave 
+Nativa: ya que los 
+navegadores tienden 
+a desarrollarse de 
+manera nativa por el 
+rendimiento 
+necesario y para 
+tener una experiencia 
+de usuario fluida. 
+Navegar por 
+las páginas 
+web, con un 
+motor 
+renderizado y 
+barra de 
+direcciones. 
+Bloqueo de 
+anuncios y 
+rastreadores, la 
+cual es una 
+función que 
+diferencia a 
+brave de demás 
+navegadores 
+Gestionar 
+pestañas: 
+como abrir, 
+cerrar, 
+cambiar entre 
+ventanas.  
+Steam 
+Nativa: Debido a la 
+necesidad de 
+recursos del sistema 
+para correr los 
+videojuegos, para lo 
+que viene siendo la 
+experiencia de 
+usuario y una 
+navegación rápida. 
+Autenticación 
+Steam Guard, 
+lo que es 
+importante 
+para aprobar 
+los inicios de 
+sesión y tener 
+una buena 
+seguridad.  
+Ver y gestionar 
+la biblioteca de 
+juegos, como 
+instalar juegos, 
+extensiones, 
+desinstalar estos 
+mismos entre 
+otras opciones.  
+Agregar 
+amigos con 
+los cuales 
+jugar, poder 
+compartir 
+videojuegos 
+con ellos y 
+poder chatear 
+con estos 
+mismos. 
+Temu 
+Híbrida: Porque 
+generalmente las 
+apps de comercio 
+electrónico suelen 
+desarrollarse con este 
+tipo, ya sea por la 
+necesidad de 
+actualizar el 
+catálogo, las 
+promociones y el 
+diseño 
+constantemente. 
+Buscar y ver 
+catálogos de 
+diferentes 
+productos.  
+Agregar los 
+productos que 
+desean al 
+carrito. 
+Realizar un 
+pago de 
+manera 
+flexible, por 
+medio de 
+diferentes 
+bancos. 
+ 
+2. Idea de app: 
+Helphealth 
+Problema: Las personas que tienen algún tipo de discapacidad (motriz, visual o 
+auditiva) suelen tener problemas a la hora de gestionar su salud por su propia cuenta: se 
+les olvidan los medicamentos, las terapias y se les dificulta pedir ayuda por si resulta 
+una emergencia. A esto se le añade que actualmente, aunque existen apps de salud no 
+están pensadas en la accesibilidad de todas las personas.  
+Para quien: Personas con discapacidad motriz, visual o auditiva que viven de forma 
+semi-independiente, y sus cuidadores o familiares cercanos. 
+
+3 funciones imprescindibles (MVP): 
+• Recordatorios para medicamentos y terapias: notificaciones con texto grande y 
+visible, con audio y vibración incluidos para que el usuario nunca se le olvide su 
+tratamiento y tomar medicinas. 
+• Botón de emergencias: Un botón grande y fácil de presionar que envía la 
+ubicación en tiempo real a un contacto de confianza o cuidador con un solo clic. 
+• Registro sencillo de síntomas: el usuario o su cuidador, podrán anotar como se 
+sienten día a día, por texto o por voz, para facilitar el trabajo con el médico en la 
+próxima cita. 
+ 
+3. Justificación de tipo de tecnología: 
+La tecnología que usaría sería híbrida porque necesitaría llegar a usuarios de Android y 
+de IOS con un solo equipo de desarrollo, por lo que un código único me ahorraría 
+tiempo. Además, las funciones de los MVPs, pueden ser soportadas por frameworks 
+híbridos sin necesitar un rendimiento extremo, como sí que lo necesitan los 
+videojuegos. 
+Frameworks como Flutter tienen buen soporte de accesibilidad integrada (lectores de 
+pantalla, escalado de texto, alto contraste), lo cual es esencial para el objetivo de la app. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Bibliografía 
+Android Police. (2025). Here is why I use Brave browser instead of Chrome or Edge on 
+Android. https://www.androidpolice.com/ditched-google-chrome-microsoft-edge-for-
+snappy-open-source-browser-on-android/ 
+Antino. (s.f.). How to build a shopping app like Temu: Features, tech stack & cost. 
+Antino. https://www.antino.com/blog/how-to-develop-a-shopping-app-like-temu 
+SotaTek. (2023, 8 de noviembre). Which mobile app type to choose: Native, hybrid, or 
+web app? LinkedIn Pulse. https://www.linkedin.com/pulse/which-mobile-app-type-
+choose-native-hybrid-web-sota-tek-qnvmc 
+ 

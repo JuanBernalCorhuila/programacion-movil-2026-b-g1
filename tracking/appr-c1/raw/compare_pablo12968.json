@@ -1,0 +1,47 @@
+{
+ "ahead_by": 3,
+ "behind_by": 5,
+ "commits": [
+  {
+   "sha": "8fb3e0d001",
+   "author_date": "2026-08-11T01:26:52Z",
+   "committer_date": "2026-08-11T01:26:52Z",
+   "msg": "Entrega semana 01",
+   "author": "pablo12968"
+  },
+  {
+   "sha": "3d85992a9b",
+   "author_date": "2026-08-20T00:34:21Z",
+   "committer_date": "2026-08-20T00:34:21Z",
+   "msg": "Entrega semana 02",
+   "author": "pablo12968"
+  },
+  {
+   "sha": "4772a57ee3",
+   "author_date": "2026-08-31T00:39:13Z",
+   "committer_date": "2026-08-31T00:39:13Z",
+   "msg": "Add Ice Cream App project planning",
+   "author": "pablo12968"
+  }
+ ],
+ "files": [
+  {
+   "filename": "01-week/README.md",
+   "status": "added",
+   "additions": 64,
+   "changes": 64
+  },
+  {
+   "filename": "02-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 131,
+   "changes": 131
+  },
+  {
+   "filename": "04-week/c1-activity.md",
+   "status": "added",
+   "additions": 196,
+   "changes": 196
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+Actividad calificable – Corte 1
+Planificación del proyecto móvil
+PayTrack
+1. Idea de la aplicación
+
+PayTrack es una aplicación móvil pensada para ayudar a las personas a organizar sus pagos recurrentes en un solo lugar. Actualmente, muchas personas tienen diferentes suscripciones, membresías, servicios y facturas mensuales, por lo que pueden olvidar una fecha de pago o perder el comprobante de una transacción. PayTrack busca solucionar este problema permitiendo registrar los pagos, consultar sus fechas de vencimiento, recibir recordatorios y guardar los recibos.
+
+El público objetivo son principalmente personas que tienen varios gastos recurrentes, como suscripciones digitales, servicios del hogar, membresías, planes de telefonía y otras obligaciones mensuales. También puede ser útil para estudiantes y trabajadores que quieren tener un mejor control de sus pagos sin utilizar varias aplicaciones diferentes.
+
+La idea principal es que el usuario pueda consultar desde una sola aplicación qué pagos tiene pendientes, cuánto debe pagar y cuándo debe hacerlo.
+
+2. MVP
+
+El MVP de PayTrack tendrá tres funciones imprescindibles:
+
+1. Gestión de membresías y pagos
+
+El usuario podrá registrar sus suscripciones, membresías, facturas y otros pagos recurrentes. Para cada registro podrá ingresar información como el nombre del servicio, valor del pago, frecuencia y fecha de vencimiento.
+
+2. Fechas de vencimiento y recordatorios
+
+La aplicación mostrará los próximos pagos y permitirá enviar recordatorios antes de la fecha de vencimiento. De esta manera, el usuario podrá saber qué pagos tiene próximos y evitar olvidarlos.
+
+3. Pagos y comprobantes
+
+El usuario podrá realizar un pago desde la aplicación y consultar el comprobante correspondiente. También podrá revisar el historial de pagos realizados para tener un registro de sus transacciones.
+
+Para el MVP no se incluirán funciones más avanzadas como reportes financieros, análisis automático de gastos, cuentas familiares, programas de fidelización, recomendaciones mediante inteligencia artificial o integración con una gran cantidad de servicios externos. Estas funciones podrían considerarse posteriormente, pero no son necesarias para comprobar inicialmente si la idea de PayTrack es útil.
+
+3. Historias de usuario
+Historia de usuario 1 – Registrar un pago recurrente
+
+Como usuario,
+quiero registrar mis membresías, facturas y suscripciones,
+para tener todos mis pagos recurrentes organizados en un solo lugar.
+
+Criterios de aceptación
+El usuario debe poder ingresar el nombre del servicio o pago.
+El usuario debe poder ingresar el valor del pago.
+El usuario debe poder seleccionar la frecuencia del pago.
+El usuario debe poder ingresar la fecha de vencimiento.
+El pago registrado debe aparecer en la lista de pagos.
+Historia de usuario 2 – Consultar próximos pagos
+
+Como usuario,
+quiero ver mis próximos pagos y sus fechas de vencimiento,
+para saber qué pagos debo realizar próximamente.
+
+Criterios de aceptación
+La aplicación debe mostrar los pagos registrados.
+Cada pago debe mostrar su nombre, valor y fecha de vencimiento.
+Los pagos próximos deben poder identificarse fácilmente.
+La información debe actualizarse cuando se agregue o modifique un pago.
+Historia de usuario 3 – Recibir recordatorios
+
+Como usuario,
+quiero recibir un recordatorio antes de la fecha de vencimiento,
+para no olvidar realizar mis pagos.
+
+Criterios de aceptación
+El usuario debe poder recibir un recordatorio antes del vencimiento.
+El recordatorio debe indicar el nombre del pago.
+El recordatorio debe mostrar el valor y la fecha de vencimiento.
+El recordatorio debe aparecer antes de la fecha configurada.
+Historia de usuario 4 – Realizar un pago
+
+Como usuario,
+quiero realizar un pago desde la aplicación,
+para poder gestionar mis pagos sin tener que utilizar otra aplicación.
+
+Criterios de aceptación
+El usuario debe poder seleccionar el pago que desea realizar.
+La aplicación debe mostrar el valor antes de confirmar el pago.
+El usuario debe poder confirmar la operación.
+Después de realizar el pago, este debe quedar registrado como pagado.
+Historia de usuario 5 – Consultar comprobantes
+
+Como usuario,
+quiero guardar y consultar mis comprobantes de pago,
+para tener evidencia de las transacciones realizadas.
+
+Criterios de aceptación
+El usuario debe poder consultar el comprobante de un pago realizado.
+El comprobante debe estar relacionado con el pago correspondiente.
+El usuario debe poder visualizar la información básica de la transacción.
+Los comprobantes deben permanecer disponibles en el historial.
+Historia de usuario 6 – Consultar historial de pagos
+
+Como usuario,
+quiero consultar mi historial de pagos,
+para conocer las transacciones que he realizado anteriormente.
+
+Criterios de aceptación
+La aplicación debe mostrar los pagos realizados anteriormente.
+Cada registro debe mostrar como mínimo el nombre del servicio, valor y fecha.
+Los pagos deben aparecer ordenados por fecha.
+El usuario debe poder seleccionar un registro para consultar más información.
+4. Backlog priorizado
+
+Las historias se organizarán en tres sprints. Primero se desarrollarán las funciones necesarias para registrar y consultar los pagos. Después se agregarán los recordatorios y finalmente las funciones relacionadas con pagos y comprobantes.
+
+Prioridad	Historia de usuario	Sprint	Justificación
+1	HU1 – Registrar un pago recurrente	Sprint 1	Es la función básica para comenzar a organizar la información.
+2	HU2 – Consultar próximos pagos	Sprint 1	Permite al usuario visualizar la información registrada.
+3	HU3 – Recibir recordatorios	Sprint 2	Es importante para evitar que el usuario olvide sus pagos.
+4	HU4 – Realizar un pago	Sprint 2	Permite completar el proceso principal dentro de la aplicación.
+5	HU5 – Consultar comprobantes	Sprint 3	Permite conservar evidencia de los pagos realizados.
+6	HU6 – Consultar historial de pagos	Sprint 3	Complementa el control de las transacciones anteriores.
+Sprint 1 – Organización de pagos
+
+Objetivo: crear la estructura inicial de PayTrack y permitir que el usuario registre y consulte sus pagos.
+
+HU1 – Registrar un pago recurrente.
+HU2 – Consultar próximos pagos.
+
+Resultado esperado: un prototipo funcional donde el usuario pueda registrar un pago recurrente y consultar su información y fecha de vencimiento.
+
+Sprint 2 – Recordatorios y pagos
+
+Objetivo: permitir que el usuario reciba avisos y pueda realizar sus pagos desde la aplicación.
+
+HU3 – Recibir recordatorios.
+HU4 – Realizar un pago.
+
+Resultado esperado: el usuario podrá recibir un aviso antes del vencimiento y realizar un pago desde PayTrack.
+
+Sprint 3 – Comprobantes e historial
+
+Objetivo: completar el registro de las transacciones realizadas.
+
+HU5 – Consultar comprobantes.
+HU6 – Consultar historial de pagos.
+
+Resultado esperado: el usuario podrá revisar los comprobantes y consultar el historial de sus pagos anteriores.
+
+5. Tipo de aplicación
+
+Para PayTrack elegiría una aplicación híbrida, porque permitiría desarrollar una versión para Android y otra para iOS utilizando una base de código compartida. Esto puede ayudar a reducir el tiempo y los costos de desarrollo en comparación con crear dos aplicaciones completamente independientes.
+
+Además, las funciones principales de PayTrack, como registrar pagos, mostrar información, enviar recordatorios y consultar comprobantes, no necesitan un rendimiento demasiado avanzado del dispositivo. Por esta razón, una aplicación híbrida sería suficiente para desarrollar el MVP.
+
+También considero que esta opción es adecuada para un proyecto inicial porque permite concentrarse en validar la idea y en construir las funciones principales antes de invertir tiempo en características más complejas.
+
+6. Metodología
+
+Para desarrollar PayTrack utilizaría la metodología Scrum. La razón principal es que el proyecto se puede dividir en pequeñas funciones y desarrollarlas progresivamente en diferentes sprints.
+
+Scrum también permitiría revisar el avance del proyecto al finalizar cada sprint y detectar posibles problemas antes de continuar con las siguientes funciones. Por ejemplo, primero se puede desarrollar el registro de pagos y después agregar los recordatorios y el sistema de pagos.
+
+Esta metodología también facilita realizar cambios según los resultados obtenidos y el feedback recibido durante el desarrollo.
+
+7. Project pitch
+
+PayTrack is a mobile application designed to help users manage their recurring payments in one place. Many people have different subscriptions, memberships, bills, and monthly expenses, which can make it difficult to remember payment dates. The target users are students, workers, and other people who have several recurring expenses and want to keep them organized. The MVP will allow users to register their payments, see upcoming due dates, and receive reminders before a payment is due. It will also allow users to make payments and save their receipts and payment history. The main goal of PayTrack is to make recurring payment management easier and help users avoid missing important payment dates.

@@ -1,0 +1,67 @@
+{
+ "ahead_by": 5,
+ "behind_by": 5,
+ "commits": [
+  {
+   "sha": "06eb0340b3",
+   "author_date": "2026-08-11T00:58:57Z",
+   "committer_date": "2026-08-11T00:58:57Z",
+   "msg": "Update repository URL in README",
+   "author": "LillyPuentes-2003"
+  },
+  {
+   "sha": "5c94039d29",
+   "author_date": "2026-08-15T00:58:21Z",
+   "committer_date": "2026-08-15T00:58:21Z",
+   "msg": "Update GitHub username in README",
+   "author": "LillyPuentes-2003"
+  },
+  {
+   "sha": "bab629a63d",
+   "author_date": "2026-08-31T04:41:01Z",
+   "committer_date": "2026-08-31T04:41:01Z",
+   "msg": "Documentación del proyecto",
+   "author": "LillyPuentes-2003"
+  },
+  {
+   "sha": "9df2f01a6c",
+   "author_date": "2026-08-31T04:41:57Z",
+   "committer_date": "2026-08-31T04:41:57Z",
+   "msg": "Add files via upload",
+   "author": "LillyPuentes-2003"
+  },
+  {
+   "sha": "9945777c5a",
+   "author_date": "2026-08-31T04:42:28Z",
+   "committer_date": "2026-08-31T04:42:28Z",
+   "msg": "Add files via upload",
+   "author": "LillyPuentes-2003"
+  }
+ ],
+ "files": [
+  {
+   "filename": "04-week/01-session/README.md",
+   "status": "added",
+   "additions": 266,
+   "changes": 266
+  },
+  {
+   "filename": "04-week/01-session/bpmn-manicita.html",
+   "status": "added",
+   "additions": 330,
+   "changes": 330
+  },
+  {
+   "filename": "04-week/01-session/c4-nivel1-manicita.html",
+   "status": "added",
+   "additions": 189,
+   "changes": 189
+  },
+  {
+   "filename": "README.md",
+   "status": "modified",
+   "additions": 6,
+   "changes": 7
+  }
+ ]
+}

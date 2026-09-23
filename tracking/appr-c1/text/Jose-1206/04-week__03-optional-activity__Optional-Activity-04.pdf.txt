@@ -1,0 +1,211 @@
+ACTIVIDAD 4 — Modelo de datos, wireframes y navegación 
+1. Modelo de datos 
+Para el MVP se propone un modelo compuesto inicialmente por 5 entidades 
+principales: 
+Entidad: Usuario 
+Atributo 
+Tipo 
+Descripción 
+id_usuario 
+INT 
+Identificador único 
+nombre_usuario VARCHAR 
+Nombre mostrado en la 
+aplicación 
+correo 
+VARCHAR 
+Correo del usuario 
+contraseña 
+VARCHAR 
+Credencial de acceso 
+fecha_registro 
+DATE 
+Fecha de creación 
+ 
+Entidad: PerfilJugador 
+Atributo 
+Tipo 
+Descripción 
+id_perfil 
+INT 
+Identificador del 
+perfil 
+id_usuario 
+INT 
+Usuario asociado 
+juego_principal VARCHAR 
+Juego principal 
+rango 
+VARCHAR 
+Rango competitivo 
+rol 
+VARCHAR 
+Rol del jugador 
+ 
+Entidad: Juego 
+Atributo 
+Tipo 
+Descripción 
+id_juego 
+INT 
+Identificador del 
+juego 
+nombre 
+VARCHAR 
+Nombre del juego 
+plataforma VARCHAR 
+Plataforma principal 
+ 
+Entidad: Equipo 
+Atributo 
+Tipo 
+Descripción 
+
+id_equipo 
+INT 
+Identificador del 
+equipo 
+nombre 
+VARCHAR 
+Nombre del equipo 
+id_creador INT 
+Usuario creador 
+juego 
+VARCHAR 
+Juego del equipo 
+ 
+Entidad: Partida 
+Atributo 
+Tipo 
+Descripción 
+id_partida INT 
+Identificador de la 
+partida 
+id_equipo 
+INT 
+Equipo asociado 
+fecha 
+DATE 
+Fecha de la partida 
+hora 
+TIME 
+Hora de la partida 
+tipo 
+VARCHAR 
+Scrim o torneo 
+ 
+2. Relaciones 
+Usuario — PerfilJugador 
+1 a 1 
+Un usuario posee un perfil competitivo. 
+USUARIO 
+   │ 
+   │ 1 : 1 
+   ▼ 
+PERFIL_JUGADOR 
+Usuario — Equipo 
+1 a N 
+Un usuario puede crear diferentes equipos. 
+USUARIO 
+   │ 
+   │ 1 : N 
+   ▼ 
+ EQUIPO 
+
+Equipo — Partida 
+1 a N 
+Un equipo puede tener múltiples partidas programadas. 
+EQUIPO 
+   │ 
+   │ 1 : N 
+   ▼ 
+PARTIDA 
+Usuario — Juego 
+La relación de intereses puede considerarse N a N, ya que un usuario puede seguir 
+varios juegos y un juego puede ser seguido por muchos usuarios. 
+USUARIO 
+   │ 
+   │ N : N 
+   ▼ 
+ JUEGO 
+Para implementarla en una base de datos relacional se utilizaría una tabla intermedia: 
+USUARIO 
+   │ 
+   ▼ 
+USUARIO_JUEGO 
+   ▲ 
+   │ 
+   JUEGO 
+ 
+ 
+3. Wireframes 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+4. Mapa de navegación 
+ 
+
+ 
+ 
+1. Flujo de Onboarding (Lineal y Secuencial) 
+• Paso 1: El usuario ingresa a la Pantalla de Registro para crear su cuenta. 
+• Paso 2: Tras registrarse, es redirigido automáticamente a la pantalla de 
+Selección de Intereses.  
+• Propósito: Garantizar que el usuario configure sus juegos y equipos favoritos 
+antes de ingresar a la app para poder personalizar el contenido inicial.  
+2. Navegación Principal (Horizontal / Menú de Pestañas) 
+Una vez completado el registro, el usuario accede a la vista principal. Las 3 pantallas 
+clave (Feed de Intereses, Matchmaking y Calendario de Scrims) están 
+interconectadas en un mismo nivel:  
+• Feed de Intereses: Funciona como la pantalla de inicio (Home), mostrando 
+noticias y resultados personalizados.  
+• Matchmaking: Permite aplicar filtros para buscar y contactar jugadores.  
+• Calendario de Scrims: Permite consultar y agendar partidas con el equipo.  
+Mecanismo de transición: 
+El cambio entre estas tres pantallas se gestiona mediante una Barra de Navegación 
+Inferior (Bottom Navigation Bar). Esto permite al usuario cambiar de sección de 
+
+manera rápida y directa en cualquier momento, manteniendo activa la sesión y 
+preservando el estado de cada pantalla al alternar entre ellas. 
+5. Datos locales y remotos 
+Datos locales 
+Se almacenarán localmente: 
+• Sesión del usuario. 
+• Token de autenticación. 
+• Preferencias básicas del usuario. 
+• Últimos contenidos consultados. 
+• Caché de noticias. 
+• Configuraciones de la aplicación. 
+Justificación: 
+Estos datos pueden mantenerse temporalmente en el dispositivo para reducir tiempos 
+de carga y permitir que cierta información siga disponible cuando exista una conexión 
+inestable. 
+La idea original también contempla el uso de caché y paginación para manejar el feed 
+dinámico. 
+Datos remotos 
+Se almacenarán en el servidor/base de datos: 
+• Usuarios. 
+• Perfiles de jugadores. 
+• Juegos. 
+• Equipos. 
+• Integrantes de equipos. 
+• Partidas programadas. 
+• Preferencias de intereses. 
+• Noticias y resultados. 
+• Información obtenida de APIs externas. 
+Justificación: 
+
+Estos datos necesitan mantenerse sincronizados entre diferentes dispositivos y 
+usuarios. Además, la aplicación requiere consumir APIs externas de diferentes juegos, 
+como Riot API y Steam API. 
+ 

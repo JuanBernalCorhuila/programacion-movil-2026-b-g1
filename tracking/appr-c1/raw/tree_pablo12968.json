@@ -1,0 +1,894 @@
+{
+ "sha": "4772a57ee3ecabc57430493f2931ff5520616d15",
+ "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/4772a57ee3ecabc57430493f2931ff5520616d15",
+ "tree": [
+  {
+   "path": ".gitignore",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "504afef81fbadc8c0a072e1ac93f1376bca7f4a9",
+   "size": 32,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/504afef81fbadc8c0a072e1ac93f1376bca7f4a9"
+  },
+  {
+   "path": ".vscode",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "e94d0e0cc98166224704aea31f543f39d90b2162",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/e94d0e0cc98166224704aea31f543f39d90b2162"
+  },
+  {
+   "path": ".vscode/settings.json",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "b65ea4141b041bda33a0d93bf2a6e674676aeadf",
+   "size": 38,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/b65ea4141b041bda33a0d93bf2a6e674676aeadf"
+  },
+  {
+   "path": "01-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "a23152037f8bb81a3856ede7003f12e0de521cb1",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/a23152037f8bb81a3856ede7003f12e0de521cb1"
+  },
+  {
+   "path": "01-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "01-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "01-week/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "608c77bd7f7a841cb2884437023dc9f2613d8fea",
+   "size": 1764,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/608c77bd7f7a841cb2884437023dc9f2613d8fea"
+  },
+  {
+   "path": "02-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d269a8fbeb17b9cb41bdda67b4df23e492ee8e52",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d269a8fbeb17b9cb41bdda67b4df23e492ee8e52"
+  },
+  {
+   "path": "02-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "02-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "19433d98a6bfa5c3baed0395c9b06f6f43f8a4b5",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/19433d98a6bfa5c3baed0395c9b06f6f43f8a4b5"
+  },
+  {
+   "path": "02-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "02-week/03-optional-activity/README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "26113c79efb607f09e7c04f5098cae935a0e90bb",
+   "size": 5034,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/26113c79efb607f09e7c04f5098cae935a0e90bb"
+  },
+  {
+   "path": "03-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "03-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "03-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "03-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d4a554c5f44615880047a753b7b8429f520cb499",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d4a554c5f44615880047a753b7b8429f520cb499"
+  },
+  {
+   "path": "04-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "04-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "04-week/c1-activity.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e10ff1377e0b2eb1bb24fbab9569265da4af6015",
+   "size": 8024,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e10ff1377e0b2eb1bb24fbab9569265da4af6015"
+  },
+  {
+   "path": "05-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "05-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "05-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "05-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "06-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "06-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "06-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "07-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "07-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "07-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "08-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "08-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "08-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "09-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "09-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "09-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "10-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "10-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "10-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "11-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "11-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "11-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "12-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "12-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "12-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "13-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "13-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "13-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "14-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "14-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "14-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "15-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "15-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "15-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "b3c069fcf25ea7be49b4b43ff9ad49ef5843901c",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/b3c069fcf25ea7be49b4b43ff9ad49ef5843901c"
+  },
+  {
+   "path": "16-week/01-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/01-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/02-session",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/02-session/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "16-week/03-optional-activity",
+   "mode": "040000",
+   "type": "tree",
+   "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+  },
+  {
+   "path": "16-week/03-optional-activity/.gitkeep",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+   "size": 0,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+   "path": "README.md",
+   "mode": "100644",
+   "type": "blob",
+   "sha": "37964be7e6bf5987cc4686d79afb47fa78efaf11",
+   "size": 1002,
+   "url": "https://api.github.com/repos/pablo12968/programacion-movil-2026-b-g1/git/blobs/37964be7e6bf5987cc4686d79afb47fa78efaf11"
+  }
+ ],
+ "truncated": false
+}

@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Project Tracker — mobile-programming-2026-b — Avance Corte 1</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ink:#1A2445;--ink-muted:#5A6A8A;--ink-faint:#9AAABF;
+  --accent:#3A5AE8;--accent-dim:#6B87F0;
+  --surface:#F4F6FB;--card:#FFFFFF;--border:#DDE3F0;--ground:#EEF1F8;
+  --yes:#16A34A;--yes-bg:#DCFCE7;--yes-bd:#86EFAC;
+  --warn:#B45309;--warn-bg:#FEF3C7;--warn-bd:#FCD34D;
+  --no:#DC2626;--no-bg:#FEE2E2;--no-bd:#FCA5A5;
+  --radius:10px;--shadow:0 1px 4px rgba(26,36,69,.08),0 4px 16px rgba(26,36,69,.06);
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ink:#E8EDF8;--ink-muted:#8A9BBC;--ink-faint:#4A5A78;
+  --accent:#6B87F0;--accent-dim:#3A5AE8;
+  --surface:#141C30;--card:#1C2640;--border:#2A3654;--ground:#0F1525;
+  --yes:#4ADE80;--yes-bg:#052E16;--yes-bd:#166534;
+  --warn:#FCD34D;--warn-bg:#1C1A00;--warn-bd:#854D0E;
+  --no:#F87171;--no-bg:#1C0606;--no-bd:#991B1B;
+  --shadow:0 1px 4px rgba(0,0,0,.3),0 4px 16px rgba(0,0,0,.2);
+}}
+:root[data-theme="dark"]{
+  --ink:#E8EDF8;--ink-muted:#8A9BBC;--ink-faint:#4A5A78;
+  --accent:#6B87F0;--accent-dim:#3A5AE8;
+  --surface:#141C30;--card:#1C2640;--border:#2A3654;--ground:#0F1525;
+  --yes:#4ADE80;--yes-bg:#052E16;--yes-bd:#166534;
+  --warn:#FCD34D;--warn-bg:#1C1A00;--warn-bd:#854D0E;
+  --no:#F87171;--no-bg:#1C0606;--no-bd:#991B1B;
+  --shadow:0 1px 4px rgba(0,0,0,.3),0 4px 16px rgba(0,0,0,.2);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--ground);color:var(--ink);font-size:14px;line-height:1.55;min-height:100vh}
+.ph{background:var(--ink);color:#fff;padding:20px 28px 18px;display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start;justify-content:space-between}
+.ph-left{display:flex;flex-direction:column;gap:4px}
+.ph-eye{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-dim);opacity:.9}
+.ph-title{font-family:'Outfit',sans-serif;font-size:20px;font-weight:700}
+.ph-label{font-family:'Outfit',sans-serif;font-size:13px;font-weight:500;color:rgba(255,255,255,.6)}
+.ph-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.mc{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:6px;padding:4px 10px;font-size:12px;font-family:'JetBrains Mono',monospace;color:rgba(255,255,255,.85);white-space:nowrap}
+.mc strong{color:#fff;font-weight:500}
+.sb{background:var(--card);border-bottom:1px solid var(--border);padding:10px 28px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.sb-label{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-muted);margin-right:4px}
+.sc{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:3px 8px;color:var(--accent)}
+.main{max-width:1100px;margin:0 auto;padding:24px 20px 48px;display:flex;flex-direction:column;gap:24px}
+.legend{display:flex;flex-wrap:wrap;gap:16px;align-items:center;padding:12px 20px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius)}
+.leg-lbl{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-muted);margin-right:4px}
+.leg-item{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--ink-muted)}
+.mcard{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.ch{padding:14px 20px;border-bottom:1px solid var(--border);font-family:'Outfit',sans-serif;font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-muted)}
+.mwrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th{font-family:'Outfit',sans-serif;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-muted);padding:10px 14px;text-align:left;background:var(--surface);border-bottom:1px solid var(--border);white-space:nowrap}
+th.c,td.c{text-align:center}
+td{padding:10px 14px;border-bottom:1px solid var(--border);vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--surface)}
+.tn{display:flex;flex-direction:column;gap:2px}
+.tnv{font-family:'Outfit',sans-serif;font-size:13px;font-weight:600}
+.tr{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-faint)}
+.sem{font-size:16px;line-height:1}
+.pc{display:flex;flex-direction:column;gap:4px;min-width:90px}
+.pb{background:var(--border);border-radius:100px;height:6px;overflow:hidden}
+.pf{height:100%;border-radius:100px;background:var(--accent)}
+.pp{font-family:'Outfit',sans-serif;font-size:11px;font-weight:700;color:var(--ink-muted)}
+.ts{display:flex;flex-direction:column;gap:16px}
+.sh{font-family:'Outfit',sans-serif;font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-muted);padding-left:2px}
+.tc{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.tch{padding:14px 20px;display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.ttb{flex:1;display:flex;flex-direction:column;gap:3px}
+.tcn{font-family:'Outfit',sans-serif;font-size:15px;font-weight:700}
+.tcr{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-faint)}
+.mems{display:flex;flex-wrap:wrap;gap:6px}
+.mtag{font-family:'JetBrains Mono',monospace;font-size:11px;background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:2px 7px;color:var(--accent)}
+.pills{display:flex;gap:6px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:4px;font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;border-radius:5px;padding:3px 7px;border:1px solid;white-space:nowrap}
+.pill.g{background:var(--yes-bg);border-color:var(--yes-bd);color:var(--yes)}
+.pill.a{background:var(--warn-bg);border-color:var(--warn-bd);color:var(--warn)}
+.pill.r{background:var(--no-bg);border-color:var(--no-bd);color:var(--no)}
+.tcb{border-top:1px solid var(--border)}
+.sr{display:grid;grid-template-columns:110px 28px 1fr;gap:12px;align-items:start;padding:14px 20px;border-bottom:1px solid var(--border)}
+.sr:last-child{border-bottom:none}
+.sr:hover{background:var(--surface)}
+.scode{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;color:var(--ink-muted);padding-top:1px}
+.sico{font-size:15px;line-height:1.3}
+.sdet{display:flex;flex-direction:column;gap:6px}
+.stit{font-family:'Outfit',sans-serif;font-size:13px;font-weight:600}
+.cl{display:flex;flex-wrap:wrap;gap:5px}
+.ci{display:inline-flex;align-items:center;gap:4px;font-size:11px;background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:2px 7px;color:var(--ink-muted)}
+.ci.d{color:var(--yes);background:var(--yes-bg);border-color:var(--yes-bd)}
+.ci.w{color:var(--warn);background:var(--warn-bg);border-color:var(--warn-bd)}
+.ci.m{color:var(--no);background:var(--no-bg);border-color:var(--no-bd)}
+.scom{font-size:12px;color:var(--ink-muted);font-style:italic;padding:6px 10px;background:var(--surface);border-left:3px solid var(--accent);border-radius:0 5px 5px 0;line-height:1.5}
+.pf2{text-align:center;padding:0 20px 12px;font-size:11px;color:var(--ink-faint);font-family:'JetBrains Mono',monospace}
+.note{padding:12px 20px;background:var(--card);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:var(--radius);font-size:12px;color:var(--ink-muted);line-height:1.6}
+.note strong{color:var(--ink);font-weight:600}
+.num{font-family:'JetBrains Mono',monospace;font-size:12px;white-space:nowrap}
+.plus{color:var(--yes)}.minus{color:var(--no)}
+.who{display:flex;flex-direction:column;gap:2px}
+.who-l{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;color:var(--accent)}
+.who-m{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-faint)}
+.stat{font-family:'JetBrains Mono',monospace;font-size:10px;border-radius:4px;padding:2px 7px;border:1px solid;white-space:nowrap}
+.stat.ok{background:var(--yes-bg);border-color:var(--yes-bd);color:var(--yes)}
+.stat.pend{background:var(--warn-bg);border-color:var(--warn-bd);color:var(--warn)}
+.stat.none{background:var(--no-bg);border-color:var(--no-bd);color:var(--no)}
+.secs{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink-muted)}
+</style>
+</head>
+<body>
+
+<header class="ph">
+  <div class="ph-left">
+    <span class="ph-eye">corhuila · project tracker</span>
+    <h1 class="ph-title">mobile-programming-2026-b</h1>
+    <span class="ph-label">Avance Corte 1 — repos <code>-docs</code>, secciones 00–05, con aporte discriminado por estudiante</span>
+  </div>
+  <div class="ph-meta">
+    <span class="mc"><strong>Framework:</strong> jesusarielgb-works/mobile-governance-framework</span>
+    <span class="mc"><strong>Fecha:</strong> 2026-09-21</span>
+    <span class="mc"><strong>Equipos:</strong> 8</span>
+    <span class="mc"><strong>Estudiantes:</strong> 21</span>
+  </div>
+</header>
+
+<div class="sb">
+  <span class="sb-label">Secciones evaluadas</span>
+  <span class="sc">00 · Governance</span>
+  <span class="sc">01 · Architecture</span>
+  <span class="sc">02 · Code &amp; UI</span>
+  <span class="sc">03 · API &amp; Data</span>
+  <span class="sc">04 · Quality</span>
+  <span class="sc">05 · Release</span>
+</div>
+
+<div class="main">
+
+  <div class="note">
+    <strong>Cómo se mide aquí.</strong> El framework móvil no trae bloques <code>[!NOTE] INSTRUCTIONS</code>: entrega
+    estándares ya escritos, agnósticos de stack, y pide dos cosas — <em>adaptarlos</em> al stack real del equipo y
+    <em>copiar y llenar</em> los <code>_template-*</code> (una ficha por feature, pantalla, componente, endpoint,
+    entidad, caso de prueba), además de registrar un ADR por cada decisión técnica. El <strong>% de avance</strong> es
+    la fracción de los 30 documentos estándar de 00–05 que el equipo adaptó; el semáforo pondera además si la sección
+    produjo los artefactos que le corresponden.
+    <br>Todos los repos respetan la <strong>política single-branch</strong> (solo <code>main</code>), así que aquí no hay
+    trabajo represado en PRs — a diferencia del grupo de Fullstack.
+    <br><strong>El código fuente volcado en <code>05-release/</code> no cuenta como avance</strong> y se reporta como
+    hallazgo: cada equipo tiene su propio repo de código.
+  </div>
+
+  <div class="legend">
+    <span class="leg-lbl">Semáforo</span>
+    <span class="leg-item">🟢 <span>Lleno — estándares adaptados + artefactos propios</span></span>
+    <span class="leg-item">🟡 <span>Parcial — falta adaptar estándares o faltan artefactos</span></span>
+    <span class="leg-item">🔴 <span>Vacío — sección tal como vino del framework</span></span>
+  </div>
+
+  <!-- MATRIZ RESUMEN -->
+  <div class="mcard">
+    <div class="ch">Resumen — equipos × secciones</div>
+    <div class="mwrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Equipo</th>
+            <th class="c">S00</th>
+            <th class="c">S01</th>
+            <th class="c">S02</th>
+            <th class="c">S03</th>
+            <th class="c">S04</th>
+            <th class="c">S05</th>
+            <th>Avance</th>
+            <th>Artefactos propios</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="tn"><span class="tnv">Healthy Habits Tracker</span><span class="tr">habits-tracker-docs</span></div></td>
+            <td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟢</span></td>
+            <td><div class="pc"><span class="pp">100%</span><div class="pb"><div class="pf" style="width:100%"></div></div></div></td>
+            <td><span class="secs">6 ADR · 5 features · 8 pantallas · 10 componentes · 4 TC</span></td>
+          </tr>
+          <tr>
+            <td><div class="tn"><span class="tnv">H-Tracker</span><span class="tr">healt-track-docs</span></div></td>
+            <td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟢</span></td>
+            <td><div class="pc"><span class="pp">90%</span><div class="pb"><div class="pf" style="width:90%"></div></div></div></td>
+            <td><span class="secs">3 ADR · 3 features · 5 pantallas · 6 wireframes · 8 endpoints · 2 entidades</span></td>
+          </tr>
+          <tr>
+            <td><div class="tn"><span class="tnv">Attendance Control</span><span class="tr">att-check-docs</span></div></td>
+            <td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟡</span></td>
+            <td><div class="pc"><span class="pp">77%</span><div class="pb"><div class="pf" style="width:77%"></div></div></div></td>
+            <td><span class="secs">1 ADR · 8 docs discovery · 7 wireframes · 13 docs de QA/release</span></td>
+          </tr>
+          <tr>
+            <td><div class="tn"><span class="tnv">Ice Cream App</span><span class="tr">ica-docs</span></div></td>
+            <td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🟡</span></td>
+            <td><div class="pc"><span class="pp">77%</span><div class="pb"><div class="pf" style="width:77%"></div></div></div></td>
+            <td><span class="secs">1 ADR · 15 pantallas · 1 modelo de datos · 1 discovery</span></td>
+          </tr>
+          <tr>
+            <td><div class="tn"><span class="tnv">Beauty Salon</span><span class="tr">beauty-salon-docs</span></div></td>
+            <td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🟢</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td>
+            <td><div class="pc"><span class="pp">73%</span><div class="pb"><div class="pf" style="width:73%"></div></div></div></td>
+            <td><span class="secs">9 ADR · 5 features · 10 pantallas · 5 componentes · 13 endpoints · 4 entidades</span></td>
+          </tr>
+          <tr>
+            <td><div class="tn"><span class="tnv">Movie Rater</span><span class="tr">mr-docs</span></div></td>
+            <td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td>
+            <td><div class="pc"><span class="pp">27%</span><div class="pb"><div class="pf" style="width:27%"></div></div></div></td>
+            <td><span class="secs">1 ADR · 1 feature · 1 product-scope · 1 modelo de datos</span></td>
+          </tr>
+          <tr>
+            <td><div class="tn"><span class="tnv">Team Match</span><span class="tr">tm-docs</span></div></td>
+            <td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🟡</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td>
+            <td><div class="pc"><span class="pp">7%</span><div class="pb"><div class="pf" style="width:7%"></div></div></div></td>
+            <td><span class="secs">1 ADR · 1 discovery (406 líneas)</span></td>
+          </tr>
+          <tr>
+            <td><div class="tn"><span class="tnv">Uni Reserve</span><span class="tr">uni-reserve-docs</span></div></td>
+            <td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td><td class="c"><span class="sem">🔴</span></td>
+            <td><div class="pc"><span class="pp">0%</span><div class="pb"><div class="pf" style="width:0%"></div></div></div></td>
+            <td><span class="secs">repo sin el framework — ver hallazgo</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- APORTE POR ESTUDIANTE -->
+  <div class="mcard">
+    <div class="ch">Aporte por estudiante — solo archivos <code>.md</code> de las secciones 00–05</div>
+    <div class="mwrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Estudiante</th>
+            <th>Equipo</th>
+            <th class="c">Commits</th>
+            <th class="c">Líneas .md</th>
+            <th class="c">Archivos</th>
+            <th>Secciones trabajadas</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><div class="who"><span class="who-l">@LillyPuentes-2003</span><span class="who-m">lspuentes-2032b@corhuila.edu.co</span></div></td>
+            <td><span class="tr">Beauty Salon</span></td>
+            <td class="c num">5</td>
+            <td class="c num"><span class="plus">+5296</span> / <span class="minus">−576</span></td>
+            <td class="c num">72</td>
+            <td><span class="secs">S00 S01 S02 S03</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@Juan-Horta27</span><span class="who-m">jjhorta-2024a@corhuila.edu.co</span></div></td>
+            <td><span class="tr">Healthy Habits Tracker</span></td>
+            <td class="c num">7</td>
+            <td class="c num"><span class="plus">+5202</span> / <span class="minus">−793</span></td>
+            <td class="c num">42</td>
+            <td><span class="secs">S01 S03 S05</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@Jose-1206</span><span class="who-m">ayaperaltaj456@gmail.com · lead del equipo</span></div></td>
+            <td><span class="tr">Attendance Control</span></td>
+            <td class="c num">29</td>
+            <td class="c num"><span class="plus">+3578</span> / <span class="minus">−570</span></td>
+            <td class="c num">39</td>
+            <td><span class="secs">S00 S01 S02 S03 S05</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@JuanBernalCorhuila</span><span class="who-m">Juan Camilo Bernal Gordillo · jcbernal-2024a@corhuila.edu.co</span></div></td>
+            <td><span class="tr">H-Tracker</span></td>
+            <td class="c num">82</td>
+            <td class="c num"><span class="plus">+2653</span> / <span class="minus">−548</span></td>
+            <td class="c num">62</td>
+            <td><span class="secs">S00 S01 S02 S03 S04 S05</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@AlexanderC17</span><span class="who-m">sin correo institucional en los commits</span></div></td>
+            <td><span class="tr">Ice Cream App</span></td>
+            <td class="c num">54</td>
+            <td class="c num"><span class="plus">+2287</span> / <span class="minus">−444</span></td>
+            <td class="c num">41</td>
+            <td><span class="secs">S00 S01 S02 S03 S04 S05</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@Esteban-64210</span><span class="who-m">jeortiz-2024a@corhuila.edu.co</span></div></td>
+            <td><span class="tr">Healthy Habits Tracker</span></td>
+            <td class="c num">5</td>
+            <td class="c num"><span class="plus">+1939</span> / <span class="minus">−298</span></td>
+            <td class="c num">31</td>
+            <td><span class="secs">S00 S02 S04</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@SergioLosadaDev</span><span class="who-m">Sergio Losada · sergio.losada.dev@gmail.com</span></div></td>
+            <td><span class="tr">Team Match</span></td>
+            <td class="c num">5</td>
+            <td class="c num"><span class="plus">+625</span> / <span class="minus">−26</span></td>
+            <td class="c num">5</td>
+            <td><span class="secs">S01</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@11William11</span><span class="who-m">juniorxderneycollonarvaez@gmail.com</span></div></td>
+            <td><span class="tr">Movie Rater</span></td>
+            <td class="c num">4</td>
+            <td class="c num"><span class="plus">+535</span> / <span class="minus">−265</span></td>
+            <td class="c num">17</td>
+            <td><span class="secs">S00 S01 S03</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@feller2006</span><span class="who-m">rdcastillo-2024a@corhuila.edu.co</span></div></td>
+            <td><span class="tr">Attendance Control</span></td>
+            <td class="c num">4</td>
+            <td class="c num"><span class="plus">+257</span> / <span class="minus">−70</span></td>
+            <td class="c num">4</td>
+            <td><span class="secs">S03</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@luisfernando-77</span><span class="who-m">lfperez-2024a@corhuila.edu.co</span></div></td>
+            <td><span class="tr">Attendance Control</span></td>
+            <td class="c num">8</td>
+            <td class="c num"><span class="plus">+212</span> / <span class="minus">−79</span></td>
+            <td class="c num">6</td>
+            <td><span class="secs">S00</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@juanjoGuzmanBohorquez</span><span class="who-m">jjguzman-2024a@corhuila.edu.co</span></div></td>
+            <td><span class="tr">Attendance Control</span></td>
+            <td class="c num">7</td>
+            <td class="c num"><span class="plus">+174</span> / <span class="minus">−97</span></td>
+            <td class="c num">7</td>
+            <td><span class="secs">S01 S04</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@felip442</span><span class="who-m">afcardenas-2024a@corhuila.edu.co</span></div></td>
+            <td><span class="tr">Movie Rater</span></td>
+            <td class="c num">4</td>
+            <td class="c num"><span class="plus">+78</span> / <span class="minus">−104</span></td>
+            <td class="c num">3</td>
+            <td><span class="secs">S01 S03</span></td>
+            <td><span class="stat ok">en main</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@laura-marcela05</span><span class="who-m">Laura Marcela Quintero · lmquintero-2024a@corhuila.edu.co</span></div></td>
+            <td><span class="tr">H-Tracker</span></td>
+            <td class="c num">3</td>
+            <td class="c num"><span class="plus">+8</span> / <span class="minus">−6</span></td>
+            <td class="c num">3</td>
+            <td><span class="secs">S02</span></td>
+            <td><span class="stat pend">aporte marginal</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@pablo12968</span><span class="who-m">pesantana-2022b@corhuila.edu.co</span></div></td>
+            <td><span class="tr">Ice Cream App</span></td>
+            <td class="c num">2</td>
+            <td class="c num"><span class="plus">+1</span> / <span class="minus">−0</span></td>
+            <td class="c num">1</td>
+            <td><span class="secs">S05</span></td>
+            <td><span class="stat pend">aporte marginal</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@AndresCalle09</span><span class="who-m">colaborador de att-check-docs</span></div></td>
+            <td><span class="tr">Attendance Control</span></td>
+            <td class="c num">0</td><td class="c num">—</td><td class="c num">0</td>
+            <td><span class="secs">—</span></td>
+            <td><span class="stat none">sin aporte</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@LizethC10</span><span class="who-m">colaboradora de beauty-salon-docs</span></div></td>
+            <td><span class="tr">Beauty Salon</span></td>
+            <td class="c num">0</td><td class="c num">—</td><td class="c num">0</td>
+            <td><span class="secs">—</span></td>
+            <td><span class="stat none">sin aporte</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@carloszuluaga-20</span><span class="who-m">colaborador de healt-track-docs</span></div></td>
+            <td><span class="tr">H-Tracker</span></td>
+            <td class="c num">0</td><td class="c num">—</td><td class="c num">0</td>
+            <td><span class="secs">—</span></td>
+            <td><span class="stat none">sin aporte</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@cristianmunoz2006</span><span class="who-m">Cristian Andrés Muñoz Montenegro</span></div></td>
+            <td><span class="tr">H-Tracker</span></td>
+            <td class="c num">0</td><td class="c num">—</td><td class="c num">0</td>
+            <td><span class="secs">—</span></td>
+            <td><span class="stat none">sin aporte</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@JHcasanova</span><span class="who-m">colaborador de ica-docs</span></div></td>
+            <td><span class="tr">Ice Cream App</span></td>
+            <td class="c num">0</td><td class="c num">—</td><td class="c num">0</td>
+            <td><span class="secs">—</span></td>
+            <td><span class="stat none">sin aporte</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@Palinapau</span><span class="who-m">colaboradora de mr-docs</span></div></td>
+            <td><span class="tr">Movie Rater</span></td>
+            <td class="c num">0</td><td class="c num">—</td><td class="c num">0</td>
+            <td><span class="secs">—</span></td>
+            <td><span class="stat none">sin aporte</span></td>
+          </tr>
+          <tr>
+            <td><div class="who"><span class="who-l">@juliangarcia8823-ux</span><span class="who-m">colaborador de uni-reserve-docs</span></div></td>
+            <td><span class="tr">Uni Reserve</span></td>
+            <td class="c num">0</td><td class="c num">—</td><td class="c num">0</td>
+            <td><span class="secs">—</span></td>
+            <td><span class="stat none">repo sin framework</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Notas sobre la atribución.</strong>
+    Las líneas cuentan solo archivos <code>.md</code> dentro de <code>00-governance</code> … <code>05-release</code>:
+    excluyen el código fuente, los <code>package-lock.json</code>, imágenes y <code>.zip</code> que tres equipos
+    subieron a <code>05-release/</code>. Sin ese filtro, @Juan-Horta27 aparecería con +13.056 líneas y
+    @JuanBernalCorhuila con +19.238, casi todas generadas por npm.
+    <br>· <strong>@11William11</strong> commitea con dos identidades (correo personal y cuenta <code>noreply</code>); se
+    consolidaron en una fila.
+    <br>· <strong>@AlexanderC17</strong> commitea solo con la dirección <code>noreply</code> de GitHub: no hay forma de
+    verificar su identidad institucional desde el historial.
+    <br>· Correos personales en vez del institucional: <strong>@Jose-1206</strong>, <strong>@SergioLosadaDev</strong>,
+    <strong>@11William11</strong>, <strong>@AlexanderC17</strong>.
+    <br>· <strong>Siete colaboradores con cero commits:</strong> @AndresCalle09, @LizethC10, @carloszuluaga-20,
+    @cristianmunoz2006, @JHcasanova, @Palinapau y @juliangarcia8823-ux. En H-Tracker eso significa que
+    @JuanBernalCorhuila sostiene solo un equipo de cuatro.
+  </div>
+
+  <!-- TARJETAS DE DETALLE -->
+  <div class="ts">
+    <h2 class="sh">Detalle por equipo</h2>
+
+    <!-- HEALTHY HABITS TRACKER -->
+    <div class="tc">
+      <div class="tch">
+        <div class="ttb">
+          <span class="tcn">Healthy Habits Tracker</span>
+          <span class="tcr">code-corhuila / habits-tracker-docs</span>
+        </div>
+        <div class="mems">
+          <span class="mtag">@Juan-Horta27</span>
+          <span class="mtag">@Esteban-64210</span>
+        </div>
+        <div class="pills">
+          <span class="pill g">🟢 5 llenas</span>
+          <span class="pill a">🟡 1 parcial</span>
+          <span class="pill r">🔴 0 vacías</span>
+        </div>
+      </div>
+      <div class="tcb">
+        <div class="sr">
+          <span class="scode">S00 · Governance</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">00 — Governance</span>
+            <div class="cl"><span class="ci d">✓ 6/6 estándares adaptados</span><span class="ci d">✓ retros/sprint-01.md</span></div>
+            <p class="scom">Único equipo del curso que además ejecutó el ciclo ágil y dejó constancia: una retro de sprint copiada del template.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S01 · Architecture</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">01 — Architecture</span>
+            <div class="cl"><span class="ci d">✓ 6/6 estándares</span><span class="ci d">✓ ADR-002 … ADR-007</span><span class="ci d">✓ 5 features</span><span class="ci d">✓ 8 pantallas</span></div>
+            <p class="scom">Los seis ADR cubren exactamente lo que el framework pide fijar: stack, persistencia, cliente HTTP, pruebas, estructura y formato de fechas.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S02 · Code &amp; UI</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">02 — Code &amp; UI</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci d">✓ 10 componentes documentados</span></div>
+            <p class="scom">Cada componente del design system tiene su ficha y su contraparte real en el código (<code>AppButton</code>, <code>WeekChart</code>, <code>StatCard</code>…).</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S03 · API &amp; Data</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">03 — API &amp; Data</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci w">⚠ solo 2 endpoints</span><span class="ci w">⚠ solo 1 entidad</span></div>
+            <p class="scom">Es la sección que desentona: cinco features documentadas se apoyan en una sola entidad y dos endpoints de autenticación. Faltan las fichas de hábitos, metas y rachas.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S04 · Quality</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">04 — Quality</span>
+            <div class="cl"><span class="ci d">✓ 4/4 estándares</span><span class="ci d">✓ TC-001 … TC-004</span></div>
+            <p class="scom">Los cuatro casos de prueba atacan reglas de negocio reales (registro duplicado, cálculo de racha, meta activa única), no el framework en abstracto.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S05 · Release</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">05 — Release</span>
+            <div class="cl"><span class="ci d">✓ 4/4 estándares</span><span class="ci d">✓ releases/v1.0.0.md</span><span class="ci m">✗ 34 archivos de código fuente en el repo de docs</span></div>
+            <p class="scom">Documentación de release completa, pero volcaron el proyecto Expo entero (<code>src/</code>, <code>package-lock.json</code>) dentro de <code>05-release/</code>, teniendo el repo <code>healthy-habits-tracker</code> casi vacío.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- H-TRACKER -->
+    <div class="tc">
+      <div class="tch">
+        <div class="ttb">
+          <span class="tcn">H-Tracker</span>
+          <span class="tcr">code-corhuila / healt-track-docs</span>
+        </div>
+        <div class="mems">
+          <span class="mtag">@JuanBernalCorhuila</span>
+          <span class="mtag">@laura-marcela05</span>
+          <span class="mtag">@carloszuluaga-20</span>
+          <span class="mtag">@cristianmunoz2006</span>
+        </div>
+        <div class="pills">
+          <span class="pill g">🟢 3 llenas</span>
+          <span class="pill a">🟡 3 parciales</span>
+          <span class="pill r">🔴 0 vacías</span>
+        </div>
+      </div>
+      <div class="tcb">
+        <div class="sr">
+          <span class="scode">S00 · Governance</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">00 — Governance</span>
+            <div class="cl"><span class="ci d">✓ 5/6 estándares</span><span class="ci m">✗ README.md de la sección</span><span class="ci m">✗ sin retros</span></div>
+            <p class="scom">Los acuerdos están, pero el índice de la sección quedó sin adaptar y no hay evidencia de ceremonias ágiles ejecutadas.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S01 · Architecture</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">01 — Architecture</span>
+            <div class="cl"><span class="ci d">✓ 6/6 estándares</span><span class="ci d">✓ ADR-002/003/004</span><span class="ci d">✓ 3 features · 5 pantallas</span><span class="ci d">✓ 6 wireframes SVG</span></div>
+            <p class="scom">Único equipo que versiona los wireframes como SVG en el repo en vez de enlazar a Figma — quedan diffeables y no se pierden.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S02 · Code &amp; UI</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">02 — Code &amp; UI</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci w">⚠ solo 2 componentes (button, text-field)</span></div>
+            <p class="scom">El design system está adaptado pero apenas dos componentes tienen ficha, cuando el MVP entregado ya usa varios más.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S03 · API &amp; Data</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">03 — API &amp; Data</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci d">✓ 8 endpoints</span><span class="ci d">✓ 2 entidades</span></div>
+            <p class="scom">Contrato completo de auth, estudiantes y asistencia; cada endpoint tiene su ficha desde el template.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S04 · Quality</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">04 — Quality</span>
+            <div class="cl"><span class="ci d">✓ testing-strategy · mobile-security</span><span class="ci m">✗ performance-budgets.md</span><span class="ci m">✗ README.md</span><span class="ci w">⚠ un solo TC-001</span></div>
+            <p class="scom">Es el punto flojo del repo: un único caso de prueba para un MVP con backend y móvil, y sin presupuestos de rendimiento definidos.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S05 · Release</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">05 — Release</span>
+            <div class="cl"><span class="ci d">✓ 4/4 estándares</span><span class="ci d">✓ releases/v1.0.0.md</span><span class="ci m">✗ 63 archivos de código fuente en el repo de docs</span></div>
+            <p class="scom">El MVP completo (backend Express + Prisma y app Expo) vive en <code>05-release/mvp/</code> del repo de documentación, duplicando lo que debería estar en <code>h-tracker</code>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ATTENDANCE CONTROL -->
+    <div class="tc">
+      <div class="tch">
+        <div class="ttb">
+          <span class="tcn">Attendance Control</span>
+          <span class="tcr">code-corhuila / att-check-docs</span>
+        </div>
+        <div class="mems">
+          <span class="mtag">@Jose-1206</span>
+          <span class="mtag">@juanjoGuzmanBohorquez</span>
+          <span class="mtag">@luisfernando-77</span>
+          <span class="mtag">@feller2006</span>
+          <span class="mtag">@AndresCalle09</span>
+        </div>
+        <div class="pills">
+          <span class="pill g">🟢 1 llena</span>
+          <span class="pill a">🟡 5 parciales</span>
+          <span class="pill r">🔴 0 vacías</span>
+        </div>
+      </div>
+      <div class="tcb">
+        <div class="sr">
+          <span class="scode">S00 · Governance</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">00 — Governance</span>
+            <div class="cl"><span class="ci d">✓ 6/6 estándares adaptados</span></div>
+            <p class="scom">@luisfernando-77 cerró la sección entera él solo. Falta la evidencia de retros, que es lo único que separaría a este equipo del de Habits.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S01 · Architecture</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">01 — Architecture</span>
+            <div class="cl"><span class="ci d">✓ ADR-002 stack + 3 comparativas</span><span class="ci d">✓ discovery/ (8 documentos)</span><span class="ci m">✗ README.md · decisions/README.md</span><span class="ci m">✗ sin fichas de feature ni de pantalla</span></div>
+            <p class="scom">Inventaron una carpeta <code>discovery/</code> con muy buen material (personas, flujos, MVP scope) pero se saltaron los <code>_template-feature</code> y <code>_template-screen</code>, que son el formato que el framework pide.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S02 · Code &amp; UI</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">02 — Code &amp; UI</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci d">✓ 7 wireframes PNG</span><span class="ci m">✗ 0 componentes documentados</span></div>
+            <p class="scom">Hay pantallas dibujadas pero ningún componente con ficha, así que el design system adaptado no tiene piezas que lo instancien.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S03 · API &amp; Data</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">03 — API &amp; Data</span>
+            <div class="cl"><span class="ci d">✓ 4/5 estándares</span><span class="ci d">✓ initial-data-model · backend-traceability</span><span class="ci m">✗ README.md</span><span class="ci m">✗ sin fichas de endpoint ni de entidad</span></div>
+            <p class="scom">El backend Spring Boot entregado expone endpoints de auth, cursos, sesiones y QR que no están documentados uno a uno: la trazabilidad se apoya en un solo archivo.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S04 · Quality</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">04 — Quality</span>
+            <div class="cl"><span class="ci d">✓ testing-strategy · performance-budgets · mobile-security</span><span class="ci m">✗ README.md</span><span class="ci m">✗ 0 casos de prueba con ficha</span></div>
+            <p class="scom">Paradójico: el equipo produjo 13 documentos de QA en <code>05-release/</code> (plan, bugs, trazabilidad) pero ninguno en la sección que el framework destina a calidad.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S05 · Release</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">05 — Release</span>
+            <div class="cl"><span class="ci d">✓ RELEASE-NOTES-v1.0.0.md</span><span class="ci d">✓ 13 documentos de QA del MVP</span><span class="ci m">✗ ci-cd · signing-and-stores · observability</span><span class="ci m">✗ 48 archivos de código + un .zip</span></div>
+            <p class="scom">Tres de los cuatro estándares de release siguen tal cual vinieron: no hay pipeline, ni firma, ni observabilidad definidos. Además el MVP Java y su <code>.zip</code> están dentro del repo de docs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ICE CREAM APP -->
+    <div class="tc">
+      <div class="tch">
+        <div class="ttb">
+          <span class="tcn">Ice Cream App</span>
+          <span class="tcr">code-corhuila / ica-docs</span>
+        </div>
+        <div class="mems">
+          <span class="mtag">@AlexanderC17</span>
+          <span class="mtag">@pablo12968</span>
+          <span class="mtag">@JHcasanova</span>
+        </div>
+        <div class="pills">
+          <span class="pill g">🟢 0 llenas</span>
+          <span class="pill a">🟡 5 parciales</span>
+          <span class="pill r">🔴 1 vacía</span>
+        </div>
+      </div>
+      <div class="tcb">
+        <div class="sr">
+          <span class="scode">S00 · Governance</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">00 — Governance</span>
+            <div class="cl"><span class="ci m">✗ los 6 estándares sin tocar</span><span class="ci w">⚠ project-discovery.md (249 líneas, fuera de sitio)</span></div>
+            <p class="scom">Ninguna convención de equipo pactada: DoR, DoD, git y seguridad siguen siendo el texto genérico del framework. El discovery que escribieron pertenece a <code>01-architecture</code>, no aquí.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S01 · Architecture</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">01 — Architecture</span>
+            <div class="cl"><span class="ci d">✓ 5/6 estándares</span><span class="ci d">✓ ADR-002 stack</span><span class="ci d">✓ 15 pantallas documentadas</span><span class="ci m">✗ ADR-001 sin adaptar</span><span class="ci m">✗ sin fichas de feature</span></div>
+            <p class="scom">Quince pantallas con regiones, componentes y funcionalidad trazada — el mayor catálogo de UI del curso. Falta agrupar esas pantallas en features y fijar el patrón de estado en el ADR-001.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S02 · Code &amp; UI</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">02 — Code &amp; UI</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci m">✗ 0 componentes documentados</span></div>
+            <p class="scom">Las 15 pantallas mencionan tarjetas, selectores y barras de navegación que no tienen ficha propia: el design system queda sin piezas.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S03 · API &amp; Data</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">03 — API &amp; Data</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci d">✓ modelo-de-datos.md</span><span class="ci m">✗ sin fichas de endpoint ni de entidad</span></div>
+            <p class="scom">Hay un modelo de datos consolidado, pero ninguna entidad ni endpoint en el formato del template, que es lo que permite rastrear pantalla → endpoint → tabla.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S04 · Quality</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">04 — Quality</span>
+            <div class="cl"><span class="ci d">✓ 4/4 estándares</span><span class="ci m">✗ 0 casos de prueba</span></div>
+            <p class="scom">La estrategia está adaptada al stack pero no se ejecutó: ningún caso de prueba documentado contra las 15 pantallas.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S05 · Release</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">05 — Release</span>
+            <div class="cl"><span class="ci d">✓ 4/4 estándares</span><span class="ci d">✓ MOCKUP.md</span><span class="ci m">✗ sin release notes ni checklist</span><span class="ci m">✗ ica.app.zip (binario opaco)</span></div>
+            <p class="scom">El entregable es un <code>.zip</code> sin versionar ni describir; el repo <code>ice-cream-app</code> está vacío. Hay que publicar el código ahí y dejar aquí solo las notas de release.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEAUTY SALON -->
+    <div class="tc">
+      <div class="tch">
+        <div class="ttb">
+          <span class="tcn">Beauty Salon</span>
+          <span class="tcr">code-corhuila / beauty-salon-docs</span>
+        </div>
+        <div class="mems">
+          <span class="mtag">@LillyPuentes-2003</span>
+          <span class="mtag">@LizethC10</span>
+        </div>
+        <div class="pills">
+          <span class="pill g">🟢 4 llenas</span>
+          <span class="pill a">🟡 0 parciales</span>
+          <span class="pill r">🔴 2 vacías</span>
+        </div>
+      </div>
+      <div class="tcb">
+        <div class="sr">
+          <span class="scode">S00 · Governance</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">00 — Governance</span>
+            <div class="cl"><span class="ci d">✓ 6/6 estándares adaptados</span></div>
+            <p class="scom">Completa. Sin retros registradas, que es lo único pendiente para tener evidencia de proceso.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S01 · Architecture</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">01 — Architecture</span>
+            <div class="cl"><span class="ci d">✓ 6/6 estándares</span><span class="ci d">✓ ADR-002 … ADR-010</span><span class="ci d">✓ 5 features · 10 pantallas</span><span class="ci d">✓ mockups y flujos HTML</span></div>
+            <p class="scom">Nueve ADR propios, incluidos los que registran la migración a Ionic + Capacitor y el monorepo temporal: es el mejor rastro de decisiones del curso.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S02 · Code &amp; UI</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">02 — Code &amp; UI</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci d">✓ 5 componentes documentados</span></div>
+            <p class="scom">Componentes en español y consistentes con las pantallas que los usan.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S03 · API &amp; Data</span><span class="sico">🟢</span>
+          <div class="sdet"><span class="stit">03 — API &amp; Data</span>
+            <div class="cl"><span class="ci d">✓ 5/5 estándares</span><span class="ci d">✓ 13 endpoints</span><span class="ci d">✓ 4 entidades</span></div>
+            <p class="scom">El contrato más completo del curso: auth, catálogo, agendamiento, citas y gestión del negocio, cada uno con su ficha.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S04 · Quality</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">04 — Quality</span>
+            <div class="cl"><span class="ci m">✗ testing-strategy · performance-budgets · mobile-security · README</span></div>
+            <p class="scom">Sin tocar. Con un backend Express ya implementado y 13 endpoints especificados, no hay ninguna prueba ni presupuesto de rendimiento definido.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S05 · Release</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">05 — Release</span>
+            <div class="cl"><span class="ci m">✗ ci-cd · signing-and-stores · observability · README</span></div>
+            <p class="scom">Sin tocar. El repo <code>beauty-salon</code> ya tiene 21 commits de código: falta cerrar el ciclo documentando cómo se construye, se firma y se publica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOVIE RATER -->
+    <div class="tc">
+      <div class="tch">
+        <div class="ttb">
+          <span class="tcn">Movie Rater</span>
+          <span class="tcr">code-corhuila / mr-docs</span>
+        </div>
+        <div class="mems">
+          <span class="mtag">@11William11</span>
+          <span class="mtag">@felip442</span>
+          <span class="mtag">@Palinapau</span>
+        </div>
+        <div class="pills">
+          <span class="pill g">🟢 0 llenas</span>
+          <span class="pill a">🟡 2 parciales</span>
+          <span class="pill r">🔴 4 vacías</span>
+        </div>
+      </div>
+      <div class="tcb">
+        <div class="sr">
+          <span class="scode">S00 · Governance</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">00 — Governance</span>
+            <div class="cl"><span class="ci w">⚠ git-conventions.md (4 líneas)</span><span class="ci m">✗ DoR · DoD · agile · security · README</span></div>
+            <p class="scom">Con tres integrantes es el equipo que más necesita acuerdos escritos y el que menos tiene: cuatro líneas en un solo archivo.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S01 · Architecture</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">01 — Architecture</span>
+            <div class="cl"><span class="ci d">✓ ADR-002 stack</span><span class="ci d">✓ product-scope.md</span><span class="ci w">⚠ feature-perfil-historial.md (suelto, fuera de features/)</span><span class="ci m">✗ layers-and-state.md · ADR-001</span></div>
+            <p class="scom">Sin <code>layers-and-state.md</code> adaptado no hay patrón de estado decidido, que es la primera restricción que el framework pide fijar antes de escribir pantallas.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S02 · Code &amp; UI</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">02 — Code &amp; UI</span>
+            <div class="cl"><span class="ci m">✗ las 5 normas sin tocar</span></div>
+            <p class="scom">Sin empezar, aunque el repo <code>movie-rater</code> ya lleva 13 commits de código: se está construyendo sin estándar de UI escrito.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S03 · API &amp; Data</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">03 — API &amp; Data</span>
+            <div class="cl"><span class="ci d">✓ authentication · persistence · README</span><span class="ci d">✓ data-model.md</span><span class="ci m">✗ api-networking · offline-sync</span></div>
+            <p class="scom">El <code>data-model.md</code> es honesto: documenta que Sequelize nombra las tablas con mayúscula y que eso se aparta de la convención, en vez de esconderlo. Faltan la capa de red y la política offline.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S04 · Quality</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">04 — Quality</span>
+            <div class="cl"><span class="ci m">✗ las 4 normas sin tocar</span></div>
+            <p class="scom">Sin empezar.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S05 · Release</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">05 — Release</span>
+            <div class="cl"><span class="ci m">✗ las 4 normas sin tocar</span></div>
+            <p class="scom">Sin empezar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAM MATCH -->
+    <div class="tc">
+      <div class="tch">
+        <div class="ttb">
+          <span class="tcn">Team Match</span>
+          <span class="tcr">code-corhuila / tm-docs</span>
+        </div>
+        <div class="mems">
+          <span class="mtag">@SergioLosadaDev</span>
+        </div>
+        <div class="pills">
+          <span class="pill g">🟢 0 llenas</span>
+          <span class="pill a">🟡 1 parcial</span>
+          <span class="pill r">🔴 5 vacías</span>
+        </div>
+      </div>
+      <div class="tcb">
+        <div class="sr">
+          <span class="scode">S00 · Governance</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">00 — Governance</span>
+            <div class="cl"><span class="ci m">✗ los 6 estándares sin tocar</span></div>
+            <p class="scom">Siendo un equipo de una sola persona pesa menos que en los demás, pero DoR y DoD siguen siendo el criterio con el que se evalúa el corte.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S01 · Architecture</span><span class="sico">🟡</span>
+          <div class="sdet"><span class="stit">01 — Architecture</span>
+            <div class="cl"><span class="ci d">✓ ADR-002 stack</span><span class="ci d">✓ project-discovery.md (406 líneas)</span><span class="ci m">✗ project-structure · layers-and-state · navigation · ADR-001</span></div>
+            <p class="scom">El discovery es de los mejores escritos del curso —problema, usuarios, alcance del corte, modelo de datos y flujos en un solo documento—, pero no se tradujo en ninguna decisión de estructura, capas ni navegación.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S02 · Code &amp; UI</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">02 — Code &amp; UI</span>
+            <div class="cl"><span class="ci m">✗ las 5 normas sin tocar</span></div>
+            <p class="scom">Sin empezar.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S03 · API &amp; Data</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">03 — API &amp; Data</span>
+            <div class="cl"><span class="ci m">✗ las 5 normas sin tocar</span></div>
+            <p class="scom">El modelo de datos existe dentro del discovery pero no se llevó a esta sección, donde el framework lo espera.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S04 · Quality</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">04 — Quality</span>
+            <div class="cl"><span class="ci m">✗ las 4 normas sin tocar</span></div>
+            <p class="scom">Sin empezar.</p>
+          </div>
+        </div>
+        <div class="sr">
+          <span class="scode">S05 · Release</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">05 — Release</span>
+            <div class="cl"><span class="ci m">✗ las 4 normas sin tocar</span></div>
+            <p class="scom">Sin empezar; el repo <code>team-match</code> también está vacío.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UNI RESERVE -->
+    <div class="tc">
+      <div class="tch">
+        <div class="ttb">
+          <span class="tcn">Uni Reserve</span>
+          <span class="tcr">code-corhuila / uni-reserve-docs</span>
+        </div>
+        <div class="mems">
+          <span class="mtag">@juliangarcia8823-ux</span>
+        </div>
+        <div class="pills">
+          <span class="pill g">🟢 0 llenas</span>
+          <span class="pill a">🟡 0 parciales</span>
+          <span class="pill r">🔴 6 vacías</span>
+        </div>
+      </div>
+      <div class="tcb">
+        <div class="sr">
+          <span class="scode">S00 – S05</span><span class="sico">🔴</span>
+          <div class="sdet"><span class="stit">El repositorio nunca recibió el framework</span>
+            <div class="cl"><span class="ci m">✗ no existe ninguna de las 6 secciones</span></div>
+            <p class="scom">El repo tiene un único commit («Initial commit», 31-ago) y solo un <code>README.md</code> de dos líneas: a diferencia de los otros siete, jamás se le aplicó el commit de siembra del Mobile Governance Framework. El estudiante no tuvo sobre qué trabajar — hay que sembrarlo antes de exigirle avance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="note">
+    <strong>Cuatro hallazgos que cruzan el curso.</strong>
+    <br>1 · <strong><code>uni-reserve-docs</code> nunca fue sembrado.</strong> Es un problema de montaje, no del estudiante:
+    hay que aplicarle el mismo commit de siembra que recibieron los otros siete repos el 28 de agosto, y recién
+    entonces evaluarlo.
+    <br>2 · <strong>Tres equipos volcaron el código fuente dentro de <code>05-release/</code> del repo de docs</strong>
+    (Attendance Control, Healthy Habits, H-Tracker) y uno subió un <code>.zip</code> opaco (Ice Cream App), teniendo
+    todos su repositorio de código propio. Además de duplicar, infla el historial con <code>package-lock.json</code>
+    y hace imposible medir el avance documental sin filtrar. Conviene mover el código a su repo y dejar en
+    <code>05-release/</code> solo las notas de versión.
+    <br>3 · <strong>Quality y Release son el muro del corte.</strong> Cuatro de los ocho equipos no han tocado ninguna de
+    las dos, incluido Beauty Salon, que por lo demás es el repo con mejor rastro de decisiones (9 ADR) y el contrato
+    de API más completo. Es el corte natural para el corte 2.
+    <br>4 · <strong>Siete de 21 estudiantes no tienen un solo commit</strong> y dos más tienen aportes de una línea. En
+    H-Tracker, @JuanBernalCorhuila hizo 82 de los 85 commits de un equipo de cuatro; en Beauty Salon e Ice Cream App
+    el repo lo sostiene una sola persona. Vale la pena verificar en la sustentación quién puede explicar qué.
+  </div>
+
+</div>
+
+<div class="pf2">
+  corhuila-project-tracker · mobile-programming-2026-b · s000102030405 · 2026-09-21
+</div>
+</body>
+</html>

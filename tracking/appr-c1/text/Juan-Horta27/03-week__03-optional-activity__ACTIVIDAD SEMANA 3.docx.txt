@@ -1,0 +1,91 @@
+
+
+
+
+REQUERIMIENTOS Y CASOS DE USO DE MI APLICACIÓN
+Programación Móvil · Semana 3
+
+
+
+
+
+Juan José Horta Vanegas
+
+
+
+Ingeniería de Sistemas
+Corporación Universitaria del Huila - CORHUILA
+Facultad de Ingeniería
+
+
+
+
+Neiva - Huila
+10 de agosto de 2026
+
+Introducción
+En las semanas anteriores definí mi idea de aplicación para músicos que practican por su cuenta y la organicé en seis historias de usuario repartidas en tres sprints. En este trabajo doy el siguiente paso: escribir con precisión qué debe hacer la aplicación, para no llegar a programar con ideas a medias.
+Documento cuatro requerimientos funcionales, que son las cosas que la aplicación hace, y dos requerimientos no funcionales, que no agregan funciones nuevas sino que exigen que las que ya existen se hagan con cierta calidad. Después modelo un caso de uso completo con su flujo principal y sus flujos alternativos, y al final agrego el diagrama de casos de uso.
+Como los requerimientos y las historias de usuario son dos maneras de escribir la misma necesidad, aproveché las historias que ya tenía de la semana pasada y las volví a redactar en forma de requerimiento. En cada uno señalo de qué historia salió.
+
+1. Requerimientos funcionales
+Los requerimientos funcionales son las capacidades que la aplicación debe tener, es decir, lo que hace. Traté de escribirlos con datos concretos (cantidades, límites, rangos) para que cualquiera pueda comprobar después si se cumplieron o no, y no queden como opiniones.
+RF-01 · Cargar y convertir una partitura en PDF
+La aplicación debe permitir que el usuario seleccione un archivo PDF de máximo 10 páginas desde el almacenamiento de su celular y lo convierta en una partitura que la aplicación pueda leer y reproducir. El resultado de la conversión debe quedar disponible para que el usuario lo revise y lo corrija.
+Proviene de la historia de usuario HU-01.
+RF-02 · Reproducir la partitura
+La aplicación debe reproducir el sonido de la partitura cargada y resaltar en pantalla el compás que está sonando en ese momento. Debe permitir pausar, continuar desde el mismo punto y volver al inicio de la partitura.
+Proviene de la historia de usuario HU-02.
+RF-03 · Metrónomo con velocidad ajustable
+La aplicación debe ofrecer un metrónomo cuya velocidad se pueda ajustar entre 40 y 240 pulsos por minuto, mostrando siempre en pantalla el valor escogido. El metrónomo debe seguir sonando mientras el usuario se mueve entre pantallas dentro de la aplicación.
+Proviene de la historia de usuario HU-03.
+RF-04 · Guardar y administrar las partituras
+La aplicación debe guardar las partituras ya convertidas en una lista que muestre el nombre y la fecha de cada una, y esa lista debe seguir estando disponible después de cerrar y volver a abrir la aplicación. El usuario debe poder eliminar una partitura de la lista, confirmando antes de borrarla.
+Proviene de la historia de usuario HU-04.
+
+2. Requerimientos no funcionales
+Los requerimientos no funcionales no agregan funciones nuevas, sino que definen con qué calidad debe cumplirse lo que la aplicación ya hace. Escogí estos dos porque son los que más afectan la forma real en que un músico usaría la aplicación.
+RNF-01 · Rendimiento
+La conversión de una partitura en PDF de hasta 5 páginas debe completarse en menos de 30 segundos en un celular de gama media. Además, el cambio entre pantallas de la aplicación debe tardar menos de 2 segundos.
+Justificación: si convertir una partitura toma varios minutos, el músico prefiere seguir leyendo el PDF y la aplicación pierde sentido. Poner un número concreto permite comprobar después si se cumple.
+RNF-02 · Funcionamiento sin conexión a internet
+Una vez que una partitura está guardada en el celular, el usuario debe poder abrirla, reproducirla y usar el metrónomo con el celular en modo avión, sin ningún tipo de conexión a internet.
+Justificación: los ensayos y los salones de práctica muchas veces no tienen buena señal ni red disponible. Este requerimiento se puede verificar de forma sencilla activando el modo avión y comprobando que todo siga funcionando.
+
+3. Caso de uso
+Escogí modelar la carga de la partitura porque es la función que da origen a todas las demás: si esto falla, el resto de la aplicación no tiene con qué trabajar. También es donde más cosas se pueden salir de lo normal, y por eso es la que más flujos alternativos necesita.
+
+3.1 Flujo principal
+1. El músico abre la aplicación y selecciona la opción “Cargar partitura”.
+2. El sistema abre el explorador de archivos del celular.
+3. El músico selecciona el archivo PDF de la partitura.
+4. El sistema verifica que el archivo sea un PDF y que no tenga más de 10 páginas.
+5. El sistema convierte el contenido del PDF en una partitura y muestra el avance del proceso.
+6. El sistema muestra en pantalla la partitura convertida y avisa al usuario que puede revisarla y corregir lo que haya quedado mal.
+7. El músico confirma y el sistema guarda la partitura en su lista.
+
+3.2 Flujos alternativos
+Los flujos alternativos describen qué hace la aplicación cuando algo se sale del camino normal. La numeración indica en qué paso del flujo principal se abre cada alternativa.
+3a. El músico cierra el explorador sin escoger ningún archivo. El sistema regresa a la pantalla principal sin hacer ningún cambio.
+4a. El archivo seleccionado no es un PDF. El sistema muestra el aviso “Solo se aceptan archivos PDF” y regresa al paso 2 para que el usuario escoja otro archivo.
+4b. El PDF tiene más de 10 páginas. El sistema informa cuál es el límite permitido y regresa al paso 2.
+5a. El sistema no logra reconocer el contenido del PDF, por ejemplo porque la hoja está escaneada torcida, borrosa o escrita a mano. El sistema muestra un mensaje explicando que no pudo leer la partitura, sugiere intentar con un archivo de mejor calidad y regresa al paso 2.
+7a. El celular no tiene espacio suficiente para guardar la partitura. El sistema avisa al usuario y mantiene la partitura en pantalla sin guardarla, para que él decida si libera espacio e intenta de nuevo.
+
+
+4. Diagrama de casos de uso
+El diagrama muestra de forma general quiénes interactúan con la aplicación y qué puede hacer cada uno. El detalle de los pasos no va aquí, sino en la descripción del caso de uso del punto anterior.
+
+Figura 1. Diagrama de casos de uso de la aplicación.
+
+El músico es el actor principal y es quien realiza las cuatro acciones. El almacenamiento del celular aparece como actor secundario porque no es una persona, pero sí es algo externo a la aplicación con lo que esta tiene que interactuar para poder obtener el archivo PDF.
+Conclusión
+Escribir los requerimientos me hizo caer en cuenta de que varias cosas que yo daba por obvias en realidad no lo eran. Cuando tocó ponerle números a cada requerimiento, tuve que decidir cosas que antes tenía sin definir, como cuántas páginas acepta la aplicación o cuánto es demasiado tiempo esperando una conversión.
+El caso de uso fue lo que más me sirvió. Al escribir los flujos alternativos me di cuenta de que la mayoría del trabajo no está en que todo salga bien, sino en decidir qué hace la aplicación cuando algo sale mal, que en mi caso va a pasar seguido porque las partituras escaneadas no siempre están en buenas condiciones.
+Nombre del caso de uso | CU-01 · Cargar una partitura en PDF
+Actor principal | Músico que practica solo
+Actor secundario | Almacenamiento del celular (entrega el archivo PDF)
+Objetivo | Que el músico convierta una partitura que tiene en PDF en una partitura que la aplicación pueda leer y reproducir.
+Precondición | El usuario tiene la aplicación instalada y abierta, y el archivo PDF de la partitura ya está guardado en su celular.
+Postcondición | La partitura queda convertida y guardada en la lista de partituras del usuario.
+Requerimiento asociado | RF-01

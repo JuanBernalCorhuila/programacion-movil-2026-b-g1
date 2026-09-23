@@ -1,0 +1,188 @@
+{
+ "ahead_by": 18,
+ "behind_by": 5,
+ "commits": [
+  {
+   "sha": "778eb7fa0b",
+   "author_date": "2026-08-11T01:00:21Z",
+   "committer_date": "2026-08-11T01:00:21Z",
+   "msg": "Create README.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "1333568a74",
+   "author_date": "2026-08-11T01:05:41Z",
+   "committer_date": "2026-08-11T01:05:41Z",
+   "msg": "Update README.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "6d7d5f9dc5",
+   "author_date": "2026-08-11T01:06:37Z",
+   "committer_date": "2026-08-11T01:06:37Z",
+   "msg": "Update README.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "833be5371e",
+   "author_date": "2026-08-11T01:12:11Z",
+   "committer_date": "2026-08-11T01:12:11Z",
+   "msg": "Update README.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "75bdc7e84e",
+   "author_date": "2026-08-11T01:15:12Z",
+   "committer_date": "2026-08-11T01:15:12Z",
+   "msg": "Update README.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "28bb2f0091",
+   "author_date": "2026-08-11T01:18:09Z",
+   "committer_date": "2026-08-11T01:18:09Z",
+   "msg": "Update README.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "e8a9ed0bf7",
+   "author_date": "2026-08-30T00:41:44Z",
+   "committer_date": "2026-08-30T00:41:44Z",
+   "msg": "activity 1 delivery",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "f259019958",
+   "author_date": "2026-08-31T15:25:08Z",
+   "committer_date": "2026-08-31T15:25:08Z",
+   "msg": "Update README.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "7bbf83eb5c",
+   "author_date": "2026-08-31T15:31:11Z",
+   "committer_date": "2026-08-31T15:31:48Z",
+   "msg": "Week 02 Submission",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "a1490ba5cf",
+   "author_date": "2026-08-31T15:36:39Z",
+   "committer_date": "2026-08-31T15:36:39Z",
+   "msg": "Week 02 Submission",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "4e83c20b47",
+   "author_date": "2026-08-31T15:56:57Z",
+   "committer_date": "2026-08-31T15:56:57Z",
+   "msg": "Week 04 Submission",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "bfa1b8d249",
+   "author_date": "2026-08-31T16:04:46Z",
+   "committer_date": "2026-08-31T16:04:46Z",
+   "msg": "Week 04 Submission",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "fabfc77099",
+   "author_date": "2026-08-31T16:08:47Z",
+   "committer_date": "2026-08-31T16:08:47Z",
+   "msg": "Week 04 Submission",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "fc8ab66934",
+   "author_date": "2026-08-31T16:09:32Z",
+   "committer_date": "2026-08-31T16:09:32Z",
+   "msg": "Update inicio.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "5feed1dbbc",
+   "author_date": "2026-08-31T16:10:00Z",
+   "committer_date": "2026-08-31T16:10:00Z",
+   "msg": "Update materia.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "37bd47522d",
+   "author_date": "2026-08-31T16:10:27Z",
+   "committer_date": "2026-08-31T16:10:27Z",
+   "msg": "Update navegacion.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "7aee9618bc",
+   "author_date": "2026-08-31T16:10:45Z",
+   "committer_date": "2026-08-31T16:10:45Z",
+   "msg": "Update notas.md",
+   "author": "carloszuluaga-20"
+  },
+  {
+   "sha": "4e4563b853",
+   "author_date": "2026-08-31T16:11:08Z",
+   "committer_date": "2026-08-31T16:11:08Z",
+   "msg": "Update notas.md",
+   "author": "carloszuluaga-20"
+  }
+ ],
+ "files": [
+  {
+   "filename": "01-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 27,
+   "changes": 27
+  },
+  {
+   "filename": "02-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 97,
+   "changes": 97
+  },
+  {
+   "filename": "03-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 55,
+   "changes": 55
+  },
+  {
+   "filename": "04-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 71,
+   "changes": 71
+  },
+  {
+   "filename": "04-week/03-optional-activity/inicio.md",
+   "status": "added",
+   "additions": 1,
+   "changes": 1
+  },
+  {
+   "filename": "04-week/03-optional-activity/materia.md",
+   "status": "added",
+   "additions": 1,
+   "changes": 1
+  },
+  {
+   "filename": "04-week/03-optional-activity/navegacion.md",
+   "status": "added",
+   "additions": 1,
+   "changes": 1
+  },
+  {
+   "filename": "04-week/03-optional-activity/notas.md",
+   "status": "added",
+   "additions": 1,
+   "changes": 1
+  },
+  {
+   "filename": "04-week/entrega-corte-1/README.md",
+   "status": "added",
+   "additions": 138,
+   "changes": 138
+  }
+ ]
+}

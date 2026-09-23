@@ -1,0 +1,73 @@
+{
+ "ahead_by": 5,
+ "behind_by": 1,
+ "commits": [
+  {
+   "sha": "454456b837",
+   "author_date": "2026-08-30T17:54:45Z",
+   "committer_date": "2026-08-30T17:54:45Z",
+   "msg": "Add Shopping List project",
+   "author": "feller2006"
+  },
+  {
+   "sha": "cb66b8f78e",
+   "author_date": "2026-08-31T19:31:06Z",
+   "committer_date": "2026-08-31T19:31:06Z",
+   "msg": "Add analysis and MVP definition for new app",
+   "author": "feller2006"
+  },
+  {
+   "sha": "a630c7b29a",
+   "author_date": "2026-08-31T19:44:09Z",
+   "committer_date": "2026-08-31T19:44:09Z",
+   "msg": "Create agile backlog for attendance application",
+   "author": "feller2006"
+  },
+  {
+   "sha": "69aeb7c65e",
+   "author_date": "2026-08-31T19:54:18Z",
+   "committer_date": "2026-08-31T19:54:18Z",
+   "msg": "Add requirements and use case for attendance application",
+   "author": "feller2006"
+  },
+  {
+   "sha": "f68b6e3e07",
+   "author_date": "2026-08-31T20:56:48Z",
+   "committer_date": "2026-08-31T20:56:48Z",
+   "msg": "Add data model and application design documentation",
+   "author": "feller2006"
+  }
+ ],
+ "files": [
+  {
+   "filename": "01-week/03-optional-activity/actividad-semana-01.md",
+   "status": "added",
+   "additions": 47,
+   "changes": 47
+  },
+  {
+   "filename": "02-week/03-optional-activity/backlog.md",
+   "status": "added",
+   "additions": 95,
+   "changes": 95
+  },
+  {
+   "filename": "03-week/03-optional-activity/requerimientos.md",
+   "status": "added",
+   "additions": 78,
+   "changes": 78
+  },
+  {
+   "filename": "04-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 106,
+   "changes": 106
+  },
+  {
+   "filename": "04-week/03-optional-activity/modelo-datos.md",
+   "status": "added",
+   "additions": 103,
+   "changes": 103
+  }
+ ]
+}

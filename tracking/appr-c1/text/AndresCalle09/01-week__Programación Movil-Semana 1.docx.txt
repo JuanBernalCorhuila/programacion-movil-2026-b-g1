@@ -1,0 +1,44 @@
+Programación Movil 
+
+
+
+
+ Semana 1 
+
+
+
+Analiza apps y define un MVP
+
+
+Andrés Felipe Calle Gonzalez
+
+
+Ingeniería de sistemas 
+
+
+
+
+
+
+
+
+2. IDEA DE APP 
+Nombre tentativo: GastoClaro
+Problema que resuelve: Muchas personas (especialmente estudiantes y jóvenes profesionales) no saben en qué se les va el dinero cada mes porque registran sus gastos en varios lugares (efectivo, tarjeta, transferencias) y nunca los consolidan.
+Para quién es (público objetivo): Estudiantes y jóvenes que reciben mesada, salario o ingresos por trabajos independientes y quieren controlar sus gastos sin usar hojas de cálculo complicadas.
+3 funciones imprescindibles (MVP):
+Registrar un gasto rápido con categoría (comida, transporte, ocio, etc.).
+Ver un resumen mensual de cuánto se gastó por categoría.
+Definir un límite de gasto mensual y recibir una alerta al acercarse a él.
+3.JUSTIFICACIÓN DE TECNOLOGIA SUGERIDA
+Híbrida (Flutter/React Native) — no necesita hardware avanzado, se beneficia de un desarrollo rápido para las dos plataformas, y permite iterar fácil si más adelante quieres agregar gráficos o sincronización con banco.
+
+
+
+
+
+
+App | Tipo probable | Función MVP 1 | Función MVP 2 | Función MVP 3
+Whatsapp | Híbrida | Enviar/recibir mensajes | Estado en línea | Enviar multimedia
+Spotify | Nativa | Buscar y reproducir canciones | Crear playlists | Control desde bloqueo
+Mercado Libre | Web/Híbrida | Buscar productos | Ver detalle de producto | Carrito y compra

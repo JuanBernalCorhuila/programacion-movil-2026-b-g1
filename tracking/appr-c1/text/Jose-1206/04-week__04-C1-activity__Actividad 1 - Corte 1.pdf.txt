@@ -1,0 +1,253 @@
+AsistApp — Sistema de Control de Asistencia Universitaria 
+Un espacio ligero, centralizado y enfocado exclusivamente en resolver un problema 
+concreto: que docentes y estudiantes puedan registrar y consultar la asistencia de 
+forma confiable, sin depender de papel, hojas de cálculo dispersas o procesos 
+manuales propensos a errores. 
+1. CONTEXTO Y JUSTIFICACIÓN DEL PROYECTO 
+En la mayoría de las universidades, el control de asistencia sigue dependiendo de 
+métodos manuales: listas impresas que el docente firma clase por clase, hojas de 
+cálculo que cada profesor administra por su cuenta, o incluso el simple recuerdo de 
+quién asistió. Este enfoque funciona mientras el número de estudiantes y clases es 
+pequeño, pero se vuelve insostenible cuando un docente maneja varios grupos, o 
+cuando un estudiante cursa múltiples materias con distintos profesores. 
+Además, este método manual genera un problema adicional: la información no está 
+centralizada. Si un estudiante quiere saber cuántas faltas lleva en una materia, 
+generalmente debe preguntarle directamente al docente, esperar una respuesta, o 
+esperar hasta el corte académico para enterarse de su situación, momento en el cual 
+muchas veces ya es demasiado tarde para corregir el rumbo. 
+AsistApp nace como respuesta directa a este problema: una herramienta simple, 
+enfocada y de bajo costo de adopción, que digitaliza únicamente el flujo esencial de 
+asistencia, sin intentar reemplazar todo el sistema académico de la universidad. 
+ 
+2. OVERVIEW DEL PROYECTO 
+Público objetivo: Docentes y estudiantes de pregrado y posgrado en instituciones 
+universitarias. 
+ Etapa del proyecto: MVP (Producto Mínimo Viable). 
+ Objetivo principal: Registro y consulta centralizada de asistencia, con visibilidad 
+inmediata del porcentaje acumulado. 
+ Excluido del MVP: Notificaciones automáticas, reportes y estadísticas avanzadas, 
+integración con código QR, reconocimiento facial, sincronización con calendarios 
+externos, integración con sistemas académicos institucionales (SIA, Banner, etc.). 
+ Tipo de aplicación: Híbrida (Ionic + React). 
+ Metodología de trabajo: Scrum, organizado en 3 sprints. 
+ Plataformas objetivo: Android e iOS (a través de una sola base de código). 
+ 
+
+3. PROBLEMA (PROBLEM STATEMENT) 
+El registro de asistencia en muchas universidades todavía se hace en papel o en hojas 
+de cálculo aisladas, sin un sistema centralizado que docentes y estudiantes puedan 
+consultar en tiempo real. Esta fragmentación de la información no solo afecta la 
+eficiencia del proceso, sino que también genera desconfianza: es común que existan 
+discrepancias entre lo que el docente registró y lo que el estudiante cree que asistió, 
+sin una fuente única de verdad a la cual acudir. 
+Consecuencias concretas de este problema: 
+• Errores y pérdida de información al transcribir datos manualmente entre listas 
+físicas y archivos digitales. 
+• Demoras para calcular el porcentaje de asistencia de cada estudiante, 
+especialmente en cursos numerosos. 
+• Falta de visibilidad para que el estudiante conozca a tiempo si está en riesgo de 
+perder una materia por inasistencias, lo que reduce su capacidad de reacción. 
+• Sobrecarga administrativa para el docente, quien debe llevar registros paralelos 
+en papel y en digital. 
+• Dificultad para auditar el historial de asistencia en caso de reclamos o 
+discrepancias entre docente y estudiante. 
+ 
+4. PÚBLICO OBJETIVO Y PERFILES DE USUARIO 
+Perfil 1 — Docente 
+ Profesor universitario que dicta una o varias materias por semestre. Necesita una 
+forma rápida de tomar asistencia al inicio de cada clase, sin procesos complicados, 
+idealmente en menos de un minuto por grupo. 
+Perfil 2 — Estudiante 
+ Estudiante matriculado en una o varias materias. Necesita poder consultar en 
+cualquier momento su historial de asistencia y su porcentaje acumulado por materia, 
+sin depender de que el docente le informe manualmente. 
+Estos dos perfiles son suficientes para el alcance del MVP; un tercer perfil (por 
+ejemplo, coordinador académico o administrador) queda fuera de esta primera versión 
+y se evaluará en fases posteriores del producto. 
+ 
+5. MVP: FUNCIONES IMPRESCINDIBLES 
+
+El MVP se limita intencionalmente a tres funciones, priorizando la validación del flujo 
+central sobre la cantidad de características: 
+1. Autenticación por rol 
+ Inicio de sesión diferenciado para docentes y estudiantes, cada uno con su 
+propia vista y permisos. Esta función es la base sobre la cual se construyen las 
+demás, ya que sin ella no es posible distinguir qué puede hacer cada tipo de 
+usuario dentro de la aplicación. 
+2. Registro de asistencia 
+ El docente selecciona una clase de su lista y marca a cada estudiante como 
+presente, ausente o con tardanza. Esta es la función central del producto: si 
+esta pieza no funciona bien, el resto de la aplicación pierde sentido. 
+3. Historial y porcentaje de asistencia 
+ El estudiante consulta su historial de asistencia por clase, así como su 
+porcentaje acumulado. Esta función cierra el ciclo de valor: el dato que el 
+docente registra se traduce en información útil y accionable para el estudiante. 
+Funciones explícitamente excluidas del MVP y su justificación: 
+• Notificaciones automáticas: aportan valor, pero no son indispensables para 
+validar si el flujo básico de registro y consulta funciona. 
+• Reportes y estadísticas avanzadas: requieren mayor tiempo de desarrollo y 
+dependen de tener datos reales acumulados primero. 
+• Código QR o reconocimiento facial: añaden complejidad técnica y de 
+infraestructura que no se justifica antes de validar la idea central con usuarios 
+reales. 
+• Integración con sistemas institucionales: implica coordinación externa con la 
+universidad, fuera del alcance de un proyecto académico inicial. 
+ 
+6. TIPO DE APLICACIÓN Y METODOLOGÍA 
+6.1 Tipo de aplicación: Híbrida (Ionic + React) 
+Se elige desarrollar una aplicación híbrida, utilizando Ionic con React, ya que permite 
+mantener una sola base de código para dispositivos Android e iOS, además de 
+aprovechar tecnologías web ya conocidas por el equipo de desarrollo. Esta decisión 
+responde a varias razones concretas: 
+• Reduce el tiempo y el presupuesto de desarrollo frente a construir dos 
+aplicaciones nativas independientes (una en Kotlin/Swift para cada plataforma). 
+• No requiere hardware especializado, como un equipo Mac, para compilar y 
+probar la versión de iOS durante todo el proceso de desarrollo. 
+
+• Permite reutilizar componentes web y bibliotecas ya existentes, acelerando la 
+construcción de pantallas comunes como login, listas y formularios. 
+• Facilita el mantenimiento a largo plazo, ya que los cambios se hacen una sola 
+vez y se reflejan en ambas plataformas. 
+Como contraparte, se asume que el rendimiento podría ser ligeramente inferior al de 
+una app nativa en animaciones muy complejas, pero para el alcance de este MVP 
+(formularios, listas y navegación simple) esta diferencia no representa un riesgo 
+relevante. 
+6.2 Metodología: Scrum 
+Se elige Scrum como metodología de trabajo porque permite dividir el desarrollo en 
+sprints cortos con entregas parciales funcionales, lo cual resulta especialmente útil en 
+un proyecto académico donde se necesita mostrar avances evaluables de forma 
+progresiva. Además: 
+• Favorece la retroalimentación temprana de docentes y estudiantes reales antes 
+de completar todo el producto. 
+• Permite reordenar el backlog si durante un sprint se descubre que una 
+funcionalidad es más urgente que otra. 
+• Se adapta bien a equipos pequeños, típicos de un contexto universitario, sin la 
+sobrecarga de procesos de metodologías más pesadas. 
+• Facilita medir el progreso real del equipo mediante entregas incrementales, en 
+lugar de depender de un único entregable final. 
+ 
+7. BACKLOG PRIORIZADO (3 SPRINTS) 
+Sprint 1 — Base del proyecto y autenticación 
+ Objetivo del sprint: dejar lista la estructura inicial de la aplicación y el flujo de acceso 
+diferenciado por rol. 
+HU1. Inicio de sesión del docente 
+ Como docente, quiero iniciar sesión con mis credenciales, para poder acceder a las 
+clases que tengo asignadas. 
+Criterios de aceptación: 
+• Con credenciales válidas, el docente accede a su panel de clases. 
+• Con credenciales inválidas, el sistema muestra un mensaje de error sin indicar 
+cuál dato falló, por seguridad. 
+
+• El sistema reconoce el rol "docente" y muestra únicamente las opciones 
+correspondientes a ese rol. 
+• Si el docente cierra la aplicación y vuelve a abrirla, el sistema le solicita 
+nuevamente sus credenciales (sin sesión persistente en el MVP). 
+HU2. Inicio de sesión del estudiante 
+ Como estudiante, quiero iniciar sesión con mis credenciales, para poder consultar mi 
+información de asistencia. 
+Criterios de aceptación: 
+• Con credenciales válidas, el estudiante accede a su panel personal. 
+• Con credenciales inválidas, el sistema muestra un mensaje de error claro y 
+genérico. 
+• El sistema reconoce el rol "estudiante" y restringe el acceso a funciones 
+exclusivas de docentes. 
+• La pantalla de login debe funcionar correctamente tanto en Android como en 
+iOS. 
+Sprint 2 — Registro de asistencia 
+ Objetivo del sprint: permitir que el docente registre la asistencia real de sus clases, 
+que es el núcleo funcional del producto. 
+HU3. Selección de clase y listado de estudiantes 
+ Como docente, quiero seleccionar una de mis clases y ver la lista de estudiantes 
+inscritos, para poder registrar la asistencia del día. 
+Criterios de aceptación: 
+• Al seleccionar una clase, el sistema muestra la lista completa de estudiantes 
+matriculados en ella. 
+• Si la clase no tiene estudiantes registrados, el sistema muestra un mensaje 
+indicándolo, en lugar de una pantalla vacía. 
+• La lista se muestra ordenada alfabéticamente por nombre para facilitar su 
+lectura. 
+• El docente puede ver claramente la fecha para la cual está registrando la 
+asistencia. 
+HU4. Registro de estado de asistencia 
+ Como docente, quiero marcar a cada estudiante como presente, ausente o con 
+tardanza, para llevar un control preciso de la asistencia de la clase. 
+Criterios de aceptación: 
+
+• Al marcar un estado por estudiante, el sistema guarda ese registro asociado a la 
+fecha y a la clase correspondiente. 
+• El docente solo puede guardar el registro cuando ha marcado el estado de todos 
+los estudiantes de la lista. 
+• Una vez guardado el registro de un día, el sistema no permite duplicarlo sin que 
+el docente lo edite explícitamente. 
+• El sistema muestra una confirmación visual cuando el registro se guarda 
+correctamente. 
+Sprint 3 — Consulta de historial 
+ Objetivo del sprint: cerrar el ciclo de valor entregando al estudiante información clara 
+sobre su situación de asistencia. 
+HU5. Consulta de historial de asistencia 
+ Como estudiante, quiero ver el historial de mis asistencias, ausencias y tardanzas por 
+clase, para conocer mi situación académica. 
+Criterios de aceptación: 
+• El estudiante ve un listado cronológico de sus registros, organizado por clase. 
+• Cada registro muestra fecha, clase y estado (presente, ausente o tardanza). 
+• Si el estudiante no tiene registros aún, el sistema muestra un mensaje 
+indicándolo, en lugar de una lista vacía sin explicación. 
+• El historial se puede consultar sin necesidad de conexión a internet constante, 
+salvo para sincronizar nuevos registros. 
+HU6. Consulta de porcentaje de asistencia 
+ Como estudiante, quiero ver mi porcentaje de asistencia por clase, para saber si estoy 
+en riesgo de perder la materia por inasistencias. 
+Criterios de aceptación: 
+• El sistema calcula el porcentaje de asistencia (asistencias sobre el total de 
+clases registradas) para cada materia. 
+• El cálculo se actualiza automáticamente cada vez que el docente registra una 
+nueva asistencia. 
+• El porcentaje se muestra de forma independiente por cada clase, no como un 
+total general mezclado. 
+• Si el porcentaje calculado no es válido (por ejemplo, cero clases registradas), el 
+sistema muestra un mensaje explicativo en lugar de un error o un dato 
+incorrecto. 
+ 
+
+8. CRITERIOS GENERALES DE "DEFINITION OF DONE" 
+Para que una historia de usuario se considere terminada dentro de cualquier sprint, 
+debe cumplir con lo siguiente: 
+• La funcionalidad fue desarrollada y probada manualmente en al menos un 
+dispositivo Android y uno iOS (o emulador equivalente). 
+• Todos los criterios de aceptación de la historia fueron verificados uno por uno. 
+• El código correspondiente fue subido al repositorio del proyecto mediante 
+commit y push. 
+• No se introdujeron errores nuevos que afecten funcionalidades de sprints 
+anteriores. 
+• La pantalla o funcionalidad fue revisada al menos una vez por otro integrante del 
+equipo (revisión de pares), cuando el proyecto se desarrolle en grupo. 
+ 
+9. RIESGOS Y SUPUESTOS 
+Riesgos identificados: 
+• Que el tiempo disponible en el semestre no alcance para completar los tres 
+sprints con la calidad esperada. 
+• Que la conexión a internet en algunas zonas de la universidad no sea estable, 
+afectando el registro en tiempo real. 
+• Que el número real de estudiantes por clase sea mayor al esperado, afectando 
+el rendimiento de las listas si no se optimizan a tiempo. 
+Supuestos del proyecto: 
+• Se asume que cada docente y estudiante contará con credenciales previamente 
+creadas (la creación de cuentas administrativas no forma parte del MVP). 
+• Se asume que cada estudiante está matriculado en clases específicas antes de 
+usar la aplicación. 
+• Se asume acceso a un dispositivo móvil compatible con Android o iOS por parte 
+de ambos tipos de usuario. 
+ 
+10. ALCANCE FUTURO (FUERA DEL MVP) 
+Aunque no forman parte de esta primera entrega, se identifican posibles mejoras para 
+futuras iteraciones del producto, una vez validado el MVP con usuarios reales: 
+
+• Notificaciones automáticas cuando el porcentaje de asistencia de un 
+estudiante baje de un umbral definido. 
+• Reportes y estadísticas avanzadas para docentes, con gráficas de asistencia por 
+grupo. 
+• Registro de asistencia mediante código QR generado por clase. 
+• Exportación de reportes de asistencia en PDF o Excel para uso administrativo. 
+• Integración con sistemas académicos institucionales existentes en la 
+universidad. 
+ 

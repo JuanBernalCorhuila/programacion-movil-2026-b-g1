@@ -1,0 +1,821 @@
+[
+ {
+  "user": "11William11",
+  "file": "04-week__README.md",
+  "chars": 6127,
+  "words": 908,
+  "ok": true
+ },
+ {
+  "user": "AndresCalle09",
+  "file": "01-week__Programación Movil-Semana 1.docx",
+  "chars": 1450,
+  "words": 208,
+  "ok": true
+ },
+ {
+  "user": "AndresCalle09",
+  "file": "01-week__README.md",
+  "chars": 454,
+  "words": 67,
+  "ok": true
+ },
+ {
+  "user": "AndresCalle09",
+  "file": "02-week__README.md",
+  "chars": 454,
+  "words": 67,
+  "ok": true
+ },
+ {
+  "user": "AndresCalle09",
+  "file": "03-week__README.md",
+  "chars": 454,
+  "words": 67,
+  "ok": true
+ },
+ {
+  "user": "AndresCalle09",
+  "file": "04-week__README.md",
+  "chars": 454,
+  "words": 67,
+  "ok": true
+ },
+ {
+  "user": "AndresCalle09",
+  "file": "04-week__actividad 1.docx",
+  "chars": 9034,
+  "words": 1318,
+  "ok": true
+ },
+ {
+  "user": "AndresCalle09",
+  "file": "05-week__README.md",
+  "chars": 454,
+  "words": 67,
+  "ok": true
+ },
+ {
+  "user": "Andresfg20",
+  "file": "01-week__01-session__01-WEEK",
+  "chars": 2350,
+  "words": 286,
+  "ok": true
+ },
+ {
+  "user": "Andresfg20",
+  "file": "01-week__hu-status__README.md",
+  "chars": 362,
+  "words": 56,
+  "ok": true
+ },
+ {
+  "user": "Andresfg20",
+  "file": "02-week__hu-status__README.md",
+  "chars": 362,
+  "words": 56,
+  "ok": true
+ },
+ {
+  "user": "Andresfg20",
+  "file": "03-week__hu-status__README.md",
+  "chars": 362,
+  "words": 56,
+  "ok": true
+ },
+ {
+  "user": "Andresfg20",
+  "file": "04-week__hu-status__README.md",
+  "chars": 362,
+  "words": 56,
+  "ok": true
+ },
+ {
+  "user": "Andresfg20",
+  "file": "05-week__hu-status__README.md",
+  "chars": 362,
+  "words": 56,
+  "ok": true
+ },
+ {
+  "user": "Daniel666-ui",
+  "file": "04-week__03-optional-activity__CampusTask_Entrega.zip",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "JHcasanova",
+  "file": "04-week__actividad1.md",
+  "chars": 7898,
+  "words": 1091,
+  "ok": true
+ },
+ {
+  "user": "Jose-1206",
+  "file": "01-week__03-optional-activity__Idea móvil (1).pdf",
+  "chars": 3060,
+  "words": 453,
+  "ok": true
+ },
+ {
+  "user": "Jose-1206",
+  "file": "01-week__03-optional-activity__Tabla Comparativa.jpeg",
+  "chars": 30,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "Jose-1206",
+  "file": "02-week__03-optional-activity__Optional-Activity-02.pdf",
+  "chars": 2956,
+  "words": 411,
+  "ok": true
+ },
+ {
+  "user": "Jose-1206",
+  "file": "03-week__03-optional-activity__Optional-Activity-03.pdf",
+  "chars": 4942,
+  "words": 708,
+  "ok": true
+ },
+ {
+  "user": "Jose-1206",
+  "file": "04-week__03-optional-activity__Optional-Activity-04.pdf",
+  "chars": 4323,
+  "words": 571,
+  "ok": true
+ },
+ {
+  "user": "Jose-1206",
+  "file": "04-week__04-C1-activity__Actividad 1 - Corte 1.pdf",
+  "chars": 14215,
+  "words": 2095,
+  "ok": true
+ },
+ {
+  "user": "Jose-1206",
+  "file": "04-week__04-C1-activity__README.md",
+  "chars": 1350,
+  "words": 202,
+  "ok": true
+ },
+ {
+  "user": "Jose-1206",
+  "file": "05-week__03-optional-activity__README.md",
+  "chars": 26868,
+  "words": 2619,
+  "ok": true
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "01-week__03-optional-activity__AVANCE ACTIVIDAD SEMANA 1.docx",
+  "chars": 5998,
+  "words": 1027,
+  "ok": true
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "02-week__03-optional-activity__ACTIVIDAD SEMANA 2.docx",
+  "chars": 7264,
+  "words": 1251,
+  "ok": true
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "03-week__03-optional-activity__ACTIVIDAD SEMANA 3.docx",
+  "chars": 7775,
+  "words": 1314,
+  "ok": true
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "04-week__03-optional-activity__ACTIVIDAD SEMANA 4__ACTIVIDAD-SEMANA4.docx",
+  "chars": 136,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "04-week__03-optional-activity__ACTIVIDAD SEMANA 4__mapa_navegacion.png",
+  "chars": 30,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "04-week__03-optional-activity__ACTIVIDAD SEMANA 4__modelo_datos.png",
+  "chars": 30,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "04-week__03-optional-activity__ACTIVIDAD SEMANA 4__wireframe_1.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "04-week__03-optional-activity__ACTIVIDAD SEMANA 4__wireframe_2.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "04-week__03-optional-activity__ACTIVIDAD SEMANA 4__wireframe_3.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "Juan-Horta27",
+  "file": "04-week__README.md",
+  "chars": 8386,
+  "words": 1377,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "01-week__03-optional-activity__OPTIONAL ACTIVITY 1.pdf",
+  "chars": 4050,
+  "words": 600,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "02-week__03-optional-activity__Optional Activity 2.pdf",
+  "chars": 5253,
+  "words": 806,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "03-week__03-optional-activity__Optional Activity 3.pdf",
+  "chars": 3462,
+  "words": 549,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "04-week__03-optional-activity__Modelo-datos-mockups.md",
+  "chars": 5481,
+  "words": 812,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "04-week__03-optional-activity__mapa-navegacion.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "04-week__03-optional-activity__wireframe-medicamentos.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "04-week__03-optional-activity__wireframe-pantalla-principal.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "04-week__03-optional-activity__wireframe-sintomas.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "04-week__c1 - Activity__README.md",
+  "chars": 6961,
+  "words": 1082,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__README.md",
+  "chars": 2714,
+  "words": 407,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__anexos__01-idea-mvp.md",
+  "chars": 2351,
+  "words": 370,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__anexos__02-backlog.md",
+  "chars": 4524,
+  "words": 693,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__anexos__03-requerimientos-caso-uso.md",
+  "chars": 3360,
+  "words": 543,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__anexos__04-modelo-datos-wireframes.md",
+  "chars": 5100,
+  "words": 743,
+  "ok": true
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__anexos__mapa-navegacion.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__anexos__wireframe-medicamentos.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__anexos__wireframe-pantalla-principal.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "file": "05-week__03-optional-activity__anexos__wireframe-sintomas.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "LillyPuentes-2003",
+  "file": "04-week__01-session__README.md",
+  "chars": 19733,
+  "words": 3217,
+  "ok": true
+ },
+ {
+  "user": "LillyPuentes-2003",
+  "file": "04-week__01-session__bpmn-manicita.html",
+  "chars": 15382,
+  "words": 2327,
+  "ok": true
+ },
+ {
+  "user": "LillyPuentes-2003",
+  "file": "04-week__01-session__c4-nivel1-manicita.html",
+  "chars": 10215,
+  "words": 1611,
+  "ok": true
+ },
+ {
+  "user": "Lozano-027",
+  "file": "04-week__03-optional-activity__Corte 1 — Planificación del proyecto móvil.md",
+  "chars": 7736,
+  "words": 1015,
+  "ok": true
+ },
+ {
+  "user": "Palinapau",
+  "file": "04-week__03-optional-activity__Actividad 4 PM.pdf",
+  "chars": 3256,
+  "words": 470,
+  "ok": true
+ },
+ {
+  "user": "Palinapau",
+  "file": "04-week__03-optional-activity__README.md",
+  "chars": 575,
+  "words": 98,
+  "ok": true
+ },
+ {
+  "user": "SergioLosadaDev",
+  "file": "01-week__03-optional-activity__practice-activity.md",
+  "chars": 4453,
+  "words": 587,
+  "ok": true
+ },
+ {
+  "user": "SergioLosadaDev",
+  "file": "02-week__03-optional-activity__practice-activity.md",
+  "chars": 5312,
+  "words": 568,
+  "ok": true
+ },
+ {
+  "user": "SergioLosadaDev",
+  "file": "03-week__03-optional-activity__practice-activity.md",
+  "chars": 8769,
+  "words": 687,
+  "ok": true
+ },
+ {
+  "user": "SergioLosadaDev",
+  "file": "04-week__01-session__tm-planning.md",
+  "chars": 10844,
+  "words": 1209,
+  "ok": true
+ },
+ {
+  "user": "SergioLosadaDev",
+  "file": "04-week__03-optional-activity__practice-activity.md",
+  "chars": 14057,
+  "words": 821,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "01-week__03-optional-activity__README.md",
+  "chars": 1658,
+  "words": 269,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "02-week__03-optional-activity__README.md",
+  "chars": 2583,
+  "words": 335,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "03-week__03-optional-activity__README.md",
+  "chars": 1841,
+  "words": 269,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "04-week__03-optional-activity__README.md",
+  "chars": 1323,
+  "words": 188,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "04-week__03-optional-activity__inicio.md",
+  "chars": 134,
+  "words": 19,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "04-week__03-optional-activity__materia.md",
+  "chars": 135,
+  "words": 19,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "04-week__03-optional-activity__navegacion.md",
+  "chars": 137,
+  "words": 19,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "04-week__03-optional-activity__notas.md",
+  "chars": 132,
+  "words": 19,
+  "ok": true
+ },
+ {
+  "user": "carloszuluaga-20",
+  "file": "04-week__entrega-corte-1__README.md",
+  "chars": 6086,
+  "words": 821,
+  "ok": true
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "01-week__03-optional-activity__optional_activity_week_1.pdf",
+  "chars": 1821,
+  "words": 262,
+  "ok": true
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "02-week__03-optional-activity__backlog-semana-02.md",
+  "chars": 2215,
+  "words": 336,
+  "ok": true
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "03-week__03-optional-activity__requerimientos-semana-03.md",
+  "chars": 1537,
+  "words": 246,
+  "ok": true
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "04-week__03-optional-activity__1_lista_tareas.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "04-week__03-optional-activity__2_nueva_tarea.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "04-week__03-optional-activity__3_detalle_tarea.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "04-week__03-optional-activity__mapa_navegacion.png",
+  "chars": 28,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "04-week__03-optional-activity__modelo-datos-semana-04.md",
+  "chars": 1579,
+  "words": 213,
+  "ok": true
+ },
+ {
+  "user": "cristianmunoz2006",
+  "file": "04-week__c1-activity__README.md",
+  "chars": 4401,
+  "words": 642,
+  "ok": true
+ },
+ {
+  "user": "felip442",
+  "file": "04-week__01-session__README.md",
+  "chars": 4352,
+  "words": 618,
+  "ok": true
+ },
+ {
+  "user": "feller2006",
+  "file": "01-week__03-optional-activity__actividad-semana-01.md",
+  "chars": 2969,
+  "words": 385,
+  "ok": true
+ },
+ {
+  "user": "feller2006",
+  "file": "02-week__03-optional-activity__backlog.md",
+  "chars": 3005,
+  "words": 376,
+  "ok": true
+ },
+ {
+  "user": "feller2006",
+  "file": "03-week__03-optional-activity__requerimientos.md",
+  "chars": 2481,
+  "words": 347,
+  "ok": true
+ },
+ {
+  "user": "feller2006",
+  "file": "04-week__03-optional-activity__README.md",
+  "chars": 4268,
+  "words": 628,
+  "ok": true
+ },
+ {
+  "user": "feller2006",
+  "file": "04-week__03-optional-activity__modelo-datos.md",
+  "chars": 2556,
+  "words": 337,
+  "ok": true
+ },
+ {
+  "user": "juanjoGuzmanBohorquez",
+  "file": "01-week__03-optional-activity__semana 1 opcional.pdf",
+  "chars": 2927,
+  "words": 468,
+  "ok": true
+ },
+ {
+  "user": "juanjoGuzmanBohorquez",
+  "file": "02-week__03-optional-activity__semana 2 movil opt.docx",
+  "chars": 3481,
+  "words": 515,
+  "ok": true
+ },
+ {
+  "user": "juanjoGuzmanBohorquez",
+  "file": "03-week__03-optional-activity__Diagrama sin título.drawio.png",
+  "chars": 29,
+  "words": 0,
+  "ok": false
+ },
+ {
+  "user": "juanjoGuzmanBohorquez",
+  "file": "03-week__03-optional-activity__README.md",
+  "chars": 2871,
+  "words": 418,
+  "ok": true
+ },
+ {
+  "user": "juanjoGuzmanBohorquez",
+  "file": "04-week__03-optional-activity__README.md",
+  "chars": 1692,
+  "words": 203,
+  "ok": true
+ },
+ {
+  "user": "juanjoGuzmanBohorquez",
+  "file": "04-week__03-optional-activity__semana 4 movi;.docx",
+  "chars": 2400,
+  "words": 345,
+  "ok": true
+ },
+ {
+  "user": "juanjoGuzmanBohorquez",
+  "file": "04-week__03-optional-activity__trabajo movil.docx",
+  "chars": 4389,
+  "words": 661,
+  "ok": true
+ },
+ {
+  "user": "juliangarcia8823-ux",
+  "file": "04-week__01-session__readmetrabajo2026",
+  "chars": 8565,
+  "words": 1111,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "01-week__03-optional-activity__TALLER OPCIONAL SEMANA 1.pdf",
+  "chars": 2126,
+  "words": 339,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "02-week__03-optional-activity__TALLER OPCIONAL SEMANA 2.pdf",
+  "chars": 2963,
+  "words": 450,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "03-week__03-optional-activity__TALLER OPCIONAL SEMANA 3.pdf",
+  "chars": 1785,
+  "words": 263,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "04-week__03-optional-activity__mapa-navegacion.svg",
+  "chars": 17116,
+  "words": 2842,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "04-week__03-optional-activity__modelo-datos-mockups.md",
+  "chars": 5974,
+  "words": 734,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "04-week__03-optional-activity__wireframe-crear-cuenta.svg",
+  "chars": 32473,
+  "words": 5294,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "04-week__03-optional-activity__wireframe-registrar-comida.svg",
+  "chars": 28653,
+  "words": 4674,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "04-week__03-optional-activity__wireframe-resumen-semanal.svg",
+  "chars": 24150,
+  "words": 3933,
+  "ok": true
+ },
+ {
+  "user": "laura-marcela05",
+  "file": "04-week__c1-Activity__README.md",
+  "chars": 6070,
+  "words": 917,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "01-week__03-optional-activity__Actividad-Semana-01-Luis-Fernando (1).pdf",
+  "chars": 3032,
+  "words": 420,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "02-week__03-optional-activity__README.md",
+  "chars": 3478,
+  "words": 479,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "03-week__03-optional-activity__README.md",
+  "chars": 2664,
+  "words": 345,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "04-week__03-optional-activity__README.md",
+  "chars": 3080,
+  "words": 410,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "04-week__03-optional-activity__mapa-navegacion.svg",
+  "chars": 3076,
+  "words": 518,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "04-week__03-optional-activity__wireframe-01-lista-tareas.svg",
+  "chars": 3396,
+  "words": 585,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "04-week__03-optional-activity__wireframe-02-crear-tarea.svg",
+  "chars": 2749,
+  "words": 473,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "04-week__03-optional-activity__wireframe-03-detalle-tarea.svg",
+  "chars": 2781,
+  "words": 475,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "04-week__actividad-calificable-c1__Planificacion_FilaFacil.pdf",
+  "chars": 6804,
+  "words": 998,
+  "ok": true
+ },
+ {
+  "user": "luisfernando-77",
+  "file": "04-week__actividad-calificable-c1__README.md",
+  "chars": 704,
+  "words": 106,
+  "ok": true
+ },
+ {
+  "user": "pablo12968",
+  "file": "01-week__README.md",
+  "chars": 1731,
+  "words": 224,
+  "ok": true
+ },
+ {
+  "user": "pablo12968",
+  "file": "02-week__03-optional-activity__README.md",
+  "chars": 4922,
+  "words": 651,
+  "ok": true
+ },
+ {
+  "user": "pablo12968",
+  "file": "04-week__c1-activity.md",
+  "chars": 7899,
+  "words": 1091,
+  "ok": true
+ }
+]

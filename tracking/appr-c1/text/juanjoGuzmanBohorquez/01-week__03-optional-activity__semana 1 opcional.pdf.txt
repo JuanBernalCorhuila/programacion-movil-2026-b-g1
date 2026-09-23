@@ -1,0 +1,73 @@
+1-Tipos de apps 
+• Nativa: se programa específicamente para un sistema operativo (Swift/Kotlin), usa 
+APIs del dispositivo directamente, se descarga de una tienda de apps. Suele sentirse 
+muy fluida (ej: cámara, WhatsApp, Spotify). 
+• Hibrida: se programa una vez (React Native, Flutter, Ionic) y se empaqueta para 
+varios sistemas operativos. Se ve casi nativa pero a veces tiene pequeños "lags" o 
+inconsistencias (ej: Instagram, Uber Eats en algunas versiones). 
+• Web: corre en el navegador, no necesita instalarse desde una tienda (o se instala 
+como acceso directo). No accede a todo el hardware del dispositivo (ej: Twitter/X 
+en versión web, Gmail en el navegador). 
+Tabla comparativa de apps 
+ 
+App 
+Tipo probable 
+MVP 1 
+MVP 2 
+MVP 3 
+WhatsApp 
+Nativa 
+Enviar/recibir 
+mensajes 
+Llamadas y 
+videollamadas 
+Compartir fotos y 
+archivos 
+Instagram 
+Híbrida 
+Publicar fotos/videos Ver el feed 
+Dar like y comentar 
+X (web) 
+Web app 
+Publicar un tweet 
+Ver el timeline 
+Buscar usuarios/temas 
+ 
+ 
+2-Propón tu idea de app para el semestre: problema, para quién, y 3 funciones 
+imprescindibles (MVP).  
+App de reservas y disponibilidad de restaurantes en tiempo real 
+Problema: 
+Los clientes llegan a un restaurante y se encuentran con que no hay cupo o mesa disponible, 
+sin haber tenido forma de saberlo antes de salir de casa. Esto genera pérdida de tiempo para 
+el cliente y, del lado del restaurante, mesas que quedan vacías porque no hay un sistema 
+claro para gestionar la demanda. 
+Para quién: 
+Personas que quieren comer o cenar fuera y restaurantes pequeños/medianos que no tienen 
+un sistema de reservas (todavía manejan todo por teléfono o de forma presencial). 
+MVP (3 funciones imprescindibles): 
+
+1. Ver disponibilidad de mesas en tiempo real — sin esto, el cliente sigue teniendo 
+el mismo problema de siempre: no saber si hay cupo antes de ir. 
+ 
+2. Reservar una mesa para una fecha/hora específica — es la acción central de la 
+app; sin poder reservar, solo estarías mostrando información sin resolver el 
+problema. 
+3. Confirmación y cancelación de la reserva — necesario para que el restaurante 
+sepa con certeza cuántas mesas están comprometidas, y para que el cliente pueda 
+liberar el cupo si cambia de planes (evitando mesas "fantasma" reservadas y vacías). 
+Justificación de tecnología 
+Yo la haría como app híbrida, porque: 
+• 
+Necesita enviar notificaciones para avisar confirmaciones o recordatorios de la 
+reserva, algo que una simple página web no hace tan bien. 
+• 
+Debe funcionar tanto en celulares con iPhone como con Android, y una app híbrida 
+permite programarla una sola vez y que funcione en ambos, en lugar de hacer el 
+trabajo doble (que sería el caso de una app nativa). 
+• 
+No necesita usar funciones muy avanzadas del celular (como el GPS todo el tiempo 
+o sensores especiales), así que no hace falta que sea una app nativa pura, que es más 
+compleja y demorada de construir. 
+ 
+ 

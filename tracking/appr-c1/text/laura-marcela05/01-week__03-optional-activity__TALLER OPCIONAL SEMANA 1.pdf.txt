@@ -1,0 +1,71 @@
+PROGRAMACIÓN MOVIL 
+ 
+ 
+ 
+TALLER OPCIONAL SEMANA 1 
+ 
+ 
+ 
+PRESENTAN 
+QUINTERO POVEDA LAURA MARCELA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NEIVA – HUILA 
+COORPORACIÓN UNIVERSITARIA DEL HUILA – CORHUILA 
+AGOSTO DEL 2026 
+
+1. Elige 3 apps que uses e identifica para cada una: tipo probable (nativa/híbrida/web) y 
+3 funciones que serían su MVP.  
+ 
+APPS 
+Tipo Probable 
+Funciones MVP 
+Instagram 
+Hibrida 
+1. Subir una publicación 
+2. Seguir o dejar de seguir un usuario 
+3. Comentar o dar like en una publicación 
+Roblox 
+Nativa  
+1. Unirse a un juego disponible 
+2. Controlar a un personaje 
+3. Cambiar el nombre de usuario 
+Canva 
+Hibrida  
+1. Seleccionar plantillas y crear un diseño 
+2. Deshacer un cambio 
+3. Exportar o guardar un diseño  
+ 
+ 
+ 
+2. Propón tu idea de aplicación para el semestre: problema, para quién, y 3 funciones 
+imprescindibles (MVP).  
+ 
+Una idea para la aplicación del semestre podría ser una aplicación que lleve el 
+registro de comidas, muchas personas llevan su registro de comida en cuadernos, 
+notas sueltas o en la memoria, lo cual no les permite tener constancia en su dieta y 
+
+darse cuenta si realmente si están bajando de peso, esta diseñado para usuarios que 
+quieren llevar un control simple en su alimentación diaria.  
+ 
+Sus 3 funciones principales: 
+1. Permitir al usuario registrar sus comidas del día (desayuno, almuerzo, cena). 
+2. Un progreso semanal que le indique al usuario que comidas debería dejar de 
+consumir y cuales debería aumentar su consumo. 
+3. El usuario se le permita crear una cuenta con datos simples como nombre, peso, 
+edad, estatura y un objetivo claro (bajar o subir de peso) para que el sistema le de 
+recomendaciones según caso especial. 
+ 
+3. Justifica qué tipo de tecnología usarías y por qué 
+Yo usaría web porque no necesita funciones complejas y hacerlo bajo un navegador, 
+además se construye una sola vez y funcionaria igual para computador, celular o Tablet, sin ser 
+programada para Android o iPhone como en las aplicaciones nativas. También, es cómoda para 
+el usuario ya que no tiene que descargar nada ni ocupar espacio en el celular, solo se entra a un 
+navegador. 

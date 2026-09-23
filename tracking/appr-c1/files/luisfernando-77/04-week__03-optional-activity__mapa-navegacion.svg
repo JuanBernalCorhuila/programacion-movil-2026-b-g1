@@ -1,0 +1,47 @@
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a5568"/>
+    </marker>
+  </defs>
+
+  <!-- Pantalla 1 -->
+  <rect x="30" y="150" width="180" height="120" rx="10" fill="#f7f7f7" stroke="#4a5568" stroke-width="2"/>
+  <text x="120" y="180" font-size="14" font-weight="bold" text-anchor="middle">Lista de tareas</text>
+  <text x="120" y="200" font-size="10" fill="#666" text-anchor="middle">(pantalla inicial)</text>
+  <text x="120" y="220" font-size="10" fill="#666" text-anchor="middle">buscar · filtrar · ver</text>
+  <text x="120" y="236" font-size="10" fill="#666" text-anchor="middle">tareas por estado</text>
+
+  <!-- Pantalla 2 -->
+  <rect x="300" y="20" width="180" height="120" rx="10" fill="#f7f7f7" stroke="#4a5568" stroke-width="2"/>
+  <text x="390" y="50" font-size="14" font-weight="bold" text-anchor="middle">Crear / editar</text>
+  <text x="390" y="66" font-size="14" font-weight="bold" text-anchor="middle">tarea</text>
+  <text x="390" y="88" font-size="10" fill="#666" text-anchor="middle">formulario con</text>
+  <text x="390" y="104" font-size="10" fill="#666" text-anchor="middle">título, asignatura,</text>
+  <text x="390" y="120" font-size="10" fill="#666" text-anchor="middle">fecha, descripción</text>
+
+  <!-- Pantalla 3 -->
+  <rect x="300" y="280" width="180" height="120" rx="10" fill="#f7f7f7" stroke="#4a5568" stroke-width="2"/>
+  <text x="390" y="310" font-size="14" font-weight="bold" text-anchor="middle">Detalle de tarea</text>
+  <text x="390" y="332" font-size="10" fill="#666" text-anchor="middle">ver info completa,</text>
+  <text x="390" y="348" font-size="10" fill="#666" text-anchor="middle">completar, editar</text>
+  <text x="390" y="364" font-size="10" fill="#666" text-anchor="middle">o eliminar</text>
+
+  <!-- flechas -->
+  <path d="M180 155 C 250 100, 260 90, 300 78" fill="none" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="230" y="105" font-size="10" fill="#333">toca "+"</text>
+
+  <path d="M310 140 C 250 190, 220 210, 200 220" fill="none" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="255" y="200" font-size="10" fill="#333">Guardar / Cancelar</text>
+
+  <path d="M180 235 C 250 260, 260 270, 300 300" fill="none" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="215" y="270" font-size="10" fill="#333">toca una tarea</text>
+
+  <path d="M480 320 C 560 280, 560 220, 530 190" fill="none" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="540" y="260" font-size="10" fill="#333">Editar</text>
+
+  <path d="M300 350 C 240 330, 220 300, 200 270" fill="none" stroke="#4a5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="210" y="330" font-size="10" fill="#333">Eliminar / Completar</text>
+
+  <text x="380" y="410" font-size="11" fill="#777" text-anchor="middle">Mapa de navegación · StudyPlan</text>
+</svg>

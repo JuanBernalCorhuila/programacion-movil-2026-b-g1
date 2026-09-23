@@ -1,0 +1,184 @@
+Planificación del proyecto elegido en el foro 
+Nombre de la aplicación: Fila Fácil 
+1. Idea de la aplicación  
+Problema 
+En lugares pequeños como cafeterías, oficinas o eventos, las personas pueden 
+perder bastante tiempo esperando en una fila. Además, muchas veces no saben 
+cuántas personas tienen delante ni cuánto tiempo aproximadamente falta para ser 
+atendidas. 
+Fila Fácil sería una aplicación móvil que permitiría organizar filas y turnos de una 
+manera más sencilla. El usuario podría solicitar un turno desde su celular y revisar el 
+estado de la fila sin tener que permanecer todo el tiempo en el lugar. 
+Público objetivo  
+La aplicación estaría dirigida principalmente a personas que utilizan servicios donde 
+normalmente se forman filas, como cafeterías, oficinas, pequeños establecimientos 
+y eventos. 
+También podría ser utilizada por los encargados de estos lugares para organizar 
+mejor la atención de sus clientes o visitantes. 
+MVP  
+Las tres funciones imprescindibles de la primera versión serían: 
+1.​ Solicitar un turno: el usuario podrá pedir un turno desde su celular. 
+2.​ Consultar la fila: el usuario podrá ver aproximadamente cuántas personas 
+tiene delante. 
+3.​ Recibir una notificación: el usuario recibirá un aviso cuando su turno esté 
+próximo. 
+En esta que es la primera versión se dejarían por fuera funciones como pagos en 
+línea, perfiles avanzados y publicidad. La idea es comprobar primero si las 
+funciones básicas realmente ayudan a reducir el tiempo de espera y mejoran la 
+organización de las filas.  
+ 
+ 
+ 
+ 
+
+2. Historias de usuario 
+HU-01 — Solicitar turno 
+Historia de usuario: 
+Como usuario, quiero solicitar un turno desde mi celular para evitar esperar tanto 
+tiempo en una fila. 
+Criterios de aceptación: 
+●​ El usuario debe poder seleccionar el servicio disponible. 
+●​ El sistema debe asignarle un número de turno. 
+●​ El sistema debe mostrar una confirmación del turno solicitado. 
+Prioridad: Alta​
+Sprint: 1 
+HU-02 — Consultar turno 
+Historia de usuario: 
+Como usuario, quiero visualizar mi turno para saber en qué posición me encuentro 
+dentro de la fila. 
+Criterios de aceptación: 
+●​ El sistema debe mostrar el número del turno del usuario. 
+●​ Debe indicar aproximadamente cuántas personas hay antes. 
+●​ La información debe actualizarse cuando avance la fila. 
+Prioridad: Alta​
+Sprint: 1 
+HU-03 — Consultar el estado de la fila 
+Historia de usuario: 
+Como usuario, quiero consultar el estado de la fila para saber cuánto falta 
+aproximadamente para ser atendido. 
+Criterios de aceptación: 
+●​ El sistema debe mostrar la posición actual del usuario. 
+
+●​ Debe indicar si la fila está avanzando. 
+●​ La información debe ser fácil de entender. 
+Prioridad: Alta​
+Sprint: 2 
+HU-04 — Recibir notificación 
+Historia de usuario: 
+Como usuario, quiero recibir una notificación cuando mi turno esté cerca para 
+prepararme para la atención. 
+Criterios de aceptación: 
+●​ El sistema debe enviar una notificación cuando el turno esté próximo. 
+●​ La notificación debe indicar que el turno está cerca. 
+●​ El usuario debe poder identificar fácilmente que debe estar pendiente de la 
+atención. 
+Prioridad: Alta​
+Sprint: 2 
+HU-05 — Cancelar turno 
+Historia de usuario: 
+Como usuario, quiero cancelar mi turno cuando ya no necesite la atención para no 
+ocupar un espacio en la fila. 
+Criterios de aceptación: 
+●​ El usuario debe tener una opción para cancelar el turno. 
+●​ El sistema debe solicitar confirmación antes de cancelarlo. 
+●​ Después de cancelar, el turno debe aparecer como cancelado. 
+Prioridad: Media​
+Sprint: 3 
+HU-06 — Administrar la fila 
+Historia de usuario: 
+Como encargado del establecimiento, quiero administrar los turnos para organizar 
+mejor la atención de las personas. 
+
+Criterios de aceptación: 
+●​ El encargado debe poder visualizar los turnos pendientes. 
+●​ Debe poder avanzar al siguiente turno. 
+●​ El estado del turno debe actualizarse para el usuario. 
+Prioridad: Media​
+Sprint: 3 
+ 
+3. Backlog priorizado  
+ 
+Prioridad  
+ID 
+Historia de 
+usuario 
+Sprint 
+1 
+HU-01 
+Solicitar turno 
+sprint 1 
+2 
+HU-02 
+Consultar turno 
+sprint 2 
+3 
+HU-03 
+Consultar estado 
+de la fila  
+sprint 3 
+4 
+HU-04 
+Recibir 
+notificación 
+sprint 4 
+5 
+HU-05 
+cancelar turno 
+sprint 5 
+6 
+HU-06 
+Administrar fila  
+sprint 6 
+La prioridad se estableció teniendo en cuenta que primero se deben desarrollar las 
+funciones básicas para que FilaFácil pueda funcionar. Por esta razón, solicitar y 
+consultar un turno son las primeras funcionalidades. Después se agregan las 
+notificaciones y, finalmente, funciones complementarias para el usuario y el 
+encargado del establecimiento. 
+ 
+ 
+ 
+ 
+ 
+
+4. Organización de los sprints 
+Sprint 1 — Turnos básicos 
+Objetivo: desarrollar las funciones principales para solicitar y consultar un turno. 
+●​ HU-01 — Solicitar turno. 
+●​ HU-02 — Consultar turno. 
+Resultado esperado: el usuario podrá solicitar un turno desde el celular y consultar 
+su posición dentro de la fila. 
+Sprint 2 — Seguimiento y notificaciones 
+Objetivo: permitir que el usuario pueda conocer mejor el estado de su turno. 
+●​ HU-03 — Consultar estado de la fila. 
+●​ HU-04 — Recibir notificación. 
+Resultado esperado: el usuario podrá revisar el avance de la fila y recibirá una 
+notificación cuando su turno esté cerca. 
+Sprint 3 — Administración 
+Objetivo: agregar funciones para mejorar el manejo de los turnos. 
+●​ HU-05 — Cancelar turno. 
+●​ HU-06 — Administrar la fila. 
+Resultado esperado: los usuarios podrán cancelar sus turnos y los encargados 
+podrán administrar el orden de atención. 
+5. Tipo de aplicación 
+Para Fila Fácil utilizará una aplicación híbrida. 
+Elegiría este tipo de aplicación porque puede ser más rápida y económica de 
+desarrollar que crear una aplicación nativa independiente para cada sistema 
+operativo. Además, para las funciones iniciales de FilaFácil no se necesita utilizar 
+demasiado hardware del celular, ya que principalmente se requiere conexión a 
+internet y el sistema de notificaciones. 
+
+También permitiría que la aplicación pueda utilizarse en diferentes dispositivos sin 
+tener que desarrollar desde cero una versión completamente diferente para cada 
+plataforma.  
+6. Metodología 
+La metodología seleccionada para desarrollar FilaFácil sería Scrum. 
+Elegiría Scrum porque permite dividir el proyecto en partes pequeñas y trabajar en 
+ellas mediante diferentes sprints. Esto facilita revisar los resultados después de 
+cada etapa y realizar cambios antes de continuar con las siguientes funcionalidades. 
+El proyecto estaría dividido en tres sprints: 
+●​ Sprint 1: solicitud y consulta de turnos. 
+●​ Sprint 2: seguimiento y notificaciones. 
+●​ Sprint 3: cancelación y administración de la fila. 
+De esta forma, primero se desarrollaría el MVP y después se agregarían funciones 
+complementarias. 
+ 

@@ -1,0 +1,73 @@
+{
+ "ahead_by": 5,
+ "behind_by": 1,
+ "commits": [
+  {
+   "sha": "aa9e99f653",
+   "author_date": "2026-08-30T23:26:24Z",
+   "committer_date": "2026-08-30T23:26:24Z",
+   "msg": "practice activity week 01",
+   "author": "SergioLosadaDev"
+  },
+  {
+   "sha": "3c8936edc3",
+   "author_date": "2026-08-30T23:41:36Z",
+   "committer_date": "2026-08-30T23:41:36Z",
+   "msg": "Optional activity week 02",
+   "author": "SergioLosadaDev"
+  },
+  {
+   "sha": "44581a62d1",
+   "author_date": "2026-08-30T23:50:13Z",
+   "committer_date": "2026-08-30T23:50:13Z",
+   "msg": "optional activity week 3",
+   "author": "SergioLosadaDev"
+  },
+  {
+   "sha": "2ad1f2b7ff",
+   "author_date": "2026-08-30T23:56:44Z",
+   "committer_date": "2026-08-30T23:56:44Z",
+   "msg": "Optional activity week 04",
+   "author": "SergioLosadaDev"
+  },
+  {
+   "sha": "6074ef9034",
+   "author_date": "2026-08-31T01:45:15Z",
+   "committer_date": "2026-08-31T01:45:15Z",
+   "msg": "Add TM Plannig and rename OA week 3",
+   "author": "SergioLosadaDev"
+  }
+ ],
+ "files": [
+  {
+   "filename": "01-week/03-optional-activity/practice-activity.md",
+   "status": "added",
+   "additions": 123,
+   "changes": 123
+  },
+  {
+   "filename": "02-week/03-optional-activity/practice-activity.md",
+   "status": "added",
+   "additions": 157,
+   "changes": 157
+  },
+  {
+   "filename": "03-week/03-optional-activity/practice-activity.md",
+   "status": "added",
+   "additions": 119,
+   "changes": 119
+  },
+  {
+   "filename": "04-week/01-session/tm-planning.md",
+   "status": "added",
+   "additions": 275,
+   "changes": 275
+  },
+  {
+   "filename": "04-week/03-optional-activity/practice-activity.md",
+   "status": "added",
+   "additions": 414,
+   "changes": 414
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "ahead_by": 6,
+ "behind_by": 1,
+ "commits": [
+  {
+   "sha": "07219103c8",
+   "author_date": "2026-08-16T21:30:50Z",
+   "committer_date": "2026-08-16T21:30:50Z",
+   "msg": "Entrega actividad semana 1",
+   "author": "Juan-Horta27"
+  },
+  {
+   "sha": "1ff73e2ca1",
+   "author_date": "2026-08-18T00:56:58Z",
+   "committer_date": "2026-08-18T00:56:58Z",
+   "msg": "Entrega actividad semana 2",
+   "author": "Juan-Horta27"
+  },
+  {
+   "sha": "9fd69406f4",
+   "author_date": "2026-08-20T18:55:34Z",
+   "committer_date": "2026-08-20T18:55:34Z",
+   "msg": "Entrega actividad semana 3",
+   "author": "Juan-Horta27"
+  },
+  {
+   "sha": "7dd4ad88d4",
+   "author_date": "2026-08-29T03:31:24Z",
+   "committer_date": "2026-08-29T03:31:24Z",
+   "msg": "Entrega actividad semana 4",
+   "author": "Juan-Horta27"
+  },
+  {
+   "sha": "132b5e1ef1",
+   "author_date": "2026-08-30T00:59:40Z",
+   "committer_date": "2026-08-30T00:59:40Z",
+   "msg": "Entrega Actividad calificable · Corte 1 — Planificación del proyecto móvil",
+   "author": "Juan-Horta27"
+  },
+  {
+   "sha": "57900eccdf",
+   "author_date": "2026-09-10T03:09:58Z",
+   "committer_date": "2026-09-10T03:09:58Z",
+   "msg": "Entrega actividad semana 6",
+   "author": "Juan-Horta27"
+  }
+ ],
+ "files": [
+  {
+   "filename": "01-week/03-optional-activity/AVANCE ACTIVIDAD SEMANA 1.docx",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "02-week/03-optional-activity/ACTIVIDAD SEMANA 2.docx",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "03-week/03-optional-activity/ACTIVIDAD SEMANA 3.docx",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/ACTIVIDAD-SEMANA4.docx",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/mapa_navegacion.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/modelo_datos.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_1.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_2.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_3.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "04-week/README.md",
+   "status": "added",
+   "additions": 146,
+   "changes": 146
+  },
+  {
+   "filename": "06-week/03-optional-activity/README.md",
+   "status": "added",
+   "additions": 199,
+   "changes": 199
+  },
+  {
+   "filename": "06-week/03-optional-activity/captura.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/.browserslistrc",
+   "status": "added",
+   "additions": 6,
+   "changes": 6
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/.gitignore",
+   "status": "added",
+   "additions": 31,
+   "changes": 31
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/.vscode/extensions.json",
+   "status": "added",
+   "additions": 5,
+   "changes": 5
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/capacitor.config.ts",
+   "status": "added",
+   "additions": 9,
+   "changes": 9
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/cypress.config.ts",
+   "status": "added",
+   "additions": 10,
+   "changes": 10
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/cypress/e2e/test.cy.ts",
+   "status": "added",
+   "additions": 6,
+   "changes": 6
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/cypress/fixtures/example.json",
+   "status": "added",
+   "additions": 5,
+   "changes": 5
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/cypress/support/commands.ts",
+   "status": "added",
+   "additions": 37,
+   "changes": 37
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/cypress/support/e2e.ts",
+   "status": "added",
+   "additions": 20,
+   "changes": 20
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/eslint.config.js",
+   "status": "added",
+   "additions": 30,
+   "changes": 30
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/index.html",
+   "status": "added",
+   "additions": 30,
+   "changes": 30
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/ionic.config.json",
+   "status": "added",
+   "additions": 7,
+   "changes": 7
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/package.json",
+   "status": "added",
+   "additions": 52,
+   "changes": 52
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/public/favicon.png",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/public/manifest.json",
+   "status": "added",
+   "additions": 21,
+   "changes": 21
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/App.test.tsx",
+   "status": "added",
+   "additions": 8,
+   "changes": 8
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/App.tsx",
+   "status": "added",
+   "additions": 49,
+   "changes": 49
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.css",
+   "status": "added",
+   "additions": 24,
+   "changes": 24
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.tsx",
+   "status": "added",
+   "additions": 14,
+   "changes": 14
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/main.tsx",
+   "status": "added",
+   "additions": 11,
+   "changes": 11
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/pages/Home.css",
+   "status": "added",
+   "additions": 0,
+   "changes": 0
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/pages/Home.tsx",
+   "status": "added",
+   "additions": 25,
+   "changes": 25
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/setupTests.ts",
+   "status": "added",
+   "additions": 14,
+   "changes": 14
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/theme/variables.css",
+   "status": "added",
+   "additions": 2,
+   "changes": 2
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/src/vite-env.d.ts",
+   "status": "added",
+   "additions": 1,
+   "changes": 1
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/tsconfig.json",
+   "status": "added",
+   "additions": 21,
+   "changes": 21
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/tsconfig.node.json",
+   "status": "added",
+   "additions": 9,
+   "changes": 9
+  },
+  {
+   "filename": "06-week/03-optional-activity/miApp/vite.config.ts",
+   "status": "added",
+   "additions": 18,
+   "changes": 18
+  }
+ ]
+}

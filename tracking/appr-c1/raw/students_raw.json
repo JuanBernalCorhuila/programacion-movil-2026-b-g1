@@ -1,0 +1,3532 @@
+[
+ {
+  "user": "11William11",
+  "repo": "11William11/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-30T05:00:30Z",
+  "pushed_at": "2026-08-30T05:21:17Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "04-week/README.md",
+    "size": 6259,
+    "sha": "caeb0209d24d6acbf7e0d7e8e6a9f9d6e679102b"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 1,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: William Erney Collo Narvaez\nGITHUB_USER: 11William11\n-->\n\n# ¡Hola! Soy William 👋\n\nSoy estudiante de Ingeniería de Sistemas en CORHUILA (Corporación Universitaria del Huila), con sede en Neiva, Huila. Este repositorio es mi perfil de GitHub, donde llevo el registro de mis actividades y proyectos académicos del semestre.\n\n## Sobre mí\n- 🎓 Estudiante de Ingeniería de Sistemas, 2026-B\n- 💻 Interesado en desarrollo de software web y móvil\n- 📍 Neiva, Huila, Colombia\n",
+  "behind_by": 1
+ },
+ {
+  "user": "AlexanderC17",
+  "repo": "AlexanderC17/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-09-06T21:23:51Z",
+  "pushed_at": "2026-09-01T00:11:03Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 0,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Oscar Alexander Cutiva Ramirez\nGITHUB_USER: AlexanderC17\n-->\n# Hola 👋\n\nMi nombre es Oscar Alexander Cutiva Ramirez.\n\nSoy estudiante de Ingeniería de Sistemas y estoy interesado en\nel desarrollo de software, programación , Para sus uso en aplicación móvil o web o ya sean hibridas \n\n",
+  "behind_by": 0
+ },
+ {
+  "user": "AndresCalle09",
+  "repo": "AndresCalle09/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T01:13:41Z",
+  "pushed_at": "2026-08-31T02:16:45Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "01-week/Programación Movil-Semana 1.docx",
+    "size": 17146,
+    "sha": "81195eccf72d7a487a3e7099f8c54f3834364a1f"
+   },
+   {
+    "path": "01-week/README.md",
+    "size": 454,
+    "sha": "614d81f9267cd14a331071013125b28b7b0e33cd"
+   },
+   {
+    "path": "02-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "02-week/README.md",
+    "size": 454,
+    "sha": "9a227ff0238b249fb42e2f49aa24760d6554c16c"
+   },
+   {
+    "path": "03-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "03-week/README.md",
+    "size": 454,
+    "sha": "6a97d0db80845edc04a3284ea83b7f0f3f9e17f3"
+   },
+   {
+    "path": "04-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "04-week/README.md",
+    "size": 454,
+    "sha": "d3c9f82825100cf1df985400a4b86b6b71ee3679"
+   },
+   {
+    "path": "04-week/actividad 1.docx",
+    "size": 20480,
+    "sha": "dafe1dda08d618a05d316d2cbddead5406b66509"
+   },
+   {
+    "path": "05-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "05-week/README.md",
+    "size": 454,
+    "sha": "66fcedf1e72562cc8d482a4bd7c75aadbaee9b33"
+   },
+   {
+    "path": "06-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "06-week/README.md",
+    "size": 454,
+    "sha": "46c17e1b679c7fc072d93fbc5ea467b283dc9a49"
+   },
+   {
+    "path": "07-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "07-week/README.md",
+    "size": 454,
+    "sha": "3fabf7ac868091059f06d2b058988a1b96c7b7cb"
+   },
+   {
+    "path": "08-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "08-week/README.md",
+    "size": 454,
+    "sha": "408d4e67765e4f665578950c57f4f8cae4dc7804"
+   },
+   {
+    "path": "09-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "09-week/README.md",
+    "size": 454,
+    "sha": "4db5b00cd87660bb86d48852ccc62db242259365"
+   },
+   {
+    "path": "10-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "10-week/README.md",
+    "size": 454,
+    "sha": "dbb2b984649af4ea136a2b711f9f30b6f86085e4"
+   },
+   {
+    "path": "11-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "11-week/README.md",
+    "size": 454,
+    "sha": "a76e5fc50441b50e98818a487f60d054e6d81a3d"
+   },
+   {
+    "path": "12-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "12-week/README.md",
+    "size": 454,
+    "sha": "2b95936beed4459d869bcfacfe0eed18d99d1ab9"
+   },
+   {
+    "path": "13-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "13-week/README.md",
+    "size": 454,
+    "sha": "35f0364bb72e68127404452042d660dfc1da5f47"
+   },
+   {
+    "path": "14-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "14-week/README.md",
+    "size": 454,
+    "sha": "9c3797adf44dee508e6a0f93e8a07fdd34e3cd62"
+   },
+   {
+    "path": "15-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "15-week/README.md",
+    "size": 454,
+    "sha": "f5618fe3b62de6ccf3bf242e0013ed725f0f7f25"
+   },
+   {
+    "path": "16-week/.gitkeep",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "16-week/README.md",
+    "size": 454,
+    "sha": "0e3216147ac3a9170a970e80458a7429098575c3"
+   },
+   {
+    "path": "README.md",
+    "size": 1242,
+    "sha": "bd05ce45b3ab285539a9363709037c34c1d99783"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 2,
+  "compare_error": null,
+  "config_raw": "\n<!--\nCONFIG \nFULL_NAME: Andres Felipe Calle Gonzalez \nGITHUB_USER: AndrésCalle09\n-->\n\n## Hi there\n\n\n<!--\n**AndresCalle09/AndresCalle09** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\n-->\n",
+  "behind_by": 4
+ },
+ {
+  "user": "Andresfg20",
+  "repo": "Andresfg20/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T02:03:07Z",
+  "pushed_at": "2026-08-11T02:34:15Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/01-session/01-WEEK",
+    "size": 2433,
+    "sha": "adf99aace7f67676718d235756b6ecb828f240dd"
+   },
+   {
+    "path": "01-week/hu-status/README.md",
+    "size": 362,
+    "sha": "941f53d420d6eb2a506a7215f4487e9cff84e8f8"
+   },
+   {
+    "path": "02-week/hu-status/README.md",
+    "size": 362,
+    "sha": "4816e86b64731dd4caa71e16a257e31248f54939"
+   },
+   {
+    "path": "03-week/hu-status/README.md",
+    "size": 362,
+    "sha": "cb30a6e5de950e3b3b50d9fee83265dea02d0a75"
+   },
+   {
+    "path": "04-week/hu-status/README.md",
+    "size": 362,
+    "sha": "b5c74181f3cdc38fd69ccc0a3c41cdffc7a6d768"
+   },
+   {
+    "path": "05-week/hu-status/README.md",
+    "size": 362,
+    "sha": "d4d3b4898eee1ac157c1f78856164d556b1d1fad"
+   },
+   {
+    "path": "06-week/hu-status/README.md",
+    "size": 362,
+    "sha": "13224e4f6b0c05286cb39c9af18c27bc30dfa80d"
+   },
+   {
+    "path": "07-week/hu-status/README.md",
+    "size": 362,
+    "sha": "f5277d3364777964627eb7038d27fb4a877c6516"
+   },
+   {
+    "path": "08-week/hu-status/README.md",
+    "size": 362,
+    "sha": "7906c9e136bc5e696f00cd667f37652a786b3152"
+   },
+   {
+    "path": "09-week/hu-status/README.md",
+    "size": 362,
+    "sha": "499c70b529fbceb4c69dfc3dfea3d3d80c8f2df3"
+   },
+   {
+    "path": "10-week/hu-status/README.md",
+    "size": 362,
+    "sha": "035bead44d1b5542970c7957eaca26347dc4fb7f"
+   },
+   {
+    "path": "11-week/hu-status/README.md",
+    "size": 362,
+    "sha": "f031c647000193ef98d4d1444ed9e1d27831f181"
+   },
+   {
+    "path": "12-week/hu-status/README.md",
+    "size": 362,
+    "sha": "74861e80160dbf5e4b5f3259f1afa0b7e793a394"
+   },
+   {
+    "path": "13-week/hu-status/README.md",
+    "size": 362,
+    "sha": "d37aebdb82af0664c2e2fb39efde004fe060ef7c"
+   },
+   {
+    "path": "14-week/hu-status/README.md",
+    "size": 362,
+    "sha": "4c603f2f32c95929abab5c1a97a32b9097a85448"
+   },
+   {
+    "path": "15-week/hu-status/README.md",
+    "size": 362,
+    "sha": "475b0c58af619f0e5c9c7ec026065044fcf2d2d7"
+   },
+   {
+    "path": "16-week/hu-status/README.md",
+    "size": 362,
+    "sha": "f8fc432c82e697f0c1e22c880820420070855e68"
+   },
+   {
+    "path": "README.md",
+    "size": 1304,
+    "sha": "b0a367affe9b425c20e13a31327d8b63066cd8d7"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 1,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: ANDRES FELIPE GOMEZ ANACONA\nGITHUB_USER: Andresfg20\n-->\n\n# 👋 ¡Hola!\n\nSoy **Andrés Felipe Gómez Anacona**, estudiante de **Ingeniería de Sistemas** en CORHUILA.\n\n💻 Me interesa el **desarrollo de software**, las **bases de datos** y el **desarrollo web**. Actualmente estoy fortaleciendo mis conocimientos en programación y explorando diferentes tecnologías para crear soluciones prácticas y eficientes.\n\n🚀 **Objetivo:** seguir aprendiendo, desarrollar proyectos interesantes y mejorar constantemente mis habilidades como desarrollador.\n",
+  "behind_by": 3
+ },
+ {
+  "user": "carloszuluaga-20",
+  "repo": "carloszuluaga-20/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:38:44Z",
+  "pushed_at": "2026-08-31T16:11:08Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/README.md",
+    "size": 1699,
+    "sha": "787e9682713dd3f01f0f2eca2c5d5dac6ebd33d0"
+   },
+   {
+    "path": "02-week/03-optional-activity/README.md",
+    "size": 2600,
+    "sha": "c2c463afaa5a760bf8c49588d205a461cbc9c899"
+   },
+   {
+    "path": "03-week/03-optional-activity/README.md",
+    "size": 1866,
+    "sha": "2672ee7cfb59badfd106345f3c3928000cfaa5cc"
+   },
+   {
+    "path": "04-week/03-optional-activity/README.md",
+    "size": 1344,
+    "sha": "0dd9449bd803c274994f259c3f5c447ae709f831"
+   },
+   {
+    "path": "04-week/03-optional-activity/inicio.md",
+    "size": 134,
+    "sha": "c94c761faaaaa5498530aecb7511519701739223"
+   },
+   {
+    "path": "04-week/03-optional-activity/materia.md",
+    "size": 135,
+    "sha": "8e8fa8c07c8117a1023a61cfe308cc30deb54271"
+   },
+   {
+    "path": "04-week/03-optional-activity/navegacion.md",
+    "size": 137,
+    "sha": "d2d9a6bab86088fc2f9bb0192b41a1086d646c61"
+   },
+   {
+    "path": "04-week/03-optional-activity/notas.md",
+    "size": 132,
+    "sha": "efe1109760bf07ea7b24648da44e4a9600d944d7"
+   },
+   {
+    "path": "04-week/entrega-corte-1/README.md",
+    "size": 6192,
+    "sha": "4c1fc566bd508833dcd18afa9fdadf8760a2c51b"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "f259019958",
+     "author_date": "2026-08-31T15:25:08Z",
+     "committer_date": "2026-08-31T15:25:08Z",
+     "msg": "Update README.md"
+    },
+    {
+     "sha": "28bb2f0091",
+     "author_date": "2026-08-11T01:18:09Z",
+     "committer_date": "2026-08-11T01:18:09Z",
+     "msg": "Update README.md"
+    },
+    {
+     "sha": "75bdc7e84e",
+     "author_date": "2026-08-11T01:15:12Z",
+     "committer_date": "2026-08-11T01:15:12Z",
+     "msg": "Update README.md"
+    },
+    {
+     "sha": "6d7d5f9dc5",
+     "author_date": "2026-08-11T01:06:37Z",
+     "committer_date": "2026-08-11T01:06:37Z",
+     "msg": "Update README.md"
+    },
+    {
+     "sha": "1333568a74",
+     "author_date": "2026-08-11T01:05:41Z",
+     "committer_date": "2026-08-11T01:05:41Z",
+     "msg": "Update README.md"
+    },
+    {
+     "sha": "778eb7fa0b",
+     "author_date": "2026-08-11T01:00:21Z",
+     "committer_date": "2026-08-11T01:00:21Z",
+     "msg": "Create README.md"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "7bbf83eb5c",
+     "author_date": "2026-08-31T15:31:11Z",
+     "committer_date": "2026-08-31T15:31:48Z",
+     "msg": "Week 02 Submission"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "a1490ba5cf",
+     "author_date": "2026-08-31T15:36:39Z",
+     "committer_date": "2026-08-31T15:36:39Z",
+     "msg": "Week 02 Submission"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "4e4563b853",
+     "author_date": "2026-08-31T16:11:08Z",
+     "committer_date": "2026-08-31T16:11:08Z",
+     "msg": "Update notas.md"
+    },
+    {
+     "sha": "7aee9618bc",
+     "author_date": "2026-08-31T16:10:45Z",
+     "committer_date": "2026-08-31T16:10:45Z",
+     "msg": "Update notas.md"
+    },
+    {
+     "sha": "37bd47522d",
+     "author_date": "2026-08-31T16:10:27Z",
+     "committer_date": "2026-08-31T16:10:27Z",
+     "msg": "Update navegacion.md"
+    },
+    {
+     "sha": "5feed1dbbc",
+     "author_date": "2026-08-31T16:10:00Z",
+     "committer_date": "2026-08-31T16:10:00Z",
+     "msg": "Update materia.md"
+    },
+    {
+     "sha": "fc8ab66934",
+     "author_date": "2026-08-31T16:09:32Z",
+     "committer_date": "2026-08-31T16:09:32Z",
+     "msg": "Update inicio.md"
+    },
+    {
+     "sha": "fabfc77099",
+     "author_date": "2026-08-31T16:08:47Z",
+     "committer_date": "2026-08-31T16:08:47Z",
+     "msg": "Week 04 Submission"
+    },
+    {
+     "sha": "bfa1b8d249",
+     "author_date": "2026-08-31T16:04:46Z",
+     "committer_date": "2026-08-31T16:04:46Z",
+     "msg": "Week 04 Submission"
+    },
+    {
+     "sha": "4e83c20b47",
+     "author_date": "2026-08-31T15:56:57Z",
+     "committer_date": "2026-08-31T15:56:57Z",
+     "msg": "Week 04 Submission"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 18,
+  "compare_error": null,
+  "config_raw": "<!--CONFIG\nFULL_NAME: Carlos Andres Zuluaga Acuña\nGITHUB_USER: carloszuluaga-20\nEMAIL: cazuluaga-2024a@corhuila.edu.co\nCODE_ORGANIZATION: code-corhuila\n-->\n\n<h1 align=\"center\">Carlos Andres Zuluaga Acuña</h1>\n\n<p align=\"center\">\n  <img src=\"https://komarev.com/ghpvc/?username=tu_usuario_github&label=Profile%20views&style=flat-square&color=brightgreen\" alt=\"Profile views\">\n</p>\n\n---\n\n## Perfil\n\n- **Nombre:** Carlos Andres Zuluaga Acuña  \n- **GitHub:** [@carloszuluaga-20](https://github.com/carloszuluaga-20)  \n- **Email:** [cazuluaga-2024a@corhuila.edu.co](mailto:cazuluaga-2024a@corhuila.edu.co)  \n- **Organización institucional:** [code-corhuila](https://github.com/code-corhuila)\n\n---\n\n## Repositorio institucional\n\nEste repositorio está asociado a la organización **code-corhuila**.\n",
+  "behind_by": 5
+ },
+ {
+  "user": "cristianmunoz2006",
+  "repo": "cristianmunoz2006/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:32:40Z",
+  "pushed_at": "2026-08-31T14:20:06Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/optional_activity_week_1.pdf",
+    "size": 513481,
+    "sha": "c98364fdbea73cc14395a20efa73226c562c37c5"
+   },
+   {
+    "path": "02-week/03-optional-activity/backlog-semana-02.md",
+    "size": 2246,
+    "sha": "916f03b0489f9778eee2b9dfd3d735b8217ebb2a"
+   },
+   {
+    "path": "03-week/03-optional-activity/requerimientos-semana-03.md",
+    "size": 1561,
+    "sha": "96a1475cdf54b20db697b9c9abe00ef415f38378"
+   },
+   {
+    "path": "04-week/03-optional-activity/1_lista_tareas.png",
+    "size": 14133,
+    "sha": "2e9d6993ea2eb59839678feb4df7de5774857014"
+   },
+   {
+    "path": "04-week/03-optional-activity/2_nueva_tarea.png",
+    "size": 13728,
+    "sha": "1b6400a2609c9a858b3c088983e4fe63c59291ec"
+   },
+   {
+    "path": "04-week/03-optional-activity/3_detalle_tarea.png",
+    "size": 14987,
+    "sha": "9930b4c01a521fec8e3118dde2f63c9db9dc7980"
+   },
+   {
+    "path": "04-week/03-optional-activity/mapa_navegacion.png",
+    "size": 7899,
+    "sha": "5deacabd86f76e2a5f9888a6202478228abcaae3"
+   },
+   {
+    "path": "04-week/03-optional-activity/modelo-datos-semana-04.md",
+    "size": 1614,
+    "sha": "8889f83d68cf3b2d31b0251fd2e561a8e1ba49c3"
+   },
+   {
+    "path": "04-week/c1-activity/README.md",
+    "size": 4479,
+    "sha": "3b8e04545e800a6ee07d20c0abe941013241064a"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "c515980924",
+     "author_date": "2026-08-11T03:02:12Z",
+     "committer_date": "2026-08-11T03:02:12Z",
+     "msg": "Entrega semana 01"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "67e9a29ab2",
+     "author_date": "2026-08-31T14:00:26Z",
+     "committer_date": "2026-08-31T14:00:26Z",
+     "msg": "Entrega semana 02"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "f7c853f4ce",
+     "author_date": "2026-08-31T14:08:06Z",
+     "committer_date": "2026-08-31T14:08:06Z",
+     "msg": "Entrega semana 03"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "3a5dd2271a",
+     "author_date": "2026-08-31T14:19:54Z",
+     "committer_date": "2026-08-31T14:19:54Z",
+     "msg": "Entrega semana 04"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 5,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Cristian Andres Muñoz Montenegro\nGITHUB_USER: cristianmunoz2006\n-->\n\n# 👋 ¡Hola! Soy Cristian\n\nSoy estudiante de **Ingeniería de Sistemas** y actualmente estoy enfocado en seguir aprendiendo y mejorando mis habilidades en el área de desarrollo de software.\n\nMe interesa principalmente la **programación**, el desarrollo de aplicaciones y las nuevas tecnologías. También me gusta aprender sobre diferentes herramientas y lenguajes que me permitan mejorar mis conocimientos y desarrollar proyectos propios.\n\nActualmente estoy fortaleciendo mis conocimientos en **Java, desarrollo web, bases de datos y programación móvil**, con el objetivo de seguir creciendo como desarrollador y adquirir experiencia creando soluciones que puedan ser útiles en la vida real.\n\n<!--\n**cristianmunoz2006/cristianmunoz2006** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "behind_by": 5
+ },
+ {
+  "user": "Daniel666-ui",
+  "repo": "Daniel666-ui/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-29T00:41:21Z",
+  "pushed_at": "2026-08-29T00:57:41Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "04-week/03-optional-activity/CampusTask_Entrega.zip",
+    "size": 39127,
+    "sha": "4799119a6d5003a4066a6dfe71e56882917f85d5"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "450e66acf2",
+     "author_date": "2026-08-29T00:57:40Z",
+     "committer_date": "2026-08-29T00:57:40Z",
+     "msg": "Add files via upload"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 1,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Daniel Felipe Fernandez Rojas\nGITHUB_USER: Daniel666-ui\n-->\n# 👋 ¡Hola! Soy Daniel Felipe Fernández Rojas\n\n🎓 **Estudiante de Ingeniería de Sistemas**\n💻 Apasionado por la programación, el desarrollo de software y la tecnología.\n\nActualmente estoy fortaleciendo mis conocimientos en desarrollo de aplicaciones, bases de datos, programación orientada a objetos y herramientas utilizadas en proyectos de software.\n\n## 🚀 Sobre mí\n\n* 🎓 Estudiante de **Ingeniería de Sistemas**\n* 💻 Me interesa el **desarrollo de software**\n* 🧠 Actualmente estoy aprendiendo y mejorando mis habilidades en programación\n* 🗄️ Tengo experiencia trabajando con **bases de datos**\n* 🔧 Me gusta aprender nuevas tecnologías y herramientas\n* 📚 Siempre estoy buscando mejorar mis conocimientos mediante proyectos y prácticas\n\n## 🛠️ Tecnologías y herramientas\n\n### Lenguajes\n\n* ☕ Java\n* 🐍 Python\n* 🌐 HTML\n* 🎨 CSS\n* ⚡ JavaScript\n\n### Bases de datos\n\n* 🐘 PostgreSQL\n* 🗃️ SQL\n\n### Herramientas\n\n* 🐙 Git & GitHub\n* 🐳 Docker\n* 🔄 Liquibase\n* 💻 IntelliJ IDEA\n* 🖥️ Visual Studio Code\n* 📊 DBeaver\n\n## 📂 Proyectos\n\nAlgunos de los proyectos en los que he trabajado incluyen:\n\n### 🧴 Skin Care Store\n\nSistema de base de datos para gestionar una tienda de productos de cuidado personal.\n\nIncluye funcionalidades relacionadas con:\n\n* Catálogo de productos\n* Inventario\n* Movimientos de inventario\n* Carritos de compra\n* Pedidos\n* Cupones\n* Triggers, funciones y procedimientos\n* PostgreSQL\n* Docker\n* Liquibase\n\n### ☕ Proyectos en Java\n\nHe desarrollado diferentes proyectos académicos utilizando **Java**, aplicando conceptos como:\n\n* Programación Orientada a Objetos\n* Clases y objetos\n* Herencia\n* Encapsulamiento\n* Interfaces gráficas\n* Estructuras de datos\n\n## 📈 Actualmente aprendiendo\n\n🌐 Desarrollo Full Stack\n🗄️ Diseño y administración de bases de datos\n☕ Java y Programación Orientada a Objetos\n🐳 Docker y herramientas de desarrollo\n🔀 Git y GitHub\n⚛️ Desarrollo frontend con React\n\n## 🎯 Mis objetivos\n\nMi objetivo es seguir creciendo como desarrollador, adquirir experiencia trabajando en proyectos reales y construir aplicaciones que permitan poner en práctica mis conocimientos de Ingeniería de Sistemas.\n\nTambién quiero mejorar constantemente mis habilidades tanto en **backend como en frontend**, mientras aprendo nuevas tecnologías.\n\n## 📫 Contacto\n\nSi quieres conocer mis proyectos, puedes explorar mis repositorios aquí mismo en GitHub.\n\n---\n\n⭐ **Gracias por visitar mi perfil.**\n",
+  "behind_by": 1
+ },
+ {
+  "user": "felip442",
+  "repo": "felip442/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-31T04:41:40Z",
+  "pushed_at": "2026-08-31T23:34:44Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "04-week/01-session/README.md",
+    "size": 4419,
+    "sha": "bee44bd410b4e302a8651b52b6df844ee7d6c044"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 1,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Andres Felipe Cardenas Bermeo\nGITHUB_USER: felip442\n-->\nHola,Soy Andres Felipe Cardenas Bermeo \n\nEstudiante de Ingeniería de Sistemas en CORHUILA. Apasionado por la tecnología, el desarrollo web y el aprendizaje continuo.\n",
+  "behind_by": 1
+ },
+ {
+  "user": "feller2006",
+  "repo": "feller2006/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-30T16:58:21Z",
+  "pushed_at": "2026-09-01T01:46:45Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/actividad-semana-01.md",
+    "size": 3022,
+    "sha": "1f3b37d0bb85f332be551374db22cf4895411996"
+   },
+   {
+    "path": "02-week/03-optional-activity/backlog.md",
+    "size": 3025,
+    "sha": "c21e78d2dc281e1ba5fdec8fa6400231c0df1f5f"
+   },
+   {
+    "path": "03-week/03-optional-activity/requerimientos.md",
+    "size": 2500,
+    "sha": "98c3c68ddfc6ad3f0ea91d964a8e9557b7ed9795"
+   },
+   {
+    "path": "04-week/03-optional-activity/README.md",
+    "size": 4303,
+    "sha": "7e66a3b4d372f0dcaafb4aa5016dfef735a89ef2"
+   },
+   {
+    "path": "04-week/03-optional-activity/modelo-datos.md",
+    "size": 2589,
+    "sha": "a589eb8bfaa1809fb71eef9b990e2e58dd8f3f1c"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "cb66b8f78e",
+     "author_date": "2026-08-31T19:31:06Z",
+     "committer_date": "2026-08-31T19:31:06Z",
+     "msg": "Add analysis and MVP definition for new app"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "a630c7b29a",
+     "author_date": "2026-08-31T19:44:09Z",
+     "committer_date": "2026-08-31T19:44:09Z",
+     "msg": "Create agile backlog for attendance application"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "69aeb7c65e",
+     "author_date": "2026-08-31T19:54:18Z",
+     "committer_date": "2026-08-31T19:54:18Z",
+     "msg": "Add requirements and use case for attendance application"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "f68b6e3e07",
+     "author_date": "2026-08-31T20:56:48Z",
+     "committer_date": "2026-08-31T20:56:48Z",
+     "msg": "Add data model and application design documentation"
+    },
+    {
+     "sha": "454456b837",
+     "author_date": "2026-08-30T17:54:45Z",
+     "committer_date": "2026-08-30T17:54:45Z",
+     "msg": "Add Shopping List project"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 5,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Rosfeller David Castillo Garzon\nGITHUB_USER: feller2006\n-->\n\n## Hi there 👋\n\n<!--\n**feller2006/feller2006** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "behind_by": 1
+ },
+ {
+  "user": "JHcasanova",
+  "repo": "JHcasanova/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-31T00:46:16Z",
+  "pushed_at": "2026-08-31T01:02:05Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "04-week/actividad1.md",
+    "size": 8023,
+    "sha": "bb676487b330352859c020eca1f8b372eb2f231f"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 1,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Jose Henry Olaya Casanova\nGITHUB_USER: JHcasanova\n-->\nMi nombre es henry casanova, estudio ing de sistemas y estoy muy interesado en esta asignatura para mejor y fortalecer mis conocimiento \n",
+  "behind_by": 1
+ },
+ {
+  "user": "Jose-1206",
+  "repo": "Jose-1206/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:27:50Z",
+  "pushed_at": "2026-08-31T14:15:44Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/Idea móvil (1).pdf",
+    "size": 63467,
+    "sha": "7b2a3bca5a722dfdf2073c640014520887b25c3c"
+   },
+   {
+    "path": "01-week/03-optional-activity/Tabla Comparativa.jpeg",
+    "size": 144068,
+    "sha": "a12add2f5bd1ab6ffea8021ca55d4ab29a23a606"
+   },
+   {
+    "path": "02-week/03-optional-activity/Optional-Activity-02.pdf",
+    "size": 72942,
+    "sha": "9c700818082e00a1490fce1e4bc53a1d86cbaf76"
+   },
+   {
+    "path": "03-week/03-optional-activity/Optional-Activity-03.pdf",
+    "size": 89853,
+    "sha": "e9e3617501537580235c6c09efdb38ecd4319cc2"
+   },
+   {
+    "path": "04-week/03-optional-activity/Optional-Activity-04.pdf",
+    "size": 189008,
+    "sha": "e1f265afd5bb2581bb422f5390967c48db7fffa6"
+   },
+   {
+    "path": "04-week/04-C1-activity/Actividad 1 - Corte 1.pdf",
+    "size": 109572,
+    "sha": "e684cc05d6cb63350a31bfb0b512a1ce666ac1b3"
+   },
+   {
+    "path": "04-week/04-C1-activity/README.md",
+    "size": 1353,
+    "sha": "6823f427ef8adc201a07162db53f38127f21798e"
+   },
+   {
+    "path": "05-week/03-optional-activity/README.md",
+    "size": 31311,
+    "sha": "cafc464846f8ffe4380c56feac29a0279db3a04f"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "472dde0544",
+     "author_date": "2026-08-11T02:02:12Z",
+     "committer_date": "2026-08-11T02:02:12Z",
+     "msg": "Adjunto Actividad opcional 01-week"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "836b772768",
+     "author_date": "2026-08-31T14:15:32Z",
+     "committer_date": "2026-08-31T14:15:32Z",
+     "msg": "Agregando actividades opcionales"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "836b772768",
+     "author_date": "2026-08-31T14:15:32Z",
+     "committer_date": "2026-08-31T14:15:32Z",
+     "msg": "Agregando actividades opcionales"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "836b772768",
+     "author_date": "2026-08-31T14:15:32Z",
+     "committer_date": "2026-08-31T14:15:32Z",
+     "msg": "Agregando actividades opcionales"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "836b772768",
+     "author_date": "2026-08-31T14:15:32Z",
+     "committer_date": "2026-08-31T14:15:32Z",
+     "msg": "Agregando actividades opcionales"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 5,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: José Miguel Aya Peralta\nGITHUB_USER: Jose-1206\n-->\n\n\n# 💫 About Me:\nI'm a Systems Engineering student interested in software development and technology. My main areas of interest are web development, frontend, backend, and mobile application development, as well as computer hardware implementation and management.<br><br>I enjoy building projects that allow me to put my knowledge into practice, solve problems, and learn new technologies along the way. I'm currently working on academic projects such as a Library Management System and a Mobile Attendance Control Application.<br><br>I'm always open to learning, improving my skills, and exploring new technologies through practical projects.\n\n\n## 🌐 Socials:\n[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jeuso.21) \n\n# 💻 Tech Stack:\n![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=flat-square&logo=windows-terminal&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=flat-square&logo=markdown&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white)\n# 📊 GitHub Stats:\n![](https://github-readme-stats.shion.dev/api?username=Jose-1206&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>\n![](https://streak-stats.demolab.com/?user=Jose-1206&theme=radical&hide_border=false)<br/>\n![](https://github-readme-stats.shion.dev/api/top-langs/?username=Jose-1206&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)\n\n---\n[![](https://komarev.com/ghpvc/?username=Jose-1206&icon=4&color=10)](https://visitcount.itsvg.in)\n\n<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->\n",
+  "behind_by": 5
+ },
+ {
+  "user": "Juan-Horta27",
+  "repo": "Juan-Horta27/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-15T00:48:26Z",
+  "pushed_at": "2026-09-10T03:10:05Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/AVANCE ACTIVIDAD SEMANA 1.docx",
+    "size": 18377,
+    "sha": "a0eaf10d690defc62b9bf21b94021a8b637be0d2"
+   },
+   {
+    "path": "02-week/03-optional-activity/ACTIVIDAD SEMANA 2.docx",
+    "size": 19353,
+    "sha": "672b072b34d67996cd8fca85e7ed7001d66be06e"
+   },
+   {
+    "path": "03-week/03-optional-activity/ACTIVIDAD SEMANA 3.docx",
+    "size": 125450,
+    "sha": "5dbf414f308fd3f32cf8975329f7915c24a84521"
+   },
+   {
+    "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/ACTIVIDAD-SEMANA4.docx",
+    "size": 309173,
+    "sha": "410f6705af3f1d1aac31fd8a6a249bb1e1963f36"
+   },
+   {
+    "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/mapa_navegacion.png",
+    "size": 117890,
+    "sha": "374e278a1789b89d71ecee2df696be830733cc3e"
+   },
+   {
+    "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/modelo_datos.png",
+    "size": 105185,
+    "sha": "bc55758a255050bb7191e375a618f4c81425e417"
+   },
+   {
+    "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_1.png",
+    "size": 45947,
+    "sha": "86e125c5ec27d10093b6e0c910020ed3e0b43165"
+   },
+   {
+    "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_2.png",
+    "size": 51629,
+    "sha": "09c9a0b1ef0a236f29142c624bb23c206e6c71ac"
+   },
+   {
+    "path": "04-week/03-optional-activity/ACTIVIDAD SEMANA 4/wireframe_3.png",
+    "size": 55807,
+    "sha": "22dbd49743aacbf4aed22d384f3fb55944ad7666"
+   },
+   {
+    "path": "04-week/README.md",
+    "size": 8540,
+    "sha": "7e81ef58e853b7056c2e8328ed0e36827ead7880"
+   },
+   {
+    "path": "06-week/03-optional-activity/README.md",
+    "size": 6303,
+    "sha": "ea826358fc1d53b8b435e46532ef871e3b0817d6"
+   },
+   {
+    "path": "06-week/03-optional-activity/captura.png",
+    "size": 32766,
+    "sha": "4223a258d0a86e3ccaffbeb7d68500d5e1405497"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/.browserslistrc",
+    "size": 74,
+    "sha": "248618672474db5dee54459fd9872cc0c2eb3023"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/.gitignore",
+    "size": 406,
+    "sha": "c5052646b4c86c8149b4fd68f8791f4444ea13a6"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/.vscode/extensions.json",
+    "size": 65,
+    "sha": "af3c0b294f4454b40d0159506ef1756082fe4a1a"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/capacitor.config.ts",
+    "size": 183,
+    "sha": "0822bb9b2150bf458db2f13c3fdf1a6067356e50"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress.config.ts",
+    "size": 212,
+    "sha": "5d58e7ab1f02d9b4d6ff30e694f1877c71905b30"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress/e2e/test.cy.ts",
+    "size": 156,
+    "sha": "7b9a2e0290e00521c664aea2609c8ad21840a963"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress/fixtures/example.json",
+    "size": 155,
+    "sha": "02e4254378e9785f013be7cc8d94a8229dcbcbb7"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress/support/commands.ts",
+    "size": 1314,
+    "sha": "698b01a42c355ca80fdca1c2c979299164d3c7e7"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress/support/e2e.ts",
+    "size": 667,
+    "sha": "f80f74f8e1f7b4754f5900620d812cde385187d4"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/eslint.config.js",
+    "size": 908,
+    "sha": "0542f72c3c9e83679b90c9cf450cff10dfce53f9"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/index.html",
+    "size": 967,
+    "sha": "f0c4e0cb50f2d62dc6341fed83b0a343a883fe50"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/ionic.config.json",
+    "size": 91,
+    "sha": "49a15fd3a1d05126b00ed6b2efdde0ed10e25876"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/package.json",
+    "size": 1443,
+    "sha": "4e575910d329dec9767c4307cc1109c135b116eb"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/public/favicon.png",
+    "size": 930,
+    "sha": "51888a7bbdb59f04c29c548523eb2638c1c954f5"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/public/manifest.json",
+    "size": 438,
+    "sha": "5808705475c95e766b3a5d7e3b42297b98c6b106"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/App.test.tsx",
+    "size": 227,
+    "sha": "8c927a8d7ac7740317b1947d4023151a4accf09e"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/App.tsx",
+    "size": 1493,
+    "sha": "cd8ef3f65f58d5940b715546e14fd247f698c5bd"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.css",
+    "size": 319,
+    "sha": "c2c47cfa2a7b3c82718a692d25465b75ba09d459"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.tsx",
+    "size": 313,
+    "sha": "4f510a3aca9752af36d617383d8fecbf0ed83dfd"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/main.tsx",
+    "size": 258,
+    "sha": "fbff6c812e23a1da867bec3ff66a512de60a8919"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/pages/Home.css",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/pages/Home.tsx",
+    "size": 637,
+    "sha": "424c7105e28dce8ba0869c85d35597edc6a62eeb"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/setupTests.ts",
+    "size": 440,
+    "sha": "87988d6bded0efbdfc9ec64ea066b0e9d6e9155d"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/theme/variables.css",
+    "size": 112,
+    "sha": "a134dcfd49fc5fb846e4d78d8c3f4dc3ec356878"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/vite-env.d.ts",
+    "size": 38,
+    "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/tsconfig.json",
+    "size": 559,
+    "sha": "3d0a51a86e202419758206adb6effe775229ba38"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/tsconfig.node.json",
+    "size": 184,
+    "sha": "9d31e2aed93c876bc048cf2f863cb2a847c901e8"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/vite.config.ts",
+    "size": 360,
+    "sha": "89f5ecd2246882cf5548cd7d23c28992d0e2f340"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "07219103c8",
+     "author_date": "2026-08-16T21:30:50Z",
+     "committer_date": "2026-08-16T21:30:50Z",
+     "msg": "Entrega actividad semana 1"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "1ff73e2ca1",
+     "author_date": "2026-08-18T00:56:58Z",
+     "committer_date": "2026-08-18T00:56:58Z",
+     "msg": "Entrega actividad semana 2"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "9fd69406f4",
+     "author_date": "2026-08-20T18:55:34Z",
+     "committer_date": "2026-08-20T18:55:34Z",
+     "msg": "Entrega actividad semana 3"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "7dd4ad88d4",
+     "author_date": "2026-08-29T03:31:24Z",
+     "committer_date": "2026-08-29T03:31:24Z",
+     "msg": "Entrega actividad semana 4"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 6,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Juan José Horta Vanegas\nGITHUB_USER: Juan-Horta27\n-->\n# 👋 Hola, soy Juan José Horta Vanegas\n\nEstudiante de **Ingeniería de Sistemas** en la Corporación Universitaria del Huila (CORHUILA), actualmente cursando **sexto semestre**.\n\n---\n\n## 🎓 Sobre mí\n\nMe encuentro en la mitad de mi formación como ingeniero de sistemas, una etapa en la que estoy pasando de los fundamentos teóricos a la construcción de proyectos reales. Este espacio lo uso para reunir los trabajos, prácticas y ejercicios que voy desarrollando a lo largo de la carrera.\n\nMi interés está en el desarrollo de software y en aprender haciendo: cada repositorio que publico aquí es parte de ese proceso de práctica y mejora continua.\n\n---\n\n## 📌 En este perfil encontrarás\n\n- Proyectos académicos de la universidad\n- Ejercicios y prácticas de programación\n- Trabajos personales con los que sigo aprendiendo\n\n---\n\n*Gracias por pasar por mi perfil.*\n",
+  "behind_by": 1
+ },
+ {
+  "user": "JuanBernalCorhuila",
+  "repo": "JuanBernalCorhuila/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:35:34Z",
+  "pushed_at": "2026-09-11T14:36:00Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/OPTIONAL ACTIVITY 1.pdf",
+    "size": 224666,
+    "sha": "370077441234ef4b212d1835cc7072142159aead"
+   },
+   {
+    "path": "02-week/03-optional-activity/Optional Activity 2.pdf",
+    "size": 250458,
+    "sha": "fa995875df3d0731c3e433b7052ae3e5ae2cf218"
+   },
+   {
+    "path": "03-week/03-optional-activity/Optional Activity 3.pdf",
+    "size": 232863,
+    "sha": "3353daa1cf6246404e0ede2ad3c5b90bc898fee0"
+   },
+   {
+    "path": "04-week/03-optional-activity/Modelo-datos-mockups.md",
+    "size": 5568,
+    "sha": "3e31db5ee49f2fdddc9fd46a59649c65c9d56d23"
+   },
+   {
+    "path": "04-week/03-optional-activity/mapa-navegacion.png",
+    "size": 13877,
+    "sha": "5a8ab0d632792c91bcdc8de82f30ee9a3f2e9f2d"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-medicamentos.png",
+    "size": 15223,
+    "sha": "3e90164185013ceaf05ff1019778d503586c17df"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-pantalla-principal.png",
+    "size": 12046,
+    "sha": "a60044a24df63543044922302114930996ac37e7"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-sintomas.png",
+    "size": 14868,
+    "sha": "aa861d58961c160431ad56d739be81142e599f09"
+   },
+   {
+    "path": "04-week/c1 - Activity/README.md",
+    "size": 7077,
+    "sha": "233ba9516e26a604ec31f3aad84c991dae0320cf"
+   },
+   {
+    "path": "05-week/03-optional-activity/README.md",
+    "size": 2762,
+    "sha": "11606dbf34c6900e443519495a1d63dafe219ec0"
+   },
+   {
+    "path": "05-week/03-optional-activity/anexos/01-idea-mvp.md",
+    "size": 2389,
+    "sha": "d621822ddfc001e8ff1fa03b04841773b4f7a914"
+   },
+   {
+    "path": "05-week/03-optional-activity/anexos/02-backlog.md",
+    "size": 4606,
+    "sha": "0a9878872d7e2d66d194df8fe6890bfca0c4291c"
+   },
+   {
+    "path": "05-week/03-optional-activity/anexos/03-requerimientos-caso-uso.md",
+    "size": 3408,
+    "sha": "b3a44a9e651ac800c355abf8a712062faa4ed691"
+   },
+   {
+    "path": "05-week/03-optional-activity/anexos/04-modelo-datos-wireframes.md",
+    "size": 5177,
+    "sha": "f825eca8b3a9aa5ccd354c3a8ef95528a329eaf8"
+   },
+   {
+    "path": "05-week/03-optional-activity/anexos/mapa-navegacion.png",
+    "size": 13877,
+    "sha": "5a8ab0d632792c91bcdc8de82f30ee9a3f2e9f2d"
+   },
+   {
+    "path": "05-week/03-optional-activity/anexos/wireframe-medicamentos.png",
+    "size": 15223,
+    "sha": "3e90164185013ceaf05ff1019778d503586c17df"
+   },
+   {
+    "path": "05-week/03-optional-activity/anexos/wireframe-pantalla-principal.png",
+    "size": 12046,
+    "sha": "a60044a24df63543044922302114930996ac37e7"
+   },
+   {
+    "path": "05-week/03-optional-activity/anexos/wireframe-sintomas.png",
+    "size": 14868,
+    "sha": "aa861d58961c160431ad56d739be81142e599f09"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/.browserslistrc",
+    "size": 74,
+    "sha": "248618672474db5dee54459fd9872cc0c2eb3023"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/.gitignore",
+    "size": 406,
+    "sha": "c5052646b4c86c8149b4fd68f8791f4444ea13a6"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/.vscode/extensions.json",
+    "size": 65,
+    "sha": "af3c0b294f4454b40d0159506ef1756082fe4a1a"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/Captura.png",
+    "size": 43113,
+    "sha": "d836000610e0f7d1d08db03189976bc6e77cbc01"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/README.md",
+    "size": 1321,
+    "sha": "5a9fcb4a85ac20a8e2032a28e535f9714f39400c"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/capacitor.config.ts",
+    "size": 183,
+    "sha": "0822bb9b2150bf458db2f13c3fdf1a6067356e50"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress.config.ts",
+    "size": 212,
+    "sha": "5d58e7ab1f02d9b4d6ff30e694f1877c71905b30"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress/e2e/test.cy.ts",
+    "size": 156,
+    "sha": "7b9a2e0290e00521c664aea2609c8ad21840a963"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress/fixtures/example.json",
+    "size": 155,
+    "sha": "02e4254378e9785f013be7cc8d94a8229dcbcbb7"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress/support/commands.ts",
+    "size": 1314,
+    "sha": "698b01a42c355ca80fdca1c2c979299164d3c7e7"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/cypress/support/e2e.ts",
+    "size": 667,
+    "sha": "f80f74f8e1f7b4754f5900620d812cde385187d4"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/eslint.config.js",
+    "size": 908,
+    "sha": "0542f72c3c9e83679b90c9cf450cff10dfce53f9"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/index.html",
+    "size": 967,
+    "sha": "f0c4e0cb50f2d62dc6341fed83b0a343a883fe50"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/ionic.config.json",
+    "size": 91,
+    "sha": "49a15fd3a1d05126b00ed6b2efdde0ed10e25876"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/package.json",
+    "size": 1443,
+    "sha": "4e575910d329dec9767c4307cc1109c135b116eb"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/public/favicon.png",
+    "size": 930,
+    "sha": "51888a7bbdb59f04c29c548523eb2638c1c954f5"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/public/manifest.json",
+    "size": 438,
+    "sha": "5808705475c95e766b3a5d7e3b42297b98c6b106"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/App.test.tsx",
+    "size": 227,
+    "sha": "8c927a8d7ac7740317b1947d4023151a4accf09e"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/App.tsx",
+    "size": 1493,
+    "sha": "cd8ef3f65f58d5940b715546e14fd247f698c5bd"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.css",
+    "size": 319,
+    "sha": "c2c47cfa2a7b3c82718a692d25465b75ba09d459"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/components/ExploreContainer.tsx",
+    "size": 402,
+    "sha": "1b68a3c19cb75e3d8b34a817321242324a2070b5"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/main.tsx",
+    "size": 258,
+    "sha": "fbff6c812e23a1da867bec3ff66a512de60a8919"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/pages/Home.css",
+    "size": 0,
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/pages/Home.tsx",
+    "size": 631,
+    "sha": "883df8e094e4b26aa88d8bc430efd60d502f5715"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/setupTests.ts",
+    "size": 440,
+    "sha": "87988d6bded0efbdfc9ec64ea066b0e9d6e9155d"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/theme/variables.css",
+    "size": 112,
+    "sha": "a134dcfd49fc5fb846e4d78d8c3f4dc3ec356878"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/src/vite-env.d.ts",
+    "size": 38,
+    "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/tsconfig.json",
+    "size": 559,
+    "sha": "3d0a51a86e202419758206adb6effe775229ba38"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/tsconfig.node.json",
+    "size": 184,
+    "sha": "9d31e2aed93c876bc048cf2f863cb2a847c901e8"
+   },
+   {
+    "path": "06-week/03-optional-activity/miApp/vite.config.ts",
+    "size": 360,
+    "sha": "89f5ecd2246882cf5548cd7d23c28992d0e2f340"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "c2a27dce20",
+     "author_date": "2026-08-13T20:33:06Z",
+     "committer_date": "2026-08-13T20:33:06Z",
+     "msg": "Entrega semana 2 actualizada"
+    },
+    {
+     "sha": "7890375db0",
+     "author_date": "2026-08-11T03:46:08Z",
+     "committer_date": "2026-08-11T03:46:08Z",
+     "msg": "Desarrollo actividad opcional-semana 1"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "01b677be2c",
+     "author_date": "2026-08-15T19:36:43Z",
+     "committer_date": "2026-08-15T19:36:43Z",
+     "msg": "Entrega 2 semana Actividad opcional"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "5e61bf5cb2",
+     "author_date": "2026-08-18T22:38:18Z",
+     "committer_date": "2026-08-18T22:38:18Z",
+     "msg": "Entrega semana 03"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "0237b01589",
+     "author_date": "2026-08-29T17:14:56Z",
+     "committer_date": "2026-08-29T17:14:56Z",
+     "msg": "Entrega opcional semana 4"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "f018741bd4",
+     "author_date": "2026-09-07T03:09:22Z",
+     "committer_date": "2026-09-07T03:09:22Z",
+     "msg": "Entrega Actividad Opcional Semana 05"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 12,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Juan Camilo Bernal Gordillo\nGITHUB_USER: JuanBernalCorhuila\n-->\n\n## Hi there 👋\n\nSoy Juan Camilo Bernal Gordillo, estudiante de Ingeniería de Sistemas en la Corporación Universitaria del Huila (Corhuila), actualmente cursando sexto semestre.\n\nTengo especial interés en el desarrollo de software y aplicaciones web, áreas en las que busco seguir formándome y adquiriendo experiencia práctica a través de proyectos como este.\n\nFuera del ámbito académico, disfruto del fútbol y del tiempo compartido en familia, aspectos que considero importantes para mantener un buen equilibrio personal.\n\n<!--\n**JuanBernalCorhuila/JuanBernalCorhuila** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "behind_by": 0
+ },
+ {
+  "user": "juanjoGuzmanBohorquez",
+  "repo": "juanjoGuzmanBohorquez/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:14:41Z",
+  "pushed_at": "2026-08-31T16:02:52Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/semana 1 opcional.pdf",
+    "size": 111281,
+    "sha": "557d16a02fb5c4eb4d87e9c5704d33e3c103b725"
+   },
+   {
+    "path": "02-week/03-optional-activity/semana 2 movil opt.docx",
+    "size": 17801,
+    "sha": "2e29c9a962278641caaef93135c9835b752175a0"
+   },
+   {
+    "path": "03-week/03-optional-activity/Diagrama sin título.drawio.png",
+    "size": 50636,
+    "sha": "f97d9e44f72cc28710c636cebcf27415500534c4"
+   },
+   {
+    "path": "03-week/03-optional-activity/README.md",
+    "size": 2909,
+    "sha": "1afbc35551e74c617acbb9aa0e9ce37841d3b913"
+   },
+   {
+    "path": "04-week/03-optional-activity/README.md",
+    "size": 1723,
+    "sha": "ac01be1e7af0ce88f31cb764ba9351bc5f3f665c"
+   },
+   {
+    "path": "04-week/03-optional-activity/semana 4 movi;.docx",
+    "size": 807071,
+    "sha": "1c9d70b42349c6f6614306a2ffc433b25d86c978"
+   },
+   {
+    "path": "04-week/03-optional-activity/trabajo movil.docx",
+    "size": 17670,
+    "sha": "21178c15cc2320009945ea94ab5303138752fb0a"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "04ece0e22e",
+     "author_date": "2026-08-11T01:01:44Z",
+     "committer_date": "2026-08-11T01:01:44Z",
+     "msg": "Semana 1 trabajo"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "ccfcb7b143",
+     "author_date": "2026-08-31T15:25:30Z",
+     "committer_date": "2026-08-31T15:25:30Z",
+     "msg": "semana 2"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "fcd441925d",
+     "author_date": "2026-08-31T15:40:35Z",
+     "committer_date": "2026-08-31T15:40:35Z",
+     "msg": "Diagrama de caso de uso"
+    },
+    {
+     "sha": "53b83fed5e",
+     "author_date": "2026-08-31T15:36:34Z",
+     "committer_date": "2026-08-31T15:36:34Z",
+     "msg": "semana 3"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "499d45f7de",
+     "author_date": "2026-08-31T16:02:51Z",
+     "committer_date": "2026-08-31T16:02:51Z",
+     "msg": "semana 4"
+    },
+    {
+     "sha": "2d0e750e66",
+     "author_date": "2026-08-29T19:46:58Z",
+     "committer_date": "2026-08-29T19:46:58Z",
+     "msg": "readme.md"
+    },
+    {
+     "sha": "37d0e3ee89",
+     "author_date": "2026-08-29T14:02:58Z",
+     "committer_date": "2026-08-29T14:02:58Z",
+     "msg": "c1-actividad"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 7,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Juan José Guzmán Bohórquez\nGITHUB_USER: juanjoGuzmanBohorquez\nEMAIL: tu_correo_aqui\nCODE_ORGANIZATION: code-corhuila\n-->\n\n<h1 align=\"center\">Juan José Guzmán Bohórquez</h1>\n\n<p align=\"center\">\n<img src=\"https://komarev.com/ghpvc/?username=juanjoGuzmanBohorquez&label=Profile%20views&style=flat-square&color=brightgreen\" alt=\"Profile views\">\n</p>\n\n---\n\n## Perfil\n- **Nombre:** Juan José Guzmán Bohórquez\n- **GitHub:** [@juanjoGuzmanBohorquez](https://github.com/juanjoGuzmanBohorquez)\n- **Email:** jjguzman-2024a@corhuila.edu.co\n- **Organizacion institucional:** [code-corhuila](https://github.com/code-corhuila)\n\n---\n\n## Repositorio institucional\nEste repositorio esta asociado a la organizacion **code-corhuila**.\n",
+  "behind_by": 5
+ },
+ {
+  "user": "juliangarcia8823-ux",
+  "repo": "juliangarcia8823-ux/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-30T15:55:29Z",
+  "pushed_at": "2026-08-30T21:04:38Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "04-week/01-session/readmetrabajo2026",
+    "size": 8688,
+    "sha": "ec99b1e20f77e0cb20699e0ca09a7f1d697e6d88"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 2,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Julian Ernesto Garcia Andrade\nGITHUB_USER: juliangarcia8823-ux\n-->\n\n# Julian Ernesto García Andrade\n\nEstudiante de Ingeniería de Sistemas en la Corporación Universitaria del Huila (Corhuila).\n\nActualmente estoy desarrollando conocimientos en programación, desarrollo de aplicaciones móviles, bases de datos y desarrollo de software.\n",
+  "behind_by": 1
+ },
+ {
+  "user": "laura-marcela05",
+  "repo": "laura-marcela05/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:12:08Z",
+  "pushed_at": "2026-08-29T23:01:14Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/TALLER OPCIONAL SEMANA 1.pdf",
+    "size": 169156,
+    "sha": "a2ee52d42b781cec7e2885f8f750032dd890b7b0"
+   },
+   {
+    "path": "02-week/03-optional-activity/TALLER OPCIONAL SEMANA 2.pdf",
+    "size": 208191,
+    "sha": "2db18a9136ad0dd257a166ff3c528c2758181026"
+   },
+   {
+    "path": "03-week/03-optional-activity/TALLER OPCIONAL SEMANA 3.pdf",
+    "size": 193271,
+    "sha": "ccd9e8f0a248caa9536e93f09b2f0a48b0e1a6de"
+   },
+   {
+    "path": "04-week/03-optional-activity/mapa-navegacion.svg",
+    "size": 17119,
+    "sha": "d29c8ff1e323bc558d06c31d49fe06a67c8c82cd"
+   },
+   {
+    "path": "04-week/03-optional-activity/modelo-datos-mockups.md",
+    "size": 6056,
+    "sha": "5b2f004c96a9f5020ab7008a76d9cc0f6ede1590"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-crear-cuenta.svg",
+    "size": 32477,
+    "sha": "bc4c7975595f126cd214f53e06754f0bec6294be"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-registrar-comida.svg",
+    "size": 28659,
+    "sha": "0085402e0573eeb8d70d2b619681897fcddb4cb7"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-resumen-semanal.svg",
+    "size": 24161,
+    "sha": "93dcc429825145fda3b48b031ffbd92f2e869ecc"
+   },
+   {
+    "path": "04-week/c1-Activity/README.md",
+    "size": 6161,
+    "sha": "ecdf4ea36d54f52f20b8eb9509b70d580ea80fd8"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "e824fabc85",
+     "author_date": "2026-08-11T01:49:58Z",
+     "committer_date": "2026-08-11T01:49:58Z",
+     "msg": "Entrega semana 01"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "ef10b7e69d",
+     "author_date": "2026-08-15T22:54:43Z",
+     "committer_date": "2026-08-15T22:54:43Z",
+     "msg": "Entrega semana 02"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "eb9065ca1a",
+     "author_date": "2026-08-17T23:06:59Z",
+     "committer_date": "2026-08-17T23:06:59Z",
+     "msg": "Entrega semana 03"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "e883dcb7b8",
+     "author_date": "2026-08-29T23:00:59Z",
+     "committer_date": "2026-08-29T23:00:59Z",
+     "msg": "Entrega semana 04"
+    },
+    {
+     "sha": "136b58f525",
+     "author_date": "2026-08-29T22:57:19Z",
+     "committer_date": "2026-08-29T22:57:19Z",
+     "msg": "Entrega semana 04 y actividad C1"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 5,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG \nFULL_NAME: Laura Marcela Quintero Poveda \nGITHUB_USER: laura-marcela05\n-->\n\n## Hola! Mi nombre es Laura Marcela Quintero\n\nSoy estudiante de ingeniería de sistemas en la CORHUILA\n\n### Sobre mi\nMe gusta la construcción de sistemas que puedan resolver un problema real para las personas y me gusta la lectura.\n\n### Expectativa del curso desarrollo Full-Stack\nDe este curso espero seguir aprendiendo y fortaleciendo mis bases en desarrollo fullstack,\nprincipalmente a través de la práctica: construir sistemas que realmente puedan ayudar a las personas,\nno solo ejercicios teóricos. Esto con el objetivo de tener un buen desempeño académico y mejorar mis habilidades\n\n\n<!--\n**laura-marcela05/laura-marcela05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "behind_by": 5
+ },
+ {
+  "user": "LillyPuentes-2003",
+  "repo": "LillyPuentes-2003/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:49:34Z",
+  "pushed_at": "2026-08-31T04:42:29Z",
+  "config": null,
+  "config_error": "404",
+  "added_paths": [
+   {
+    "path": "04-week/01-session/README.md",
+    "size": 20040,
+    "sha": "0425aa9b1a906c925bac5a2064264ed4f20a1cd4"
+   },
+   {
+    "path": "04-week/01-session/bpmn-manicita.html",
+    "size": 15764,
+    "sha": "7c63d0e891ea7404623fe8264c14ee73f84878a9"
+   },
+   {
+    "path": "04-week/01-session/c4-nivel1-manicita.html",
+    "size": 10260,
+    "sha": "295f98f33b1aaebd49b87c41db913534a6fe1904"
+   },
+   {
+    "path": "README.md",
+    "size": 1082,
+    "sha": "d36495fe5777706aeb3a92a1dc1a413bfb87a655"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 5,
+  "compare_error": null,
+  "behind_by": 5
+ },
+ {
+  "user": "LizethC10",
+  "repo": "LizethC10/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:32:34Z",
+  "pushed_at": "2026-08-03T19:48:22Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 0,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME=Lizeth Lorena Caicedo Mora\nGITHUB_USER=LizethC10\n-->\n## Hi there 👋\n\n<!--\n**LizethC10/LizethC10** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "behind_by": 5
+ },
+ {
+  "user": "Lozano-027",
+  "repo": "Lozano-027/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:35:41Z",
+  "pushed_at": "2026-08-31T04:19:03Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "04-week/03-optional-activity/Corte 1 — Planificación del proyecto móvil.md",
+    "size": 7955,
+    "sha": "90225f9db9bcd72e7badbba0f9284c104a8c54bf"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "533d2a1017",
+     "author_date": "2026-08-31T04:18:57Z",
+     "committer_date": "2026-08-31T04:18:57Z",
+     "msg": "Planificación del proyecto móvil"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 1,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Jesús Ariel González Bonilla\nGITHUB_USER: ariel5253\n-->\n# 👋 ¡Hola! Soy Julio César Lozano\n\n💻 **Estudiante de Ingeniería de Sistemas** apasionado por la tecnología y el desarrollo de software.\n\nActualmente estoy fortaleciendo mis conocimientos en **desarrollo web, bases de datos, programación y arquitectura de software**, trabajando en proyectos académicos y personales que me permiten aplicar lo aprendido.\n\n## 🚀 Tecnologías y herramientas\n\n* 🌐 HTML, CSS, JavaScript y TypeScript\n* ⚛️ React y Next.js\n* 🟢 Node.js y NestJS\n* 🗄️ PostgreSQL y Prisma\n* 🐳 Docker\n* 🔧 Git y GitHub\n* 🧪 Jest, Supertest y Selenium\n* 📐 UML y arquitectura de software\n\n## 📚 Actualmente aprendiendo\n\n* Desarrollo de aplicaciones web\n* Seguridad de la información\n* Bases de datos\n* Inteligencia artificial\n* Sistemas distribuidos\n* Testing y aseguramiento de la calidad\n\n## 🎯 Objetivo\n\nSeguir creciendo como desarrollador de software, adquirir experiencia en proyectos reales y construir soluciones tecnológicas útiles, escalables y de calidad.\n\n---\n\n⭐ *Siempre aprendiendo, creando y mejorando.*\n",
+  "behind_by": 5
+ },
+ {
+  "user": "luisfernando-77",
+  "repo": "luisfernando-77/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:23:20Z",
+  "pushed_at": "2026-08-31T15:10:08Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/Actividad-Semana-01-Luis-Fernando (1).pdf",
+    "size": 70968,
+    "sha": "97e9d2bd7c381a745ce8df26caa1bd0f51d7d641"
+   },
+   {
+    "path": "02-week/03-optional-activity/README.md",
+    "size": 3538,
+    "sha": "2bbb01ef009fd023a841b35c7617978070894b46"
+   },
+   {
+    "path": "03-week/03-optional-activity/README.md",
+    "size": 2686,
+    "sha": "56c939ed65b3a96e6e2f8cc71fe4f5c90c743162"
+   },
+   {
+    "path": "04-week/03-optional-activity/README.md",
+    "size": 3178,
+    "sha": "a8d2343266024cf33e73f088cad12438395b3797"
+   },
+   {
+    "path": "04-week/03-optional-activity/mapa-navegacion.svg",
+    "size": 3082,
+    "sha": "d572f04f7dd3788fe25fc93b1aeaccced4eba0a7"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-01-lista-tareas.svg",
+    "size": 3398,
+    "sha": "1f6361f94dff40d81d3d76ccb8e023d7802ecc94"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-02-crear-tarea.svg",
+    "size": 2754,
+    "sha": "7b9be050deb0260f6caa9a922a8557715b98b0aa"
+   },
+   {
+    "path": "04-week/03-optional-activity/wireframe-03-detalle-tarea.svg",
+    "size": 2786,
+    "sha": "4985879ce7febe8dce33f14322e5718880466911"
+   },
+   {
+    "path": "04-week/actividad-calificable-c1/Planificacion_FilaFacil.pdf",
+    "size": 100363,
+    "sha": "2b9d0c984b4b780b32cf40f4143941104376cd72"
+   },
+   {
+    "path": "04-week/actividad-calificable-c1/README.md",
+    "size": 710,
+    "sha": "b0b89205fd1cfb79ac352b3ffab0a1872443218f"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "d2c7ffa28e",
+     "author_date": "2026-08-11T02:58:25Z",
+     "committer_date": "2026-08-11T02:58:25Z",
+     "msg": "Entrega actividad semana 01"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "978a1e2c65",
+     "author_date": "2026-08-31T14:46:56Z",
+     "committer_date": "2026-08-31T14:46:56Z",
+     "msg": "Rename README.md.md to README.md"
+    },
+    {
+     "sha": "9e86825b81",
+     "author_date": "2026-08-31T14:44:29Z",
+     "committer_date": "2026-08-31T14:44:29Z",
+     "msg": "Entrega semana 02"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "8ec81382dc",
+     "author_date": "2026-08-31T14:54:59Z",
+     "committer_date": "2026-08-31T14:54:59Z",
+     "msg": "Rename README.md.md to README.md"
+    },
+    {
+     "sha": "1d1d718633",
+     "author_date": "2026-08-31T14:52:24Z",
+     "committer_date": "2026-08-31T14:52:24Z",
+     "msg": "Entrega semana 03"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "0a50c8cc5e",
+     "author_date": "2026-08-31T15:10:07Z",
+     "committer_date": "2026-08-31T15:10:07Z",
+     "msg": "Update README.md"
+    },
+    {
+     "sha": "a5c875e0ac",
+     "author_date": "2026-08-31T15:08:10Z",
+     "committer_date": "2026-08-31T15:08:10Z",
+     "msg": "Entrega semana 04"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 11,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Luis Fernando Pérez Chala\nGITHUB_USER: luisfernando-77\n-->\n# Hola 👋\n\nSoy estudiante de Ingeniería de Sistemas.\nMe interesa la programación y el desarrollo de software.\n\n<!--\n**luisfernando-77/luisfernando-77** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "behind_by": 5
+ },
+ {
+  "user": "pablo12968",
+  "repo": "pablo12968/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T01:01:26Z",
+  "pushed_at": "2026-08-31T00:39:26Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/README.md",
+    "size": 1764,
+    "sha": "608c77bd7f7a841cb2884437023dc9f2613d8fea"
+   },
+   {
+    "path": "02-week/03-optional-activity/README.md",
+    "size": 5034,
+    "sha": "26113c79efb607f09e7c04f5098cae935a0e90bb"
+   },
+   {
+    "path": "04-week/c1-activity.md",
+    "size": 8024,
+    "sha": "e10ff1377e0b2eb1bb24fbab9569265da4af6015"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "3d85992a9b",
+     "author_date": "2026-08-20T00:34:21Z",
+     "committer_date": "2026-08-20T00:34:21Z",
+     "msg": "Entrega semana 02"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 3,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Pablo Esteban Santana Vidal\nGITHUB_USER: pablo12968\n-->\n\n# Hola 👋\n\nSoy estudiante de Ingeniería de Sistemas en CORHUILA.\n\nActualmente estoy aprendiendo sobre programación, desarrollo de software, bases de datos y tecnologías informáticas.\n",
+  "behind_by": 5
+ },
+ {
+  "user": "Palinapau",
+  "repo": "Palinapau/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-11T00:12:29Z",
+  "pushed_at": "2026-08-31T06:51:22Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "04-week/03-optional-activity/Actividad 4 PM.pdf",
+    "size": 143793,
+    "sha": "4b14d791f4ab06a5b9a694f76ec2ca9d2dc423b9"
+   },
+   {
+    "path": "04-week/03-optional-activity/README.md",
+    "size": 575,
+    "sha": "9e8e0b7a8a484937059a296e1fb6ceea7284e943"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "50a215dece",
+     "author_date": "2026-08-31T06:51:22Z",
+     "committer_date": "2026-08-31T06:51:22Z",
+     "msg": "Fix header formatting in README.md"
+    },
+    {
+     "sha": "85b22007bb",
+     "author_date": "2026-08-31T06:50:21Z",
+     "committer_date": "2026-08-31T06:50:21Z",
+     "msg": "Change project title from H1 to H2 in README"
+    },
+    {
+     "sha": "ae3edf1857",
+     "author_date": "2026-08-31T06:50:04Z",
+     "committer_date": "2026-08-31T06:50:04Z",
+     "msg": "Update README formatting and project pitch section"
+    },
+    {
+     "sha": "cbf3feea1f",
+     "author_date": "2026-08-31T04:15:40Z",
+     "committer_date": "2026-08-31T04:15:40Z",
+     "msg": "Entrega actividad 4"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 4,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Paulina Díaz Perdomo\nGITHUB_USER: Palinapau\n-->\n\n<!--\n**Palinapau/Palinapau** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\n- Actualemnte estudio Ingeniería de Sístemas en Corhuila\n- Actualemnte estoy en sexto semestre \n",
+  "behind_by": 1
+ },
+ {
+  "user": "SergioLosadaDev",
+  "repo": "SergioLosadaDev/programacion-movil-2026-b-g1",
+  "branch": "main",
+  "fork_created_at": "2026-08-24T23:11:03Z",
+  "pushed_at": "2026-08-31T01:45:55Z",
+  "config": null,
+  "config_error": null,
+  "added_paths": [
+   {
+    "path": "01-week/03-optional-activity/practice-activity.md",
+    "size": 4453,
+    "sha": "ee45e91bb63fa7cd6c179103653511d535572530"
+   },
+   {
+    "path": "02-week/03-optional-activity/practice-activity.md",
+    "size": 5634,
+    "sha": "e93b5e233134c2a41f8a2512643e1de7aa640a7b"
+   },
+   {
+    "path": "03-week/03-optional-activity/practice-activity.md",
+    "size": 9393,
+    "sha": "98a025a68ad3c8723a5b3cc997a5966c5581c9bd"
+   },
+   {
+    "path": "04-week/01-session/tm-planning.md",
+    "size": 11127,
+    "sha": "a8142ff988ba20f248bebbdc397b9af96d70cc1a"
+   },
+   {
+    "path": "04-week/03-optional-activity/practice-activity.md",
+    "size": 17985,
+    "sha": "dd31af524f2665ccf71db78504dbfb5e3d7b6034"
+   }
+  ],
+  "tree_error": null,
+  "commits": {
+   "01": [
+    {
+     "sha": "aa9e99f653",
+     "author_date": "2026-08-30T23:26:24Z",
+     "committer_date": "2026-08-30T23:26:24Z",
+     "msg": "practice activity week 01"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "02": [
+    {
+     "sha": "3c8936edc3",
+     "author_date": "2026-08-30T23:41:36Z",
+     "committer_date": "2026-08-30T23:41:36Z",
+     "msg": "Optional activity week 02"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "03": [
+    {
+     "sha": "6074ef9034",
+     "author_date": "2026-08-31T01:45:15Z",
+     "committer_date": "2026-08-31T01:45:15Z",
+     "msg": "Add TM Plannig and rename OA week 3"
+    },
+    {
+     "sha": "44581a62d1",
+     "author_date": "2026-08-30T23:50:13Z",
+     "committer_date": "2026-08-30T23:50:13Z",
+     "msg": "optional activity week 3"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "04": [
+    {
+     "sha": "2ad1f2b7ff",
+     "author_date": "2026-08-30T23:56:44Z",
+     "committer_date": "2026-08-30T23:56:44Z",
+     "msg": "Optional activity week 04"
+    },
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ],
+   "05": [
+    {
+     "sha": "e893066ac8",
+     "author_date": "2026-08-11T12:32:11Z",
+     "committer_date": "2026-08-11T12:32:11Z",
+     "msg": "Revert \"chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)\""
+    },
+    {
+     "sha": "37e3c225b9",
+     "author_date": "2026-08-11T01:06:58Z",
+     "committer_date": "2026-08-11T01:06:58Z",
+     "msg": "chore(repo): carpeta de entrega por semana + README (quita placeholders session/optional-activity)"
+    },
+    {
+     "sha": "9b6e42e6bf",
+     "author_date": "2026-08-03T19:31:11Z",
+     "committer_date": "2026-08-03T19:31:11Z",
+     "msg": "chore: estructura inicial de 16 semanas"
+    }
+   ]
+  },
+  "commit_errors": {},
+  "ahead_by": 5,
+  "compare_error": null,
+  "config_raw": "<!--\nCONFIG\nFULL_NAME: Sergio Andres Losada Bahamon\nGITHUB_USER: SergioLosadaDev\nEMAIL: enlosada-2025a@corhuila.edu.co\nCODE_ORGANIZATION: code-corhuila\n-->\n\n# 👋 Hi, I'm Sergio Losada\n\n🎓 Software Engineering Student <br>\n☕ Backend Developer focused on Java ecosystem <br>\n🚀 Passionate about building scalable and clean architectures\n\n---\n\n## 🧠 About Me\n\n- 💡 Strong interest in Backend Development\n- 🏗️ Focused on clean architecture and SOLID principles\n- 🗄️ Experience working with relational databases\n- ⚙️ Familiar with Docker and modern development workflows\n\n---\n\n## 🛠️ Tech Stack\n\n### ☕ Backend\n\n- Java\n- Spring Boot\n- Spring MVC\n- Spring Data JPA\n- REST API Design\n\n### 🗄️ Databases\n\n- PostgreSQL\n- MySQL\n\n### ⚙️ Tools & DevOps\n\n- Git & GitHub\n- Docker\n- Kubernetes\n- Postman\n- Maven / Gradle\n\n### 💻 Other Knowledge\n\n- Basic React (Frontend)\n- Python (Scripting & Automation)\n- C# / .NET (Previous experience)\n\n---\n\n### 🔹 REST API - Product Management\n\n- CRUD API built with Spring Boot\n- PostgreSQL integration\n- Layered architecture (Controller, Service, Repository)\n- Input validation and exception handling\n\n### 🔹 Authentication System (JWT)\n\n- Secure login system using Spring Security\n- Token-based authentication\n- Role-based authorization\n",
+  "behind_by": 1
+ }
+]

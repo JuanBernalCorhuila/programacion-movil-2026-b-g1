@@ -1,0 +1,67 @@
+# 📱 Semana 1 — Análisis de aplicaciones y definición de MVP
+
+**Asignatura:** Programación Móvil  
+**Estudiante:** Andrés Felipe Gómez Anacona  
+**Periodo:** 2026-B  
+
+## 🎯 Objetivo
+
+Analizar tres aplicaciones de uso cotidiano, identificar su tipo probable de desarrollo y determinar las funciones esenciales que conformarían su MVP (Producto Mínimo Viable).
+
+---
+
+## 1. WhatsApp
+
+**Tipo probable:** Nativa
+
+WhatsApp cuenta con aplicaciones móviles desarrolladas específicamente para Android y iOS, aprovechando las características propias de cada plataforma.
+
+### Funciones principales del MVP
+
+1. 💬 **Enviar y recibir mensajes** entre usuarios.
+2. 👥 **Gestionar contactos y conversaciones.**
+3. 📎 **Enviar archivos multimedia**, como imágenes, videos y documentos.
+
+---
+
+## 2. Spotify
+
+**Tipo probable:** Nativa
+
+Spotify dispone de aplicaciones móviles optimizadas para Android y iOS, con funcionalidades adaptadas a las características de los dispositivos móviles.
+
+### Funciones principales del MVP
+
+1. 🎵 **Reproducir canciones** mediante streaming.
+2. 🔎 **Buscar canciones, artistas y álbumes.**
+3. 📚 **Crear y administrar listas de reproducción.**
+
+---
+
+## 3. Canva
+
+**Tipo probable:** Híbrida/Web
+
+Canva funciona principalmente como una plataforma web y también ofrece aplicaciones móviles. Su funcionamiento permite utilizar muchas de sus funcionalidades desde diferentes plataformas manteniendo una experiencia bastante similar.
+
+### Funciones principales del MVP
+
+1. 🎨 **Crear diseños a partir de plantillas.**
+2. ✏️ **Editar elementos**, como textos, imágenes y formas.
+3. 💾 **Guardar y exportar los diseños creados.**
+
+---
+
+## 📊 Comparación
+
+| Aplicación | Tipo probable | Función MVP 1 | Función MVP 2 | Función MVP 3 |
+|---|---|---|---|---|
+| WhatsApp | Nativa | Mensajería | Contactos | Multimedia |
+| Spotify | Nativa | Reproducción | Búsqueda | Playlists |
+| Canva | Híbrida/Web | Crear diseños | Editar elementos | Guardar/exportar |
+
+## 💡 Conclusión
+
+El análisis permite observar que una aplicación puede ofrecer muchas funcionalidades, pero su MVP debe concentrarse en las características indispensables para cumplir su propósito principal.
+
+En los tres casos analizados, las funciones seleccionadas representan el núcleo de la experiencia del usuario: comunicarse en WhatsApp, escuchar música en Spotify y crear diseños en Canva.

@@ -1,0 +1,60 @@
+Agenda de Tareas para Estudiantes
+
+1. Idea de la app: problema, público y MVP
+Problema: Muchos estudiantes manejan tareas de varias materias a la vez (trabajos, lecturas, exámenes, entregas) y terminan olvidando plazos porque usan métodos dispersos: notas de papel, mensajes de WhatsApp o simplemente la memoria. Esto genera entregas tardías, estrés y baja el rendimiento académico.
+Público objetivo: Estudiantes de secundaria y universidad (17-25 años) que usan smartphone a diario y necesitan organizar tareas académicas de forma simple, sin depender de agendas físicas.
+MVP (3 funciones imprescindibles):
+Crear y editar tareas (título, materia, fecha límite).
+Recibir recordatorios (notificaciones antes del vencimiento).
+Marcar tareas como completadas.
+Se dejan fuera inicialmente funciones como calendarios avanzados, estadísticas y sincronización con otras aplicaciones, porque no son indispensables para validar la idea.
+2. Historias de usuario y backlog priorizado
+HU1 — Crear tarea
+Como estudiante, quiero crear una tarea con nombre, materia y fecha límite, para organizar mis pendientes académicos.
+Criterios de aceptación:
+El usuario puede ingresar título, materia y fecha límite.
+La tarea se guarda y aparece en la lista principal.
+No se permite guardar una tarea sin título ni fecha.
+HU2 — Editar tarea
+Como estudiante, quiero editar una tarea existente, para corregir errores o actualizar la información.
+Criterios de aceptación:
+El usuario puede modificar título, materia o fecha.
+Los cambios se guardan y se reflejan de inmediato en la lista.
+Se puede cancelar la edición sin perder los datos originales.
+HU3 — Recibir recordatorio
+Como estudiante, quiero recibir una notificación antes de que venza una tarea, para no olvidar la entrega.
+Criterios de aceptación:
+El sistema envía una notificación push un tiempo antes del vencimiento (configurable, ej. 1 día antes).
+La notificación muestra el nombre de la tarea y la fecha límite.
+El usuario puede desactivar recordatorios de una tarea específica.
+HU4 — Marcar tarea como completada
+Como estudiante, quiero marcar una tarea como completada, para llevar control de lo que ya terminé.
+Criterios de aceptación:
+El usuario puede marcar/desmarcar una tarea con un solo toque.
+Las tareas completadas se muestran diferenciadas (ej. tachadas o en otra sección).
+El contador de pendientes se actualiza automáticamente.
+HU5 — Eliminar tarea
+Como estudiante, quiero eliminar una tarea que ya no necesito, para mantener mi lista organizada.
+Criterios de aceptación:
+El usuario puede eliminar una tarea desde la lista.
+El sistema pide confirmación antes de eliminar.
+La tarea eliminada no vuelve a aparecer ni genera recordatorios.
+HU6 — Ver lista de tareas filtrada
+Como estudiante, quiero ver mis tareas ordenadas por fecha o materia, para priorizar mejor mi tiempo.
+Criterios de aceptación:
+El usuario puede ordenar la lista por fecha límite o por materia.
+La vista se actualiza sin recargar la app.
+Las tareas vencidas se destacan visualmente (ej. en rojo).
+Backlog priorizado (3 Sprints)
+3. Tipo de app y metodología
+Tipo de app: Híbrida. 
+Justificación: permite desarrollar para Android y iOS con un solo código, reduciendo costos y tiempo de desarrollo. Además, la app no requiere hardware avanzado (cámara, sensores, GPS de alta precisión), por lo que el rendimiento de una app híbrida es suficiente para cumplir su propósito.
+Metodología: Scrum. 
+Justificación: permite organizar el proyecto en entregas pequeñas (sprints), facilitando la validación temprana del MVP con usuarios reales. En el primer Sprint se desarrollaría el diseño básico, la creación de tareas y los recordatorios; al finalizar, se probarían estas funciones y se recogerían opiniones para mejorar el siguiente Sprint. Esta flexibilidad es clave en un proyecto donde aún se está validando la idea.
+Sprint | Historias | Justificación
+Sprint 1 | HU1 – Crear tarea
+HU3 – Recibir recordatorio | Son el núcleo del MVP: sin poder crear tareas y recibir recordatorios, la app no cumple su propósito básico.
+Sprint 2 | HU4 – Marcar como completada
+HU2 – Editar tarea | Complementan el ciclo de vida de una tarea (crear → gestionar → cerrar), mejorando la experiencia validada en el Sprint 1.
+Sprint 3 | HU5 – Eliminar tarea
+HU6 – Filtrar/ordenar lista | Son funciones de refinamiento que mejoran la usabilidad una vez validado el flujo principal con los usuarios.
