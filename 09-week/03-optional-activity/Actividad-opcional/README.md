@@ -19,7 +19,7 @@ La página de detalle muestra los mismos campos de la entidad **RegistroSintoma*
 ## Estructura
 
 ```
-09-week/03-optional-activity/
+09-week/03-optional-activity/Actividad-opcional/
 ├── api/                        -> API de la semana 8 (Node.js + Express)
 │   ├── package.json
 │   └── server.js               -> GET /sintomas, GET /sintomas/:id y POST /sintomas
