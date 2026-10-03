@@ -19,8 +19,9 @@ Estado de los repositorios `-docs` de los nueve equipos al **28 de septiembre de
 contra la meta del corte: secciones `00-governance` … `03-api-and-data` al **100%** y
 `04-quality` y `05-release` al **80%**.
 
-**Corregido el 2 de octubre:** se rectificaron cinco afirmaciones sobre Team Match, Beauty
-Salon, Healthy Habits Tracker, H-Tracker y Attendance Control, y se agregó My Academic Space.
+**Corregido el 2 de octubre:** se rectificaron seis afirmaciones sobre Team Match, Beauty
+Salon, Healthy Habits Tracker, H-Tracker, Attendance Control y Uni Reserve, y se agregó My
+Academic Space.
 Si tu equipo actuó sobre la versión anterior, revisa primero la tabla de correcciones.
 
 Contiene:

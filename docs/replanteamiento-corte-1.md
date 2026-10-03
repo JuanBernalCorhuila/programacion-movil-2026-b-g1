@@ -11,7 +11,7 @@ Corte de revisión: **28 de septiembre de 2026** · Versión corregida: **2 de o
 
 ## Correcciones del 2 de octubre
 
-La versión anterior de esta página tenía cinco afirmaciones que no corresponden a lo que hay en
+La versión anterior de esta página tenía seis afirmaciones que no corresponden a lo que hay en
 los repositorios, y dejó por fuera a un equipo. Los errores fueron de la revisión, no de los
 equipos. Quedan corregidos en el texto y resumidos aquí:
 
@@ -22,6 +22,7 @@ equipos. Quedan corregidos en el texto y resumidos aquí:
 | Healthy Habits Tracker | Que 8 pantallas se apoyaban en 2 endpoints y 1 entidad. | `api-contract.md` tiene 13 fichas (E-01 a E-13) y `data-model.md` 6 entidades, desde el 25 de septiembre. |
 | H-Tracker | Que el README de `03-api-and-data` seguía describiendo una ficha por endpoint. | El mismo PR #7 actualizó el README: lista los dos documentos y explica por qué no se usan las plantillas. Solo falta el ADR. |
 | Attendance Control | Que `04-quality` tenía un caso de prueba. | No tiene ninguno. El material de QA quedó dentro de la carpeta del MVP en `05-release/`. |
+| Uni Reserve | Que el repositorio contenía una app y ninguna documentación. | Tiene unas 1.100 líneas propias (README y cinco archivos en `docs/`), y el Stack y el Discovery escritos como issues #3 a #5. Nada está en las carpetas del framework, por eso mide 0 de 30. Ver la [sección 5](#uni-reserve--uni-reserve-docs). |
 | My Academic Space | No aparecía. | Se agrega en todas las secciones, **medido el 2 de octubre**. |
 
 Las demás cifras no cambian y siguen siendo las del 28 de septiembre.
@@ -130,7 +131,8 @@ filtrar por extensión.
 **Uni Reserve es el caso más grave:** el 21 de septiembre recibió la siembra del framework y
 acto seguido se le trasladó encima el proyecto Flutter completo (`lib/`, `android/`, `ios/`,
 `web/`, `windows/`, `pubspec.yaml`). Hoy el repo tiene la app y **cero de los 30 documentos
-estándar**, mientras `uni-reserve` sigue vacío.
+estándar**, mientras `uni-reserve` sigue vacío. La documentación que el equipo sí escribió está
+fuera de la estructura del framework (ver la [sección 5](#uni-reserve--uni-reserve-docs)).
 
 ### C3 · Team Match renombró el framework en lugar de llenarlo
 
@@ -363,10 +365,34 @@ de inventarlas.*
 5. Completar `02-code-and-ui` y `03-api-and-data`, ambas sin adaptar.
 
 ### Uni Reserve — `uni-reserve-docs`
-1. **Sacar los 95 archivos del proyecto Flutter** y publicarlos en `uni-reserve`, que está
-   vacío. El repositorio de documentación hoy contiene una app y ninguna documentación.
-2. **Empezar por `00-governance`** y seguir el orden del `00-sdd-guide.md`.
-   El framework está sembrado desde el 21 de septiembre: ya hay sobre qué trabajar.
+*Corregido el 2 de octubre.*
+
+El equipo escribió unas 1.100 líneas de documentación, pero en una carpeta `docs/` con estructura
+propia y en issues de GitHub, no en las carpetas del framework. Por eso la medición marca 0 de 30:
+el trabajo existe, pero no está donde se evalúa.
+
+1. **Mover lo que ya escribieron a su lugar en el framework:**
+
+   | Lo que escribieron | Dónde va |
+   |---|---|
+   | Issue #3 · Stack (Flutter, MVVM, Spring Boot, PostgreSQL) | Un ADR por decisión en `01-architecture/decisions/records/`: stack y patrón de estado (MVVM en el ADR-001) |
+   | Issues #4 y #5 · Discovery (son el mismo texto dos veces) | `01-architecture/project-discovery.md`, una sola vez |
+   | `docs/arquitectura/arquitectura.md` | `01-architecture/project-structure.md` y `layers-and-state.md` |
+   | `docs/historias_usuario/historias_de_usuario.md` (6 HU) | Una ficha por *feature* en `01-architecture/`, copiando `_template-feature.md` |
+   | `docs/base_de_datos/base_de_datos.md` | `03-api-and-data/data-model.md` |
+   | README §5 · las seis rutas de la API | `03-api-and-data/api-contract.md` |
+   | `docs/sprints/plan_sprints.md` | `00-governance/agile-conventions.md` |
+   | `docs/mvp/primer_mvp.md` | Notas de versión en `05-release/` |
+
+2. **Completar lo que el traslado no cubre.** `base_de_datos.md` describe la base en prosa, sin
+   tablas ni columnas, y las seis rutas de la API son solo nombres: el
+   [manual de contrato de datos](manual-contrato-datos-api.md) explica qué debe tener cada uno.
+3. **Escribir `00-governance`**: no hay DoD, DoR, convenciones de ramas ni reglas de seguridad,
+   y nada de lo que ya existe sirve para eso. Después, `02-code-and-ui`, `04-quality` y
+   `05-release`, que tampoco tienen equivalente.
+4. **Sacar los 95 archivos del proyecto Flutter** y publicarlos en `uni-reserve`, que está
+   vacío. El PR #7, abierto desde el 25 de septiembre, también es código (`lib/main.dart`) y
+   va en ese repositorio.
 
 ---
 
@@ -391,7 +417,8 @@ las nueve preguntas:
 
 Tres cosas no pueden esperar al próximo corte:
 
-1. **Uni Reserve:** sacar la app del repo de documentación y empezar por `00-governance`.
+1. **Uni Reserve:** mover su documentación a las carpetas del framework, sacar la app del
+   repositorio de documentación y escribir `00-governance`.
 2. **Team Match:** restaurar los nombres canónicos para que los README vuelvan a enlazar, y
    escribir la gobernanza, que hoy no existe.
 3. **Attendance Control, My Academic Space y el curso:** resolver la contradicción sobre la
