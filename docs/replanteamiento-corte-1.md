@@ -5,7 +5,30 @@ title: "Replanteamiento y recomendaciones — Corte 1"
 # Replanteamiento y recomendaciones — Documentación de proyecto
 
 **Programación Móvil · 2026-B**
-Corte de revisión: **28 de septiembre de 2026** · Framework: [`mobile-governance-framework`](https://github.com/jesusarielgb-works/mobile-governance-framework)
+Corte de revisión: **28 de septiembre de 2026** · Versión corregida: **2 de octubre de 2026** · Framework: [`mobile-governance-framework`](https://github.com/jesusarielgb-works/mobile-governance-framework)
+
+---
+
+## Correcciones del 2 de octubre
+
+La versión anterior de esta página tenía cinco afirmaciones que no corresponden a lo que hay en
+los repositorios, y dejó por fuera a un equipo. Los errores fueron de la revisión, no de los
+equipos. Quedan corregidos en el texto y resumidos aquí:
+
+| Equipo | Lo que decía esta página | Lo que hay en el repositorio |
+|---|---|---|
+| Team Match | Que los archivos con prefijo numérico tenían contenido escrito por el equipo, «fuera de sitio». | Esos archivos se crearon el 21 de septiembre como **copia exacta de la plantilla**. No había contenido que mover. Ver [C3](#c3--team-match-renombró-el-framework-en-lugar-de-llenarlo). |
+| Beauty Salon | Que los ADR-001 a 004 no estaban marcados como superados. | Lo están desde el 17 y el 25 de septiembre, con enlace a ADR-005…008. Es el manejo correcto de un ADR. |
+| Healthy Habits Tracker | Que 8 pantallas se apoyaban en 2 endpoints y 1 entidad. | `api-contract.md` tiene 13 fichas (E-01 a E-13) y `data-model.md` 6 entidades, desde el 25 de septiembre. |
+| H-Tracker | Que el README de `03-api-and-data` seguía describiendo una ficha por endpoint. | El mismo PR #7 actualizó el README: lista los dos documentos y explica por qué no se usan las plantillas. Solo falta el ADR. |
+| Attendance Control | Que `04-quality` tenía un caso de prueba. | No tiene ninguno. El material de QA quedó dentro de la carpeta del MVP en `05-release/`. |
+| My Academic Space | No aparecía. | Se agrega en todas las secciones, **medido el 2 de octubre**. |
+
+Las demás cifras no cambian y siguen siendo las del 28 de septiembre.
+
+> **Team Match:** después de leer la versión anterior, el 2 de octubre el equipo borró los
+> archivos canónicos y renombró el resto con prefijo. Eso dejó 26 enlaces rotos en los README.
+> Las instrucciones corregidas están en la [sección 5](#team-match--tm-docs).
 
 ---
 
@@ -29,7 +52,9 @@ Este framework no trae bloques `[!NOTE] INSTRUCTIONS` como el de los monolitos. 
    pruebas).
 
 Las secciones 00–03 suman **22 documentos estándar**; 04 y 05 suman **8**. Todo se midió sobre
-`main`, comparando contra el commit de siembra de cada repositorio.
+`main`, comparando contra el commit de siembra de cada repositorio. Un documento cuenta como
+adaptado cuando su contenido difiere del de la siembra **con su nombre canónico**: un archivo
+renombrado o copiado con otro nombre no cuenta.
 
 ---
 
@@ -42,9 +67,12 @@ Las secciones 00–03 suman **22 documentos estándar**; 04 y 05 suman **8**. To
 | Beauty Salon | `beauty-salon-docs` | **100%** ✅ | 0% ❌ |
 | Attendance Control | `att-check-docs` | 95% | 50% ❌ |
 | Ice Cream App | `ica-docs` | 73% ❌ | **100%** ✅ |
+| My Academic Space ¹ | `mas-docs` | 73% ❌ | 75% ❌ |
 | Movie Rater | `mr-docs` | 50% ❌ | 0% ❌ |
 | Team Match | `tm-docs` | 14% ❌ | 0% ❌ |
 | Uni Reserve | `uni-reserve-docs` | 0% ❌ | 0% ❌ |
+
+¹ *Medido el 2 de octubre. El 28 de septiembre estaba en 68% y 75%.*
 
 **Dos equipos cumplen la meta completa:** Healthy Habits Tracker y H-Tracker.
 
@@ -60,20 +88,21 @@ corte anterior ya se resolvió.
 Medir sección por sección no basta. La documentación sirve cuando lo que dice una capa sigue
 siendo verdad en la siguiente. Estos son los cruces que no cierran.
 
-### C1 · Ningún equipo tiene equilibradas las capas
+### C1 · Tres equipos tienen las capas desequilibradas
 
-Este es el hallazgo central del corte. Cada equipo documentó bien un lado del sistema y dejó
-el otro vacío:
+Este es el hallazgo central del corte. Tres equipos documentaron bien un lado del sistema y
+dejaron el otro vacío:
 
 | Equipo | Pantallas | Endpoints | Entidades | Componentes | Qué le pasa |
 |---|---|---|---|---|---|
 | Attendance Control | **0** | 11 | 5 | 5 | API y datos especificados; **la presentación no existe en papel** |
 | Ice Cream App | **15** | 0 | 0 | 0 | Presentación sin datos ni API que la alimente |
-| Healthy Habits Tracker | 8 | **2** | **1** | 10 | 5 *features* y 8 pantallas sobre una sola entidad |
+| My Academic Space | **0** | 20 planeados, sin ficha | 6 | **0** | Datos especificados; ni pantallas ni componentes |
+| Healthy Habits Tracker | 8 | 13 | 6 | 10 | Equilibrado; 6 de 8 pantallas sin tabla de estados |
 | Beauty Salon | 10 | 18 | 4 | 5 | Equilibrado en 00–03 |
-| H-Tracker | 5 | consolidado | consolidado | 7 | Equilibrado |
+| H-Tracker | 5 | 8 | consolidado | 7 | Equilibrado |
 
-Los dos casos extremos se explican solos:
+Los casos extremos se explican solos:
 
 - **Attendance Control** tiene cinco componentes documentados (`qr-scanner-view`,
   `attendance-history-item`, `subject-card`…) y **ninguna pantalla** donde ubicarlos. Un
@@ -81,6 +110,9 @@ Los dos casos extremos se explican solos:
 - **Ice Cream App** tiene quince pantallas que hablan de tarjetas de producto, selectores de
   cantidad y barras de navegación, y **ningún componente, endpoint ni entidad** documentados.
   Las pantallas describen una app que, en papel, no tiene de dónde sacar los datos.
+- **My Academic Space** siguió el orden correcto en datos —primero el modelo, después las fichas
+  de endpoint, que declara pendientes hasta que exista la API— pero todavía no dice dónde se ven
+  esos datos: no hay pantallas ni componentes.
 
 ### C2 · Cuatro equipos guardan el código fuente en el repositorio de documentación
 
@@ -100,56 +132,58 @@ acto seguido se le trasladó encima el proyecto Flutter completo (`lib/`, `andro
 `web/`, `windows/`, `pubspec.yaml`). Hoy el repo tiene la app y **cero de los 30 documentos
 estándar**, mientras `uni-reserve` sigue vacío.
 
-### C3 · Team Match duplicó el framework con prefijos numéricos
+### C3 · Team Match renombró el framework en lugar de llenarlo
 
-El equipo creó, **al lado** de los archivos canónicos y sin tocarlos:
+Al 28 de septiembre el repositorio tenía, al lado de varios archivos canónicos, una copia con
+prefijo numérico (`00-agile-conventions.md`, `01-git-conventions.md`, `03-definition-of-done.md`…).
+Esas copias se crearon el 21 de septiembre y **eran idénticas a la plantilla**: git las registra
+como copias al 100%. *La versión anterior de esta página dijo que contenían trabajo del equipo.
+Era un error.*
+
+El 2 de octubre el equipo borró los canónicos de `00-governance` y `01-architecture` y renombró
+con prefijo los de `02` a `05`, sin cambiar una línea:
 
 ```
-00-governance/00-agile-conventions.md     ← junto a agile-conventions.md (sin tocar)
-00-governance/01-git-conventions.md       ← junto a git-conventions.md (sin tocar)
-00-governance/02-definition-of-ready.md   ← junto a definition-of-ready.md (sin tocar)
-00-governance/03-definition-of-done.md    ← junto a definition-of-done.md (sin tocar)
-00-governance/04-security-rules.md        ← junto a security-rules.md (sin tocar)
-01-architecture/00-project-structure.md   ← junto a project-structure.md (sin tocar)
-01-architecture/01-layers-and-state.md    ← junto a layers-and-state.md (sin tocar)
-01-architecture/02-navigation.md          ← junto a navigation.md (sin tocar)
+02-code-and-ui/coding-standards.md     →  02-code-and-ui/00-coding-standards.md
+03-api-and-data/api-networking.md      →  03-api-and-data/00-api-networking.md
+04-quality/testing-strategy.md         →  04-quality/00-testing-strategy.md
+05-release/ci-cd.md                    →  05-release/00-ci-cd.md
+02-code-and-ui/_template-component.md  →  02-code-and-ui/04-template-component.md
+… y el resto de las plantillas de esas cuatro secciones
 ```
 
-Y `project-discovery.md` existe dos veces, en la raíz de `01-architecture` y como
-`03-project-discovery.md`. El README de cada sección sigue enlazando a los nombres canónicos,
-que están vacíos: **el índice apunta a plantillas y el contenido está en archivos que nadie
-enlaza**. Formalmente el equipo marca 14%; el contenido que escribió no se ve por estar fuera
-de sitio.
+El resultado: los README de cada sección enlazan nombres que ya no existen (**26 enlaces
+rotos**), y el repositorio sigue sin un solo estándar adaptado. Lo que el equipo sí escribió es
+`project-discovery.md` (406 líneas), el ADR-002 de stack y el README del proyecto.
 
-### C4 · Beauty Salon tiene decisiones duplicadas y vigentes
+### C4 · Beauty Salon: así se reemplaza una decisión
 
-De sus doce ADR, cuatro pares deciden lo mismo dos veces:
+Cuando el equipo migró a Ionic + Capacitor, cuatro de sus decisiones cambiaron. No editó ni borró
+los ADR originales: escribió uno nuevo por cada decisión y marcó el viejo con `Superseded by` y
+el enlace al nuevo.
 
-| Primera decisión | Segunda decisión | Tema |
+| Decisión original (superada) | Decisión vigente | Tema |
 |---|---|---|
+| ADR-001-state-management-pattern | ADR-006-state-management-pattern | patrón de estado |
 | ADR-002-mobile-stack | ADR-005-mobile-stack-ionic-capacitor | stack móvil |
 | ADR-003-local-storage | ADR-007-local-storage-capacitor | almacenamiento local |
 | ADR-004-dependency-injection | ADR-008-dependency-injection | inyección de dependencias |
-| ADR-001-state-management-pattern | ADR-006-state-management-pattern | patrón de estado |
 
-Ninguno de los primeros está marcado como `Superseded by`. Quien lea el repositorio no puede
-saber cuál rige. Un ADR no se borra ni se edita: se **reemplaza**, y el viejo queda marcado
-como superado con un enlace al nuevo. Son doce archivos para unas ocho decisiones reales.
+Es exactamente lo que pide la regla R3. *La versión anterior de esta página dijo que los ADR
+viejos no estaban marcados. Era un error: lo están desde el 17 y el 25 de septiembre.*
 
-*Aparte de esto, es el repositorio más completo del curso en 00–03, y `ADR-012-nombres-en-ingles`
-resuelve explícitamente el problema de idioma que otros equipos arrastran sin escribir.*
+Además, `ADR-012-nombres-en-ingles` resuelve explícitamente el problema de idioma que otros
+equipos arrastran sin escribir.
 
-### C5 · H-Tracker consolidó, pero el índice no se enteró
+### C5 · H-Tracker consolidó y lo explicó en el índice; falta el ADR
 
 El PR #7 borró las ocho fichas de endpoint y las dos de entidad, y las reemplazó por
-`api-contract.md` (722 líneas) y `data-model.md` (455 líneas). Es una decisión razonable y el
-contenido es sólido — pero:
+`api-contract.md` (722 líneas) y `data-model.md` (455 líneas). En el mismo PR, el `README.md`
+de `03-api-and-data` se actualizó: lista los dos documentos, marca las plantillas de endpoint y
+entidad como *no instanciadas* y explica por qué. Eso es la regla R6 bien aplicada.
 
-- `_template-endpoint-integration.md` y `_template-entity.md` siguen ahí sin uso.
-- El `README.md` de `03-api-and-data` sigue describiendo el patrón de una ficha por endpoint.
-
-Una consolidación que contradice al índice de su propia sección debería quedar registrada en un
-ADR, no solo en el cuerpo de un PR.
+Lo que falta es registrar la consolidación en un ADR. Es una decisión de arquitectura, y hoy
+solo consta en el cuerpo de un PR y en un índice.
 
 ### C6 · Attendance Control cambió la política de ramas del curso por su cuenta
 
@@ -160,6 +194,8 @@ y trabaja así de verdad: **40 ramas y 40 PR**.
 Lo importante: **el equipo es coherente con su propio documento**, y el flujo que adoptó es
 mejor que el del curso. Pero contradice la política que la materia fijó para todos. Hay que
 decidir cuál manda y dejarlo escrito — hoy el curso dice una cosa y el repositorio otra.
+My Academic Space trabaja igual, con *fork* y Pull Request, y su DoD lo exige: la decisión que
+se tome aplica a los dos.
 
 ### C7 · Ice Cream App tiene calidad y release completas, y gobernanza en 1 de 6
 
@@ -209,14 +245,16 @@ quince dibujos. Y al revés: once endpoints sin una sola pantalla es un backend 
 
 Cuando cambies de opinión, **no edites ni borres** el ADR anterior: crea el nuevo y marca el
 viejo con `Status: Superseded by ADR-NNN`. Un repositorio con dos ADR vigentes sobre el mismo
-tema no tiene una decisión tomada, tiene una discusión abierta.
+tema no tiene una decisión tomada, tiene una discusión abierta. El ejemplo del curso es
+Beauty Salon ([C4](#c4--beauty-salon-así-se-reemplaza-una-decisión)).
 
-### R4 — No dupliques los archivos canónicos
+### R4 — No dupliques ni renombres los archivos canónicos
 
-Si el framework trae `git-conventions.md`, ese es el archivo que se llena. Crear
-`01-git-conventions.md` al lado deja el canónico vacío, rompe los enlaces del README de la
-sección y hace que tu trabajo no se vea. Si necesitas un documento que el framework no
-contempla, agrégalo **además** y regístralo en la tabla del README.
+Si el framework trae `git-conventions.md`, ese es el archivo que se llena, con ese nombre. Crear
+`01-git-conventions.md` al lado, o renombrar el canónico a `01-git-conventions.md`, rompe los
+enlaces del README de la sección y hace que tu trabajo no se vea. Las plantillas conservan su
+prefijo `_template-`. Si necesitas un documento que el framework no contempla, agrégalo
+**además** y regístralo en la tabla del README.
 
 ### R5 — Adaptar es reescribir con tu stack, no leer
 
@@ -242,33 +280,34 @@ algo está terminado — ni para el equipo ni para la evaluación.
 Ordenado por lo que más rinde primero.
 
 ### Healthy Habits Tracker — `habits-tracker-docs` · meta cumplida
-1. **Cerrar la brecha de datos:** 8 pantallas y 5 *features* se apoyan en 2 endpoints y 1
-   entidad. Faltan las fichas de hábitos, metas, categorías y rachas.
+1. **Completar las tablas de estados.** Solo `screen-dashboard` y `screen-nuevo-registro` tienen
+   la tabla de Estados que pide `_template-screen.md`, y solo 3 de las 8 pantallas contemplan el
+   estado sin conexión que su propia DoD exige.
 2. Sacar los 33 archivos del proyecto Expo de `05-release/` y publicarlos en
    `healthy-habits-tracker`, que tiene 2 commits.
+3. Retirar o enlazar las tres fichas sueltas de `endpoints/` y `entities/`, anteriores a
+   `api-contract.md` y `data-model.md`.
 
 ### H-Tracker — `healt-track-docs` · meta cumplida
 1. Registrar en un ADR la consolidación de endpoints y entidades en `api-contract.md` y
-   `data-model.md`, y actualizar el README de `03-api-and-data` para que describa lo que
-   realmente hay.
-2. Retirar `_template-endpoint-integration.md` y `_template-entity.md` si ya no se van a usar.
+   `data-model.md`.
+2. Corregir la DoD: exige merge a `develop` por PR revisado, y el repositorio solo tiene `main`.
 3. Sacar los 57 archivos del MVP de `05-release/` y publicarlos en `h-tracker`.
 
 ### Beauty Salon — `beauty-salon-docs`
 1. **Arrancar `04-quality` y `05-release`, que están en cero absoluto.** Con un backend de 23
    commits ya implementado, no hay estrategia de pruebas, ni presupuestos de rendimiento, ni
    pipeline, ni política de firma. Es el mayor salto pendiente del equipo.
-2. Marcar como `Superseded by` los ADR-001, 002, 003 y 004, que fueron reemplazados por los
-   ADR-005 a 008.
-3. Registrar al menos una retro de sprint.
+2. Registrar al menos una retro de sprint.
 
 *Su trabajo en 00–03 es el más completo del curso; el problema está solo en el cierre.*
 
 ### Attendance Control — `att-check-docs`
 1. **Documentar las pantallas:** hay 11 endpoints, 5 entidades y 5 componentes, y ninguna ficha
    de pantalla ni de *feature*. Los wireframes PNG no reemplazan a `_template-screen.md`.
-2. Completar `04-quality` (falta el README y hay un solo caso de prueba) y **`05-release`, que
-   está en 1 de 4**: no hay CI/CD, firma ni observabilidad definidos.
+2. Completar `04-quality` (falta el README y no hay casos de prueba: el material de QA quedó
+   dentro de la carpeta del MVP en `05-release/`) y **`05-release`, que está en 1 de 4**: no
+   hay CI/CD, firma ni observabilidad definidos.
 3. Sacar los 47 archivos del MVP Java y el `.zip` de `05-release/`.
 4. **Decidir con el docente la política de ramas.** El equipo trabaja trunk-based con PR y su
    `git-conventions.md` lo respalda, pero el curso fijó single-branch. Que gane una de las dos,
@@ -281,19 +320,47 @@ Ordenado por lo que más rinde primero.
 3. Mover `00-governance/project-discovery.md` a `01-architecture`, que es donde corresponde.
 4. Reemplazar el `ica.app.zip` por el código publicado en `ice-cream-app`, que está vacío.
 
+### My Academic Space — `mas-docs`
+*Medido el 2 de octubre.*
+1. **Documentar la capa de producto:** no hay fichas de *feature*, pantalla ni componente. El
+   modelo de datos (seis agregados) y el contrato de API ya dicen qué datos existen; falta decir
+   dónde se ven.
+2. **Corregir `navigation.md`:** describe React Navigation (`@react-navigation/native`), que es
+   de React Native. El stack declarado en el ADR-001 es Ionic React + Capacitor.
+3. **Actualizar la DoD:** dice que las pruebas automáticas se exigirán cuando exista
+   `testing-strategy.md`, y ese documento ya existe (Jest, Testing Library y Cypress). Hoy la
+   DoD y la estrategia de pruebas dicen cosas distintas.
+4. Adaptar `api-networking.md`, `authentication.md` y `offline-sync.md`, que siguen siendo
+   plantilla, y los README de las secciones 00, 02, 03, 04 y 05.
+5. Alinear `ci-cd.md` con la DoD: el pipeline planea builds de Android e iOS, y la DoD dice
+   que el único objetivo es Android.
+
+*Lo bien hecho: la DoD declara cada desvío del framework con su razón, el ADR-002 asigna la
+propiedad del esquema a la API como pide el [manual de contrato de datos](manual-contrato-datos-api.md),
+y el contrato marca como pendientes las fichas de endpoint hasta que exista `mas-api`, en vez
+de inventarlas.*
+
 ### Movie Rater — `mr-docs`
 1. **Arrancar `02-code-and-ui`**: las cinco normas están intactas mientras el repo de código
    avanza. Se está construyendo UI sin estándar escrito.
 2. Adaptar `layers-and-state.md` y fijar el patrón de estado en el ADR-001.
 3. Mover `feature-perfil-historial.md` a `01-architecture/features/`.
 4. Arrancar `04-quality` y `05-release`, ambas en cero.
+5. Quitar las 48 marcas `[cite: N]` que quedaron en `data-model.md` al pegar texto de un
+   asistente: no remiten a nada en el repositorio.
 
 ### Team Match — `tm-docs`
-1. **Mover el contenido de los archivos con prefijo numérico a los canónicos** y borrar los
-   duplicados. El equipo escribió más de lo que su porcentaje refleja, pero está en archivos
-   que ningún índice enlaza.
-2. Eliminar el `project-discovery.md` duplicado.
-3. Completar `02-code-and-ui` y `03-api-and-data`, ambas intactas.
+*Corregido el 2 de octubre.*
+1. **Restaurar los nombres canónicos.** Renombra cada `NN-archivo.md` a su nombre original y
+   devuelve a las plantillas su prefijo `_template-`. Por ejemplo:
+   `git mv 00-governance/03-definition-of-done.md 00-governance/definition-of-done.md`.
+   Con eso los 26 enlaces de los README vuelven a funcionar.
+2. **Escribir la gobernanza.** No existen DoD ni DoR propias: las copias con prefijo eran la
+   plantilla sin cambios. Es lo primero que hay que llenar (regla R7).
+3. Borrar `sdd-guide.md` de la raíz: es una copia de `00-sdd-guide.md`.
+4. Revisar `05-release/releases/v0.1.0-corte-1.md`: pide ramas `develop` y `qa`, que la política
+   del curso no usa, y describe un MVP cuyo repositorio `team-match` está vacío.
+5. Completar `02-code-and-ui` y `03-api-and-data`, ambas sin adaptar.
 
 ### Uni Reserve — `uni-reserve-docs`
 1. **Sacar los 95 archivos del proyecto Flutter** y publicarlos en `uni-reserve`, que está
@@ -315,7 +382,7 @@ las nueve preguntas:
 - [ ] ¿Cada pantalla tiene endpoint y entidad que la alimenten?
 - [ ] ¿Hay al menos un caso de prueba por regla de negocio crítica?
 - [ ] ¿`05-release` tiene notas de versión y checklist, y **ningún archivo de código**?
-- [ ] ¿Los archivos tienen los nombres canónicos del framework, sin duplicados con prefijo?
+- [ ] ¿Los archivos tienen los nombres canónicos del framework, sin copias ni renombres con prefijo?
 - [ ] ¿El README de cada sección describe lo que realmente hay en la carpeta?
 
 ---
@@ -325,13 +392,15 @@ las nueve preguntas:
 Tres cosas no pueden esperar al próximo corte:
 
 1. **Uni Reserve:** sacar la app del repo de documentación y empezar por `00-governance`.
-2. **Team Match:** mover el contenido a los archivos canónicos. Es trabajo ya hecho que hoy no
-   cuenta solo por estar fuera de sitio.
-3. **Attendance Control y el curso:** resolver la contradicción sobre la política de ramas.
-   Mientras no se decida, el equipo está trabajando bien contra una regla que dice otra cosa.
+2. **Team Match:** restaurar los nombres canónicos para que los README vuelvan a enlazar, y
+   escribir la gobernanza, que hoy no existe.
+3. **Attendance Control, My Academic Space y el curso:** resolver la contradicción sobre la
+   política de ramas. Mientras no se decida, los dos equipos trabajan bien contra una regla que
+   dice otra cosa.
 
 ---
 
-*Revisión generada sobre el estado de `main` de cada repositorio al 28 de septiembre de 2026,
-contrastada contra el commit de siembra del Mobile Governance Framework en cada repo.*
+*Revisión generada sobre el estado de `main` de cada repositorio al 28 de septiembre de 2026
+(My Academic Space, al 2 de octubre), contrastada contra el commit de siembra del Mobile
+Governance Framework en cada repo. Corregida el 2 de octubre de 2026.*
 *Docente: Jesús Ariel González Bonilla — Corporación Universitaria del Huila (CORHUILA).*
