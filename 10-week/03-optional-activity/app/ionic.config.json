@@ -1,0 +1,7 @@
+{
+  "name": "helphealth-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
