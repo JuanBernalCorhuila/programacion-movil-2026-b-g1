@@ -159,6 +159,7 @@ En Android no basta con pedir el permiso desde el código: también hay que decl
 │   ├── package.json                      -> se agregaron @capacitor/geolocation y @capacitor/android
 │   ├── capacitor.config.ts
 │   ├── android/                          -> proyecto nativo de Android generado por Capacitor
+│   │   ├── gradle.properties             -> permite compilar aunque la ruta tenga tildes
 │   │   └── app/src/main/AndroidManifest.xml  -> permisos de ubicación
 │   └── src/
 │       ├── App.tsx                       -> nueva ruta /emergencia
@@ -196,21 +197,36 @@ Se necesita Android Studio instalado y el teléfono con la **depuración USB** a
 cd app
 npm install
 npm run build          # genera la carpeta dist con la app web
-npx cap add android    # solo la primera vez: crea la carpeta android/
 npx cap sync android   # copia la app y los plugins al proyecto Android
 npx cap open android   # abre el proyecto en Android Studio
 ```
 
+La carpeta `android/` ya viene en el repositorio (se creó una sola vez con `npx cap add android`), por eso aquí no hace falta volver a crearla.
+
 En Android Studio se conecta el teléfono por USB y se presiona **Run ▶**. La app se instala como **HelpHealth**.
+
+> **Nota sobre la ruta del proyecto:** en Windows, Android Studio se niega a compilar si la ruta de la carpeta tiene tildes o eñes (en mi caso, "Programación Móvil"). Por eso en `android/gradle.properties` se agregó esta línea, que desactiva esa verificación:
+>
+> ```properties
+> android.overridePathCheck=true
+> ```
 
 La lista de medicamentos usa la API en `http://localhost:3000`, que corre en el computador y no en el teléfono, así que en el teléfono esa pantalla muestra el estado de error con "Reintentar". La pantalla de emergencia no usa la API: funciona sola con el GPS del teléfono.
 
 **Para ver cada caso en el teléfono:**
 - **Permiso concedido:** abre Emergencia, toca "Obtener mi ubicación" y elige "Mientras la app está en uso".
-- **Permiso negado:** desinstala la app (o ve a Ajustes > Aplicaciones > HelpHealth > Permisos > Ubicación > No permitir), vuelve a tocar el botón y elige "No permitir".
+- **Permiso negado:** en el diálogo elige "No permitir" o, si ya se había dado, ve a Ajustes > Aplicaciones > HelpHealth > Permisos > Ubicación > No permitir. Luego vuelve a tocar el botón.
 - **GPS apagado:** con el permiso dado, apaga la Ubicación desde el panel rápido del teléfono y toca el botón.
 
 ## Evidencias en el dispositivo
+
+Todas las capturas se tomaron en un celular Android real, con la app instalada desde Android Studio.
+
+1. **Acceso desde la lista:** la pantalla "Mis medicamentos" con el botón rojo **Emergencia** en el encabezado. La lista muestra el error de conexión porque la API corre en el computador, pero el acceso a emergencia sigue disponible.
+2. **Diálogo de permiso:** al tocar "Obtener mi ubicación" por primera vez, Android pregunta si HelpHealth puede usar la ubicación y deja elegir entre ubicación precisa o aproximada.
+3. **Ubicación obtenida:** después de permitir, la app muestra la latitud y la longitud actuales del teléfono.
+4. **Permiso negado:** con el permiso en "No permitir", la app no se rompe. Explica por qué necesita la ubicación y cómo activarla desde Ajustes.
+5. **GPS apagado:** con el permiso dado pero la ubicación del teléfono desactivada, la app pide activarla y volver a intentar, como en el flujo alternativo 1 del caso de uso.
 
 | Acceso desde la lista | Diálogo de permiso | Ubicación obtenida |
 |---|---|---|
