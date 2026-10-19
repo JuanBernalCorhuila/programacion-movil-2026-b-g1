@@ -1,0 +1,10 @@
+.emergencia-ayuda {
+  font-size: 1.1rem;
+}
+
+/* Botón de emergencia grande: 64px de alto, fácil de tocar con poca precisión */
+.boton-emergencia {
+  min-height: 4rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

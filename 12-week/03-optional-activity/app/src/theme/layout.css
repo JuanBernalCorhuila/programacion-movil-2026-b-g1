@@ -1,0 +1,8 @@
+/* Estilos compartidos por todas las pantallas */
+
+/* Diseño responsivo: en teléfono ocupa todo el ancho; en tablet o computador
+   el contenido se queda en una columna centrada y no se estira de lado a lado. */
+.contenedor {
+  max-width: 40rem;
+  margin: 0 auto;
+}

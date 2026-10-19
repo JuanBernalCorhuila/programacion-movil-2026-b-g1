@@ -1,0 +1,13 @@
+/* Cada fila mide al menos 56px de alto: área táctil cómoda (mínimo 44px) */
+.lista-medicamentos ion-item {
+  --min-height: 3.5rem;
+}
+
+.lista-medicamentos h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.lista-medicamentos p {
+  font-size: 1rem;
+}
