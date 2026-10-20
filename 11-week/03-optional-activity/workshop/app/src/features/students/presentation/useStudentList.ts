@@ -23,8 +23,11 @@ export function useStudentList() {
     isOffline: false,
   });
 
-  const load = useCallback(async () => {
-    setState((prev) => ({ ...prev, status: "loading" }));
+  const [isRefreshing, setIsRefreshing] = useState(false);
+
+  // `refresh` (pull to refresh) keeps the current list on screen and only shows the
+  // RefreshControl spinner; `load` (first load and "Reintentar") shows the skeleton.
+  const fetchStudents = useCallback(async () => {
     try {
       const { students, fromCache } = await container.students.getStudents.execute();
       setState({
@@ -40,9 +43,20 @@ export function useStudentList() {
     }
   }, []);
 
+  const load = useCallback(async () => {
+    setState((prev) => ({ ...prev, status: "loading" }));
+    await fetchStudents();
+  }, [fetchStudents]);
+
+  const refresh = useCallback(async () => {
+    setIsRefreshing(true);
+    await fetchStudents();
+    setIsRefreshing(false);
+  }, [fetchStudents]);
+
   useEffect(() => {
     load();
   }, [load]);
 
-  return { state, reload: load };
+  return { state, reload: load, refresh, isRefreshing };
 }

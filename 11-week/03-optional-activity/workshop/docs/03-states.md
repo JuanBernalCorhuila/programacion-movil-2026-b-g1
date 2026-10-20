@@ -40,6 +40,19 @@ or empty state.
 | Flat grey blocks with no label | Skeleton shaped like a student card, with an accessible label | 6 |
 | Error text identical to the empty text style, no hint | Red title, a hint with the next step and "Reintentar" | 8 |
 | Card shows only the name | Card shows name and document number | 4 |
+| Pull to refresh never showed the spinner and swapped the list for the skeleton | The list stays on screen and the `RefreshControl` spinner shows while it reloads (`refresh` in `useStudentList`) | 7 |
+
+## Automated test
+
+`app/src/features/students/presentation/__tests__/StudentListScreen.test.tsx` uses Jest
+(`jest-expo` preset) and React Native Testing Library. It mocks `GetStudents` from the DI
+container and checks that:
+
+1. when the request fails, the screen shows "No pudimos cargar los estudiantes" and the
+   "Reintentar" button;
+2. pressing "Reintentar" calls `GetStudents` again and the student list appears.
+
+Run it from `app/` with `npm test`.
 
 ## Running it in the browser
 

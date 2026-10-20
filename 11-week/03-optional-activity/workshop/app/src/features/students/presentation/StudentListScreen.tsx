@@ -21,7 +21,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "StudentList">;
 // navigation once StudentDetail exists.
 export function StudentListScreen({ navigation }: Props) {
   const { logout } = useAuth();
-  const { state, reload } = useStudentList();
+  const { state, reload, refresh, isRefreshing } = useStudentList();
   const isConnected = useConnectivity();
   const [modalVisible, setModalVisible] = useState(false);
 
@@ -87,7 +87,7 @@ export function StudentListScreen({ navigation }: Props) {
           data={state.students}
           keyExtractor={(item) => item.id}
           renderItem={({ item }) => <StudentCard student={item} />}
-          refreshControl={<RefreshControl refreshing={false} onRefresh={reload} />}
+          refreshControl={<RefreshControl refreshing={isRefreshing} onRefresh={refresh} />}
         />
       )}
 
