@@ -11,11 +11,24 @@ export const strings = {
   documentPrefix: "Documento",
   addDisabledHint: "Necesitas conexión para agregar estudiantes",
   retryButton: "Reintentar",
+  logoutConfirm: {
+    title: "¿Cerrar sesión?",
+    message: "Tendrás que volver a ingresar tu usuario y contraseña.",
+    confirm: "Cerrar sesión",
+    cancel: "Seguir en la app",
+  },
   modal: {
     title: "Nuevo estudiante",
     nameLabel: "Nombre",
     documentLabel: "Número de documento",
     saveButton: "Guardar",
+    cancelButton: "Cancelar",
+    discardConfirm: {
+      title: "¿Descartar el estudiante?",
+      message: "Se borrará lo que escribiste y el estudiante no quedará registrado.",
+      confirm: "Descartar",
+      cancel: "Seguir editando",
+    },
     duplicateDocumentError: "Ya existe un estudiante con ese número de documento",
     genericError: "No pudimos guardar el estudiante, intenta de nuevo",
     validation: {

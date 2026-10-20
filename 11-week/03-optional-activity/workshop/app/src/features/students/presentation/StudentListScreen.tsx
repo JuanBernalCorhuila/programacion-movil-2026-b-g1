@@ -2,6 +2,7 @@ import { FlatList, Pressable, RefreshControl, StyleSheet, Text, View } from "rea
 import { useLayoutEffect, useState } from "react";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { Button } from "../../../shared/Button";
+import { ConfirmDialog } from "../../../shared/ConfirmDialog";
 import { theme } from "../../../core/theme/theme";
 import { useAuth } from "../../auth/presentation/AuthContext";
 import { useConnectivity } from "../../../core/network/useConnectivity";
@@ -24,6 +25,7 @@ export function StudentListScreen({ navigation }: Props) {
   const { state, reload, refresh, isRefreshing } = useStudentList();
   const isConnected = useConnectivity();
   const [modalVisible, setModalVisible] = useState(false);
+  const [confirmLogout, setConfirmLogout] = useState(false);
 
   const showOfflineBanner = state.isOffline || !isConnected;
 
@@ -36,7 +38,7 @@ export function StudentListScreen({ navigation }: Props) {
           accessible
           accessibilityRole="button"
           accessibilityLabel={strings.logoutButtonA11y}
-          onPress={logout}
+          onPress={() => setConfirmLogout(true)}
           hitSlop={8}
           style={styles.headerButton}
         >
@@ -61,7 +63,7 @@ export function StudentListScreen({ navigation }: Props) {
         </Pressable>
       ),
     });
-  }, [navigation, logout, showOfflineBanner]);
+  }, [navigation, showOfflineBanner]);
 
   return (
     <View style={styles.container}>
@@ -103,6 +105,16 @@ export function StudentListScreen({ navigation }: Props) {
         visible={modalVisible}
         onClose={() => setModalVisible(false)}
         onCreated={reload}
+      />
+
+      <ConfirmDialog
+        visible={confirmLogout}
+        title={strings.logoutConfirm.title}
+        message={strings.logoutConfirm.message}
+        confirmLabel={strings.logoutConfirm.confirm}
+        cancelLabel={strings.logoutConfirm.cancel}
+        onConfirm={logout}
+        onCancel={() => setConfirmLogout(false)}
       />
     </View>
   );

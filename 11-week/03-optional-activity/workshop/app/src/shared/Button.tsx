@@ -6,13 +6,15 @@ type Props = {
   onPress: () => void;
   disabled?: boolean;
   loading?: boolean;
-  variant?: "primary" | "text";
+  variant?: "primary" | "text" | "danger";
 };
 
 // Presentation-agnostic, reusable UI only — no business logic here. See
 // docs/01-architecture/project-structure.md.
 export function Button({ label, onPress, disabled, loading, variant = "primary" }: Props) {
   const isDisabled = disabled || loading;
+  // "danger" is a filled button like "primary", in the error color (destructive confirmations).
+  const isFilled = variant !== "text";
 
   return (
     <Pressable
@@ -25,14 +27,14 @@ export function Button({ label, onPress, disabled, loading, variant = "primary" 
       hitSlop={8}
       style={[
         styles.base,
-        variant === "primary" ? styles.primary : styles.text,
+        styles[variant],
         isDisabled && styles.disabled,
       ]}
     >
       {loading ? (
-        <ActivityIndicator color={variant === "primary" ? theme.color.onPrimary : theme.color.primary} />
+        <ActivityIndicator color={isFilled ? theme.color.onPrimary : theme.color.primary} />
       ) : (
-        <Text style={variant === "primary" ? styles.primaryLabel : styles.textLabel}>{label}</Text>
+        <Text style={isFilled ? styles.primaryLabel : styles.textLabel}>{label}</Text>
       )}
     </Pressable>
   );
@@ -48,6 +50,7 @@ const styles = StyleSheet.create({
   },
   primary: { backgroundColor: theme.color.primary },
   text: { backgroundColor: "transparent" },
+  danger: { backgroundColor: theme.color.error },
   disabled: { opacity: 0.5 },
   primaryLabel: { color: theme.color.onPrimary, ...theme.text.body, fontWeight: "600" },
   textLabel: { color: theme.color.primary, ...theme.text.body, fontWeight: "600" },

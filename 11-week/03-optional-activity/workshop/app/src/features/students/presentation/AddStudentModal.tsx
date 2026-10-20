@@ -3,6 +3,7 @@ import { Modal, StyleSheet, Text, View } from "react-native";
 import { Button } from "../../../shared/Button";
 import { TextField } from "../../../shared/TextField";
 import { theme } from "../../../core/theme/theme";
+import { ConfirmDialog } from "../../../shared/ConfirmDialog";
 import { useStudentForm } from "./useStudentForm";
 import { strings } from "./strings";
 import {
@@ -24,6 +25,7 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
   const [documentNumber, setDocumentNumber] = useState("");
   // A field shows its message only after the trainer leaves it, not while typing the first letter.
   const [touched, setTouched] = useState({ name: false, documentNumber: false });
+  const [confirmDiscard, setConfirmDiscard] = useState(false);
 
   const { state, submit, reset } = useStudentForm(() => {
     onCreated();
@@ -34,8 +36,15 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
     setName("");
     setDocumentNumber("");
     setTouched({ name: false, documentNumber: false });
+    setConfirmDiscard(false);
     reset();
     onClose();
+  }
+
+  // Closing an empty form loses nothing; closing a filled one asks first (audit finding 14).
+  function handleCancel() {
+    if (name.trim() || documentNumber.trim()) setConfirmDiscard(true);
+    else handleClose();
   }
 
   const isSubmitting = state.status === "submitting";
@@ -44,7 +53,7 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
   const canSave = !nameError && !documentError && !isSubmitting;
 
   return (
-    <Modal visible={visible} animationType="slide" transparent onRequestClose={handleClose}>
+    <Modal visible={visible} animationType="slide" transparent onRequestClose={handleCancel}>
       <View style={styles.overlay}>
         <View style={styles.sheet}>
           <Text style={styles.title} accessibilityRole="header">
@@ -83,8 +92,22 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
             disabled={!canSave}
             loading={isSubmitting}
           />
-          <Button label="Cancelar" onPress={handleClose} variant="text" disabled={isSubmitting} />
+          <Button
+            label={strings.modal.cancelButton}
+            onPress={handleCancel}
+            variant="text"
+            disabled={isSubmitting}
+          />
         </View>
+        <ConfirmDialog
+          visible={confirmDiscard}
+          title={strings.modal.discardConfirm.title}
+          message={strings.modal.discardConfirm.message}
+          confirmLabel={strings.modal.discardConfirm.confirm}
+          cancelLabel={strings.modal.discardConfirm.cancel}
+          onConfirm={handleClose}
+          onCancel={() => setConfirmDiscard(false)}
+        />
       </View>
     </Modal>
   );
