@@ -16,9 +16,9 @@ type Props = NativeStackScreenProps<RootStackParamList, "StudentList">;
 // See docs/01-architecture/screens/student-list.md for the full spec this implements.
 //
 // SCOPE NOTE for this corte: tapping a student card is a documented action ("Navigate to
-// StudentDetail with studentId") but StudentDetail isn't built yet — HU5/HU6/HU7 only. The
-// tap is wired to nothing for now rather than crashing on a missing route; it becomes real
-// navigation once StudentDetail exists.
+// StudentDetail with studentId") but StudentDetail isn't built yet — HU5/HU6/HU7 only. Until
+// it exists the card is plain content, not a button, so a screen reader does not announce an
+// action that does nothing (docs/01-ux-audit.md, finding 2).
 export function StudentListScreen({ navigation }: Props) {
   const { logout } = useAuth();
   const { state, reload, refresh, isRefreshing } = useStudentList();
@@ -33,6 +33,7 @@ export function StudentListScreen({ navigation }: Props) {
     navigation.setOptions({
       headerLeft: () => (
         <Pressable
+          accessible
           accessibilityRole="button"
           accessibilityLabel={strings.logoutButtonA11y}
           onPress={logout}
@@ -44,14 +45,19 @@ export function StudentListScreen({ navigation }: Props) {
       ),
       headerRight: () => (
         <Pressable
+          accessible
           accessibilityRole="button"
           accessibilityLabel={strings.addStudentCta}
+          accessibilityHint={showOfflineBanner ? strings.addDisabledHint : undefined}
+          accessibilityState={{ disabled: showOfflineBanner }}
           onPress={() => setModalVisible(true)}
           disabled={showOfflineBanner}
           hitSlop={8}
-          style={[styles.headerButton, showOfflineBanner && styles.iconButtonDisabled]}
+          style={styles.headerButton}
         >
-          <Text style={styles.iconButtonLabel}>+</Text>
+          <Text style={[styles.iconButtonLabel, showOfflineBanner && styles.iconButtonDisabled]}>
+            +
+          </Text>
         </Pressable>
       ),
     });
@@ -65,31 +71,33 @@ export function StudentListScreen({ navigation }: Props) {
         </View>
       )}
 
-      {state.status === "loading" && <SkeletonList />}
+      <View style={styles.content}>
+        {state.status === "loading" && <SkeletonList />}
 
-      {state.status === "empty" && (
-        <View style={styles.centered}>
-          <Text style={styles.emptyText}>{strings.emptyMessage}</Text>
-          <Button label={strings.addStudentCta} onPress={() => setModalVisible(true)} />
-        </View>
-      )}
+        {state.status === "empty" && (
+          <View style={styles.centered}>
+            <Text style={styles.emptyText}>{strings.emptyMessage}</Text>
+            <Button label={strings.addStudentCta} onPress={() => setModalVisible(true)} />
+          </View>
+        )}
 
-      {state.status === "error" && (
-        <View style={styles.centered} accessibilityRole="alert">
-          <Text style={styles.errorTitle}>{strings.errorMessage}</Text>
-          <Text style={styles.emptyText}>{strings.errorHint}</Text>
-          <Button label={strings.retryButton} onPress={reload} />
-        </View>
-      )}
+        {state.status === "error" && (
+          <View style={styles.centered} accessibilityRole="alert">
+            <Text style={styles.errorTitle}>{strings.errorMessage}</Text>
+            <Text style={styles.emptyText}>{strings.errorHint}</Text>
+            <Button label={strings.retryButton} onPress={reload} />
+          </View>
+        )}
 
-      {state.status === "loaded" && (
-        <FlatList
-          data={state.students}
-          keyExtractor={(item) => item.id}
-          renderItem={({ item }) => <StudentCard student={item} />}
-          refreshControl={<RefreshControl refreshing={isRefreshing} onRefresh={refresh} />}
-        />
-      )}
+        {state.status === "loaded" && (
+          <FlatList
+            data={state.students}
+            keyExtractor={(item) => item.id}
+            renderItem={({ item }) => <StudentCard student={item} />}
+            refreshControl={<RefreshControl refreshing={isRefreshing} onRefresh={refresh} />}
+          />
+        )}
+      </View>
 
       <AddStudentModal
         visible={modalVisible}
@@ -102,13 +110,17 @@ export function StudentListScreen({ navigation }: Props) {
 
 function StudentCard({ student }: { student: Student }) {
   return (
-    // See SCOPE NOTE above — no-op until StudentDetail exists.
-    <Pressable accessible accessibilityRole="button" accessibilityLabel={student.name} style={styles.card}>
+    // See SCOPE NOTE above — becomes a button again once StudentDetail exists.
+    <View
+      accessible
+      accessibilityLabel={`${student.name}, ${strings.documentPrefix} ${student.documentNumber}`}
+      style={styles.card}
+    >
       <Text style={styles.cardText}>{student.name}</Text>
       <Text style={styles.cardCaption}>
         {strings.documentPrefix} {student.documentNumber}
       </Text>
-    </Pressable>
+    </View>
   );
 }
 
@@ -129,14 +141,17 @@ function SkeletonList() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: theme.color.background },
+  content: { flex: 1, width: "100%", maxWidth: theme.layout.maxContentWidth, alignSelf: "center" },
   headerButton: {
     minWidth: 44,
     minHeight: 44,
     alignItems: "center",
     justifyContent: "center",
+    paddingHorizontal: theme.space.md,
     borderRadius: theme.radius.pill,
   },
-  iconButtonDisabled: { opacity: 0.4 },
+  // Keeps 3:1 against the header instead of fading to ~1.6:1 with opacity.
+  iconButtonDisabled: { color: theme.color.borderStrong },
   iconButtonLabel: { fontSize: 22, color: theme.color.primary },
   headerButtonText: { ...theme.text.body, color: theme.color.secondary },
   banner: { backgroundColor: theme.color.border, padding: theme.space.sm },

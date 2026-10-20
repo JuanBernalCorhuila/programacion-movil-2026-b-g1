@@ -26,6 +26,10 @@ export const theme = {
     lg: 24,
     xl: 32,
   },
+  layout: {
+    // Content stops growing past this width so lines stay readable on tablets (768 px+).
+    maxContentWidth: 640,
+  },
   radius: {
     sm: 4,
     md: 8,

@@ -36,6 +36,9 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
     <Modal visible={visible} animationType="slide" transparent onRequestClose={handleClose}>
       <View style={styles.overlay}>
         <View style={styles.sheet}>
+          <Text style={styles.title} accessibilityRole="header">
+            {strings.modal.title}
+          </Text>
           <TextField
             label={strings.modal.nameLabel}
             value={name}
@@ -68,11 +71,15 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
 const styles = StyleSheet.create({
   overlay: { flex: 1, backgroundColor: "rgba(0,0,0,0.4)", justifyContent: "flex-end" },
   sheet: {
+    width: "100%",
+    maxWidth: theme.layout.maxContentWidth,
+    alignSelf: "center",
     backgroundColor: theme.color.surface,
     borderTopLeftRadius: theme.radius.md,
     borderTopRightRadius: theme.radius.md,
     padding: theme.space.lg,
     gap: theme.space.sm,
   },
+  title: { ...theme.text.subtitle, color: theme.color.text, marginBottom: theme.space.sm },
   error: { color: theme.color.error, ...theme.text.caption, marginBottom: theme.space.sm },
 });

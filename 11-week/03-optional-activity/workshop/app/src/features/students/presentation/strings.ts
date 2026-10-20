@@ -9,8 +9,10 @@ export const strings = {
   errorHint: "Revisa tu conexión e intenta de nuevo.",
   loadingA11y: "Cargando estudiantes",
   documentPrefix: "Documento",
+  addDisabledHint: "Necesitas conexión para agregar estudiantes",
   retryButton: "Reintentar",
   modal: {
+    title: "Nuevo estudiante",
     nameLabel: "Nombre",
     documentLabel: "Número de documento",
     saveButton: "Guardar",
