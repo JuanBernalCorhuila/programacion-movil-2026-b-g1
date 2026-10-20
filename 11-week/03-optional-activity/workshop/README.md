@@ -43,3 +43,4 @@ Vitest (Vitest does not run React Native components without extra setup).
 | CP2 — Navigation and design tokens | [`docs/02-design-tokens.md`](docs/02-design-tokens.md) |
 | CP3 — List screen states | [`docs/03-states.md`](docs/03-states.md) |
 | CP4 — Accessibility and responsive | [`docs/04-a11y-responsive.md`](docs/04-a11y-responsive.md) |
+| CP6 — Form with validation and feedback | [`docs/06-forms.md`](docs/06-forms.md) |

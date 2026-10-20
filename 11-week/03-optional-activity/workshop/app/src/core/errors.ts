@@ -17,6 +17,9 @@ export class NetworkError extends AppError {}
 /** Backend rejected the input (e.g. duplicate document number, empty field). */
 export class ValidationError extends AppError {}
 
+/** 409 — the only 409 today is a duplicate document number (api-contract.md E-02, HU5-CA2). */
+export class ConflictError extends ValidationError {}
+
 /** No connectivity — detected client-side before attempting the request. */
 export class OfflineError extends AppError {
   constructor() {

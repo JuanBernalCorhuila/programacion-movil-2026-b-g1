@@ -11,6 +11,7 @@ export const strings = {
   documentPrefix: "Documento",
   addDisabledHint: "Necesitas conexión para agregar estudiantes",
   retryButton: "Reintentar",
+  createdToast: "Estudiante registrado:",
   logoutConfirm: {
     title: "¿Cerrar sesión?",
     message: "Tendrás que volver a ingresar tu usuario y contraseña.",

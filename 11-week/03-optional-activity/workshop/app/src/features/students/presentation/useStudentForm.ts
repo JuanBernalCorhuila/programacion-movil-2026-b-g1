@@ -1,6 +1,8 @@
 import { useCallback, useState } from "react";
 import { container } from "../../../core/di/container";
 import { strings } from "./strings";
+import { Student } from "../domain/Student";
+import { ConflictError } from "../../../core/errors";
 
 // Exact shape from docs/01-architecture/features/students.md:
 // StudentFormState { status: 'idle' | 'submitting' | 'success' | 'error', errorMessage?: string }
@@ -9,21 +11,23 @@ type StudentFormState = {
   errorMessage?: string;
 };
 
-export function useStudentForm(onSuccess: () => void) {
+export function useStudentForm(onSuccess: (student: Student) => void) {
   const [state, setState] = useState<StudentFormState>({ status: "idle" });
 
   const submit = useCallback(
     async (name: string, documentNumber: string) => {
       setState({ status: "submitting" });
       try {
-        await container.students.createStudent.execute(name, documentNumber);
+        const student = await container.students.createStudent.execute(name, documentNumber);
         setState({ status: "success" });
-        onSuccess();
-      } catch {
-        // We genuinely can't tell "duplicate document" apart from any other backend
-        // validation error without parsing its message text — and parsing error strings is
-        // fragile. Being honestly generic beats being specific but sometimes wrong.
-        setState({ status: "error", errorMessage: strings.modal.genericError });
+        onSuccess(student);
+      } catch (err) {
+        // A 409 is the duplicate document (HU5-CA2); anything else keeps the generic message.
+        const errorMessage =
+          err instanceof ConflictError
+            ? strings.modal.duplicateDocumentError
+            : strings.modal.genericError;
+        setState({ status: "error", errorMessage });
       }
     },
     [onSuccess]

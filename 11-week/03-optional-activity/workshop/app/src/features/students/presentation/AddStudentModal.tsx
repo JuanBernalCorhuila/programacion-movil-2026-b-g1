@@ -4,6 +4,7 @@ import { Button } from "../../../shared/Button";
 import { TextField } from "../../../shared/TextField";
 import { theme } from "../../../core/theme/theme";
 import { ConfirmDialog } from "../../../shared/ConfirmDialog";
+import { Student } from "../domain/Student";
 import { useStudentForm } from "./useStudentForm";
 import { strings } from "./strings";
 import {
@@ -16,7 +17,7 @@ import {
 type Props = {
   visible: boolean;
   onClose: () => void;
-  onCreated: () => void;
+  onCreated: (student: Student) => void;
 };
 
 // "Add student" modal — see docs/01-architecture/screens/student-list.md.
@@ -27,8 +28,8 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
   const [touched, setTouched] = useState({ name: false, documentNumber: false });
   const [confirmDiscard, setConfirmDiscard] = useState(false);
 
-  const { state, submit, reset } = useStudentForm(() => {
-    onCreated();
+  const { state, submit, reset } = useStudentForm((student) => {
+    onCreated(student);
     handleClose();
   });
 
@@ -84,7 +85,11 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
             editable={!isSubmitting}
           />
 
-          {state.status === "error" && <Text style={styles.error}>{state.errorMessage}</Text>}
+          {state.status === "error" && (
+            <Text style={styles.error} accessibilityRole="alert">
+              {state.errorMessage}
+            </Text>
+          )}
 
           <Button
             label={strings.modal.saveButton}

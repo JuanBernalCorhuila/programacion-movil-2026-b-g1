@@ -1,5 +1,5 @@
 import { tokenStorage } from "../storage/tokenStorage";
-import { AuthError, NetworkError, ValidationError } from "../errors";
+import { AuthError, ConflictError, NetworkError, ValidationError } from "../errors";
 
 // See docs/03-api-and-data/api-networking.md.
 //
@@ -68,6 +68,10 @@ export async function apiFetch<T>(path: string, options: ApiFetchOptions = {}): 
   if (!response.ok) {
     const payload = await safeJson(response);
     const message = typeof payload?.error === "string" ? payload.error : "Ocurrió un error";
+    // The API has no error codes yet (G-01), but the status alone already tells a duplicate apart.
+    if (response.status === 409) {
+      throw new ConflictError(message);
+    }
     if (response.status >= 400 && response.status < 500) {
       throw new ValidationError(message);
     }

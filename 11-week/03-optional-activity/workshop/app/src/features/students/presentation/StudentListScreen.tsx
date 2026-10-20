@@ -1,8 +1,9 @@
 import { FlatList, Pressable, RefreshControl, StyleSheet, Text, View } from "react-native";
-import { useLayoutEffect, useState } from "react";
+import { useCallback, useLayoutEffect, useState } from "react";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { Button } from "../../../shared/Button";
 import { ConfirmDialog } from "../../../shared/ConfirmDialog";
+import { Toast } from "../../../shared/Toast";
 import { theme } from "../../../core/theme/theme";
 import { useAuth } from "../../auth/presentation/AuthContext";
 import { useConnectivity } from "../../../core/network/useConnectivity";
@@ -26,6 +27,14 @@ export function StudentListScreen({ navigation }: Props) {
   const isConnected = useConnectivity();
   const [modalVisible, setModalVisible] = useState(false);
   const [confirmLogout, setConfirmLogout] = useState(false);
+  const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const hideToast = useCallback(() => setToastMessage(null), []);
+
+  // Keeps the list on screen (no skeleton flash) and tells the trainer the save worked.
+  function handleCreated(student: Student) {
+    refresh();
+    setToastMessage(`${strings.createdToast} ${student.name}`);
+  }
 
   const showOfflineBanner = state.isOffline || !isConnected;
 
@@ -104,7 +113,7 @@ export function StudentListScreen({ navigation }: Props) {
       <AddStudentModal
         visible={modalVisible}
         onClose={() => setModalVisible(false)}
-        onCreated={reload}
+        onCreated={handleCreated}
       />
 
       <ConfirmDialog
@@ -116,6 +125,7 @@ export function StudentListScreen({ navigation }: Props) {
         onConfirm={logout}
         onCancel={() => setConfirmLogout(false)}
       />
+      <Toast message={toastMessage} onHide={hideToast} />
     </View>
   );
 }
