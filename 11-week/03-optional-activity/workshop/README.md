@@ -13,7 +13,7 @@ for gym trainers to register their students and track their attendance.
 - CODE_REPO: https://github.com/code-corhuila/h-tracker
 - BASELINE: team app — `05-release/mvp/mobile` (v1.0.0) from healt-track-docs, commit `3ff10d1`
 - REFLECTION_DOC: https://docs.google.com/document/d/1mxMIvFMSMRHBAon2FePWupvnZAurDntKeKw27OFu0jQ/edit?usp=sharing
-- MY_SCREENS: (filled in CP1)
+- MY_SCREENS: Student list (`StudentListScreen`, HU7) and Add student modal (`AddStudentModal`, HU5)
 <!-- CONFIG-END -->
 
 ## Baseline
