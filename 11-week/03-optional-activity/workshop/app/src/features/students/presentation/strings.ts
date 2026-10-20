@@ -18,5 +18,18 @@ export const strings = {
     saveButton: "Guardar",
     duplicateDocumentError: "Ya existe un estudiante con ese número de documento",
     genericError: "No pudimos guardar el estudiante, intenta de nuevo",
+    validation: {
+      name: {
+        required: "Escribe el nombre del estudiante",
+        invalidCharacters: "Usa solo letras y espacios",
+        tooShort: "El nombre debe tener al menos 3 letras",
+        tooLong: "El nombre puede tener máximo 60 caracteres",
+      },
+      documentNumber: {
+        required: "Escribe el número de documento",
+        notDigits: "Usa solo números, sin puntos ni espacios",
+        badLength: "El documento debe tener entre 6 y 10 dígitos",
+      },
+    },
   },
 };

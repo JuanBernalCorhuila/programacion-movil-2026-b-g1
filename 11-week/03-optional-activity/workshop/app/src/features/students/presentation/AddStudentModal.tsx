@@ -5,6 +5,12 @@ import { TextField } from "../../../shared/TextField";
 import { theme } from "../../../core/theme/theme";
 import { useStudentForm } from "./useStudentForm";
 import { strings } from "./strings";
+import {
+  DOCUMENT_MAX_LENGTH,
+  NAME_MAX_LENGTH,
+  validateDocumentNumber,
+  validateName,
+} from "../domain/validateStudent";
 
 type Props = {
   visible: boolean;
@@ -16,6 +22,8 @@ type Props = {
 export function AddStudentModal({ visible, onClose, onCreated }: Props) {
   const [name, setName] = useState("");
   const [documentNumber, setDocumentNumber] = useState("");
+  // A field shows its message only after the trainer leaves it, not while typing the first letter.
+  const [touched, setTouched] = useState({ name: false, documentNumber: false });
 
   const { state, submit, reset } = useStudentForm(() => {
     onCreated();
@@ -25,12 +33,15 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
   function handleClose() {
     setName("");
     setDocumentNumber("");
+    setTouched({ name: false, documentNumber: false });
     reset();
     onClose();
   }
 
   const isSubmitting = state.status === "submitting";
-  const canSave = name.trim().length > 0 && documentNumber.trim().length > 0 && !isSubmitting;
+  const nameError = validateName(name);
+  const documentError = validateDocumentNumber(documentNumber);
+  const canSave = !nameError && !documentError && !isSubmitting;
 
   return (
     <Modal visible={visible} animationType="slide" transparent onRequestClose={handleClose}>
@@ -43,12 +54,23 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
             label={strings.modal.nameLabel}
             value={name}
             onChangeText={setName}
+            onBlur={() => setTouched((t) => ({ ...t, name: true }))}
+            error={touched.name && nameError ? strings.modal.validation.name[nameError] : null}
+            maxLength={NAME_MAX_LENGTH}
+            autoCapitalize="words"
             editable={!isSubmitting}
           />
           <TextField
             label={strings.modal.documentLabel}
             value={documentNumber}
             onChangeText={setDocumentNumber}
+            onBlur={() => setTouched((t) => ({ ...t, documentNumber: true }))}
+            error={
+              touched.documentNumber && documentError
+                ? strings.modal.validation.documentNumber[documentError]
+                : null
+            }
+            maxLength={DOCUMENT_MAX_LENGTH}
             keyboardType="numeric"
             editable={!isSubmitting}
           />
