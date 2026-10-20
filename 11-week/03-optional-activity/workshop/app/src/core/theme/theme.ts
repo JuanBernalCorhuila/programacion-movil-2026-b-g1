@@ -6,12 +6,18 @@ export const theme = {
   color: {
     primary: "#2E7D32",
     onPrimary: "#FFFFFF",
+    secondary: "#37474F",
+    success: "#1B5E20",
+    successContainer: "#E8F5E9",
     surface: "#FFFFFF",
     background: "#F5F5F5",
     text: "#1A1A1A",
     textMuted: "#6B6B6B",
     error: "#B00020",
+    errorContainer: "#FDECEA",
     border: "#E0E0E0",
+    // Card edges and disabled controls: keeps 3:1 against background (non-text contrast).
+    borderStrong: "#8A8A8A",
   },
   space: {
     xs: 4,
@@ -27,6 +33,7 @@ export const theme = {
   },
   text: {
     title: { fontSize: 22, fontWeight: "700" as const },
+    subtitle: { fontSize: 18, fontWeight: "600" as const },
     body: { fontSize: 16, fontWeight: "400" as const },
     caption: { fontSize: 13, fontWeight: "400" as const },
   },

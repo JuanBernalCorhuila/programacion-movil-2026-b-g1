@@ -1,5 +1,6 @@
 import { FlatList, Pressable, RefreshControl, StyleSheet, Text, View } from "react-native";
-import { useState } from "react";
+import { useLayoutEffect, useState } from "react";
+import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { Button } from "../../../shared/Button";
 import { theme } from "../../../core/theme/theme";
 import { useAuth } from "../../auth/presentation/AuthContext";
@@ -8,6 +9,9 @@ import { useStudentList } from "./useStudentList";
 import { AddStudentModal } from "./AddStudentModal";
 import { strings } from "./strings";
 import { Student } from "../domain/Student";
+import { RootStackParamList } from "../../../core/navigation/types";
+
+type Props = NativeStackScreenProps<RootStackParamList, "StudentList">;
 
 // See docs/01-architecture/screens/student-list.md for the full spec this implements.
 //
@@ -15,7 +19,7 @@ import { Student } from "../domain/Student";
 // StudentDetail with studentId") but StudentDetail isn't built yet — HU5/HU6/HU7 only. The
 // tap is wired to nothing for now rather than crashing on a missing route; it becomes real
 // navigation once StudentDetail exists.
-export function StudentListScreen() {
+export function StudentListScreen({ navigation }: Props) {
   const { logout } = useAuth();
   const { state, reload } = useStudentList();
   const isConnected = useConnectivity();
@@ -23,35 +27,38 @@ export function StudentListScreen() {
 
   const showOfflineBanner = state.isOffline || !isConnected;
 
+  // Header actions live in the stack header: "Cerrar sesión" on the left, away from the
+  // primary "+" action on the right (see docs/01-ux-audit.md, finding 1).
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      headerLeft: () => (
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={strings.logoutButtonA11y}
+          onPress={logout}
+          hitSlop={8}
+          style={styles.headerButton}
+        >
+          <Text style={styles.headerButtonText}>{strings.logoutButtonA11y}</Text>
+        </Pressable>
+      ),
+      headerRight: () => (
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={strings.addStudentCta}
+          onPress={() => setModalVisible(true)}
+          disabled={showOfflineBanner}
+          hitSlop={8}
+          style={[styles.headerButton, showOfflineBanner && styles.iconButtonDisabled]}
+        >
+          <Text style={styles.iconButtonLabel}>+</Text>
+        </Pressable>
+      ),
+    });
+  }, [navigation, logout, showOfflineBanner]);
+
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.title}>{strings.screenTitle}</Text>
-        <View style={styles.headerActions}>
-          <Pressable
-            accessible
-            accessibilityRole="button"
-            accessibilityLabel={strings.addStudentCta}
-            onPress={() => setModalVisible(true)}
-            disabled={showOfflineBanner}
-            hitSlop={8}
-            style={[styles.iconButton, showOfflineBanner && styles.iconButtonDisabled]}
-          >
-            <Text style={styles.iconButtonLabel}>+</Text>
-          </Pressable>
-          <Pressable
-            accessible
-            accessibilityRole="button"
-            accessibilityLabel={strings.logoutButtonA11y}
-            onPress={logout}
-            hitSlop={8}
-            style={styles.iconButton}
-          >
-            <Text style={styles.iconButtonLabel}>⎋</Text>
-          </Pressable>
-        </View>
-      </View>
-
       {showOfflineBanner && (
         <View style={styles.banner}>
           <Text style={styles.bannerText}>{strings.offlineBanner}</Text>
@@ -113,15 +120,7 @@ function SkeletonList() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: theme.color.background },
-  header: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: theme.space.md,
-  },
-  title: { ...theme.text.title, color: theme.color.text },
-  headerActions: { flexDirection: "row", gap: theme.space.sm },
-  iconButton: {
+  headerButton: {
     minWidth: 44,
     minHeight: 44,
     alignItems: "center",
@@ -130,6 +129,7 @@ const styles = StyleSheet.create({
   },
   iconButtonDisabled: { opacity: 0.4 },
   iconButtonLabel: { fontSize: 22, color: theme.color.primary },
+  headerButtonText: { ...theme.text.body, color: theme.color.secondary },
   banner: { backgroundColor: theme.color.border, padding: theme.space.sm },
   bannerText: { ...theme.text.caption, color: theme.color.text, textAlign: "center" },
   centered: { flex: 1, alignItems: "center", justifyContent: "center", gap: theme.space.md, padding: theme.space.lg },
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     backgroundColor: theme.color.surface,
     borderRadius: theme.radius.md,
     borderWidth: 1,
-    borderColor: theme.color.border,
+    borderColor: theme.color.borderStrong,
   },
   cardText: { ...theme.text.body, color: theme.color.text },
   skeletonRow: {
