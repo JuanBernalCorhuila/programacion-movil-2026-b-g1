@@ -75,8 +75,9 @@ export function StudentListScreen({ navigation }: Props) {
       )}
 
       {state.status === "error" && (
-        <View style={styles.centered}>
-          <Text style={styles.emptyText}>{strings.errorMessage}</Text>
+        <View style={styles.centered} accessibilityRole="alert">
+          <Text style={styles.errorTitle}>{strings.errorMessage}</Text>
+          <Text style={styles.emptyText}>{strings.errorHint}</Text>
           <Button label={strings.retryButton} onPress={reload} />
         </View>
       )}
@@ -104,15 +105,23 @@ function StudentCard({ student }: { student: Student }) {
     // See SCOPE NOTE above — no-op until StudentDetail exists.
     <Pressable accessible accessibilityRole="button" accessibilityLabel={student.name} style={styles.card}>
       <Text style={styles.cardText}>{student.name}</Text>
+      <Text style={styles.cardCaption}>
+        {strings.documentPrefix} {student.documentNumber}
+      </Text>
     </Pressable>
   );
 }
 
+// Same shape as StudentCard (name line + document line) so the layout does not jump when
+// the data arrives.
 function SkeletonList() {
   return (
-    <View style={{ padding: theme.space.md }}>
+    <View accessible accessibilityLabel={strings.loadingA11y} accessibilityRole="progressbar">
       {[0, 1, 2, 3, 4].map((i) => (
-        <View key={i} style={styles.skeletonRow} />
+        <View key={i} style={styles.card}>
+          <View style={[styles.skeletonLine, { width: "55%" }]} />
+          <View style={[styles.skeletonLine, styles.skeletonCaption]} />
+        </View>
       ))}
     </View>
   );
@@ -138,6 +147,7 @@ const styles = StyleSheet.create({
     minHeight: 48,
     justifyContent: "center",
     paddingHorizontal: theme.space.md,
+    paddingVertical: theme.space.sm,
     marginHorizontal: theme.space.md,
     marginVertical: theme.space.xs,
     backgroundColor: theme.color.surface,
@@ -146,10 +156,12 @@ const styles = StyleSheet.create({
     borderColor: theme.color.borderStrong,
   },
   cardText: { ...theme.text.body, color: theme.color.text },
-  skeletonRow: {
-    height: 48,
-    borderRadius: theme.radius.md,
+  cardCaption: { ...theme.text.caption, color: theme.color.textMuted },
+  errorTitle: { ...theme.text.subtitle, color: theme.color.error, textAlign: "center" },
+  skeletonLine: {
+    height: 14,
+    borderRadius: theme.radius.sm,
     backgroundColor: theme.color.border,
-    marginBottom: theme.space.sm,
   },
+  skeletonCaption: { width: "35%", height: 10, marginTop: theme.space.xs },
 });

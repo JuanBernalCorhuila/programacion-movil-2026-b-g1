@@ -6,6 +6,9 @@ export const strings = {
   addStudentCta: "Agregar estudiante",
   offlineBanner: "Sin conexión, mostrando datos guardados",
   errorMessage: "No pudimos cargar los estudiantes",
+  errorHint: "Revisa tu conexión e intenta de nuevo.",
+  loadingA11y: "Cargando estudiantes",
+  documentPrefix: "Documento",
   retryButton: "Reintentar",
   modal: {
     nameLabel: "Nombre",
