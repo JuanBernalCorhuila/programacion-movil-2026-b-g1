@@ -1,13 +1,20 @@
-import { NavigationContainer } from "@react-navigation/native";
+import { LinkingOptions, NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { LoginScreen } from "../../features/auth/presentation/LoginScreen";
 import { useAuth } from "../../features/auth/presentation/AuthContext";
 import { StudentListScreen } from "../../features/students/presentation/StudentListScreen";
+import { StudentDetailScreen } from "../../features/students/presentation/StudentDetailScreen";
 import { strings as studentStrings } from "../../features/students/presentation/strings";
 import { theme } from "../theme/theme";
 import { RootStackParamList } from "./types";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
+
+// Same route table as URLs in the browser build, e.g. /students/<id> opens StudentDetail.
+const linking: LinkingOptions<RootStackParamList> = {
+  prefixes: [],
+  config: { screens: { Login: "login", StudentList: "", StudentDetail: "students/:studentId" } },
+};
 
 // Auth is guarded centrally here, not inside individual screens — see
 // docs/01-architecture/navigation.md.
@@ -18,7 +25,7 @@ export function RootNavigator() {
   const { isAuthenticated } = useAuth();
 
   return (
-    <NavigationContainer>
+    <NavigationContainer linking={linking}>
       <Stack.Navigator
         screenOptions={{
           headerStyle: { backgroundColor: theme.color.surface },
@@ -28,11 +35,18 @@ export function RootNavigator() {
         }}
       >
         {isAuthenticated ? (
-          <Stack.Screen
-            name="StudentList"
-            component={StudentListScreen}
-            options={{ title: studentStrings.screenTitle }}
-          />
+          <>
+            <Stack.Screen
+              name="StudentList"
+              component={StudentListScreen}
+              options={{ title: studentStrings.screenTitle }}
+            />
+            <Stack.Screen
+              name="StudentDetail"
+              component={StudentDetailScreen}
+              options={{ title: studentStrings.detail.title }}
+            />
+          </>
         ) : (
           <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
         )}

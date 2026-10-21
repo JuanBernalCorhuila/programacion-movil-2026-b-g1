@@ -17,10 +17,7 @@ type Props = NativeStackScreenProps<RootStackParamList, "StudentList">;
 
 // See docs/01-architecture/screens/student-list.md for the full spec this implements.
 //
-// SCOPE NOTE for this corte: tapping a student card is a documented action ("Navigate to
-// StudentDetail with studentId") but StudentDetail isn't built yet — HU5/HU6/HU7 only. Until
-// it exists the card is plain content, not a button, so a screen reader does not announce an
-// action that does nothing (docs/01-ux-audit.md, finding 2).
+// Tapping a student card opens StudentDetail with its studentId (screens/student-list.md).
 export function StudentListScreen({ navigation }: Props) {
   const { logout } = useAuth();
   const { state, reload, refresh, isRefreshing } = useStudentList();
@@ -104,7 +101,12 @@ export function StudentListScreen({ navigation }: Props) {
           <FlatList
             data={state.students}
             keyExtractor={(item) => item.id}
-            renderItem={({ item }) => <StudentCard student={item} />}
+            renderItem={({ item }) => (
+              <StudentCard
+                student={item}
+                onPress={() => navigation.navigate("StudentDetail", { studentId: item.id })}
+              />
+            )}
             refreshControl={<RefreshControl refreshing={isRefreshing} onRefresh={refresh} />}
           />
         )}
@@ -130,19 +132,20 @@ export function StudentListScreen({ navigation }: Props) {
   );
 }
 
-function StudentCard({ student }: { student: Student }) {
+function StudentCard({ student, onPress }: { student: Student; onPress: () => void }) {
   return (
-    // See SCOPE NOTE above — becomes a button again once StudentDetail exists.
-    <View
+    <Pressable
       accessible
+      accessibilityRole="button"
       accessibilityLabel={`${student.name}, ${strings.documentPrefix} ${student.documentNumber}`}
+      onPress={onPress}
       style={styles.card}
     >
       <Text style={styles.cardText}>{student.name}</Text>
       <Text style={styles.cardCaption}>
         {strings.documentPrefix} {student.documentNumber}
       </Text>
-    </View>
+    </Pressable>
   );
 }
 
