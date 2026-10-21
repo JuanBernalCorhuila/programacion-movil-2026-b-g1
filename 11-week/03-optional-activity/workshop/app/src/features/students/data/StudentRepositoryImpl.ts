@@ -40,6 +40,13 @@ export class StudentRepositoryImpl implements StudentRepository {
     }
   }
 
+  // `GET /students/:id` (api-contract.md E-04) does not exist yet in the backend (gap G-06), so
+  // the student is looked up in the list response. When E-04 ships, only this method changes.
+  async getStudentById(id: string): Promise<Student | null> {
+    const { students } = await this.getStudents();
+    return students.find((student) => student.id === id) ?? null;
+  }
+
   async createStudent(name: string, documentNumber: string): Promise<Student> {
     // No offline queue — see docs/03-api-and-data/offline-sync.md. If this fails, it fails;
     // the screen shows the error, it is never queued to retry automatically.
