@@ -22,6 +22,9 @@ const AuthContext = createContext<AuthContextValue | null>(null);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<AuthState>({ status: "idle" });
+  // True until the stored token has been read. Rendering the navigator before that would
+  // show Login for an instant and drop a URL such as /students/<id> opened in the browser.
+  const [isRestoring, setIsRestoring] = useState(true);
 
   const logout = useCallback(async () => {
     await container.auth.logout.execute();
@@ -36,6 +39,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     (async () => {
       const token = await container.auth.repository.getStoredToken();
       setState({ status: token ? "authenticated" : "idle" });
+      setIsRestoring(false);
     })();
   }, []);
 
@@ -62,6 +66,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setState({ status: "error", errorMessage: message });
     }
   }, []);
+
+  if (isRestoring) return null;
 
   return (
     <AuthContext.Provider
