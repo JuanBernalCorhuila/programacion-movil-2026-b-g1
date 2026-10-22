@@ -31,7 +31,9 @@ Vitest (Vitest does not run React Native components without extra setup).
 ## How to run
 
 1. Start the team backend (`h-tracker/backend`): `npm run dev`, with the trainer already
-   seeded (`npm run seed:trainer`).
+   seeded (`npm run seed:trainer`). For the browser build, the local copy of the backend also
+   needs `app.use(cors())` (the team backend has no CORS because React Native does not need
+   it; see [`docs/03-states.md`](docs/03-states.md)). That change stays local.
 2. In `app/`: `npm install`, copy `.env.example` to `.env` and set `EXPO_PUBLIC_API_URL`.
 3. `npm run web` to open it in the browser, or `npx expo start` to open it with Expo Go.
 
