@@ -54,7 +54,7 @@ export const strings = {
       },
       documentNumber: {
         required: "Escribe el número de documento",
-        notDigits: "Usa solo números, sin puntos ni espacios",
+        notDigits: "Usa solo números",
         badLength: "El documento debe tener entre 6 y 10 dígitos",
       },
     },

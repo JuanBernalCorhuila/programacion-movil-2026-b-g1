@@ -73,14 +73,17 @@ export function AddStudentModal({ visible, onClose, onCreated }: Props) {
           <TextField
             label={strings.modal.documentLabel}
             value={documentNumber}
-            onChangeText={setDocumentNumber}
+            // Usability test (docs/08-usability-test.md, problem 1): people write their cédula
+            // with dots; they are removed as they type instead of blocking the last digits.
+            onChangeText={(text) => setDocumentNumber(text.replace(/[.\s]/g, ""))}
             onBlur={() => setTouched((t) => ({ ...t, documentNumber: true }))}
             error={
               touched.documentNumber && documentError
                 ? strings.modal.validation.documentNumber[documentError]
                 : null
             }
-            maxLength={DOCUMENT_MAX_LENGTH}
+            // Room for the 3 dots of a 10-digit cédula, so pasting "1.075.887.654" is not cut.
+            maxLength={DOCUMENT_MAX_LENGTH + 3}
             keyboardType="numeric"
             editable={!isSubmitting}
           />

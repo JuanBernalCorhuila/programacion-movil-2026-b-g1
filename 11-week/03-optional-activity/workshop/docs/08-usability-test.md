@@ -64,5 +64,24 @@ digits — but the field made them remove the dots by hand instead of doing it f
 ## Problem chosen to fix
 
 **Problem 1** (and most of problem 2): the document field removes dots and spaces while the
-trainer types, so "1.075.887.654" becomes "1075887654". The fix is in the next commit,
-`fix(w11): address usability finding`, and is described below once applied.
+trainer types, so "1.075.887.654" becomes "1075887654".
+
+## Fix applied
+
+Commit `fix(w11): address usability finding`, in
+`app/src/features/students/presentation/AddStudentModal.tsx`:
+
+| Before (CP6) | After |
+|--------------|-------|
+| The field accepted at most 10 characters, dots included, and showed "Usa solo números, sin puntos ni espacios" only after leaving it | Dots and spaces are removed as the trainer types or pastes; the field accepts up to 13 characters (a 10-digit cédula with its 3 dots), and more than 10 digits still shows "El documento debe tener entre 6 y 10 dígitos" |
+| A document with dots kept "Guardar" disabled | "1.075.887.654" turns into "1075887654" and "Guardar" is enabled |
+| Message for invalid characters: "Usa solo números, sin puntos ni espacios" | "Usa solo números" (dots and spaces no longer reach validation, so the message only covers letters and other symbols) |
+
+The domain rule in `06-forms.md` does not change — the stored document is still 6 to 10
+digits — only the way the field gets there: it now does the cleaning the participants had to
+do by hand. `presentation/__tests__/AddStudentModal.test.tsx` checks that typing
+"1.075.887.654" sends "1075887654" to `CreateStudent`.
+
+![Document typed with dots, after the fix](img/after-usability-fix.png)
+
+Problem 3 (card affordance) stays open and goes to the team stories in CP9.

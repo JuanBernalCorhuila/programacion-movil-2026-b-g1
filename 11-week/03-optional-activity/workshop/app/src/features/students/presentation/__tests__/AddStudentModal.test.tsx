@@ -29,6 +29,15 @@ describe("AddStudentModal feedback", () => {
     expect(await screen.findByText(strings.modal.duplicateDocumentError)).toBeTruthy();
   });
 
+  it("removes the dots of a document typed as on the cédula", async () => {
+    createStudent.mockResolvedValue({ id: "2", name: "Laura Gómez", documentNumber: "1075887654" });
+    await render(<AddStudentModal visible onClose={jest.fn()} onCreated={jest.fn()} />);
+
+    await fillAndSave("Laura Gómez", "1.075.887.654");
+
+    expect(createStudent).toHaveBeenCalledWith("Laura Gómez", "1075887654");
+  });
+
   it("passes the created student to onCreated", async () => {
     const student = { id: "1", name: "Ana Torres", documentNumber: "1082345678" };
     createStudent.mockResolvedValue(student);
