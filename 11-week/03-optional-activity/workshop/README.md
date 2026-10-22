@@ -46,3 +46,4 @@ Vitest (Vitest does not run React Native components without extra setup).
 | CP6 — Form with validation and feedback | [`docs/06-forms.md`](docs/06-forms.md) |
 | CP7 — Detail screen and navigation flow | [`docs/07-navigation-flow.md`](docs/07-navigation-flow.md) |
 | CP8 — Usability test | [`docs/08-usability-test.md`](docs/08-usability-test.md) |
+| CP9 — Before and after, and team stories | [`docs/09-before-after.md`](docs/09-before-after.md) |
