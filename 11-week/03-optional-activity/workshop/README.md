@@ -45,3 +45,4 @@ Vitest (Vitest does not run React Native components without extra setup).
 | CP4 — Accessibility and responsive | [`docs/04-a11y-responsive.md`](docs/04-a11y-responsive.md) |
 | CP6 — Form with validation and feedback | [`docs/06-forms.md`](docs/06-forms.md) |
 | CP7 — Detail screen and navigation flow | [`docs/07-navigation-flow.md`](docs/07-navigation-flow.md) |
+| CP8 — Usability test | [`docs/08-usability-test.md`](docs/08-usability-test.md) |
