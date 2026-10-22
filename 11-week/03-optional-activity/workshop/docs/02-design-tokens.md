@@ -56,14 +56,14 @@ Text needs at least **4.5:1**; card edges and control borders (non-text) need **
 |------------|------------|-------|-------|--------|
 | `text` `#1A1A1A` | `background` `#F5F5F5` | Messages on the list screen | 15.96:1 | Pass |
 | `text` `#1A1A1A` | `surface` `#FFFFFF` | Student name on the card, header title | 17.40:1 | Pass |
-| `textMuted` `#6B6B6B` | `surface` `#FFFFFF` | Field labels in the modal | 5.33:1 | Pass |
-| `textMuted` `#6B6B6B` | `background` `#F5F5F5` | Empty and error messages | 4.89:1 | Pass |
-| `onPrimary` `#FFFFFF` | `primary` `#2E7D32` | "Guardar", "Reintentar" | 5.13:1 | Pass |
-| `primary` `#2E7D32` | `surface` `#FFFFFF` | "+" in the header, "Cancelar" | 5.13:1 | Pass |
-| `secondary` `#37474F` | `surface` `#FFFFFF` | "Cerrar sesión" in the header | 9.65:1 | Pass |
-| `success` `#1B5E20` | `successContainer` `#E8F5E9` | Success message | 7.00:1 | Pass |
-| `error` `#B00020` | `surface` `#FFFFFF` | Inline error in the modal | 7.33:1 | Pass |
-| `error` `#B00020` | `errorContainer` `#FDECEA` | Error state | 6.41:1 | Pass |
+| `textMuted` `#6B6B6B` | `surface` `#FFFFFF` | Field labels in the modal | 5.32:1 | Pass |
+| `textMuted` `#6B6B6B` | `background` `#F5F5F5` | Empty and error messages | 4.88:1 | Pass |
+| `onPrimary` `#FFFFFF` | `primary` `#2E7D32` | "Guardar", "Reintentar" | 5.12:1 | Pass |
+| `primary` `#2E7D32` | `surface` `#FFFFFF` | "+" in the header, "Cancelar" | 5.12:1 | Pass |
+| `secondary` `#37474F` | `surface` `#FFFFFF` | "Cerrar sesión" in the header | 9.64:1 | Pass |
+| `success` `#1B5E20` | `successContainer` `#E8F5E9` | Success message | 6.99:1 | Pass |
+| `error` `#B00020` | `surface` `#FFFFFF` | Inline error in the modal | 7.32:1 | Pass |
+| `error` `#B00020` | `errorContainer` `#FDECEA` | Error state | 6.4:1 | Pass |
 | `text` `#1A1A1A` | `border` `#E0E0E0` | Offline banner | 13.18:1 | Pass |
 | `border` `#E0E0E0` | `background` `#F5F5F5` | Card edge (before) | 1.21:1 | **Fail** (non-text) |
-| `borderStrong` `#8A8A8A` | `background` `#F5F5F5` | Card edge (after) | 3.17:1 | Pass (non-text) |
+| `borderStrong` `#8A8A8A` | `background` `#F5F5F5` | Card edge (after) | 3.16:1 | Pass (non-text) |

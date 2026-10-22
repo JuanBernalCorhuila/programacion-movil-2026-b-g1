@@ -12,7 +12,7 @@
 
 - **Header:** "Cerrar sesión" moved away from "+" into the native stack header and now asks
   for confirmation. *Principle: visual hierarchy and error prevention (CP2, CP6).*
-- **Cards:** name plus document number, a border with 3.17:1 contrast, read as one item by
+- **Cards:** name plus document number, a border with 3.16:1 contrast, read as one item by
   screen readers, and they open the student's detail. *Principles: visual hierarchy,
   non-text contrast, labels (CP2, CP3, CP4, CP7).*
 - **States:** skeleton shaped like a card, error with a hint and "Reintentar", empty state
