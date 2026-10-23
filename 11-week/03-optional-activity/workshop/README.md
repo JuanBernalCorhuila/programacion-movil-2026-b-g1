@@ -18,10 +18,12 @@ for gym trainers to register their students and track their attendance.
 
 ## Baseline
 
-`app/` is an unchanged copy of the team's mobile app as released in v1.0.0 (Corte 1):
-React Native + Expo (TypeScript), React Navigation native stack, plain `StyleSheet` with
-tokens in `src/core/theme/theme.ts`. It has two screens built: Login (HU6) and Student list
-(HU7) with the "Add student" modal (HU5).
+`app/` started as an unchanged copy of the team's mobile app as released in v1.0.0 (Corte 1),
+in commit `chore(w11): import baseline of team app`: React Native + Expo (TypeScript), React
+Navigation native stack, plain `StyleSheet` with tokens in `src/core/theme/theme.ts`, with
+Login (HU6) and Student list (HU7) with the "Add student" modal (HU5). Every change after that
+commit belongs to a checkpoint (CP2 to CP8) and is described in its `docs/` file; CP7 adds the
+Student detail screen.
 
 The team app runs, so the course starter was not needed. The guide's examples use Ionic;
 the equivalents used here are React Navigation instead of IonTabs/IonRouterOutlet,
@@ -36,6 +38,11 @@ Vitest (Vitest does not run React Native components without extra setup).
    it; see [`docs/03-states.md`](docs/03-states.md)). That change stays local.
 2. In `app/`: `npm install`, copy `.env.example` to `.env` and set `EXPO_PUBLIC_API_URL`.
 3. `npm run web` to open it in the browser, or `npx expo start` to open it with Expo Go.
+4. `npm test` in `app/` runs the Jest tests (field rules, list error and retry, form feedback,
+   detail states).
+5. To force the loading, error or empty states, add `EXPO_PUBLIC_SIMULATE_DELAY_MS=3000`,
+   `EXPO_PUBLIC_SIMULATE_FAILURE=true` or `EXPO_PUBLIC_SIMULATE_EMPTY=true` to `app/.env` and
+   start again (see [`docs/03-states.md`](docs/03-states.md)).
 
 ## Deliverables
 

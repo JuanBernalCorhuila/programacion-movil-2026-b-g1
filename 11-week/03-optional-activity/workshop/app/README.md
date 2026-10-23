@@ -4,6 +4,11 @@ React Native + Expo (TypeScript). Stack decisions:
 [ADR-002 — Framework selection](https://github.com/code-corhuila/healt-track-docs/blob/main/01-architecture/decisions/records/ADR-002-framework-selection.md),
 [ADR-001 — State management pattern](https://github.com/code-corhuila/healt-track-docs/blob/main/01-architecture/decisions/records/ADR-001-state-management-pattern.md).
 
+> **Week 11 workshop:** this folder started as the v1.0.0 app described below and was then
+> changed during the workshop (form validation, student detail, states, accessibility). The
+> current state is described in [`../README.md`](../README.md); the sections below are the
+> team's original v1.0.0 notes.
+
 ## Scope of this Corte 1
 
 Only **HU6 (Login)**, **HU7 (Student list)**, and **HU5 (Create student)** are built —
