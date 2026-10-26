@@ -270,13 +270,20 @@ cd app
 npm install
 npm run build
 npx cap sync android        # registra los plugins nuevos en el proyecto Android
-adb reverse tcp:3000 tcp:3000
+adb reverse tcp:3000 tcp:3000  # con el celular conectado por USB
 npx cap open android
 ```
 
-En Android Studio se presiona **Run ▶**. Con la API encendida en el computador, el login y la lista funcionan en el teléfono. Para el caso sin internet basta con activar el **modo avión**.
+Si Windows no reconoce `adb`, se usa con su ruta completa: `& "$env:LOCALAPPDATA\Android\Sdk\platform-tools\adb.exe" reverse tcp:3000 tcp:3000`. Este paso se repite cada vez que se desconecta el cable.
+
+En Android Studio se presiona **Run ▶**. Con la API encendida en el computador, el login y la lista funcionan en el teléfono.
+
+- **Token guardado de forma segura:** después de iniciar sesión, se cierra la app por completo y se vuelve a abrir. Entra directo a la lista sin pedir la contraseña, porque el token quedó cifrado en el almacenamiento del teléfono.
+- **Sin internet:** se activa el **modo avión**, se entra a "Agregar medicamento" y se toca "Volver".
 
 ## Evidencias
+
+### En el navegador
 
 1. **Login:** la pantalla de inicio de sesión con el botón Emergencia arriba.
 2. **Datos incorrectos:** el mensaje "Correo o contraseña incorrectos".
@@ -297,3 +304,12 @@ En Android Studio se presiona **Run ▶**. Con la API encendida en el computador
 | Sesión vencida | Sin conexión |
 |---|---|
 | ![Aviso de sesión vencida](capturas/06-sesion-vencida.png) | ![Mensaje sin conexión](capturas/07-sin-conexion.png) |
+
+### En el celular
+
+8. **Sesión guardada:** la lista en un celular Android real, después de cerrar la app por completo y volver a abrirla. No pidió iniciar sesión otra vez porque el token sigue guardado en el almacenamiento seguro del teléfono.
+9. **Sin conexión en el celular:** con el modo avión activado, la app avisa que no hay internet y deja reintentar.
+
+| Sesión guardada | Sin conexión en el celular |
+|---|---|
+| ![Lista después de reabrir la app](capturas/08-celular-sesion-guardada.png) | ![Modo avión en el celular](capturas/09-celular-sin-conexion.png) |
