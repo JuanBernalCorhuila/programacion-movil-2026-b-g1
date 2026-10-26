@@ -1,0 +1,14 @@
+{
+  "name": "helphealth-api",
+  "version": "1.0.0",
+  "description": "API REST de HelpHealth (login con JWT y medicamentos protegidos) - semana 13",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

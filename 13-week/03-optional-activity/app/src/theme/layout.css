@@ -1,0 +1,15 @@
+/* Estilos compartidos por todas las pantallas */
+
+/* Diseño responsivo: en teléfono ocupa todo el ancho; en tablet o computador
+   el contenido se queda en una columna centrada y no se estira de lado a lado. */
+.contenedor {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+/* Botón "Emergencia" del encabezado: 44px de alto para tocarlo sin dificultad.
+   Lo usan "Mis medicamentos" y "Iniciar sesión" */
+.boton-ir-emergencia {
+  height: 2.75rem;
+  font-weight: bold;
+}

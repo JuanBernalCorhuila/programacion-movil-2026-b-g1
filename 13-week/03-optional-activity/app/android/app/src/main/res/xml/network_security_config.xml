@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Excepción solo para desarrollo: permite HTTP (sin cifrar) únicamente hacia localhost,
+     que en el teléfono apunta a la API del computador gracias a "adb reverse tcp:3000 tcp:3000".
+     Cualquier otro dominio sigue exigiendo HTTPS. -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
+</network-security-config>

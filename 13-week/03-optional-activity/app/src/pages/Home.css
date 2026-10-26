@@ -1,0 +1,13 @@
+/* Barra inferior con la acción principal, al alcance del pulgar */
+.pie-accion ion-toolbar {
+  --padding-start: 1rem;
+  --padding-end: 1rem;
+  --padding-top: 0.5rem;
+  --padding-bottom: 0.5rem;
+}
+
+/* Botón principal grande: al menos 56px de alto */
+.pie-accion ion-button {
+  min-height: 3.5rem;
+  font-size: 1.1rem;
+}

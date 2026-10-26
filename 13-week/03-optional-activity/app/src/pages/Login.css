@@ -1,0 +1,11 @@
+.formulario-login ion-input {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Botón grande (56px de alto) y separado de los campos */
+.formulario-login ion-button {
+  margin-top: 1.5rem;
+  min-height: 3.5rem;
+  font-size: 1.1rem;
+}
