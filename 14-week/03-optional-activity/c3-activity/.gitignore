@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Archivos compilados
+dist/
+build/
+
+# Secretos locales (el .env.example sí se sube)
+.env
+
+# Igual que en la raíz del repo
+package-lock.json
+
+# Archivos que genera Android Studio / Capacitor al abrir o compilar
+app/android/.idea/
+app/android/.kotlin/
+app/android/.gradle/
+app/android/local.properties
+app/android/capacitor-cordova-android-plugins/
+app/android/app/src/main/assets/
+app/android/app/src/main/res/xml/config.xml
