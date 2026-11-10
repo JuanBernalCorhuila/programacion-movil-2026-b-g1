@@ -1,0 +1,6 @@
+2026-11-10T13:11:02.242286716-05:00 INFO Evento: Control de acceso Mensaje: Lector de tarjetas Falla 
+2026-11-10T13:11:06.4605598-05:00 INFO Evento: Parqueadero Mensaje: Cupos disponibles 831/999 
+2026-11-10T13:11:08.994819834-05:00 INFO Evento: Videovigilancia Mensaje: Cámara En línea 
+2026-11-10T13:11:10.625190699-05:00 INFO Evento: Cuarto de servidores Mensaje: Temperatura 26.0°C Humedad 50.1% 
+2026-11-10T15:20:00-05:00 WARN Evento: Cuarto de servidores Mensaje: Temperatura alta 31.2°C
+2026-11-10T15:21:00-05:00 ERROR Evento: Control de acceso Mensaje: Lector de tarjetas sin conexión
