@@ -1,0 +1,10 @@
+/* Botones para marcar el estado: grandes (56px) y separados de la información */
+.acciones-estado {
+  margin-top: 1.5rem;
+}
+
+.acciones-estado ion-button {
+  min-height: 3.5rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}

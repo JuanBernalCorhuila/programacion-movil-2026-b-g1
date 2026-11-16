@@ -1,0 +1,14 @@
+.mensaje-error {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.mensaje-error p {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+/* Botón con al menos 48px de alto para tocarlo sin dificultad */
+.mensaje-error ion-button {
+  min-height: 3rem;
+}

@@ -1,0 +1,10 @@
+.formulario-sintoma ion-textarea {
+  font-size: 1.1rem;
+}
+
+/* Botón de guardar grande (56px) y separado del campo */
+.formulario-sintoma ion-button {
+  margin-top: 1rem;
+  min-height: 3.5rem;
+  font-size: 1.1rem;
+}
