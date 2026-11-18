@@ -1,0 +1,11 @@
+.formulario-medicamento ion-input {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Botón de guardar grande y separado de los campos */
+.formulario-medicamento ion-button {
+  margin-top: 1.5rem;
+  min-height: 3.5rem;
+  font-size: 1.1rem;
+}

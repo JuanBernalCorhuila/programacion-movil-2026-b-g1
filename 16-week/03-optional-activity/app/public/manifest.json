@@ -1,0 +1,22 @@
+{
+  "short_name": "HelpHealth",
+  "name": "HelpHealth - salud accesible",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0054e9",
+  "background_color": "#ffffff",
+  "lang": "es"
+}
